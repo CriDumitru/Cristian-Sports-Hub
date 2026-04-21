@@ -8,7 +8,7 @@
         "event": "FC Arges vs Universitatea Cluj",
         "competition": "Romanian Cup · Semi-finals",
         "sport": "football",
-        "status": "upcoming"
+        "status": "live"
       },
       {
         "time": "22:30",
@@ -20,20 +20,12 @@
       },
     
       {
-        "time": "18:00",
-        "channel": "Digi Sport 2",
-        "event": "WTA Madrid Open",
-        "competition": "Tennis · Early Rounds",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
         "time": "20:00",
         "channel": "Digi Sport 2",
         "event": "Athletic Bilbao vs Osasuna",
         "competition": "La Liga · Matchday 33",
         "sport": "football",
-        "status": "upcoming"
+        "status": "live"
       },
       {
         "time": "22:30",
@@ -50,7 +42,7 @@
   "event": "Mallorca vs Valencia",
   "competition": "La Liga · Matchday 33",
   "sport": "football",
-  "status": "upcoming"
+  "status": "live"
 },
 
 {
@@ -59,7 +51,7 @@
   "event": "WTA Madrid Open",
   "competition": "Tennis · Day 1",
   "sport": "tennis",
-  "status": "upcoming"
+  "status": "live"
 },
 {
   "time": "19:30",
@@ -67,7 +59,7 @@
   "event": "FC Arges vs Universitatea Cluj",
   "competition": "Romanian Cup · Semi-finals",
   "sport": "football",
-  "status": "upcoming"
+  "status": "live"
 },
 {
   "time": "20:00",
@@ -75,7 +67,7 @@
   "event": "Athletic Bilbao vs Osasuna",
   "competition": "La Liga · Matchday 33",
   "sport": "football",
-  "status": "upcoming"
+  "status": "live"
 },
 {
   "time": "20:00",
@@ -83,7 +75,7 @@
   "event": "Mallorca vs Valencia",
   "competition": "La Liga · Matchday 33",
   "sport": "football",
-  "status": "upcoming"
+  "status": "live"
 },
 {
   "time": "22:10",
@@ -117,17 +109,9 @@
   "event": "World Snooker Championship",
   "competition": "Sheffield · Round 1",
   "sport": "snooker",
-  "status": "upcoming"
+  "status": "live"
 },
 
-{
-  "time": "14:40",
-  "channel": "Voyo",
-  "event": "EWF Batumi - Day 3",
-  "competition": "European Weightlifting Championships",
-  "sport": "weightlifting",
-  "status": "upcoming"
-},
 {
   "time": "19:55",
   "channel": "Voyo",
