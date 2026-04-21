@@ -685,42 +685,52 @@ html {
     }
   </script>
  </div>
- </div> <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
-    import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+<script type="module">
+  // 1. Folosim link-uri directe (CDN) ca să nu mai dea eroare browserul
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
-    // DATELE TALE REALE (Copiază-le exact din Firebase Console)
-    const firebaseConfig = {
-  apiKey: "AIzaSyAyxVUGfIBiAdVxvdh2GDK6NGayZ0pbpnI",
-  authDomain: "cristian-s-sports-hub.firebaseapp.com",
-  projectId: "cristian-s-sports-hub",
-  storageBucket: "cristian-s-sports-hub.firebasestorage.app",
-  messagingSenderId: "604808610088",
-  appId: "1:604808610088:web:5451f2c6fe086db4a1901d"
-};
+  const firebaseConfig = {
+    apiKey: "AIzaSy...", // Pune codul tău de aici
+    authDomain: "cristian-s-sports-hub.firebaseapp.com",
+    projectId: "cristian-s-sports-hub",
+    storageBucket: "cristian-s-sports-hub.appspot.com",
+    messagingSenderId: "...",
+    appId: "..."
+  };
 
-    const app = initializeApp(firebaseConfig);
-    const auth = getAuth();
-    const provider = new GoogleAuthProvider();
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth();
+  const provider = new GoogleAuthProvider();
 
-    const wrapper = document.getElementById('main-content-wrapper');
-    const loginScreen = document.getElementById('login-screen');
-    const loginBtn = document.getElementById('login-button');
+  // 2. Verificăm dacă elementele există înainte să le folosim
+  const loginBtn = document.getElementById('login-button');
+  const mainContent = document.getElementById('main-content-wrapper');
+  const loginScreen = document.getElementById('login-screen');
 
-    const MY_EMAIL = "dcristian1809@gmail.com"; // EMAIL-UL TĂU AICI
+  const MY_EMAIL = "adresa.ta@gmail.com"; 
 
-    onAuthStateChanged(auth, (user) => {
-        if (user && user.email === MY_EMAIL) {
-            loginScreen.style.display = 'none';
-            wrapper.style.display = 'block';
-        } else {
-            loginScreen.style.display = 'flex';
-            wrapper.style.display = 'none';
-            if (user) { alert("Acces refuzat!"); auth.signOut(); }
-        }
+  onAuthStateChanged(auth, (user) => {
+    if (user && user.email === MY_EMAIL) {
+      if(loginScreen) loginScreen.style.display = 'none';
+      if(mainContent) mainContent.style.display = 'block';
+    } else {
+      if(loginScreen) loginScreen.style.display = 'flex';
+      if(mainContent) mainContent.style.display = 'none';
+    }
+  });
+
+  // 3. Metoda cea mai sigură pentru buton
+  if (loginBtn) {
+    loginBtn.addEventListener('click', async () => {
+      console.log("Buton apăsat!"); // Verifică în F12 dacă apare asta
+      try {
+        await signInWithPopup(auth, provider);
+      } catch (error) {
+        alert("Eroare: " + error.message);
+      }
     });
-
-    loginBtn.onclick = () => signInWithPopup(auth, provider).catch(e => alert(e.message));
+  }
 </script>
 </body>
 
