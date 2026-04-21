@@ -43,14 +43,7 @@
         "sport": "football",
         "status": "upcoming"
       },
-{
-  "time": "17:30",
-  "channel": "Digi Sport 3",
-  "event": "Romanian Cup: Final",
-  "competition": "Futsal",
-  "sport": "futsal",
-  "status": "upcoming"
-},
+
 {
   "time": "20:00",
   "channel": "Digi Sport 3",
@@ -60,14 +53,6 @@
   "status": "upcoming"
 },
 
-{
-  "time": "18:00",
-  "channel": "Digi Sport 4",
-  "event": "WTA Madrid Open",
-  "competition": "Tennis · Day 1",
-  "sport": "tennis",
-  "status": "upcoming"
-},
 {
   "time": "20:00",
   "channel": "Digi Sport 4",
@@ -127,14 +112,6 @@
 },
 
 {
-  "time": "16:15",
-  "channel": "HBO Max",
-  "event": "World Snooker Championship",
-  "competition": "Sheffield · Round 1",
-  "sport": "snooker",
-  "status": "upcoming"
-},
-{
   "time": "20:45",
   "channel": "HBO Max",
   "event": "World Snooker Championship",
@@ -142,14 +119,7 @@
   "sport": "snooker",
   "status": "upcoming"
 },
-{
-  "time": "17:55",
-  "channel": "TVR Sport",
-  "event": "Volei Alba Blaj vs CSO Voluntar",
-  "competition": "Romanian National Championship A1",
-  "sport": "volleyball",
-  "status": "upcoming"
-},
+
 {
   "time": "14:40",
   "channel": "Voyo",
