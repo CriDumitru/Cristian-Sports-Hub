@@ -344,9 +344,26 @@ html {
     @media (min-width: 769px) and (max-width: 1100px) {
         .cards-row { grid-template-columns: repeat(2, 1fr); }
     }
+    #login-screen {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    height: 100vh; width: 100%; position: fixed; top: 0; left: 0;
+    background-color: #0b0e14; z-index: 9999; text-align: center;
+}
+.login-btn {
+    padding: 12px 24px; background: #4285F4; color: white; border: none; 
+    border-radius: 4px; cursor: pointer; font-size: 16px; font-weight: bold; margin-top: 20px;
+}
+#main-content-wrapper { display: none; }
 </style>
 </head>
 <body>
+  <div id="login-screen">
+    <h1>Acces Restricționat</h1>
+    <p>Te rugăm să te loghezi pentru a accesa Sport Tracker.</p>
+    <button id="login-button" class="login-btn">Loghează-te cu Google</button>
+</div>
+
+<div id="main-content-wrapper">
   <div id="login-container">
   <h1>Acces Restricționat</h1>
   <p>Te rugăm să te loghezi pentru a accesa Sports Hub.</p>
@@ -668,13 +685,12 @@ html {
     }
   </script>
  </div>
-</body>
-  <script type="module">
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
-  import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+ </div> <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
-  // Datele tale de aici (apiKey, etc.) le iei din Firebase Console -> Project Settings
-  const firebaseConfig = {
+    // DATELE TALE REALE (Copiază-le exact din Firebase Console)
+    const firebaseConfig = {
   apiKey: "AIzaSyAyxVUGfIBiAdVxvdh2GDK6NGayZ0pbpnI",
   authDomain: "cristian-s-sports-hub.firebaseapp.com",
   projectId: "cristian-s-sports-hub",
@@ -683,29 +699,30 @@ html {
   appId: "1:604808610088:web:5451f2c6fe086db4a1901d"
 };
 
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth();
+    const provider = new GoogleAuthProvider();
 
-  const app = initializeApp(firebaseConfig);
-  const auth = getAuth();
-  const provider = new GoogleAuthProvider();
+    const wrapper = document.getElementById('main-content-wrapper');
+    const loginScreen = document.getElementById('login-screen');
+    const loginBtn = document.getElementById('login-button');
 
-  const mainContent = document.getElementById('main-site-content');
-  const loginScreen = document.getElementById('login-container');
-  const loginBtn = document.getElementById('login-button');
+    const MY_EMAIL = "dcristian1809@gmail.com"; // EMAIL-UL TĂU AICI
 
-  const myEmail = "adresa.ta@gmail.com"; // Modifică aici!
+    onAuthStateChanged(auth, (user) => {
+        if (user && user.email === MY_EMAIL) {
+            loginScreen.style.display = 'none';
+            wrapper.style.display = 'block';
+        } else {
+            loginScreen.style.display = 'flex';
+            wrapper.style.display = 'none';
+            if (user) { alert("Acces refuzat!"); auth.signOut(); }
+        }
+    });
 
-  onAuthStateChanged(auth, (user) => {
-    if (user && user.email === myEmail) {
-      mainContent.style.display = 'block'; // Arătăm site-ul tău
-      loginScreen.style.display = 'none';  // Ascundem ușa
-    } else {
-      mainContent.style.display = 'none';
-      loginScreen.style.display = 'flex';
-      if (user) alert("Acces interzis!");
-    }
-  });
-
-  loginBtn.onclick = () => signInWithPopup(auth, provider);
+    loginBtn.onclick = () => signInWithPopup(auth, provider).catch(e => alert(e.message));
 </script>
+</body>
+
 </html>
  
