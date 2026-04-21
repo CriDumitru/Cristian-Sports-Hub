@@ -2,88 +2,33 @@
   {
     "date": "Tuesday, April 21, 2026",
     "programs": [
-      {
-        "time": "19:30",
-        "channel": "Digi Sport 1",
-        "event": "FC Arges vs Universitatea Cluj",
-        "competition": "Romanian Cup · Semi-finals",
-        "sport": "football",
-        "status": "live"
-      },
+      
       {
         "time": "22:30",
         "channel": "Digi Sport 1",
         "event": "Real Madrid vs Alaves",
         "competition": "La Liga · Matchday 33",
         "sport": "football",
-        "status": "upcoming"
-      },
-    
-      {
-        "time": "20:00",
-        "channel": "Digi Sport 2",
-        "event": "Athletic Bilbao vs Osasuna",
-        "competition": "La Liga · Matchday 33",
-        "sport": "football",
         "status": "live"
       },
+    
+    
       {
         "time": "22:30",
         "channel": "Digi Sport 2",
         "event": "Girona vs Betis",
         "competition": "La Liga · Matchday 33",
         "sport": "football",
-        "status": "upcoming"
+        "status": "live"
       },
 
-{
-  "time": "20:00",
-  "channel": "Digi Sport 3",
-  "event": "Mallorca vs Valencia",
-  "competition": "La Liga · Matchday 33",
-  "sport": "football",
-  "status": "live"
-},
-
-{
-  "time": "20:00",
-  "channel": "Digi Sport 4",
-  "event": "WTA Madrid Open",
-  "competition": "Tennis · Day 1",
-  "sport": "tennis",
-  "status": "live"
-},
-{
-  "time": "19:30",
-  "channel": "Prima Sport 1",
-  "event": "FC Arges vs Universitatea Cluj",
-  "competition": "Romanian Cup · Semi-finals",
-  "sport": "football",
-  "status": "live"
-},
-{
-  "time": "20:00",
-  "channel": "Prima Sport 2",
-  "event": "Athletic Bilbao vs Osasuna",
-  "competition": "La Liga · Matchday 33",
-  "sport": "football",
-  "status": "live"
-},
-{
-  "time": "20:00",
-  "channel": "Prima Sport 3",
-  "event": "Mallorca vs Valencia",
-  "competition": "La Liga · Matchday 33",
-  "sport": "football",
-  "status": "live"
-},
 {
   "time": "22:10",
   "channel": "PPV 1",
   "event": "Lens vs Toulouse",
   "competition": "Ligue 1 · Matchday 33",
   "sport": "football",
-  "status": "upcoming"
+  "status": "live"
 
 },
 {
@@ -92,7 +37,7 @@
   "event": "Girona vs Betis",
   "competition": "La Liga · Matchday 33",
   "sport": "football",
-  "status": "upcoming"
+  "status": "live"
 },
 {
   "time": "22:30",
@@ -100,49 +45,16 @@
   "event": "Real Madrid vs Alaves",
   "competition": "La Liga · Matchday 33",
   "sport": "football",
-  "status": "upcoming"
-},
-
-{
-  "time": "20:45",
-  "channel": "HBO Max",
-  "event": "World Snooker Championship",
-  "competition": "Sheffield · Round 1",
-  "sport": "snooker",
   "status": "live"
 },
 
-{
-  "time": "19:55",
-  "channel": "Voyo",
-  "event": "Next Fighter 29",
-  "competition": "Combat Sports",
-  "sport": "combat",
-  "status": "live"
-},
-{
-  "time": "20:55",
-  "channel": "Voyo",
-  "event": "Panathinaikos vs Monaco",
-  "competition": "EuroLeague Basketball",
-  "sport": "basketball",
-  "status": "upcoming"
-},
-{
-  "time": "21:40",
-  "channel": "Voyo",
-  "event": "Barcelona vs Crvena Zvezda",
-  "competition": "EuroLeague Basketball",
-  "sport": "basketball",
-  "status": "upcoming"
-},
 {
   "time": "21:47",
   "channel": "Voyo",
   "event": "Brighton vs Chelsea",
   "competition": "Premier League",
   "sport": "football",
-  "status": "upcoming"
+  "status": "live"
 },
 {
   "time": "22:00",
@@ -150,7 +62,7 @@
   "event": "Inter vs Como",
   "competition": "Coppa Italia · Semi-finals",
   "sport": "football",
-  "status": "upcoming"
+  "status": "live"
 }
 
     ]
