@@ -18,15 +18,7 @@
         "sport": "football",
         "status": "upcoming"
       },
-      
-      {
-        "time": "16:00",
-        "channel": "Digi Sport 2",
-        "event": "WTA Madrid Open",
-        "competition": "Tennis · Early Rounds",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
+    
       {
         "time": "18:00",
         "channel": "Digi Sport 2",
@@ -68,14 +60,6 @@
   "status": "upcoming"
 },
 
-{
-  "time": "16:00",
-  "channel": "Digi Sport 4",
-  "event": "WTA Madrid Open",
-  "competition": "Tennis · Day 1",
-  "sport": "tennis",
-  "status": "upcoming"
-},
 {
   "time": "18:00",
   "channel": "Digi Sport 4",
