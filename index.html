@@ -691,13 +691,13 @@ html {
   import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
   const firebaseConfig = {
-    apiKey: "AIzaSy...", // Pune codul tău de aici
-    authDomain: "cristian-s-sports-hub.firebaseapp.com",
-    projectId: "cristian-s-sports-hub",
-    storageBucket: "cristian-s-sports-hub.appspot.com",
-    messagingSenderId: "...",
-    appId: "..."
-  };
+  apiKey: "AIzaSyAyxVUGfIBiAdVxvdh2GDK6NGayZ0pbpnI",
+  authDomain: "cristian-s-sports-hub.firebaseapp.com",
+  projectId: "cristian-s-sports-hub",
+  storageBucket: "cristian-s-sports-hub.firebasestorage.app",
+  messagingSenderId: "604808610088",
+  appId: "1:604808610088:web:5451f2c6fe086db4a1901d"
+};
 
   const app = initializeApp(firebaseConfig);
   const auth = getAuth();
@@ -708,7 +708,7 @@ html {
   const mainContent = document.getElementById('main-content-wrapper');
   const loginScreen = document.getElementById('login-screen');
 
-  const MY_EMAIL = "adresa.ta@gmail.com"; 
+  const MY_EMAIL = "dcristian1809@gmail.com"; 
 
   onAuthStateChanged(auth, (user) => {
     if (user && user.email === MY_EMAIL) {
