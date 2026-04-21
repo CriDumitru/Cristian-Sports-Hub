@@ -1,0 +1,2278 @@
+{
+  "Qualifiers": {
+    "rounds": [
+      {
+        "name": "First Qualifying Round",
+        "matches": [
+          {
+            "t1": { "name": "NSÍ", "logo": "https://media.api-sports.io/football/teams/682.png", "country": "FRO" },
+            "t2": { "name": "HJK", "logo": "https://media.api-sports.io/football/teams/649.png", "country": "FIN" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Við Djúpumýrar, Klaksvík", "s1": 4, "s2": 0 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Töölö Football Stadium, Helsinki", "s1": 0, "s2": 5 }
+          },
+          {
+            "t1": { "name": "Torpedo Kutaisi", "logo": "https://media.api-sports.io/football/teams/685.png", "country": "GEO" },
+            "t2": { "name": "Ordabasy", "logo": "https://media.api-sports.io/football/teams/692.png", "country": "KAZ" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Ramaz Shengelia Stadium, Kutaisi", "s1": 4, "s2": 3 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Kazhymukan Munaitpasov Stadium, Shymkent", "s1": 1, "s2": 1 }
+          },
+          {
+            "t1": { "name": "Željezničar", "logo": "https://media.api-sports.io/football/teams/654.png", "country": "BIH" },
+            "t2": { "name": "Koper", "logo": "https://media.api-sports.io/football/teams/4374.png", "country": "SVN" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Stadion Grbavica, Sarajevo", "s1": 1, "s2": 1 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Bonifika Stadium, Koper", "s1": 1, "s2": 3 }
+          },
+          {
+            "t1": { "name": "SJK", "logo": "https://media.api-sports.io/football/teams/689.png", "country": "FIN" },
+            "t2": { "name": "KÍ", "logo": "https://media.api-sports.io/football/teams/701.png", "country": "FRO" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "OmaSP Stadion, Seinäjoki", "s1": 1, "s2": 2 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Við Djúpumýrar, Klaksvík", "s1": 0, "s2": 2 }
+          },
+          {
+            "t1": { "name": "Nõmme Kalju", "logo": "https://media.api-sports.io/football/teams/662.png", "country": "EST" },
+            "t2": { "name": "Partizani", "logo": "https://media.api-sports.io/football/teams/708.png", "country": "ALB" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Kadriorg Stadium, Tallinn", "s1": 1, "s2": 1 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Arena Kombëtare, Tirana", "s1": 1, "s2": 0 }
+          },
+          {
+            "t1": { "name": "Tre Fiori", "logo": "https://media.api-sports.io/football/teams/2260.png", "country": "SMR" },
+            "t2": { "name": "Pyunik", "logo": "https://media.api-sports.io/football/teams/709.png", "country": "ARM" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "San Marino Stadium, Serravalle", "s1": 1, "s2": 0 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Vazgen Sargsyan Republican Stadium, Yerevan", "s1": 0, "s2": 5 }
+          },
+          {
+            "t1": { "name": "St Patrick's Athletic", "logo": "https://media.api-sports.io/football/teams/3843.png", "country": "IRL" },
+            "t2": { "name": "Hegelmann", "logo": "https://media.api-sports.io/football/teams/3861.png", "country": "LTU" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Richmond Park, Dublin", "s1": 1, "s2": 0 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Raudondvario stadionas, Raudondvaris", "s1": 2, "s2": 0 }
+          },
+          {
+            "t1": { "name": "Dečić", "logo": "https://media.api-sports.io/football/teams/3745.png", "country": "MNE" },
+            "t2": { "name": "Sileks", "logo": "https://media.api-sports.io/football/teams/4331.png", "country": "MKD" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Stadion Tuško Polje, Tuzi", "s1": 2, "s2": 0 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Petar Miloševski Training Centre, Skopje", "s1": 1, "s2": 2 }
+          },
+          {
+            "t1": { "name": "Sutjeska", "logo": "https://media.api-sports.io/football/teams/673.png", "country": "MNE" },
+            "t2": { "name": "Dynamo Brest", "logo": "https://media.api-sports.io/football/teams/386.png", "country": "BLR" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Gradski stadion, Nikšić", "s1": 1, "s2": 2 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "ZTE Arena, Zalaegerszeg", "s1": 2, "s2": 0 }
+          },
+          {
+            "t1": { "name": "Larne", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Larne_FC_crest.svg/500px-Larne_FC_crest.svg.png", "country": "NIR" },
+            "t2": { "name": "Auda", "logo": "https://media.api-sports.io/football/teams/4135.png", "country": "LVA" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Ballymena Showgrounds, Ballymena", "s1": 0, "s2": 0 },
+            "leg2": { "date": "16 JUL 2025", "stadium": "Skonto Stadium, Riga", "s1": 2, "s2": 2 },
+            "penalties": { "s1": 4, "s2": 2 }
+          },
+          {
+            "t1": { "name": "Floriana", "logo": "https://media.api-sports.io/football/teams/4625.png", "country": "MLT" },
+            "t2": { "name": "Haverfordwest County", "logo": "https://media.api-sports.io/football/teams/2194.png", "country": "WAL" },
+            "leg1": { "date": "08 JUL 2025", "stadium": "Centenary Stadium, Ta' Qali", "s1": 2, "s2": 1 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Parc y Scarlets, Llanelli", "s1": 3, "s2": 2 }
+          },
+          {
+            "t1": { "name": "Torpedo-BelAZ Zhodino", "logo": "https://media.api-sports.io/football/teams/385.png", "country": "BLR" },
+            "t2": { "name": "Rabotnicki", "logo": "https://media.api-sports.io/football/teams/663.png", "country": "MKD" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Haladás Sportkomplexum, Szombathely", "s1": 3, "s2": 0 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Toše Proeski Arena, Skopje", "s1": 1, "s2": 0 }
+          },
+          {
+            "t1": { "name": "Magpies", "logo": "https://media.api-sports.io/football/teams/16135.png", "country": "GIB" },
+            "t2": { "name": "Paide Linnameeskond", "logo": "https://media.api-sports.io/football/teams/3528.png", "country": "EST" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Europa Sports Park, Gibraltar", "s1": 2, "s2": 3 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Pärnu Rannastaadion, Pärnu", "s1": 1, "s2": 4 }
+          },
+          {
+            "t1": { "name": "Birkirkara", "logo": "https://media.api-sports.io/football/teams/2277.png", "country": "MLT" },
+            "t2": { "name": "Petrocub Hîncești", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Petrocub_H%C3%AEnce%C8%99ti_Logo.svg/500px-FC_Petrocub_H%C3%AEnce%C8%99ti_Logo.svg.png", "country": "MDA" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Centenary Stadium, Ta' Qali", "s1": 1, "s2": 0 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Zimbru Stadium, Chișinău", "s1": 0, "s2": 3 }
+          },
+          {
+            "t1": { "name": "Atlètic Club d'Escaldes", "logo": "https://media.api-sports.io/football/teams/3342.png", "country": "AND" },
+            "t2": { "name": "F91 Dudelange", "logo": "https://media.api-sports.io/football/teams/578.png", "country": "LUX" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Estadi de la FAF, Encamp", "s1": 2, "s2": 0 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Stade Jos Nosbaum, Dudelange", "s1": 3, "s2": 2 }
+          },
+          {
+            "t1": { "name": "Valur", "logo": "https://media.api-sports.io/football/teams/274.png", "country": "ISL" },
+            "t2": { "name": "Flora", "logo": "https://media.api-sports.io/football/teams/687.png", "country": "EST" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Hlíðarendi, Reykjavík", "s1": 3, "s2": 0 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Lilleküla Stadium, Tallinn", "s1": 2, "s2": 1 }
+          },
+          {
+            "t1": { "name": "Malisheva", "logo": "https://media.api-sports.io/football/teams/15576.png", "country": "KOS" },
+            "t2": { "name": "Víkingur Reykjavík", "logo": "https://media.api-sports.io/football/teams/278.png", "country": "ISL" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Fadil Vokrri Stadium, Pristina", "s1": 0, "s2": 1 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Víkingsvöllur, Reykjavík", "s1": 0, "s2": 8 }
+          },
+          {
+            "t1": { "name": "Racing Union", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/RacingUnion.png/960px-RacingUnion.png", "country": "LUX" },
+            "t2": { "name": "Dila Gori", "logo": "https://media.api-sports.io/football/teams/3499.png", "country": "GEO" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Stade Achille Hammerel, Luxembourg City", "s1": 1, "s2": 2 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Tengiz Burjanadze Stadium, Gori", "s1": 0, "s2": 1 }
+          },
+          {
+            "t1": { "name": "Vllaznia", "logo": "https://media.api-sports.io/football/teams/3339.png", "country": "ALB" },
+            "t2": { "name": "Daugavpils", "logo": "https://media.api-sports.io/football/teams/4145.png", "country": "LVA" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Elbasan Arena, Elbasan", "s1": 0, "s2": 1 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "LNK Sporta Parks, Riga", "s1": 4, "s2": 2 }
+          },
+          {
+            "t1": { "name": "Urartu", "logo": "https://media.api-sports.io/football/teams/2276.png", "country": "ARM" },
+            "t2": { "name": "Neman Grodno", "logo": "https://media.api-sports.io/football/teams/387.png", "country": "BLR" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Urartu Stadium, Yerevan", "s1": 1, "s2": 2 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Ménfői úti Stadion, Győr", "s1": 0, "s2": 4 }
+          },
+          {
+            "t1": { "name": "Vardar", "logo": "https://media.api-sports.io/football/teams/574.png", "country": "MKD" },
+            "t2": { "name": "La Fiorita", "logo": "https://media.api-sports.io/football/teams/2249.png", "country": "SMR" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Toše Proeski Arena, Skopje", "s1": 3, "s2": 0 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "San Marino Stadium, Serravalle", "s1": 2, "s2": 2 }
+          },
+          {
+            "t1": { "name": "Kauno Žalgiris", "logo": "https://media.api-sports.io/football/teams/3872.png", "country": "LTU" },
+            "t2": { "name": "Penybont", "logo": "https://media.api-sports.io/football/teams/2191.png", "country": "WAL" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Central Stadium of Jonava, Jonava", "s1": 3, "s2": 0 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Cardiff International Sports Campus, Cardiff", "s1": 1, "s2": 1 }
+          },
+          {
+            "t1": { "name": "St Joseph's", "logo": "https://media.api-sports.io/football/teams/698.png", "country": "GIB" },
+            "t2": { "name": "Cliftonville", "logo": "https://media.api-sports.io/football/teams/24975.png", "country": "NIR" },
+            "leg1": { "date": "08 JUL 2025", "stadium": "Europa Sports Park, Gibraltar", "s1": 2, "s2": 2 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Solitude, Belfast", "s1": 3, "s2": 2 }
+          },
+          {
+            "t1": { "name": "Borac Banja Luka", "logo": "https://media.api-sports.io/football/teams/3364.png", "country": "BIH" },
+            "t2": { "name": "FC Santa Coloma", "logo": "https://media.api-sports.io/football/teams/591.png", "country": "AND" },
+            "leg1": { "date": "10 JUL 2025", "stadium": "Banja Luka City Stadium, Banja Luka", "s1": 1, "s2": 4 },
+            "leg2": { "date": "17 JUL 2025", "stadium": "Estadi de la FAF, Encamp", "s1": 2, "s2": 0 }
+          }
+        ]
+      },
+      {
+  "name": "Second Qualifying Round",
+  "matches": [
+    {
+      "t1": { "name": "FCI Levadia", "logo": "https://media.api-sports.io/football/teams/3529.png", "country": "EST" },
+      "t2": { "name": "Iberia 1999", "logo": "https://media.api-sports.io/football/teams/16505.png", "country": "GEO" },
+      "path": "Champions Path",
+      "leg1": { "date": "23 JUL 2025", "stadium": "Lilleküla Stadium, Tallinn", "s1": 1, "s2": 0 },
+      "leg2": { "date": "29 JUL 2025", "stadium": "Mikheil Meskhi Stadium, Tbilisi", "s1": 2, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Žalgiris", "logo": "https://media.api-sports.io/football/teams/586.png", "country": "LTU" },
+      "t2": { "name": "Linfield", "logo": "https://media.api-sports.io/football/teams/583.png", "country": "NIR" },
+      "path": "Champions Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "LFF Stadium, Vilnius", "s1": 0, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Windsor Park, Belfast", "s1": 0, "s2": 2 }
+    },
+    {
+      "t1": { "name": "The New Saints", "logo": "https://media.api-sports.io/football/teams/354.png", "country": "WAL" },
+      "t2": { "name": "Differdange 03", "logo": "https://media.api-sports.io/football/teams/684.png", "country": "LUX" },
+      "path": "Champions Path",
+      "leg1": { "date": "23 JUL 2025", "stadium": "Park Hall, Oswestry", "s1": 0, "s2": 1 },
+      "leg2": { "date": "29 JUL 2025", "stadium": "Stade Municipal, Differdange", "s1": 0, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Olimpija Ljubljana", "logo": "https://media.api-sports.io/football/teams/677.png", "country": "SVN" },
+      "t2": { "name": "Inter Club d'Escaldes", "logo": "https://media.api-sports.io/football/teams/3342.png", "country": "AND" },
+      "path": "Champions Path",
+      "leg1": { "date": "23 JUL 2025", "stadium": "Stožice Stadium, Ljubljana", "s1": 4, "s2": 2 },
+      "leg2": { "date": "29 JUL 2025", "stadium": "Estadi de la FAF, Encamp", "s1": 1, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Budućnost Podgorica", "logo": "https://media.api-sports.io/football/teams/579.png", "country": "MNE" },
+      "t2": { "name": "Milsami Orhei", "logo": "https://media.api-sports.io/football/teams/691.png", "country": "MDA" },
+      "path": "Champions Path",
+      "leg1": { "date": "23 JUL 2025", "stadium": "Podgorica City Stadium, Podgorica", "s1": 0, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "CSR Orhei, Orhei", "s1": 1, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Dinamo Minsk", "logo": "https://media.api-sports.io/football/teams/394.png", "country": "BLR" },
+      "t2": { "name": "Egnatia", "logo": "https://media.api-sports.io/football/teams/3327.png", "country": "ALB" },
+      "path": "Champions Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Mezőkövesdi Városi Stadion, Hungary", "s1": 0, "s2": 2 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Egnatia Arena, Rrogozhinë", "s1": 0, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Dundee United", "logo": "https://media.api-sports.io/football/teams/1386.png", "country": "SCO" },
+      "t2": { "name": "UNA Strassen", "logo": "https://media.api-sports.io/football/teams/2036.png", "country": "LUX" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Tannadice Park, Dundee", "s1": 1, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Stade Municipal, Differdange", "s1": 1, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Larne", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Larne_FC_crest.svg/500px-Larne_FC_crest.svg.png", "country": "NIR" },
+      "t2": { "name": "Prishtina", "logo": "https://media.api-sports.io/football/teams/680.png", "country": "KOS" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Ballymena Showgrounds, Ballymena", "s1": 0, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Fadil Vokrri Stadium, Pristina", "s1": 1, "s2": 1 },
+      "penalties": { "s1": 5, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Košice", "logo": "https://media.api-sports.io/football/teams/10534.png", "country": "SVK" },
+      "t2": { "name": "Neman Grodno", "logo": "https://media.api-sports.io/football/teams/387.png", "country": "BLR" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Košická futbalová aréna, Košice", "s1": 2, "s2": 3 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Szent Gellért Fórum, Szeged", "s1": 1, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Vaduz", "logo": "https://media.api-sports.io/football/teams/660.png", "country": "LIE" },
+      "t2": { "name": "Dungannon Swifts", "logo": "https://media.api-sports.io/football/teams/5351.png", "country": "NIR" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Rheinpark Stadion, Vaduz", "s1": 0, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Solitude, Belfast", "s1": 3, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Silkeborg", "logo": "https://media.api-sports.io/football/teams/2073.png", "country": "DEN" },
+      "t2": { "name": "KA", "logo": "https://media.api-sports.io/football/teams/272.png", "country": "ISL" },
+      "path": "Main Path",
+      "leg1": { "date": "23 JUL 2025", "stadium": "JYSK Park, Silkeborg", "s1": 1, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Akureyrarvöllur, Akureyri", "s1": 3, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Rosenborg", "logo": "https://media.api-sports.io/football/teams/331.png", "country": "NOR" },
+      "t2": { "name": "Banga", "logo": "https://media.api-sports.io/football/teams/3858.png", "country": "LTU" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Lerkendal Stadion, Trondheim", "s1": 5, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Gargždai Stadium, Gargždai", "s1": 2, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Atlètic Club d'Escaldes", "logo": "https://media.api-sports.io/football/teams/3345.png", "country": "AND" },
+      "t2": { "name": "Dinamo City", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Dinamo_Tirana_Club_Logo.svg/500px-Dinamo_Tirana_Club_Logo.svg.png", "country": "ALB" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Estadi de la FAF, Encamp", "s1": 1, "s2": 2 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Elbasan Arena, Elbasan", "s1": 1, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Austria Wien", "logo": "https://media.api-sports.io/football/teams/601.png", "country": "AUT" },
+      "t2": { "name": "Spaeri", "logo": "https://media.api-sports.io/football/teams/14864.png", "country": "GEO" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Franz Horr Stadium, Vienna", "s1": 2, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Mikheil Meskhi Stadium, Tbilisi", "s1": 5, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Ballkani", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/FC_Ballkani.svg/500px-FC_Ballkani.svg.png", "country": "KOS" },
+      "t2": { "name": "Floriana", "logo": "https://media.api-sports.io/football/teams/4625.png", "country": "MLT" },
+      "path": "Main Path",
+      "leg1": { "date": "22 JUL 2025", "stadium": "Fadil Vokrri Stadium, Pristina", "s1": 4, "s2": 2 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Centenary Stadium, Ta' Qali", "s1": 1, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Viking", "logo": "https://media.api-sports.io/football/teams/22860.png", "country": "NOR" },
+      "t2": { "name": "Koper", "logo": "https://media.api-sports.io/football/teams/4374.png", "country": "SVN" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Viking Stadion, Stavanger", "s1": 7, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Bonifika Stadium, Koper", "s1": 5, "s2": 3 }
+    },
+    {
+      "t1": { "name": "AEK Athens", "logo": "https://media.api-sports.io/football/teams/575.png", "country": "GRE" },
+      "t2": { "name": "Hapoel Be'er Sheva", "logo": "https://media.api-sports.io/football/teams/563.png", "country": "ISR" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Agia Sophia Stadium, Athens", "s1": 1, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Nagyerdei Stadion, Debrecen", "s1": 0, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Pyunik", "logo": "https://media.api-sports.io/football/teams/709.png", "country": "ARM" },
+      "t2": { "name": "Győri ETO", "logo": "https://media.api-sports.io/football/teams/2402.png", "country": "HUN" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Vazgen Sargsyan Republican Stadium, Yerevan", "s1": 2, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "ETO Park, Győr", "s1": 1, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Riga", "logo": "https://media.api-sports.io/football/teams/2263.png", "country": "LVA" },
+      "t2": { "name": "Dila Gori", "logo": "https://media.api-sports.io/football/teams/3499.png", "country": "GEO" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Skonto Stadium, Riga", "s1": 2, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Tengiz Burjanadze Stadium, Gori", "s1": 3, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Raków Częstochowa", "logo": "https://media.api-sports.io/football/teams/3491.png", "country": "POL" },
+      "t2": { "name": "Žilina", "logo": "https://media.api-sports.io/football/teams/3554.png", "country": "SVK" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Miejski Stadion Piłkarski Raków, Częstochowa", "s1": 3, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Štadión pod Dubňom, Žilina", "s1": 3, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Petrocub Hîncești", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Petrocub_H%C3%AEnce%C8%99ti_Logo.svg/500px-FC_Petrocub_H%C3%AEnce%C8%99ti_Logo.svg.png", "country": "MDA" },
+      "t2": { "name": "Sabah", "logo": "https://media.api-sports.io/football/teams/13976.png", "country": "AZE" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Zimbru Stadium, Chișinău", "s1": 0, "s2": 2 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Bank Respublika Arena, Masazir", "s1": 1, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Ararat-Armenia", "logo": "https://media.api-sports.io/football/teams/3683.png", "country": "ARM" },
+      "t2": { "name": "Universitatea Cluj", "logo": "https://media.api-sports.io/football/teams/2599.png", "country": "ROU" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Yerevan Football Academy Stadium, Yerevan", "s1": 0, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Sibiu Municipal Stadium, Sibiu", "s1": 2, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Varaždin", "logo": "https://media.api-sports.io/football/teams/1483.png", "country": "CRO" },
+      "t2": { "name": "Santa Clara", "logo": "https://media.api-sports.io/football/teams/26301.png", "country": "POR" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Stadion Varteks, Varaždin", "s1": 2, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Estádio de São Miguel, Ponta Delgada", "s1": 0, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Kauno Žalgiris", "logo": "https://media.api-sports.io/football/teams/3872.png", "country": "LTU" },
+      "t2": { "name": "Valur", "logo": "https://media.api-sports.io/football/teams/274.png", "country": "ISL" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Darius and Girėnas Stadium, Kaunas", "s1": 1, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Hlíðarendi, Reykjavík", "s1": 2, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Paks", "logo": "https://media.api-sports.io/football/teams/11856.png", "country": "HUN" },
+      "t2": { "name": "Maribor", "logo": "https://media.api-sports.io/football/teams/552.png", "country": "SVN" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Fehérvári úti Stadion, Paks", "s1": 1, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Ljudski vrt, Maribor", "s1": 1, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Vllaznia", "logo": "https://media.api-sports.io/football/teams/3339.png", "country": "ALB" },
+      "t2": { "name": "Víkingur Reykjavík", "logo": "https://media.api-sports.io/football/teams/278.png", "country": "ISL" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Loro Boriçi Stadium, Shkodër", "s1": 2, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Víkingsvöllur, Reykjavík", "s1": 2, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Hammarby IF", "logo": "https://media.api-sports.io/football/teams/363.png", "country": "SWE" },
+      "t2": { "name": "Charleroi", "logo": "https://media.api-sports.io/football/teams/736.png", "country": "BEL" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "3Arena, Stockholm", "s1": 0, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Stade du Pays de Charleroi, Charleroi", "s1": 2, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Radnički 1923", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/FK_Radnicki_Kragujevac_logo.svg/500px-FK_Radnicki_Kragujevac_logo.svg.png", "country": "SRB" },
+      "t2": { "name": "KÍ", "logo": "https://media.api-sports.io/football/teams/701.png", "country": "FRO" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Čika Dača Stadium, Kragujevac", "s1": 0, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Við Djúpumýrar, Klaksvík", "s1": 0, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Novi Pazar", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Fk-novi-pazar-logo.svg/500px-Fk-novi-pazar-logo.svg.png", "country": "SRB" },
+      "t2": { "name": "Jagiellonia Białystok", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Jagiellonia_Bia%C5%82ystok_logo.svg/600px-Jagiellonia_Bia%C5%82ystok_logo.svg.png", "country": "POL" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Novi Pazar City Stadium, Novi Pazar", "s1": 1, "s2": 2 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Stadion Miejski, Białystok", "s1": 1, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Polissya Zhytomyr", "logo": "https://upload.wikimedia.org/wikipedia/en/9/9b/FC_Polissya_Zhytomyr.png", "country": "UKR" },
+      "t2": { "name": "FC Santa Coloma", "logo": "https://media.api-sports.io/football/teams/591.png", "country": "AND" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Futbal Tatran Arena, Prešov", "s1": 1, "s2": 2 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Estadi de la FAF, Encamp", "s1": 4, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Vardar", "logo": "https://media.api-sports.io/football/teams/574.png", "country": "MKD" },
+      "t2": { "name": "Lausanne-Sport", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FC_Lausanne-Sport_logo.svg/500px-FC_Lausanne-Sport_logo.svg.png", "country": "SUI" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Toše Proeski Arena, Skopje", "s1": 2, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Stade de la Tuilière, Lausanne", "s1": 0, "s2": 5 }
+    },
+    {
+      "t1": { "name": "HB", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Havnar_B%C3%B3ltfelag_logo.svg/500px-Havnar_B%C3%B3ltfelag_logo.svg.png", "country": "FRO" },
+      "t2": { "name": "Brøndby", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Brondby_IF_logo.svg/500px-Brondby_IF_logo.svg.png", "country": "DEN" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Tórsvøllur, Tórshavn", "s1": 1, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Brøndby Stadium, Brøndbyvester", "s1": 0, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Oleksandriya", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/FC_Oleksandriya_logo.svg/330px-FC_Oleksandriya_logo.svg.png", "country": "UKR" },
+      "t2": { "name": "Partizan", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/FK_Partizan.svg/330px-FK_Partizan.svg.png", "country": "SRB" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Arena Katowice, Katowice", "s1": 0, "s2": 2 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Partizan Stadium, Belgrade", "s1": 0, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Hibernians", "logo": "https://upload.wikimedia.org/wikipedia/en/e/ec/Hibernians_F.C..png", "country": "MLT" },
+      "t2": { "name": "Spartak Trnava", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Spartak_Trnava_logo.svg/500px-Spartak_Trnava_logo.svg.png", "country": "SVK" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Tony Bezzina Stadium, Paola", "s1": 1, "s2": 2 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Anton Malatinský Stadium, Trnava", "s1": 1, "s2": 5 }
+    },
+    {
+      "t1": { "name": "St Patrick's Athletic", "logo": "https://media.api-sports.io/football/teams/3843.png", "country": "IRL" },
+      "t2": { "name": "Nõmme Kalju", "logo": "https://media.api-sports.io/football/teams/662.png", "country": "EST" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Richmond Park, Dublin", "s1": 1, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Lilleküla Stadium, Tallinn", "s1": 2, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Paide Linnameeskond", "logo": "https://media.api-sports.io/football/teams/3528.png", "country": "EST" },
+      "t2": { "name": "AIK", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/AIK_logo.svg/500px-AIK_logo.svg.png", "country": "SWE" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Kadriorg Stadium, Tallinn", "s1": 0, "s2": 2 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Strawberry Arena, Stockholm", "s1": 0, "s2": 6 }
+    },
+    {
+      "t1": { "name": "Sarajevo", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/FK_Sarajevo_logo.svg/500px-FK_Sarajevo_logo.svg.png", "country": "BIH" },
+      "t2": { "name": "Universitatea Craiova", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/CS_Universitatea_Craiova_logo.svg/500px-CS_Universitatea_Craiova_logo.svg.png", "country": "ROU" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Koševo City Stadium, Sarajevo", "s1": 2, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Ion Oblemenco Stadium, Craiova", "s1": 0, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Aris Limassol", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Aris_Limassol_FC_logo.svg/500px-Aris_Limassol_FC_logo.svg.png", "country": "CYP" },
+      "t2": { "name": "Puskás Akadémia", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Pusk%C3%A1s_Akad%C3%A9mia_FC_logo.svg/500px-Pusk%C3%A1s_Akad%C3%A9mia_FC_logo.svg.png", "country": "HUN" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Alphamega Stadium, Limassol", "s1": 3, "s2": 2 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Pancho Aréna, Felcsút", "s1": 2, "s2": 0 }
+    },
+    {
+      "t1": { "name": "St Joseph's", "logo": "https://media.api-sports.io/football/teams/698.png", "country": "GIB" },
+      "t2": { "name": "Shamrock Rovers", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Shamrock_Rovers_F.C._crest.svg/500px-Shamrock_Rovers_F.C._crest.svg.png", "country": "IRL" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Europa Sports Park, Gibraltar", "s1": 0, "s2": 4 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Tallaght Stadium, Dublin", "s1": 0, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Ilves", "logo": "https://media.api-sports.io/football/teams/1163.png", "country": "FIN" },
+      "t2": { "name": "AZ", "logo": "https://media.api-sports.io/football/teams/201.png", "country": "NED" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Tammelan Stadion, Tampere", "s1": 4, "s2": 3 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "AFAS Stadion, Alkmaar", "s1": 0, "s2": 5 }
+    },
+    {
+      "t1": { "name": "Zira", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Zira_FK_logo.svg/500px-Zira_FK_logo.svg.png", "country": "AZE" },
+      "t2": { "name": "Hajduk Split", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/HNK_Hajduk_Split_logo.svg/500px-HNK_Hajduk_Split_logo.svg.png", "country": "CRO" },
+      "path": "Main Path",
+      "leg1": { "date": "23 JUL 2025", "stadium": "Neftçi Arena, Baku", "s1": 1, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Stadion Poljud, Split", "s1": 1, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Arda", "logo": "https://upload.wikimedia.org/wikipedia/en/7/7f/FC_Arda_2024.png", "country": "BUL" },
+      "t2": { "name": "HJK", "logo": "https://media.api-sports.io/football/teams/649.png", "country": "FIN" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Arena Arda, Kardzhali", "s1": 0, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Töölö Football Stadium, Helsinki", "s1": 2, "s2": 2 },
+      "penalties": { "s1": 4, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Aktobe", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/FC_Aktobe_Logo.svg/500px-FC_Aktobe_Logo.svg.png", "country": "KAZ" },
+      "t2": { "name": "Sparta Prague", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AC-Sparta-LOGO2021.svg/500px-AC-Sparta-LOGO2021.svg.png", "country": "CZE" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Central Stadium, Aktobe", "s1": 2, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Stadion Letná, Prague", "s1": 0, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Astana", "logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/9/96/FC_Astana_Logo.svg/1280px-FC_Astana_Logo.svg.png", "country": "KAZ" },
+      "t2": { "name": "Zimbru Chișinău", "logo": "https://upload.wikimedia.org/wikipedia/en/0/0f/FC_Zimbru_Chisinau_Logo.png", "country": "MDA" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Astana Arena, Astana", "s1": 1, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Zimbru Stadium, Chișinău", "s1": 2, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Dečić", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/FK_Decic_%28logo%29.svg/330px-FK_Decic_%28logo%29.svg.png", "country": "MNE" },
+      "t2": { "name": "Rapid Wien", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SK_Rapid_Wien_Logo.svg/500px-SK_Rapid_Wien_Logo.svg.png", "country": "AUT" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Stadion Tuško Polje, Tuzi", "s1": 0, "s2": 2 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Allianz Stadion, Vienna", "s1": 2, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Torpedo-BelAZ Zhodino", "logo": "https://media.api-sports.io/football/teams/385.png", "country": "BLR" },
+      "t2": { "name": "Maccabi Haifa", "logo": "https://upload.wikimedia.org/wikipedia/en/1/15/Maccabi_Haifa_FC_Logo_2023.png", "country": "ISR" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Haladás Sportkomplexum, Hungary", "s1": 1, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Várkerti Stadion, Kisvárda", "s1": 0, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Araz-Naxçıvan", "logo": "https://upload.wikimedia.org/wikipedia/en/3/34/Araz-Nax%C3%A7%C4%B1van_PFK_%28logo%29.png", "country": "AZE" },
+      "t2": { "name": "Aris", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Aris_Thessaloniki_F.C._logo.svg/330px-Aris_Thessaloniki_F.C._logo.svg.png", "country": "GRE" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Dalga Arena, Baku", "s1": 2, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Kleanthis Vikelidis Stadium, Thessaloniki", "s1": 2, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Omonia", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/AC_Omonia_logo.svg/500px-AC_Omonia_logo.svg.png", "country": "CYP" },
+      "t2": { "name": "Torpedo Kutaisi", "logo": "https://media.api-sports.io/football/teams/685.png", "country": "GEO" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "GSP Stadium, Nicosia", "s1": 1, "s2": 0 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Ramaz Shengelia Stadium, Kutaisi", "s1": 4, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Cherno More", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Cherno_More_Varna.svg/500px-Cherno_More_Varna.svg.png", "country": "BUL" },
+      "t2": { "name": "İstanbul Başakşehir", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_logo.svg/500px-%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_logo.svg.png", "country": "TUR" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Huvepharma Arena, Razgrad", "s1": 0, "s2": 1 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Başakşehir Fatih Terim Stadium, Istanbul", "s1": 0, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Sutjeska", "logo": "https://media.api-sports.io/football/teams/673.png", "country": "MNE" },
+      "t2": { "name": "Beitar Jerusalem", "logo": "https://upload.wikimedia.org/wikipedia/en/6/61/Beitar_Jerusalem.png", "country": "ISR" },
+      "path": "Main Path",
+      "leg1": { "date": "24 JUL 2025", "stadium": "Gradski stadion, Nikšić", "s1": 1, "s2": 2 },
+      "leg2": { "date": "31 JUL 2025", "stadium": "Ilie Oană Stadium, Ploiești", "s1": 2, "s2": 5 }
+    }
+  ]
+},
+{
+  "name": "Third Qualifying Round",
+  "matches": [
+    {
+      "t1": { "name": "Olimpija Ljubljana", "logo": "https://media.api-sports.io/football/teams/677.png", "country": "SVN" },
+      "t2": { "name": "Egnatia", "logo": "https://media.api-sports.io/football/teams/3327.png", "country": "ALB" },
+      "path": "Champions Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Stožice Stadium, Ljubljana", "s1": 0, "s2": 0 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Egnatia Arena, Rrogozhinë", "s1": 4, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Milsami Orhei", "logo": "https://media.api-sports.io/football/teams/691.png", "country": "MDA" },
+      "t2": { "name": "Virtus", "logo": "https://media.api-sports.io/football/teams/5308.png", "country": "SMR" },
+      "path": "Champions Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Zimbru Stadium, Chișinău", "s1": 3, "s2": 2 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "San Marino Stadium, Serravalle", "s1": 0, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Differdange 03", "logo": "https://media.api-sports.io/football/teams/684.png", "country": "LUX" },
+      "t2": { "name": "FCI Levadia", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/FC_Levadia_Tallinnin.png/330px-FC_Levadia_Tallinnin.png", "country": "EST" },
+      "path": "Champions Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Stade Municipal, Differdange", "s1": 2, "s2": 3 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Lilleküla Stadium, Tallinn", "s1": 3, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Víkingur Gøta", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/V%C3%ADkingur_G%C3%B8ta_logo.svg/500px-V%C3%ADkingur_G%C3%B8ta_logo.svg.png", "country": "FRO" },
+      "t2": { "name": "Linfield", "logo": "https://media.api-sports.io/football/teams/583.png", "country": "NIR" },
+      "path": "Champions Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Tórsvøllur, Tórshavn", "s1": 2, "s2": 1 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Windsor Park, Belfast", "s1": 0, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Rapid Wien", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SK_Rapid_Wien_Logo.svg/500px-SK_Rapid_Wien_Logo.svg.png", "country": "AUT" },
+      "t2": { "name": "Dundee United", "logo": "https://media.api-sports.io/football/teams/1386.png", "country": "SCO" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Allianz Stadion, Vienna", "s1": 2, "s2": 2 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Tannadice Park, Dundee", "s1": 2, "s2": 2 },
+      "penalties": { "s1": 5, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Sparta Prague", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AC-Sparta-LOGO2021.svg/500px-AC-Sparta-LOGO2021.svg.png", "country": "CZE" },
+      "t2": { "name": "Ararat-Armenia", "logo": "https://media.api-sports.io/football/teams/3683.png", "country": "ARM" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Stadion Letná, Prague", "s1": 4, "s2": 1 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Yerevan Football Academy Stadium, Yerevan", "s1": 2, "s2": 1 }
+    },
+    {
+      "t1": { "name": "AZ", "logo": "https://media.api-sports.io/football/teams/201.png", "country": "NED" },
+      "t2": { "name": "Vaduz", "logo": "https://media.api-sports.io/football/teams/660.png", "country": "LIE" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "AFAS Stadion, Alkmaar", "s1": 3, "s2": 0 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Rheinpark Stadion, Vaduz", "s1": 1, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Lugano", "logo": "https://media.api-sports.io/football/teams/606.png", "country": "SUI" },
+      "t2": { "name": "Celje", "logo": "https://media.api-sports.io/football/teams/4360.png", "country": "SVN" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Stockhorn Arena, Thun", "s1": 0, "s2": 5 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Stadion Z'dežele, Celje", "s1": 4, "s2": 2 }
+    },
+    {
+      "t1": { "name": "KÍ", "logo": "https://media.api-sports.io/football/teams/701.png", "country": "FRO" },
+      "t2": { "name": "Neman Grodno", "logo": "https://media.api-sports.io/football/teams/387.png", "country": "BLR" },
+      "path": "Main Path",
+      "leg1": { "date": "05 AUG 2025", "stadium": "Tórsvøllur, Tórshavn", "s1": 2, "s2": 0 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Szent Gellért Fórum, Szeged", "s1": 0, "s2": 2 },
+      "penalties": { "s1": 4, "s2": 5 }
+    },
+    {
+      "t1": { "name": "Riga", "logo": "https://media.api-sports.io/football/teams/2263.png", "country": "LVA" },
+      "t2": { "name": "Beitar Jerusalem", "logo": "https://upload.wikimedia.org/wikipedia/en/6/61/Beitar_Jerusalem.png", "country": "ISR" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Skonto Stadium, Riga", "s1": 3, "s2": 0 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Ilie Oană Stadium, Ploiești", "s1": 1, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Víkingur Reykjavík", "logo": "https://media.api-sports.io/football/teams/278.png", "country": "ISL" },
+      "t2": { "name": "Brøndby", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Brondby_IF_logo.svg/500px-Brondby_IF_logo.svg.png", "country": "DEN" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Víkingsvöllur, Reykjavík", "s1": 3, "s2": 0 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Brøndby Stadium, Brøndbyvester", "s1": 0, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Hajduk Split", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/HNK_Hajduk_Split_logo.svg/500px-HNK_Hajduk_Split_logo.svg.png", "country": "CRO" },
+      "t2": { "name": "Dinamo City", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Dinamo_Tirana_Club_Logo.svg/500px-Dinamo_Tirana_Club_Logo.svg.png", "country": "ALB" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Stadion Poljud, Split", "s1": 2, "s2": 1 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Arena Kombëtare, Tirana", "s1": 1, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Anderlecht", "logo": "https://media.api-sports.io/football/teams/554.png", "country": "BEL" },
+      "t2": { "name": "Sheriff Tiraspol", "logo": "https://media.api-sports.io/football/teams/568.png", "country": "MDA" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Constant Vanden Stock Stadium, Brussels", "s1": 3, "s2": 0 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Zimbru Stadium, Chișinău", "s1": 1, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Lausanne-Sport", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FC_Lausanne-Sport_logo.svg/500px-FC_Lausanne-Sport_logo.svg.png", "country": "SUI" },
+      "t2": { "name": "Astana", "logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/9/96/FC_Astana_Logo.svg/1280px-FC_Astana_Logo.svg.png", "country": "KAZ" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Stade de la Tuilière, Lausanne", "s1": 3, "s2": 1 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Astana Arena, Astana", "s1": 2, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Larne", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Larne_FC_crest.svg/500px-Larne_FC_crest.svg.png", "country": "NIR" },
+      "t2": { "name": "Santa Clara", "logo": "https://media.api-sports.io/football/teams/26301.png", "country": "POR" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Ballymena Showgrounds, Ballymena", "s1": 0, "s2": 3 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Estádio de São Miguel, Ponta Delgada", "s1": 0, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Aris Limassol", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Aris_Limassol_FC_logo.svg/500px-Aris_Limassol_FC_logo.svg.png", "country": "CYP" },
+      "t2": { "name": "AEK Athens", "logo": "https://media.api-sports.io/football/teams/575.png", "country": "GRE" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Alphamega Stadium, Limassol", "s1": 2, "s2": 2 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Agia Sophia Stadium, Athens", "s1": 1, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Viking", "logo": "https://media.api-sports.io/football/teams/22860.png", "country": "NOR" },
+      "t2": { "name": "İstanbul Başakşehir", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_logo.svg/500px-%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_logo.svg.png", "country": "TUR" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Viking Stadion, Stavanger", "s1": 1, "s2": 3 },
+      "leg2": { "date": "13 AUG 2025", "stadium": "Başakşehir Fatih Terim Stadium, Istanbul", "s1": 1, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Araz-Naxçıvan", "logo": "https://upload.wikimedia.org/wikipedia/en/3/34/Araz-Nax%C3%A7%C4%B1van_PFK_%28logo%29.png", "country": "AZE" },
+      "t2": { "name": "Omonia", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/AC_Omonia_logo.svg/500px-AC_Omonia_logo.svg.png", "country": "CYP" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Dalga Arena, Baku", "s1": 0, "s2": 4 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "GSP Stadium, Nicosia", "s1": 0, "s2": 5 }
+    },
+    {
+      "t1": { "name": "Ballkani", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/FC_Ballkani.svg/500px-FC_Ballkani.svg.png", "country": "KOS" },
+      "t2": { "name": "Shamrock Rovers", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Shamrock_Rovers_F.C._crest.svg/500px-Shamrock_Rovers_F.C._crest.svg.png", "country": "IRL" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Fadil Vokrri Stadium, Pristina", "s1": 1, "s2": 0 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Tallaght Stadium, Dublin", "s1": 0, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Raków Częstochowa", "logo": "https://media.api-sports.io/football/teams/3491.png", "country": "POL" },
+      "t2": { "name": "Maccabi Haifa", "logo": "https://upload.wikimedia.org/wikipedia/en/1/15/Maccabi_Haifa_FC_Logo_2023.png", "country": "ISR" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Miejski Stadion Piłkarski Raków, Częstochowa", "s1": 0, "s2": 1 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Nagyerdei Stadion, Debrecen", "s1": 2, "s2": 0 }
+    },
+    {
+      "t1": { "name": "AIK", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/AIK_logo.svg/500px-AIK_logo.svg.png", "country": "SWE" },
+      "t2": { "name": "Győri ETO", "logo": "https://media.api-sports.io/football/teams/2402.png", "country": "HUN" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Strawberry Arena, Stockholm", "s1": 2, "s2": 1 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "ETO Park, Győr", "s1": 0, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Universitatea Craiova", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/CS_Universitatea_Craiova_logo.svg/500px-CS_Universitatea_Craiova_logo.svg.png", "country": "ROU" },
+      "t2": { "name": "Spartak Trnava", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Spartak_Trnava_logo.svg/500px-Spartak_Trnava_logo.svg.png", "country": "SVK" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Ion Oblemenco Stadium, Craiova", "s1": 3, "s2": 0 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Anton Malatinský Stadium, Trnava", "s1": 3, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Polissya Zhytomyr", "logo": "https://upload.wikimedia.org/wikipedia/en/9/9b/FC_Polissya_Zhytomyr.png", "country": "UKR" },
+      "t2": { "name": "Paks", "logo": "https://media.api-sports.io/football/teams/11856.png", "country": "HUN" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Futbal Tatran Arena, Prešov", "s1": 3, "s2": 0 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Fehérvári úti Stadion, Paks", "s1": 1, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Levski Sofia", "logo": "https://media.api-sports.io/football/teams/646.png", "country": "BUL" },
+      "t2": { "name": "Sabah", "logo": "https://media.api-sports.io/football/teams/13976.png", "country": "AZE" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Stadion Georgi Asparuhov, Sofia", "s1": 1, "s2": 0 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Bank Respublika Arena, Masazir", "s1": 2, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Silkeborg", "logo": "https://media.api-sports.io/football/teams/2073.png", "country": "DEN" },
+      "t2": { "name": "Jagiellonia Białystok", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Jagiellonia_Bia%C5%82ystok_logo.svg/600px-Jagiellonia_Bia%C5%82ystok_logo.svg.png", "country": "POL" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "JYSK Park, Silkeborg", "s1": 0, "s2": 1 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Stadion Miejski, Białystok", "s1": 2, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Partizan", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/FK_Partizan.svg/330px-FK_Partizan.svg.png", "country": "SRB" },
+      "t2": { "name": "Hibernian", "logo": "https://media.api-sports.io/football/teams/249.png", "country": "SCO" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Partizan Stadium, Belgrade", "s1": 0, "s2": 2 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Easter Road, Edinburgh", "s1": 3, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Baník Ostrava", "logo": "https://media.api-sports.io/football/teams/3713.png", "country": "CZE" },
+      "t2": { "name": "Austria Wien", "logo": "https://media.api-sports.io/football/teams/601.png", "country": "AUT" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Městský stadion, Ostrava", "s1": 4, "s2": 3 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Franz Horr Stadium, Vienna", "s1": 1, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Rosenborg", "logo": "https://media.api-sports.io/football/teams/331.png", "country": "NOR" },
+      "t2": { "name": "Hammarby IF", "logo": "https://media.api-sports.io/football/teams/363.png", "country": "SWE" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Lerkendal Stadion, Trondheim", "s1": 0, "s2": 0 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "3Arena, Stockholm", "s1": 1, "s2": 0 }
+    },
+    {
+      "t1": { "name": "St Patrick's Athletic", "logo": "https://media.api-sports.io/football/teams/3843.png", "country": "IRL" },
+      "t2": { "name": "Beşiktaş", "logo": "https://media.api-sports.io/football/teams/549.png", "country": "TUR" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Tallaght Stadium, Dublin", "s1": 1, "s2": 4 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Beşiktaş Stadium, Istanbul", "s1": 2, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Kauno Žalgiris", "logo": "https://media.api-sports.io/football/teams/3872.png", "country": "LTU" },
+      "t2": { "name": "Arda", "logo": "https://upload.wikimedia.org/wikipedia/en/7/7f/FC_Arda_2024.png", "country": "BUL" },
+      "path": "Main Path",
+      "leg1": { "date": "07 AUG 2025", "stadium": "Darius and Girėnas Stadium, Kaunas", "s1": 0, "s2": 1 },
+      "leg2": { "date": "14 AUG 2025", "stadium": "Arena Arda, Kardzhali", "s1": 0, "s2": 2 }
+    }
+  ]
+},
+{
+  "name": "Qualifiers Play-off",
+  "matches": [
+    {
+      "t1": { "name": "Hamrun Spartans", "logo": "https://media.api-sports.io/football/teams/4626.png", "country": "MLT" },
+      "t2": { "name": "RFS", "logo": "https://media.api-sports.io/football/teams/18836.png", "country": "LVA" },
+      "path": "Champions Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "National Stadium, Ta' Qali", "s1": 1, "s2": 0 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "LNK Sporta Parks, Riga", "s1": 2, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Shelbourne", "logo": "https://media.api-sports.io/football/teams/3854.png", "country": "IRL" },
+      "t2": { "name": "Linfield", "logo": "https://media.api-sports.io/football/teams/583.png", "country": "NIR" },
+      "path": "Champions Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Tolka Park, Dublin", "s1": 3, "s2": 1 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Windsor Park, Belfast", "s1": 2, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Breiðablik", "logo": "https://media.api-sports.io/football/teams/276.png", "country": "ISL" },
+      "t2": { "name": "Virtus", "logo": "https://media.api-sports.io/football/teams/5308.png", "country": "SMR" },
+      "path": "Champions Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Kópavogsvöllur, Kópavogur", "s1": 2, "s2": 1 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "San Marino Stadium, Serravalle", "s1": 3, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Drita", "logo": "https://media.api-sports.io/football/teams/14281.png", "country": "KOS" },
+      "t2": { "name": "Differdange 03", "logo": "https://media.api-sports.io/football/teams/684.png", "country": "LUX" },
+      "path": "Champions Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Fadil Vokrri Stadium, Pristina", "s1": 2, "s2": 1 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Stade Municipal de la Ville de Differdange, Differdange", "s1": 1, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Olimpija Ljubljana", "logo": "https://media.api-sports.io/football/teams/677.png", "country": "SVN" },
+      "t2": { "name": "Noah", "logo": "https://media.api-sports.io/football/teams/21879.png", "country": "ARM" },
+      "path": "Champions Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Stožice Stadium, Ljubljana", "s1": 1, "s2": 4 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Abovyan City Stadium, Abovyan", "s1": 2, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Strasbourg", "logo": "https://media.api-sports.io/football/teams/95.png", "country": "FRA" },
+      "t2": { "name": "Brøndby", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Brondby_IF_logo.svg/500px-Brondby_IF_logo.svg.png", "country": "DEN" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Stade de la Meinau, Strasbourg", "s1": 0, "s2": 0 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Brøndby Stadium, Brøndbyvester", "s1": 3, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Jagiellonia Białystok", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Jagiellonia_Bia%C5%82ystok_logo.svg/600px-Jagiellonia_Bia%C5%82ystok_logo.svg.png", "country": "POL" },
+      "t2": { "name": "Dinamo City", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Dinamo_Tirana_Club_Logo.svg/500px-Dinamo_Tirana_Club_Logo.svg.png", "country": "ALB" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Stadion Miejski, Białystok", "s1": 3, "s2": 0 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Arena Kombëtare, Tirana", "s1": 1, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Shakhtar Donetsk", "logo": "https://media.api-sports.io/football/teams/550.png", "country": "UKR" },
+      "t2": { "name": "Servette", "logo": "https://media.api-sports.io/football/teams/2184.png", "country": "SUI" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Henryk Reyman Municipal Stadium, Kraków", "s1": 1, "s2": 1 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Stade de Genève, Geneva", "s1": 2, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Anderlecht", "logo": "https://media.api-sports.io/football/teams/554.png", "country": "BEL" },
+      "t2": { "name": "AEK Athens", "logo": "https://media.api-sports.io/football/teams/575.png", "country": "GRE" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Constant Vanden Stock Stadium, Brussels", "s1": 1, "s2": 1 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Agia Sophia Stadium, Athens", "s1": 0, "s2": 2 }
+    },
+    {
+      "t1": { "name": "İstanbul Başakşehir", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_logo.svg/500px-%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_logo.svg.png", "country": "TUR" },
+      "t2": { "name": "Universitatea Craiova", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/CS_Universitatea_Craiova_logo.svg/500px-CS_Universitatea_Craiova_logo.svg.png", "country": "ROU" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Başakşehir Fatih Terim Stadium, Istanbul", "s1": 1, "s2": 2 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Ion Oblemenco Stadium, Craiova", "s1": 1, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png", "country": "ENG" },
+      "t2": { "name": "Fredrikstad", "logo": "https://media.api-sports.io/football/teams/2149.png", "country": "NOR" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Selhurst Park, London", "s1": 1, "s2": 0 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Fredrikstad Stadion, Fredrikstad", "s1": 0, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Celje", "logo": "https://media.api-sports.io/football/teams/4360.png", "country": "SVN" },
+      "t2": { "name": "Baník Ostrava", "logo": "https://media.api-sports.io/football/teams/3713.png", "country": "CZE" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Stadion Z'dežele, Celje", "s1": 1, "s2": 0 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Městský stadion, Ostrava", "s1": 2, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Raków Częstochowa", "logo": "https://media.api-sports.io/football/teams/3491.png", "country": "POL" },
+      "t2": { "name": "Arda", "logo": "https://upload.wikimedia.org/wikipedia/en/7/7f/FC_Arda_2024.png", "country": "BUL" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Miejski Stadion Piłkarski Raków, Częstochowa", "s1": 1, "s2": 0 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Arena Arda, Kardzhali", "s1": 2, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Hibernian", "logo": "https://media.api-sports.io/football/teams/249.png", "country": "SCO" },
+      "t2": { "name": "Legia Warsaw", "logo": "https://media.api-sports.io/football/teams/339.png", "country": "POL" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Easter Road, Edinburgh", "s1": 1, "s2": 2 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Polish Army Stadium, Warsaw", "s1": 3, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Levski Sofia", "logo": "https://media.api-sports.io/football/teams/646.png", "country": "BUL" },
+      "t2": { "name": "AZ", "logo": "https://media.api-sports.io/football/teams/201.png", "country": "NED" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Vasil Levski National Stadium, Sofia", "s1": 0, "s2": 2 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "AFAS Stadion, Alkmaar", "s1": 1, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Polissya Zhytomyr", "logo": "https://upload.wikimedia.org/wikipedia/en/9/9b/FC_Polissya_Zhytomyr.png", "country": "UKR" },
+      "t2": { "name": "Fiorentina", "logo": "https://media.api-sports.io/football/teams/502.png", "country": "ITA" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Futbal Tatran Arena, Prešov", "s1": 0, "s2": 3 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Mapei Stadium – Città del Tricolore, Reggio Emilia", "s1": 2, "s2": 3 }
+    },
+    {
+      "t1": { "name": "Győri ETO", "logo": "https://media.api-sports.io/football/teams/2402.png", "country": "HUN" },
+      "t2": { "name": "Rapid Wien", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SK_Rapid_Wien_Logo.svg/500px-SK_Rapid_Wien_Logo.svg.png", "country": "AUT" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "ETO Park, Győr", "s1": 2, "s2": 1 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Allianz Stadion, Vienna", "s1": 0, "s2": 2 }
+    },
+    {
+      "t1": { "name": "Neman Grodno", "logo": "https://media.api-sports.io/football/teams/387.png", "country": "BLR" },
+      "t2": { "name": "Rayo Vallecano", "logo": "https://media.api-sports.io/football/teams/728.png", "country": "ESP" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Szent Gellért Fórum, Szeged", "s1": 0, "s2": 1 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Campo de Fútbol de Vallecas, Madrid", "s1": 0, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Lausanne-Sport", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FC_Lausanne-Sport_logo.svg/500px-FC_Lausanne-Sport_logo.svg.png", "country": "SUI" },
+      "t2": { "name": "Beşiktaş", "logo": "https://media.api-sports.io/football/teams/549.png", "country": "TUR" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Stade de la Tuilière, Lausanne", "s1": 1, "s2": 1 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Beşiktaş Stadium, Istanbul", "s1": 1, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Santa Clara", "logo": "https://media.api-sports.io/football/teams/26301.png", "country": "POR" },
+      "t2": { "name": "Shamrock Rovers", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Shamrock_Rovers_F.C._crest.svg/500px-Shamrock_Rovers_F.C._crest.svg.png", "country": "IRL" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Estádio de São Miguel, Ponta Delgada", "s1": 1, "s2": 2 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Tallaght Stadium, Dublin", "s1": 0, "s2": 0 }
+    },
+    {
+      "t1": { "name": "Rosenborg", "logo": "https://media.api-sports.io/football/teams/331.png", "country": "NOR" },
+      "t2": { "name": "Mainz 05", "logo": "https://media.api-sports.io/football/teams/164.png", "country": "GER" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Lerkendal Stadion, Trondheim", "s1": 2, "s2": 1 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Mewa Arena, Mainz", "s1": 1, "s2": 4 }
+    },
+    {
+      "t1": { "name": "Sparta Prague", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AC-Sparta-LOGO2021.svg/500px-AC-Sparta-LOGO2021.svg.png", "country": "CZE" },
+      "t2": { "name": "Riga", "logo": "https://media.api-sports.io/football/teams/2263.png", "country": "LVA" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Stadion Letná, Prague", "s1": 2, "s2": 0 },
+      "leg2": { "date": "27 AUG 2025", "stadium": "Skonto Stadium, Riga", "s1": 0, "s2": 1 }
+    },
+    {
+      "t1": { "name": "BK Häcken", "logo": "https://media.api-sports.io/football/teams/367.png", "country": "SWE" },
+      "t2": { "name": "CFR Cluj", "logo": "https://media.api-sports.io/football/teams/2246.png", "country": "ROU" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Bravida Arena, Gothenburg", "s1": 7, "s2": 2 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "Dr. Constantin Rădulescu Stadium, Cluj-Napoca", "s1": 0, "s2": 1 }
+    },
+    {
+      "t1": { "name": "Wolfsberger AC", "logo": "https://media.api-sports.io/football/teams/1025.png", "country": "AUT" },
+      "t2": { "name": "Omonia", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/AC_Omonia_logo.svg/500px-AC_Omonia_logo.svg.png", "country": "CYP" },
+      "path": "Main Path",
+      "leg1": { "date": "21 AUG 2025", "stadium": "Wörthersee Stadion, Klagenfurt", "s1": 2, "s2": 1 },
+      "leg2": { "date": "28 AUG 2025", "stadium": "GSP Stadium, Nicosia", "s1": 0, "s2": 1 },
+      "penalties": { "s1": 4, "s2": 5 }
+     }
+  ]
+}
+    ]
+  },
+  "League Phase": {
+  "standings": [
+    { "name": "Strasbourg", "m": 6, "v": 5, "e": 1, "d": 0, "gm": 11, "gp": 5, "p": 16, "logo": "https://media.api-sports.io/football/teams/95.png" },
+    { "name": "Raków Częstochowa", "m": 6, "v": 4, "e": 2, "d": 0, "gm": 9, "gp": 2, "p": 14, "logo": "https://media.api-sports.io/football/teams/3491.png" },
+    { "name": "AEK Athens", "m": 6, "v": 4, "e": 1, "d": 1, "gm": 14, "gp": 7, "p": 13, "logo": "https://media.api-sports.io/football/teams/575.png" },
+    { "name": "Sparta Prague", "m": 6, "v": 4, "e": 1, "d": 1, "gm": 10, "gp": 3, "p": 13, "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AC-Sparta-LOGO2021.svg/500px-AC-Sparta-LOGO2021.svg.png" },
+    { "name": "Rayo Vallecano", "m": 6, "v": 4, "e": 1, "d": 1, "gm": 13, "gp": 7, "p": 13, "logo": "https://media.api-sports.io/football/teams/728.png" },
+    { "name": "Shakhtar Donetsk", "m": 6, "v": 4, "e": 1, "d": 1, "gm": 10, "gp": 5, "p": 13, "logo": "https://media.api-sports.io/football/teams/550.png" },
+    { "name": "Mainz 05", "m": 6, "v": 4, "e": 1, "d": 1, "gm": 7, "gp": 3, "p": 13, "logo": "https://media.api-sports.io/football/teams/164.png" },
+    { "name": "AEK Larnaca", "m": 6, "v": 3, "e": 3, "d": 0, "gm": 7, "gp": 1, "p": 12, "logo": "https://media.api-sports.io/football/teams/614.png" },
+    { "name": "Lausanne-Sport", "m": 6, "v": 3, "e": 2, "d": 1, "gm": 6, "gp": 3, "p": 11, "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FC_Lausanne-Sport_logo.svg/500px-FC_Lausanne-Sport_logo.svg.png" },
+    { "name": "Crystal Palace", "m": 6, "v": 3, "e": 1, "d": 2, "gm": 11, "gp": 6, "p": 10, "logo": "https://media.api-sports.io/football/teams/52.png" },
+    { "name": "Lech Poznań", "m": 6, "v": 3, "e": 1, "d": 2, "gm": 12, "gp": 8, "p": 10, "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/KKS_Lech_Pozna%C5%84.svg/330px-KKS_Lech_Pozna%C5%84.svg.png" },
+    { "name": "Samsunspor", "m": 6, "v": 3, "e": 1, "d": 2, "gm": 10, "gp": 6, "p": 10, "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Samsunspor_crest.svg/500px-Samsunspor_crest.svg.png" },
+    { "name": "Celje", "m": 6, "v": 3, "e": 1, "d": 2, "gm": 8, "gp": 7, "p": 10, "logo": "https://media.api-sports.io/football/teams/4360.png" },
+    { "name": "AZ", "m": 6, "v": 3, "e": 1, "d": 2, "gm": 7, "gp": 7, "p": 10, "logo": "https://media.api-sports.io/football/teams/201.png" },
+    { "name": "Fiorentina", "m": 6, "v": 3, "e": 0, "d": 3, "gm": 8, "gp": 5, "p": 9, "logo": "https://media.api-sports.io/football/teams/502.png" },
+    { "name": "Rijeka", "m": 6, "v": 2, "e": 3, "d": 1, "gm": 5, "gp": 2, "p": 9, "logo": "https://media.api-sports.io/football/teams/561.png" },
+    { "name": "Jagiellonia Białystok", "m": 6, "v": 2, "e": 3, "d": 1, "gm": 5, "gp": 4, "p": 9, "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Jagiellonia_Bia%C5%82ystok_logo.svg/600px-Jagiellonia_Bia%C5%82ystok_logo.svg.png" },
+    { "name": "Omonia", "m": 6, "v": 2, "e": 2, "d": 2, "gm": 5, "gp": 4, "p": 8, "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/AC_Omonia_logo.svg/500px-AC_Omonia_logo.svg.png" },
+    { "name": "Noah", "m": 6, "v": 2, "e": 2, "d": 2, "gm": 6, "gp": 7, "p": 8, "logo": "https://media.api-sports.io/football/teams/21879.png" },
+    { "name": "Drita", "m": 6, "v": 2, "e": 2, "d": 2, "gm": 4, "gp": 8, "p": 8, "logo": "https://media.api-sports.io/football/teams/14281.png" },
+    { "name": "KuPS", "m": 6, "v": 1, "e": 4, "d": 1, "gm": 6, "gp": 5, "p": 7, "logo": "https://media.api-sports.io/football/teams/1165.png" },
+    { "name": "Shkëndija", "m": 6, "v": 2, "e": 1, "d": 3, "gm": 4, "gp": 5, "p": 7, "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/KF_Shk%C3%ABndija_Logo.svg" },
+    { "name": "Zrinjski Mostar", "m": 6, "v": 2, "e": 1, "d": 3, "gm": 8, "gp": 10, "p": 7, "logo": "https://media.api-sports.io/football/teams/588.png" },
+    { "name": "Sigma Olomouc", "m": 6, "v": 2, "e": 1, "d": 3, "gm": 7, "gp": 9, "p": 7, "logo": "https://upload.wikimedia.org/wikipedia/en/a/a2/SK_Sigma_Olomouc.png" },
+    { "name": "Universitatea Craiova", "m": 6, "v": 2, "e": 1, "d": 3, "gm": 6, "gp": 8, "p": 7, "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/CS_Universitatea_Craiova_logo.svg/500px-CS_Universitatea_Craiova_logo.svg.png" },
+    { "name": "Lincoln Red Imps", "m": 6, "v": 2, "e": 1, "d": 3, "gm": 7, "gp": 15, "p": 7, "logo": "https://media.api-sports.io/football/teams/667.png" },
+    { "name": "Dynamo Kyiv", "m": 6, "v": 2, "e": 0, "d": 4, "gm": 9, "gp": 9, "p": 6, "logo": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FC_Dynamo_Kyiv_logo.svg&width=500" },
+    { "name": "Legia Warsaw", "m": 6, "v": 2, "e": 0, "d": 4, "gm": 8, "gp": 8, "p": 6, "logo": "https://media.api-sports.io/football/teams/339.png" },
+    { "name": "Slovan Bratislava", "m": 6, "v": 2, "e": 0, "d": 4, "gm": 5, "gp": 9, "p": 6, "logo": "https://media.api-sports.io/football/teams/656.png" },
+    { "name": "Breiðablik", "m": 6, "v": 1, "e": 2, "d": 3, "gm": 6, "gp": 11, "p": 5, "logo": "https://media.api-sports.io/football/teams/276.png" },
+    { "name": "Shamrock Rovers", "m": 6, "v": 1, "e": 1, "d": 4, "gm": 7, "gp": 13, "p": 4, "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Shamrock_Rovers_F.C._crest.svg/500px-Shamrock_Rovers_F.C._crest.svg.png" },
+    { "name": "BK Häcken", "m": 6, "v": 0, "e": 3, "d": 3, "gm": 5, "gp": 8, "p": 3, "logo": "https://media.api-sports.io/football/teams/367.png" },
+    { "name": "Hamrun Spartans", "m": 6, "v": 1, "e": 0, "d": 5, "gm": 4, "gp": 11, "p": 3, "logo": "https://media.api-sports.io/football/teams/4626.png" },
+    { "name": "Shelbourne", "m": 6, "v": 0, "e": 2, "d": 4, "gm": 0, "gp": 7, "p": 2, "logo": "https://media.api-sports.io/football/teams/3854.png" },
+    { "name": "Aberdeen", "m": 6, "v": 0, "e": 2, "d": 4, "gm": 3, "gp": 14, "p": 2, "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Aberdeen_FC_stars_crest.svg/500px-Aberdeen_FC_stars_crest.svg.png" },
+    { "name": "Rapid Wien", "m": 6, "v": 0, "e": 1, "d": 5, "gm": 3, "gp": 14, "p": 1, "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SK_Rapid_Wien_Logo.svg/500px-SK_Rapid_Wien_Logo.svg.png" }
+  ],
+  "matchdays": [
+    {
+  "day": 1,
+  "name": "Matchday 1",
+  "matches": [
+    {
+      "t1": { "name": "Dynamo Kyiv", "logo": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FC_Dynamo_Kyiv_logo.svg&width=500", "country": "UKR" },
+      "t2": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png", "country": "ENG" },
+      "leg1": { "date": "02 OCT 2025", "time": "19:45", "stadium": "Arena Lublin, Lublin", "s1": 0, "s2": 2 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Muñoz", "min": "31", "type": "g" }, { "name": "Nketiah", "min": "58", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Lausanne-Sport", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FC_Lausanne-Sport_logo.svg/500px-FC_Lausanne-Sport_logo.svg.png", "country": "SUI" },
+      "t2": { "name": "Breiðablik", "logo": "https://media.api-sports.io/football/teams/276.png", "country": "ISL" },
+      "leg1": { "date": "02 OCT 2025", "time": "19:45", "stadium": "Stade de la Tuilière, Lausanne", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Lekweiry", "min": "7", "type": "g" }, { "name": "Bair", "min": "11", "type": "g" }, { "name": "Diakité", "min": "33", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Noah", "logo": "https://media.api-sports.io/football/teams/21879.png", "country": "ARM" },
+      "t2": { "name": "Rijeka", "logo": "https://media.api-sports.io/football/teams/561.png", "country": "CRO" },
+      "leg1": { "date": "02 OCT 2025", "time": "19:45", "stadium": "Vazgen Sargsyan Stadium, Yerevan", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Mulahusejnović", "min": "6", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Zrinjski Mostar", "logo": "https://media.api-sports.io/football/teams/588.png", "country": "BIH" },
+      "t2": { "name": "Lincoln Red Imps", "logo": "https://media.api-sports.io/football/teams/667.png", "country": "GIB" },
+      "leg1": { "date": "02 OCT 2025", "time": "19:45", "stadium": "Stadion pod Bijelim Brijegom, Mostar", "s1": 5, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Bilbija", "min": "12", "type": "g" }, { "name": "Dujmović", "min": "22", "type": "g" }, { "name": "Jakovljević", "min": "40", "type": "g" }, { "name": "Damașcan", "min": "69", "type": "g" }, { "name": "Mikić", "min": "85", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Jagiellonia Białystok", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Jagiellonia_Bia%C5%82ystok_logo.svg/600px-Jagiellonia_Bia%C5%82ystok_logo.svg.png", "country": "POL" },
+      "t2": { "name": "Hamrun Spartans", "logo": "https://media.api-sports.io/football/teams/4626.png", "country": "MLT" },
+      "leg1": { "date": "02 OCT 2025", "time": "19:45", "stadium": "Stadion Miejski, Białystok", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Imaz", "min": "57", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Lech Poznań", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/KKS_Lech_Pozna%C5%84.svg/330px-KKS_Lech_Pozna%C5%84.svg.png", "country": "POL" },
+      "t2": { "name": "Rapid Wien", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SK_Rapid_Wien_Logo.svg/500px-SK_Rapid_Wien_Logo.svg.png", "country": "AUT" },
+      "leg1": { "date": "02 OCT 2025", "time": "19:45", "stadium": "Poznań Stadium, Poznań", "s1": 4, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Palma", "min": "13", "type": "g" }, { "name": "Ishak", "min": "21", "type": "g" }, { "name": "Ismaheel", "min": "45+2", "type": "g" }, { "name": "Bengtsson", "min": "77", "type": "g" }],
+        "t2": [{ "name": "Radulović", "min": "64", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "KuPS", "logo": "https://media.api-sports.io/football/teams/1165.png", "country": "FIN" },
+      "t2": { "name": "Drita", "logo": "https://media.api-sports.io/football/teams/14281.png", "country": "KOS" },
+      "leg1": { "date": "02 OCT 2025", "time": "19:45", "stadium": "Tammelan Stadion, Tampere", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Parzyszek", "min": "74", "type": "g" }],
+        "t2": [{ "name": "Dabiqaj", "min": "80", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Omonia", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/AC_Omonia_logo.svg/500px-AC_Omonia_logo.svg.png", "country": "CYP" },
+      "t2": { "name": "Mainz 05", "logo": "https://media.api-sports.io/football/teams/164.png", "country": "GER" },
+      "leg1": { "date": "02 OCT 2025", "time": "19:45", "stadium": "GSP Stadium, Nicosia", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Amiri", "min": "75", "type": "p" }]
+      }
+    },
+    {
+      "t1": { "name": "Rayo Vallecano", "logo": "https://media.api-sports.io/football/teams/728.png", "country": "ESP" },
+      "t2": { "name": "Shkëndija", "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/KF_Shk%C3%ABndija_Logo.svg", "country": "MKD" },
+      "leg1": { "date": "02 OCT 2025", "time": "19:45", "stadium": "Campo de Fútbol de Vallecas, Madrid", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "López", "min": "28", "type": "g" }, { "name": "Pérez", "min": "32", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Aberdeen", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Aberdeen_FC_stars_crest.svg/500px-Aberdeen_FC_stars_crest.svg.png", "country": "SCO" },
+      "t2": { "name": "Shakhtar Donetsk", "logo": "https://media.api-sports.io/football/teams/550.png", "country": "UKR" },
+      "leg1": { "date": "02 OCT 2025", "time": "22:00", "stadium": "Pittodrie Stadium, Aberdeen", "s1": 2, "s2": 3 },
+      "scorers": {
+        "t1": [{ "name": "Karlsson", "min": "8", "type": "p" }, { "name": "Devlin", "min": "69", "type": "g" }],
+        "t2": [{ "name": "Nazaryna", "min": "39", "type": "g" }, { "name": "Ferreira", "min": "54", "type": "g" }, { "name": "Pedrinho", "min": "60", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Sparta Prague", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AC-Sparta-LOGO2021.svg/500px-AC-Sparta-LOGO2021.svg.png", "country": "CZE" },
+      "t2": { "name": "Shamrock Rovers", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Shamrock_Rovers_F.C._crest.svg/500px-Shamrock_Rovers_F.C._crest.svg.png", "country": "IRL" },
+      "leg1": { "date": "02 OCT 2025", "time": "22:00", "stadium": "Stadion Letná, Prague", "s1": 4, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Sadílek", "min": "33", "type": "g" }, { "name": "Suchomel", "min": "44", "type": "g" }, { "name": "Sørensen", "min": "50", "type": "g" }, { "name": "Haraslín", "min": "90", "type": "g" }],
+        "t2": [{ "name": "Mandroiu", "min": "82", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Fiorentina", "logo": "https://media.api-sports.io/football/teams/502.png", "country": "ITA" },
+      "t2": { "name": "Sigma Olomouc", "logo": "https://upload.wikimedia.org/wikipedia/en/a/a2/SK_Sigma_Olomouc.png", "country": "CZE" },
+      "leg1": { "date": "02 OCT 2025", "time": "22:00", "stadium": "Stadio Artemio Franchi, Florence", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Piccoli", "min": "27", "type": "g" }, { "name": "Ndour", "min": "90+5", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "AEK Larnaca", "logo": "https://media.api-sports.io/football/teams/614.png", "country": "CYP" },
+      "t2": { "name": "AZ", "logo": "https://media.api-sports.io/football/teams/201.png", "country": "NED" },
+      "leg1": { "date": "02 OCT 2025", "time": "22:00", "stadium": "AEK Arena, Larnaca", "s1": 4, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Rubio", "min": "25", "type": "g" }, { "name": "Bajić", "min": "54", "type": "g" }, { "name": "Ivanović", "min": "73", "type": "g" }, { "name": "Rohdén", "min": "83", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Legia Warsaw", "logo": "https://media.api-sports.io/football/teams/339.png", "country": "POL" },
+      "t2": { "name": "Samsunspor", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Samsunspor_crest.svg/500px-Samsunspor_crest.svg.png", "country": "TUR" },
+      "leg1": { "date": "02 OCT 2025", "time": "22:00", "stadium": "Polish Army Stadium, Warsaw", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Musaba", "min": "10", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Celje", "logo": "https://media.api-sports.io/football/teams/4360.png", "country": "SVN" },
+      "t2": { "name": "AEK Athens", "logo": "https://media.api-sports.io/football/teams/575.png", "country": "GRE" },
+      "leg1": { "date": "02 OCT 2025", "time": "22:00", "stadium": "Stadion Z'dežele, Celje", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Kovačević", "min": "34", "type": "g" }, { "name": "Kovačević", "min": "55", "type": "g" }, { "name": "Kovačević", "min": "80", "type": "g" }],
+        "t2": [{ "name": "Kutesa", "min": "7", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Raków Częstochowa", "logo": "https://media.api-sports.io/football/teams/3491.png", "country": "POL" },
+      "t2": { "name": "Universitatea Craiova", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/CS_Universitatea_Craiova_logo.svg/500px-CS_Universitatea_Craiova_logo.svg.png", "country": "ROU" },
+      "leg1": { "date": "02 OCT 2025", "time": "22:00", "stadium": "Zagłębie Sports Park, Sosnowiec", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Pieńko", "min": "47", "type": "g" }, { "name": "Repka", "min": "80", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Shelbourne", "logo": "https://media.api-sports.io/football/teams/3854.png", "country": "IRL" },
+      "t2": { "name": "BK Häcken", "logo": "https://media.api-sports.io/football/teams/367.png", "country": "SWE" },
+      "leg1": { "date": "02 OCT 2025", "time": "22:00", "stadium": "Tallaght Stadium, Dublin", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Slovan Bratislava", "logo": "https://media.api-sports.io/football/teams/656.png", "country": "SVK" },
+      "t2": { "name": "Strasbourg", "logo": "https://media.api-sports.io/football/teams/95.png", "country": "FRA" },
+      "leg1": { "date": "02 OCT 2025", "time": "22:00", "stadium": "Tehelné pole, Bratislava", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Ibrahim", "min": "64", "type": "g" }],
+        "t2": [{ "name": "Yirajang", "min": "26", "type": "og" }, { "name": "Ouattara", "min": "41", "type": "g" }]
+      }
+    }
+  ]
+},
+{
+  "day": 2,
+  "name": "Matchday 2",
+  "matches": [
+    {
+      "t1": { "name": "AEK Athens", "logo": "https://media.api-sports.io/football/teams/575.png", "country": "GRE" },
+      "t2": { "name": "Aberdeen", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Aberdeen_FC_stars_crest.svg/500px-Aberdeen_FC_stars_crest.svg.png", "country": "SCO" },
+      "leg1": { "date": "23 OCT 2025", "time": "19:45", "stadium": "Agia Sophia Stadium, Athens", "s1": 6, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Koïta", "min": "11", "type": "g" },
+          { "name": "Koïta", "min": "18", "type": "g" },
+          { "name": "Eliasson", "min": "27", "type": "g" },
+          { "name": "Marin", "min": "55", "type": "g" },
+          { "name": "Jović", "min": "81", "type": "g" },
+          { "name": "Kutesa", "min": "87", "type": "g" }
+        ],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "BK Häcken", "logo": "https://media.api-sports.io/football/teams/367.png", "country": "SWE" },
+      "t2": { "name": "Rayo Vallecano", "logo": "https://media.api-sports.io/football/teams/728.png", "country": "ESP" },
+      "leg1": { "date": "23 OCT 2025", "time": "19:45", "stadium": "Gamla Ullevi, Gothenburg", "s1": 2, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Lindberg", "min": "41", "type": "g" }, { "name": "Brusberg", "min": "55", "type": "g" }],
+        "t2": [{ "name": "Á. García", "min": "15", "type": "g" }, { "name": "Rațiu", "min": "90+13", "type": "p" }]
+      }
+    },
+    {
+      "t1": { "name": "Breiðablik", "logo": "https://media.api-sports.io/football/teams/276.png", "country": "ISL" },
+      "t2": { "name": "KuPS", "logo": "https://media.api-sports.io/football/teams/1165.png", "country": "FIN" },
+      "leg1": { "date": "23 OCT 2025", "time": "19:45", "stadium": "Laugardalsvöllur, Reykjavík", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Shakhtar Donetsk", "logo": "https://media.api-sports.io/football/teams/550.png", "country": "UKR" },
+      "t2": { "name": "Legia Warsaw", "logo": "https://media.api-sports.io/football/teams/339.png", "country": "POL" },
+      "leg1": { "date": "23 OCT 2025", "time": "19:45", "stadium": "Henryk Reyman Municipal Stadium, Kraków", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Luca Meirelles", "min": "61", "type": "g" }],
+        "t2": [{ "name": "Augustyniak", "min": "16", "type": "g" }, { "name": "Augustyniak", "min": "90+4", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Drita", "logo": "https://media.api-sports.io/football/teams/14281.png", "country": "KOS" },
+      "t2": { "name": "Omonia", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/AC_Omonia_logo.svg/500px-AC_Omonia_logo.svg.png", "country": "CYP" },
+      "leg1": { "date": "23 OCT 2025", "time": "19:45", "stadium": "Fadil Vokrri Stadium, Pristina", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Manaj", "min": "12", "type": "g" }],
+        "t2": [{ "name": "Masouras", "min": "45+1", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Rijeka", "logo": "https://media.api-sports.io/football/teams/561.png", "country": "CRO" },
+      "t2": { "name": "Sparta Prague", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AC-Sparta-LOGO2021.svg/500px-AC-Sparta-LOGO2021.svg.png", "country": "CZE" },
+      "leg1": { "date": "23 OCT 2025", "time": "19:45", "stadium": "Stadion Rujevica, Rijeka", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Adu-Adjei", "min": "75", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Shkëndija", "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/KF_Shk%C3%ABndija_Logo.svg", "country": "MKD" },
+      "t2": { "name": "Shelbourne", "logo": "https://media.api-sports.io/football/teams/3854.png", "country": "IRL" },
+      "leg1": { "date": "23 OCT 2025", "time": "19:45", "stadium": "Toše Proeski Arena, Skopje", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Barrett", "min": "90+1", "type": "og" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Strasbourg", "logo": "https://media.api-sports.io/football/teams/95.png", "country": "FRA" },
+      "t2": { "name": "Jagiellonia Białystok", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Jagiellonia_Bia%C5%82ystok_logo.svg/600px-Jagiellonia_Bia%C5%82ystok_logo.svg.png", "country": "POL" },
+      "leg1": { "date": "23 OCT 2025", "time": "19:45", "stadium": "Stade de la Meinau, Strasbourg", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Panichelli", "min": "79", "type": "g" }],
+        "t2": [{ "name": "Stojinović", "min": "53", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Rapid Wien", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SK_Rapid_Wien_Logo.svg/500px-SK_Rapid_Wien_Logo.svg.png", "country": "AUT" },
+      "t2": { "name": "Fiorentina", "logo": "https://media.api-sports.io/football/teams/502.png", "country": "ITA" },
+      "leg1": { "date": "23 OCT 2025", "time": "19:45", "stadium": "Allianz Stadion, Vienna", "s1": 0, "s2": 3 },
+      "scorers": {
+        "t1": [],
+        "t2": [
+          { "name": "Ndour", "min": "9", "type": "g" },
+          { "name": "Džeko", "min": "48", "type": "g" },
+          { "name": "Guðmundsson", "min": "88", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "AZ", "logo": "https://media.api-sports.io/football/teams/201.png", "country": "NED" },
+      "t2": { "name": "Slovan Bratislava", "logo": "https://media.api-sports.io/football/teams/656.png", "country": "SVK" },
+      "leg1": { "date": "23 OCT 2025", "time": "19:45", "stadium": "AFAS Stadion, Alkmaar", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Mijnans", "min": "44", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Mainz 05", "logo": "https://media.api-sports.io/football/teams/164.png", "country": "GER" },
+      "t2": { "name": "Zrinjski Mostar", "logo": "https://media.api-sports.io/football/teams/588.png", "country": "BIH" },
+      "leg1": { "date": "23 OCT 2025", "time": "22:00", "stadium": "Mewa Arena, Mainz", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Weiper", "min": "24", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png", "country": "ENG" },
+      "t2": { "name": "AEK Larnaca", "logo": "https://media.api-sports.io/football/teams/614.png", "country": "CYP" },
+      "leg1": { "date": "23 OCT 2025", "time": "22:00", "stadium": "Selhurst Park, London", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Bajić", "min": "51", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Hamrun Spartans", "logo": "https://media.api-sports.io/football/teams/4626.png", "country": "MLT" },
+      "t2": { "name": "Lausanne-Sport", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FC_Lausanne-Sport_logo.svg/500px-FC_Lausanne-Sport_logo.svg.png", "country": "SUI" },
+      "leg1": { "date": "23 OCT 2025", "time": "22:00", "stadium": "National Stadium, Ta' Qali", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Diakité", "min": "38", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Lincoln Red Imps", "logo": "https://media.api-sports.io/football/teams/667.png", "country": "GIB" },
+      "t2": { "name": "Lech Poznań", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/KKS_Lech_Pozna%C5%84.svg/330px-KKS_Lech_Pozna%C5%84.svg.png", "country": "POL" },
+      "leg1": { "date": "23 OCT 2025", "time": "22:00", "stadium": "Europa Sports Park, Gibraltar", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Gómez", "min": "33", "type": "g" }, { "name": "Rutjens", "min": "88", "type": "g" }],
+        "t2": [{ "name": "Ishak", "min": "77", "type": "p" }]
+      }
+    },
+    {
+      "t1": { "name": "Samsunspor", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Samsunspor_crest.svg/500px-Samsunspor_crest.svg.png", "country": "TUR" },
+      "t2": { "name": "Dynamo Kyiv", "logo": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FC_Dynamo_Kyiv_logo.svg&width=500", "country": "UKR" },
+      "leg1": { "date": "23 OCT 2025", "time": "22:00", "stadium": "Samsun 19 Mayıs Stadium, Samsun", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Musaba", "min": "2", "type": "g" },
+          { "name": "Mouandilmadji", "min": "34", "type": "g" },
+          { "name": "Holse", "min": "62", "type": "g" }
+        ],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Shamrock Rovers", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Shamrock_Rovers_F.C._crest.svg/500px-Shamrock_Rovers_F.C._crest.svg.png", "country": "IRL" },
+      "t2": { "name": "Celje", "logo": "https://media.api-sports.io/football/teams/4360.png", "country": "SVN" },
+      "leg1": { "date": "23 OCT 2025", "time": "22:00", "stadium": "Tallaght Stadium, Dublin", "s1": 0, "s2": 2 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Kovačević", "min": "33", "type": "g" }, { "name": "Kovačević", "min": "40", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Sigma Olomouc", "logo": "https://upload.wikimedia.org/wikipedia/en/a/a2/SK_Sigma_Olomouc.png", "country": "CZE" },
+      "t2": { "name": "Raków Częstochowa", "logo": "https://media.api-sports.io/football/teams/3491.png", "country": "POL" },
+      "leg1": { "date": "23 OCT 2025", "time": "22:00", "stadium": "Andrův stadion, Olomouc", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Král", "min": "83", "type": "g" }],
+        "t2": [{ "name": "Svarnas", "min": "90", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Universitatea Craiova", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/CS_Universitatea_Craiova_logo.svg/500px-CS_Universitatea_Craiova_logo.svg.png", "country": "ROU" },
+      "t2": { "name": "Noah", "logo": "https://media.api-sports.io/football/teams/21879.png", "country": "ARM" },
+      "leg1": { "date": "23 OCT 2025", "time": "22:00", "stadium": "Ion Oblemenco Stadium, Craiova", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Etim", "min": "38", "type": "g" }],
+        "t2": [{ "name": "Mulahusejnović", "min": "73", "type": "g" }]
+      }
+    }
+  ]
+},
+{
+  "day": 3,
+  "name": "Matchday 3",
+  "matches": [
+    {
+      "t1": { "name": "Mainz 05", "logo": "https://media.api-sports.io/football/teams/164.png", "country": "GER" },
+      "t2": { "name": "Fiorentina", "logo": "https://media.api-sports.io/football/teams/502.png", "country": "ITA" },
+      "leg1": { "date": "06 NOV 2025", "time": "19:45", "stadium": "Mewa Arena, Mainz", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Hollerbach", "min": "68", "type": "g" }, { "name": "Lee Jae-sung", "min": "90+5", "type": "g" }],
+        "t2": [{ "name": "Sohm", "min": "16", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Sparta Prague", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AC-Sparta-LOGO2021.svg/500px-AC-Sparta-LOGO2021.svg.png", "country": "CZE" },
+      "t2": { "name": "Raków Częstochowa", "logo": "https://media.api-sports.io/football/teams/3491.png", "country": "POL" },
+      "leg1": { "date": "06 NOV 2025", "time": "19:45", "stadium": "Stadion Letná, Prague", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "AEK Athens", "logo": "https://media.api-sports.io/football/teams/575.png", "country": "GRE" },
+      "t2": { "name": "Shamrock Rovers", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Shamrock_Rovers_F.C._crest.svg/500px-Shamrock_Rovers_F.C._crest.svg.png", "country": "IRL" },
+      "leg1": { "date": "06 NOV 2025", "time": "19:45", "stadium": "Agia Sophia Stadium, Athens", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Jović", "min": "90", "type": "p" }],
+        "t2": [{ "name": "Burke", "min": "21", "type": "p" }]
+      }
+    },
+    {
+      "t1": { "name": "AEK Larnaca", "logo": "https://media.api-sports.io/football/teams/614.png", "country": "CYP" },
+      "t2": { "name": "Aberdeen", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Aberdeen_FC_stars_crest.svg/500px-Aberdeen_FC_stars_crest.svg.png", "country": "SCO" },
+      "leg1": { "date": "06 NOV 2025", "time": "19:45", "stadium": "AEK Arena, Larnaca", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Shakhtar Donetsk", "logo": "https://media.api-sports.io/football/teams/550.png", "country": "UKR" },
+      "t2": { "name": "Breiðablik", "logo": "https://media.api-sports.io/football/teams/276.png", "country": "ISL" },
+      "leg1": { "date": "06 NOV 2025", "time": "19:45", "stadium": "Henryk Reyman Municipal Stadium, Kraków", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Bondarenko", "min": "28", "type": "g" }, { "name": "Kauã Elias", "min": "65", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Noah", "logo": "https://media.api-sports.io/football/teams/21879.png", "country": "ARM" },
+      "t2": { "name": "Sigma Olomouc", "logo": "https://upload.wikimedia.org/wikipedia/en/a/a2/SK_Sigma_Olomouc.png", "country": "CZE" },
+      "leg1": { "date": "06 NOV 2025", "time": "19:45", "stadium": "Vazgen Sargsyan Republican Stadium, Yerevan", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Mulahusejnović", "min": "21", "type": "g" }],
+        "t2": [{ "name": "Slavíček", "min": "10", "type": "g" }, { "name": "Sylla", "min": "24", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "KuPS", "logo": "https://media.api-sports.io/football/teams/1165.png", "country": "FIN" },
+      "t2": { "name": "Slovan Bratislava", "logo": "https://media.api-sports.io/football/teams/656.png", "country": "SVK" },
+      "leg1": { "date": "06 NOV 2025", "time": "19:45", "stadium": "Tammelan Stadion, Tampere", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Antwi", "min": "41", "type": "g" }, { "name": "Parzyszek", "min": "48", "type": "g" }, { "name": "Oksanen", "min": "81", "type": "g" }],
+        "t2": [{ "name": "Marcelli", "min": "3", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Celje", "logo": "https://media.api-sports.io/football/teams/4360.png", "country": "SVN" },
+      "t2": { "name": "Legia Warsaw", "logo": "https://media.api-sports.io/football/teams/339.png", "country": "POL" },
+      "leg1": { "date": "06 NOV 2025", "time": "19:45", "stadium": "Stadion Z'dežele, Celje", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Iosifov", "min": "72", "type": "g" }, { "name": "Karničnik", "min": "77", "type": "g" }],
+        "t2": [{ "name": "Urbański", "min": "17", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Samsunspor", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Samsunspor_crest.svg/500px-Samsunspor_crest.svg.png", "country": "TUR" },
+      "t2": { "name": "Hamrun Spartans", "logo": "https://media.api-sports.io/football/teams/4626.png", "country": "MLT" },
+      "leg1": { "date": "06 NOV 2025", "time": "19:45", "stadium": "Samsun 19 Mayıs Stadium, Samsun", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Holse", "min": "18", "type": "g" }, { "name": "Kılınç", "min": "58", "type": "g" }, { "name": "Mouandilmadji", "min": "77", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "BK Häcken", "logo": "https://media.api-sports.io/football/teams/367.png", "country": "SWE" },
+      "t2": { "name": "Strasbourg", "logo": "https://media.api-sports.io/football/teams/95.png", "country": "FRA" },
+      "leg1": { "date": "06 NOV 2025", "time": "22:00", "stadium": "Gamla Ullevi, Gothenburg", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Dembe", "min": "61", "type": "g" }],
+        "t2": [{ "name": "Enciso", "min": "21", "type": "g" }, { "name": "Godo", "min": "60", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png", "country": "ENG" },
+      "t2": { "name": "AZ", "logo": "https://media.api-sports.io/football/teams/201.png", "country": "NED" },
+      "leg1": { "date": "06 NOV 2025", "time": "22:00", "stadium": "Selhurst Park, London", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Lacroix", "min": "22", "type": "g" }, { "name": "Sarr", "min": "45+4", "type": "g" }, { "name": "Sarr", "min": "57", "type": "g" }],
+        "t2": [{ "name": "Mijnans", "min": "54", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Lausanne-Sport", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FC_Lausanne-Sport_logo.svg/500px-FC_Lausanne-Sport_logo.svg.png", "country": "SUI" },
+      "t2": { "name": "Omonia", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/AC_Omonia_logo.svg/500px-AC_Omonia_logo.svg.png", "country": "CYP" },
+      "leg1": { "date": "06 NOV 2025", "time": "22:00", "stadium": "Stade de la Tuilière, Lausanne", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Bair", "min": "40", "type": "g" }],
+        "t2": [{ "name": "Neophytou", "min": "34", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Dynamo Kyiv", "logo": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FC_Dynamo_Kyiv_logo.svg&width=500", "country": "UKR" },
+      "t2": { "name": "Zrinjski Mostar", "logo": "https://media.api-sports.io/football/teams/588.png", "country": "BIH" },
+      "leg1": { "date": "06 NOV 2025", "time": "22:00", "stadium": "Arena Lublin, Lublin", "s1": 6, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Popov", "min": "21", "type": "g" },
+          { "name": "Guerrero", "min": "56", "type": "g" },
+          { "name": "Kabayev", "min": "59", "type": "g" },
+          { "name": "Buyalskyi", "min": "67", "type": "g" },
+          { "name": "Yarmolenko", "min": "78", "type": "g" },
+          { "name": "Blănuță", "min": "83", "type": "g" }
+        ],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Shkëndija", "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/KF_Shk%C3%ABndija_Logo.svg", "country": "MKD" },
+      "t2": { "name": "Jagiellonia Białystok", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Jagiellonia_Bia%C5%82ystok_logo.svg/600px-Jagiellonia_Bia%C5%82ystok_logo.svg.png", "country": "POL" },
+      "leg1": { "date": "06 NOV 2025", "time": "22:00", "stadium": "Toše Proeski Arena, Skopje", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Latifi", "min": "49", "type": "g" }],
+        "t2": [{ "name": "Lozano", "min": "90+10", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Lincoln Red Imps", "logo": "https://media.api-sports.io/football/teams/667.png", "country": "GIB" },
+      "t2": { "name": "Rijeka", "logo": "https://media.api-sports.io/football/teams/561.png", "country": "CRO" },
+      "leg1": { "date": "06 NOV 2025", "time": "22:00", "stadium": "Europa Sports Park, Gibraltar", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Gómez", "min": "83", "type": "g" }],
+        "t2": [{ "name": "Fruk", "min": "41", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Rayo Vallecano", "logo": "https://media.api-sports.io/football/teams/728.png", "country": "ESP" },
+      "t2": { "name": "Lech Poznań", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/KKS_Lech_Pozna%C5%84.svg/330px-KKS_Lech_Pozna%C5%84.svg.png", "country": "POL" },
+      "leg1": { "date": "06 NOV 2025", "time": "22:00", "stadium": "Campo de Fútbol de Vallecas, Madrid", "s1": 3, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Palazón", "min": "58", "type": "g" }, { "name": "De Frutos", "min": "83", "type": "g" }, { "name": "García", "min": "90+4", "type": "g" }],
+        "t2": [{ "name": "Palma", "min": "11", "type": "g" }, { "name": "Kozubal", "min": "39", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Shelbourne", "logo": "https://media.api-sports.io/football/teams/3854.png", "country": "IRL" },
+      "t2": { "name": "Drita", "logo": "https://media.api-sports.io/football/teams/14281.png", "country": "KOS" },
+      "leg1": { "date": "06 NOV 2025", "time": "22:00", "stadium": "Tallaght Stadium, Dublin", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Ajzeraj", "min": "57", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Rapid Wien", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SK_Rapid_Wien_Logo.svg/500px-SK_Rapid_Wien_Logo.svg.png", "country": "AUT" },
+      "t2": { "name": "Universitatea Craiova", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/CS_Universitatea_Craiova_logo.svg/500px-CS_Universitatea_Craiova_logo.svg.png", "country": "ROU" },
+      "leg1": { "date": "06 NOV 2025", "time": "22:00", "stadium": "Allianz Stadion, Vienna", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Romanchuk", "min": "37", "type": "g" }]
+      }
+    }
+  ]
+},
+{
+  "day": 4,
+  "name": "Matchday 4",
+  "matches": [
+    {
+      "t1": { "name": "AZ", "logo": "https://media.api-sports.io/football/teams/201.png", "country": "NED" },
+      "t2": { "name": "Shelbourne", "logo": "https://media.api-sports.io/football/teams/3854.png", "country": "IRL" },
+      "leg1": { "date": "27 NOV 2025", "time": "19:45", "stadium": "AFAS Stadion, Alkmaar", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "De Wit", "min": "70", "type": "g" }, { "name": "Jensen", "min": "86", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Hamrun Spartans", "logo": "https://media.api-sports.io/football/teams/4626.png", "country": "MLT" },
+      "t2": { "name": "Lincoln Red Imps", "logo": "https://media.api-sports.io/football/teams/667.png", "country": "GIB" },
+      "leg1": { "date": "27 NOV 2025", "time": "19:45", "stadium": "National Stadium, Ta' Qali", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "El Fanis", "min": "65", "type": "g" }, { "name": "Smajlagić", "min": "74", "type": "g" }, { "name": "Ćorić", "min": "90+2", "type": "g" }],
+        "t2": [{ "name": "Lopes", "min": "57", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Zrinjski Mostar", "logo": "https://media.api-sports.io/football/teams/588.png", "country": "BIH" },
+      "t2": { "name": "BK Häcken", "logo": "https://media.api-sports.io/football/teams/367.png", "country": "SWE" },
+      "leg1": { "date": "27 NOV 2025", "time": "19:45", "stadium": "Stadion pod Bijelim Brijegom, Mostar", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Ćuže", "min": "78", "type": "g" }, { "name": "Bilbija", "min": "82", "type": "g" }],
+        "t2": [{ "name": "Andersen", "min": "40", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Lech Poznań", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/KKS_Lech_Pozna%C5%84.svg/330px-KKS_Lech_Pozna%C5%84.svg.png", "country": "POL" },
+      "t2": { "name": "Lausanne-Sport", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FC_Lausanne-Sport_logo.svg/500px-FC_Lausanne-Sport_logo.svg.png", "country": "SUI" },
+      "leg1": { "date": "27 NOV 2025", "time": "19:45", "stadium": "Poznań Stadium, Poznań", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Ismaheel", "min": "67", "type": "g" }, { "name": "Agnero", "min": "90+5", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Omonia", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/AC_Omonia_logo.svg/500px-AC_Omonia_logo.svg.png", "country": "CYP" },
+      "t2": { "name": "Dynamo Kyiv", "logo": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FC_Dynamo_Kyiv_logo.svg&width=500", "country": "UKR" },
+      "leg1": { "date": "27 NOV 2025", "time": "19:45", "stadium": "GSP Stadium, Nicosia", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Semedo", "min": "34", "type": "p" }, { "name": "Neophytou", "min": "59", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Raków Częstochowa", "logo": "https://media.api-sports.io/football/teams/3491.png", "country": "POL" },
+      "t2": { "name": "Rapid Wien", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SK_Rapid_Wien_Logo.svg/500px-SK_Rapid_Wien_Logo.svg.png", "country": "AUT" },
+      "leg1": { "date": "27 NOV 2025", "time": "19:45", "stadium": "Zagłębie Sports Park, Sosnowiec", "s1": 4, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Brunes", "min": "27", "type": "p" }, { "name": "Diaby-Fadiga", "min": "40", "type": "g" }, { "name": "Diaby-Fadiga", "min": "51", "type": "g" }, { "name": "Diaby-Fadiga", "min": "53", "type": "g" }],
+        "t2": [{ "name": "Antiste", "min": "75", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Sigma Olomouc", "logo": "https://upload.wikimedia.org/wikipedia/en/a/a2/SK_Sigma_Olomouc.png", "country": "CZE" },
+      "t2": { "name": "Celje", "logo": "https://media.api-sports.io/football/teams/4360.png", "country": "SVN" },
+      "leg1": { "date": "27 NOV 2025", "time": "19:45", "stadium": "Andrův stadion, Olomouc", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Ghali", "min": "8", "type": "g" }, { "name": "Ghali", "min": "42", "type": "g" }],
+        "t2": [{ "name": "Vidović", "min": "29", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Universitatea Craiova", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/CS_Universitatea_Craiova_logo.svg/500px-CS_Universitatea_Craiova_logo.svg.png", "country": "ROU" },
+      "t2": { "name": "Mainz 05", "logo": "https://media.api-sports.io/football/teams/164.png", "country": "GER" },
+      "leg1": { "date": "27 NOV 2025", "time": "19:45", "stadium": "Ion Oblemenco Stadium, Craiova", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Al Hamlawi", "min": "67", "type": "p" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Slovan Bratislava", "logo": "https://media.api-sports.io/football/teams/656.png", "country": "SVK" },
+      "t2": { "name": "Rayo Vallecano", "logo": "https://media.api-sports.io/football/teams/728.png", "country": "ESP" },
+      "leg1": { "date": "27 NOV 2025", "time": "19:45", "stadium": "Tehelné pole, Bratislava", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Kashia", "min": "49", "type": "g" }, { "name": "Yirajang", "min": "52", "type": "g" }],
+        "t2": [{ "name": "Pérez", "min": "24", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Aberdeen", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Aberdeen_FC_stars_crest.svg/500px-Aberdeen_FC_stars_crest.svg.png", "country": "SCO" },
+      "t2": { "name": "Noah", "logo": "https://media.api-sports.io/football/teams/21879.png", "country": "ARM" },
+      "leg1": { "date": "27 NOV 2025", "time": "22:00", "stadium": "Pittodrie Stadium, Aberdeen", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Nisbet", "min": "45", "type": "g" }],
+        "t2": [{ "name": "Mulahusejnović", "min": "52", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Fiorentina", "logo": "https://media.api-sports.io/football/teams/502.png", "country": "ITA" },
+      "t2": { "name": "AEK Athens", "logo": "https://media.api-sports.io/football/teams/575.png", "country": "GRE" },
+      "leg1": { "date": "27 NOV 2025", "time": "22:00", "stadium": "Stadio Artemio Franchi, Florence", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Gaćinović", "min": "35", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Breiðablik", "logo": "https://media.api-sports.io/football/teams/276.png", "country": "ISL" },
+      "t2": { "name": "Samsunspor", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Samsunspor_crest.svg/500px-Samsunspor_crest.svg.png", "country": "TUR" },
+      "leg1": { "date": "27 NOV 2025", "time": "22:00", "stadium": "Laugardalsvöllur, Reykjavík", "s1": 2, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Ingvarsson", "min": "6", "type": "g" }, { "name": "Kristinsson", "min": "72", "type": "g" }],
+        "t2": [{ "name": "Mouandilmadji", "min": "20", "type": "g" }, { "name": "Mouandilmadji", "min": "55", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Drita", "logo": "https://media.api-sports.io/football/teams/14281.png", "country": "KOS" },
+      "t2": { "name": "Shkëndija", "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/KF_Shk%C3%ABndija_Logo.svg", "country": "MKD" },
+      "leg1": { "date": "27 NOV 2025", "time": "22:00", "stadium": "Fadil Vokrri Stadium, Pristina", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Manaj", "min": "20", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Rijeka", "logo": "https://media.api-sports.io/football/teams/561.png", "country": "CRO" },
+      "t2": { "name": "AEK Larnaca", "logo": "https://media.api-sports.io/football/teams/614.png", "country": "CYP" },
+      "leg1": { "date": "27 NOV 2025", "time": "22:00", "stadium": "Stadion Rujevica, Rijeka", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Jagiellonia Białystok", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Jagiellonia_Bia%C5%82ystok_logo.svg/600px-Jagiellonia_Bia%C5%82ystok_logo.svg.png", "country": "POL" },
+      "t2": { "name": "KuPS", "logo": "https://media.api-sports.io/football/teams/1165.png", "country": "FIN" },
+      "leg1": { "date": "27 NOV 2025", "time": "22:00", "stadium": "Stadion Miejski, Białystok", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Pululu", "min": "51", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Legia Warsaw", "logo": "https://media.api-sports.io/football/teams/339.png", "country": "POL" },
+      "t2": { "name": "Sparta Prague", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AC-Sparta-LOGO2021.svg/500px-AC-Sparta-LOGO2021.svg.png", "country": "CZE" },
+      "leg1": { "date": "27 NOV 2025", "time": "22:00", "stadium": "Polish Army Stadium, Warsaw", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Preciado", "min": "41", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Strasbourg", "logo": "https://media.api-sports.io/football/teams/95.png", "country": "FRA" },
+      "t2": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png", "country": "ENG" },
+      "leg1": { "date": "27 NOV 2025", "time": "22:00", "stadium": "Stade de la Meinau, Strasbourg", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Emegha", "min": "53", "type": "g" }, { "name": "El Mourabet", "min": "77", "type": "g" }],
+        "t2": [{ "name": "Mitchell", "min": "35", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Shamrock Rovers", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Shamrock_Rovers_F.C._crest.svg/500px-Shamrock_Rovers_F.C._crest.svg.png", "country": "IRL" },
+      "t2": { "name": "Shakhtar Donetsk", "logo": "https://media.api-sports.io/football/teams/550.png", "country": "UKR" },
+      "leg1": { "date": "27 NOV 2025", "time": "22:00", "stadium": "Tallaght Stadium, Dublin", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Malley", "min": "87", "type": "g" }],
+        "t2": [{ "name": "Kauã Elias", "min": "23", "type": "g" }, { "name": "Nazaryna", "min": "77", "type": "g" }]
+      }
+    }
+  ]
+},
+{
+  "day": 5,
+  "name": "Matchday 5",
+  "matches": [
+    {
+      "t1": { "name": "Fiorentina", "logo": "https://media.api-sports.io/football/teams/502.png", "country": "ITA" },
+      "t2": { "name": "Dynamo Kyiv", "logo": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FC_Dynamo_Kyiv_logo.svg&width=500", "country": "UKR" },
+      "leg1": { "date": "11 DEC 2025", "time": "19:45", "stadium": "Stadio Artemio Franchi, Florence", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Kean", "min": "18", "type": "g" }, { "name": "Guðmundsson", "min": "74", "type": "g" }],
+        "t2": [{ "name": "Mykhaylenko", "min": "55", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "BK Häcken", "logo": "https://media.api-sports.io/football/teams/367.png", "country": "SWE" },
+      "t2": { "name": "AEK Larnaca", "logo": "https://media.api-sports.io/football/teams/614.png", "country": "CYP" },
+      "leg1": { "date": "11 DEC 2025", "time": "19:45", "stadium": "Gamla Ullevi, Gothenburg", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Hammar", "min": "90+4", "type": "g" }],
+        "t2": [{ "name": "Helander", "min": "65", "type": "og" }]
+      }
+    },
+    {
+      "t1": { "name": "Breiðablik", "logo": "https://media.api-sports.io/football/teams/276.png", "country": "ISL" },
+      "t2": { "name": "Shamrock Rovers", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Shamrock_Rovers_F.C._crest.svg/500px-Shamrock_Rovers_F.C._crest.svg.png", "country": "IRL" },
+      "leg1": { "date": "11 DEC 2025", "time": "19:45", "stadium": "Laugardalsvöllur, Reykjavík", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Margeirsson", "min": "35", "type": "g" }, { "name": "Ómarsson", "min": "74", "type": "g" }, { "name": "K. Jónsson", "min": "90+2", "type": "g" }],
+        "t2": [{ "name": "Burke", "min": "32", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Drita", "logo": "https://media.api-sports.io/football/teams/14281.png", "country": "KOS" },
+      "t2": { "name": "AZ", "logo": "https://media.api-sports.io/football/teams/201.png", "country": "NED" },
+      "leg1": { "date": "11 DEC 2025", "time": "19:45", "stadium": "Fadil Vokrri Stadium, Pristina", "s1": 0, "s2": 3 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Mijnans", "min": "17", "type": "g" }, { "name": "Jensen", "min": "58", "type": "g" }, { "name": "Sadiq", "min": "90", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Noah", "logo": "https://media.api-sports.io/football/teams/21879.png", "country": "ARM" },
+      "t2": { "name": "Legia Warsaw", "logo": "https://media.api-sports.io/football/teams/339.png", "country": "POL" },
+      "leg1": { "date": "11 DEC 2025", "time": "19:45", "stadium": "Vazgen Sargsyan Republican Stadium, Yerevan", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Aiás", "min": "57", "type": "g" }, { "name": "Mulahusejnović", "min": "84", "type": "g" }],
+        "t2": [{ "name": "Rajović", "min": "3", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Jagiellonia Białystok", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Jagiellonia_Bia%C5%82ystok_logo.svg/600px-Jagiellonia_Bia%C5%82ystok_logo.svg.png", "country": "POL" },
+      "t2": { "name": "Rayo Vallecano", "logo": "https://media.api-sports.io/football/teams/728.png", "country": "ESP" },
+      "leg1": { "date": "11 DEC 2025", "time": "19:45", "stadium": "Stadion Miejski, Białystok", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Imaz", "min": "44", "type": "g" }],
+        "t2": [{ "name": "Camello", "min": "6", "type": "g" }, { "name": "Espino", "min": "61", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Shkëndija", "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/KF_Shk%C3%ABndija_Logo.svg", "country": "MKD" },
+      "t2": { "name": "Slovan Bratislava", "logo": "https://media.api-sports.io/football/teams/656.png", "country": "SVK" },
+      "leg1": { "date": "11 DEC 2025", "time": "19:45", "stadium": "Toše Proeski Arena, Skopje", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Bajrić", "min": "33", "type": "og" }, { "name": "Spahiu", "min": "45+1", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Samsunspor", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Samsunspor_crest.svg/500px-Samsunspor_crest.svg.png", "country": "TUR" },
+      "t2": { "name": "AEK Athens", "logo": "https://media.api-sports.io/football/teams/575.png", "country": "GRE" },
+      "leg1": { "date": "11 DEC 2025", "time": "19:45", "stadium": "Samsun 19 Mayıs Stadium, Samsun", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Moukoudi", "min": "4", "type": "og" }],
+        "t2": [{ "name": "Marin", "min": "52", "type": "g" }, { "name": "Koita", "min": "63", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Universitatea Craiova", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/CS_Universitatea_Craiova_logo.svg/500px-CS_Universitatea_Craiova_logo.svg.png", "country": "ROU" },
+      "t2": { "name": "Sparta Prague", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AC-Sparta-LOGO2021.svg/500px-AC-Sparta-LOGO2021.svg.png", "country": "CZE" },
+      "leg1": { "date": "11 DEC 2025", "time": "19:45", "stadium": "Ion Oblemenco Stadium, Craiova", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Nsimba", "min": "79", "type": "g" }],
+        "t2": [{ "name": "Rrahmani", "min": "50", "type": "g" }, { "name": "Ryneš", "min": "89", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Aberdeen", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Aberdeen_FC_stars_crest.svg/500px-Aberdeen_FC_stars_crest.svg.png", "country": "SCO" },
+      "t2": { "name": "Strasbourg", "logo": "https://media.api-sports.io/football/teams/95.png", "country": "FRA" },
+      "leg1": { "date": "11 DEC 2025", "time": "22:00", "stadium": "Pittodrie Stadium, Aberdeen", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Godo", "min": "35", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Hamrun Spartans", "logo": "https://media.api-sports.io/football/teams/4626.png", "country": "MLT" },
+      "t2": { "name": "Shakhtar Donetsk", "logo": "https://media.api-sports.io/football/teams/550.png", "country": "UKR" },
+      "leg1": { "date": "11 DEC 2025", "time": "22:00", "stadium": "National Stadium, Ta' Qali", "s1": 0, "s2": 2 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Meirelles", "min": "61", "type": "g" }, { "name": "Isaque", "min": "64", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Rijeka", "logo": "https://media.api-sports.io/football/teams/561.png", "country": "CRO" },
+      "t2": { "name": "Celje", "logo": "https://media.api-sports.io/football/teams/4360.png", "country": "SVN" },
+      "leg1": { "date": "11 DEC 2025", "time": "22:00", "stadium": "Stadion Rujevica, Rijeka", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Adu-Adjei", "min": "55", "type": "g" }, { "name": "Petrovič", "min": "71", "type": "g" }, { "name": "Fruk", "min": "78", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Lech Poznań", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/KKS_Lech_Pozna%C5%84.svg/330px-KKS_Lech_Pozna%C5%84.svg.png", "country": "POL" },
+      "t2": { "name": "Mainz 05", "logo": "https://media.api-sports.io/football/teams/164.png", "country": "GER" },
+      "leg1": { "date": "11 DEC 2025", "time": "22:00", "stadium": "Poznań Stadium, Poznań", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Ishak", "min": "41", "type": "p" }],
+        "t2": [{ "name": "Kawasaki", "min": "28", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "KuPS", "logo": "https://media.api-sports.io/football/teams/1165.png", "country": "FIN" },
+      "t2": { "name": "Lausanne-Sport", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FC_Lausanne-Sport_logo.svg/500px-FC_Lausanne-Sport_logo.svg.png", "country": "SUI" },
+      "leg1": { "date": "11 DEC 2025", "time": "22:00", "stadium": "Tammelan Stadion, Tampere", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Lincoln Red Imps", "logo": "https://media.api-sports.io/football/teams/667.png", "country": "GIB" },
+      "t2": { "name": "Sigma Olomouc", "logo": "https://upload.wikimedia.org/wikipedia/en/a/a2/SK_Sigma_Olomouc.png", "country": "CZE" },
+      "leg1": { "date": "11 DEC 2025", "time": "22:00", "stadium": "Europa Sports Park, Gibraltar", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Koutný", "min": "19", "type": "og" }, { "name": "Pozo", "min": "73", "type": "g" }],
+        "t2": [{ "name": "Vašulín", "min": "8", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Raków Częstochowa", "logo": "https://media.api-sports.io/football/teams/3491.png", "country": "POL" },
+      "t2": { "name": "Zrinjski Mostar", "logo": "https://media.api-sports.io/football/teams/588.png", "country": "BIH" },
+      "leg1": { "date": "11 DEC 2025", "time": "22:00", "stadium": "Zagłębie Sports Park, Sosnowiec", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Brunes", "min": "45+5", "type": "p" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Shelbourne", "logo": "https://media.api-sports.io/football/teams/3854.png", "country": "IRL" },
+      "t2": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png", "country": "ENG" },
+      "leg1": { "date": "11 DEC 2025", "time": "22:00", "stadium": "Tallaght Stadium, Dublin", "s1": 0, "s2": 3 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Uche", "min": "11", "type": "g" }, { "name": "Nketiah", "min": "25", "type": "g" }, { "name": "Yéremy", "min": "37", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Rapid Wien", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SK_Rapid_Wien_Logo.svg/500px-SK_Rapid_Wien_Logo.svg.png", "country": "AUT" },
+      "t2": { "name": "Omonia", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/AC_Omonia_logo.svg/500px-AC_Omonia_logo.svg.png", "country": "CYP" },
+      "leg1": { "date": "11 DEC 2025", "time": "22:00", "stadium": "Allianz Stadion, Vienna", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Neophytou", "min": "19", "type": "g" }]
+      }
+    }
+  ]
+},
+{
+  "day": 6,
+  "name": "Matchday 6",
+  "matches": [
+    {
+      "t1": { "name": "Mainz 05", "logo": "https://media.api-sports.io/football/teams/164.png", "country": "GER" },
+      "t2": { "name": "Samsunspor", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Samsunspor_crest.svg/500px-Samsunspor_crest.svg.png", "country": "TUR" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Mewa Arena, Mainz", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Widmer", "min": "44", "type": "g" }, { "name": "Amiri", "min": "48", "type": "p" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Sparta Prague", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AC-Sparta-LOGO2021.svg/500px-AC-Sparta-LOGO2021.svg.png", "country": "CZE" },
+      "t2": { "name": "Aberdeen", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Aberdeen_FC_stars_crest.svg/500px-Aberdeen_FC_stars_crest.svg.png", "country": "SCO" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Stadion Letná, Prague", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Mercado", "min": "16", "type": "g" }, { "name": "Haraslín", "min": "29", "type": "g" }, { "name": "Kuol", "min": "66", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "AEK Athens", "logo": "https://media.api-sports.io/football/teams/575.png", "country": "GRE" },
+      "t2": { "name": "Universitatea Craiova", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/CS_Universitatea_Craiova_logo.svg/500px-CS_Universitatea_Craiova_logo.svg.png", "country": "ROU" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Agia Sophia Stadium, Athens", "s1": 3, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Vida", "min": "65", "type": "g" }, { "name": "Kutesa", "min": "90+8", "type": "g" }, { "name": "Jović", "min": "90+14", "type": "p" }],
+        "t2": [{ "name": "Baiaram", "min": "30", "type": "g" }, { "name": "Cicâldău", "min": "59", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "AEK Larnaca", "logo": "https://media.api-sports.io/football/teams/614.png", "country": "CYP" },
+      "t2": { "name": "Shkëndija", "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/KF_Shk%C3%ABndija_Logo.svg", "country": "MKD" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "AEK Arena, Larnaca", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Angielski", "min": "83", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "AZ", "logo": "https://media.api-sports.io/football/teams/201.png", "country": "NED" },
+      "t2": { "name": "Jagiellonia Białystok", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Jagiellonia_Bia%C5%82ystok_logo.svg/600px-Jagiellonia_Bia%C5%82ystok_logo.svg.png", "country": "POL" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "AFAS Stadion, Alkmaar", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png", "country": "ENG" },
+      "t2": { "name": "KuPS", "logo": "https://media.api-sports.io/football/teams/1165.png", "country": "FIN" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Selhurst Park, London", "s1": 2, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Uche", "min": "5", "type": "g" }, { "name": "Devenny", "min": "76", "type": "g" }],
+        "t2": [{ "name": "Parzyszek", "min": "50", "type": "g" }, { "name": "Cissé", "min": "53", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Shakhtar Donetsk", "logo": "https://media.api-sports.io/football/teams/550.png", "country": "UKR" },
+      "t2": { "name": "Rijeka", "logo": "https://media.api-sports.io/football/teams/561.png", "country": "CRO" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Henryk Reyman Municipal Stadium, Kraków", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Dynamo Kyiv", "logo": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FC_Dynamo_Kyiv_logo.svg&width=500", "country": "UKR" },
+      "t2": { "name": "Noah", "logo": "https://media.api-sports.io/football/teams/21879.png", "country": "ARM" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Arena Lublin, Lublin", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Kabayev", "min": "27", "type": "g" }, { "name": "Ponomarenko", "min": "50", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Lausanne-Sport", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FC_Lausanne-Sport_logo.svg/500px-FC_Lausanne-Sport_logo.svg.png", "country": "SUI" },
+      "t2": { "name": "Fiorentina", "logo": "https://media.api-sports.io/football/teams/502.png", "country": "ITA" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Stade de la Tuilière, Lausanne", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Sigua", "min": "58", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Zrinjski Mostar", "logo": "https://media.api-sports.io/football/teams/588.png", "country": "BIH" },
+      "t2": { "name": "Rapid Wien", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SK_Rapid_Wien_Logo.svg/500px-SK_Rapid_Wien_Logo.svg.png", "country": "AUT" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Stadion pod Bijelim Brijegom, Mostar", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Cvetković", "min": "90+3", "type": "og" }],
+        "t2": [{ "name": "Schaub", "min": "11", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Legia Warsaw", "logo": "https://media.api-sports.io/football/teams/339.png", "country": "POL" },
+      "t2": { "name": "Lincoln Red Imps", "logo": "https://media.api-sports.io/football/teams/667.png", "country": "GIB" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Polish Army Stadium, Warsaw", "s1": 4, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Čolak", "min": "21", "type": "g" },
+          { "name": "Kapustka", "min": "62", "type": "g" },
+          { "name": "Rajović", "min": "70", "type": "g" },
+          { "name": "Bichakhchyan", "min": "83", "type": "g" }
+        ],
+        "t2": [{ "name": "De Barr", "min": "89", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Celje", "logo": "https://media.api-sports.io/football/teams/4360.png", "country": "SVN" },
+      "t2": { "name": "Shelbourne", "logo": "https://media.api-sports.io/football/teams/3854.png", "country": "IRL" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Stadion Z'dežele, Celje", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Omonia", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/AC_Omonia_logo.svg/500px-AC_Omonia_logo.svg.png", "country": "CYP" },
+      "t2": { "name": "Raków Częstochowa", "logo": "https://media.api-sports.io/football/teams/3491.png", "country": "POL" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "GSP Stadium, Nicosia", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t1": [],
+        "t2": [{ "name": "Repka", "min": "49", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Strasbourg", "logo": "https://media.api-sports.io/football/teams/95.png", "country": "FRA" },
+      "t2": { "name": "Breiðablik", "logo": "https://media.api-sports.io/football/teams/276.png", "country": "ISL" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Stade de la Meinau, Strasbourg", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Nanasi", "min": "11", "type": "g" }, { "name": "Godo", "min": "80", "type": "g" }, { "name": "Enciso", "min": "90+4", "type": "g" }],
+        "t2": [{ "name": "Gunnlaugsson", "min": "37", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Rayo Vallecano", "logo": "https://media.api-sports.io/football/teams/728.png", "country": "ESP" },
+      "t2": { "name": "Drita", "logo": "https://media.api-sports.io/football/teams/14281.png", "country": "KOS" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Campo de Fútbol de Vallecas, Madrid", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Lejeune", "min": "33", "type": "g" }, { "name": "Gumbau", "min": "66", "type": "g" }, { "name": "Espino", "min": "83", "type": "g" }],
+        "t2": []
+      }
+    },
+    {
+      "t1": { "name": "Shamrock Rovers", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Shamrock_Rovers_F.C._crest.svg/500px-Shamrock_Rovers_F.C._crest.svg.png", "country": "IRL" },
+      "t2": { "name": "Hamrun Spartans", "logo": "https://media.api-sports.io/football/teams/4626.png", "country": "MLT" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Tallaght Stadium, Dublin", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Burke", "min": "14", "type": "p" }, { "name": "Grant", "min": "45+4", "type": "g" }, { "name": "McGovern", "min": "90+3", "type": "g" }],
+        "t2": [{ "name": "Koffi", "min": "20", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Sigma Olomouc", "logo": "https://upload.wikimedia.org/wikipedia/en/a/a2/SK_Sigma_Olomouc.png", "country": "CZE" },
+      "t2": { "name": "Lech Poznań", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/KKS_Lech_Pozna%C5%84.svg/330px-KKS_Lech_Pozna%C5%84.svg.png", "country": "POL" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Andrův stadion, Olomouc", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Král", "min": "84", "type": "g" }],
+        "t2": [{ "name": "Ishak", "min": "35", "type": "g" }, { "name": "Ishak", "min": "45+1", "type": "p" }]
+      }
+    },
+    {
+      "t1": { "name": "Slovan Bratislava", "logo": "https://media.api-sports.io/football/teams/656.png", "country": "SVK" },
+      "t2": { "name": "BK Häcken", "logo": "https://media.api-sports.io/football/teams/367.png", "country": "SWE" },
+      "leg1": { "date": "18 DEC 2025", "time": "22:00", "stadium": "Tehelné pole, Bratislava", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Blackman", "min": "85", "type": "g" }],
+        "t2": []
+      }
+    }
+  ]
+}
+  ]
+  },
+  "Knockout Play-off": {
+  "matches": [
+    {
+      "t1": { "name": "KuPS", "logo": "https://media.api-sports.io/football/teams/1165.png", "country": "FIN" },
+      "t2": { "name": "Lech Poznań", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/KKS_Lech_Pozna%C5%84.svg/330px-KKS_Lech_Pozna%C5%84.svg.png", "country": "POL" },
+      "leg1": {
+        "date": "19 FEB 2026", "time": "19:45", "stadium": "Tammelan Stadion, Tampere", "s1": 0, "s2": 2,
+        "scorers": { "t1": [], "t2": [{ "name": "Kozubal", "min": "9", "type": "g" }, { "name": "Ismaheel", "min": "41", "type": "g" }] }
+      },
+      "leg2": {
+        "date": "26 FEB 2026", "time": "22:00", "stadium": "Poznań Stadium, Poznań", "s1": 0, "s2": 1,
+        "scorers": { "t1": [], "t2": [{ "name": "Rodríguez", "min": "65", "type": "g" }] }
+      }
+    },
+    {
+      "t1": { "name": "Noah", "logo": "https://media.api-sports.io/football/teams/21879.png", "country": "ARM" },
+      "t2": { "name": "AZ", "logo": "https://media.api-sports.io/football/teams/201.png", "country": "NED" },
+      "leg1": {
+        "date": "19 FEB 2026", "time": "19:45", "stadium": "Vazgen Sargsyan Republican Stadium, Yerevan", "s1": 1, "s2": 0,
+        "scorers": { "t1": [{ "name": "Hambardzumyan", "min": "53", "type": "g" }], "t2": [] }
+      },
+      "leg2": {
+        "date": "26 FEB 2026", "time": "22:00", "stadium": "AFAS Stadion, Alkmaar", "s1": 0, "s2": 4,
+        "scorers": { "t1": [], "t2": [{ "name": "Daal", "min": "5", "type": "g" }, { "name": "Mijnans", "min": "39", "type": "g" }, { "name": "Mijnans", "min": "54", "type": "g" }, { "name": "Jensen", "min": "90+1", "type": "g" }] }
+      }
+    },
+    {
+      "t1": { "name": "Zrinjski Mostar", "logo": "https://media.api-sports.io/football/teams/588.png", "country": "BIH" },
+      "t2": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png", "country": "ENG" },
+      "leg1": {
+        "date": "19 FEB 2026", "time": "19:45", "stadium": "Stadion pod Bijelim Brijegom, Mostar", "s1": 1, "s2": 1,
+        "scorers": { "t1": [{ "name": "Abramović", "min": "55", "type": "g" }], "t2": [{ "name": "Sarr", "min": "43", "type": "g" }] }
+      },
+      "leg2": {
+        "date": "26 FEB 2026", "time": "22:00", "stadium": "Selhurst Park, London", "s1": 0, "s2": 2,
+        "scorers": { "t1": [], "t2": [{ "name": "Lacroix", "min": "36", "type": "g" }, { "name": "Guessand", "min": "90+3", "type": "g" }] }
+      }
+    },
+    {
+      "t1": { "name": "Jagiellonia Białystok", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Jagiellonia_Bia%C5%82ystok_logo.svg/600px-Jagiellonia_Bia%C5%82ystok_logo.svg.png", "country": "POL" },
+      "t2": { "name": "Fiorentina", "logo": "https://media.api-sports.io/football/teams/502.png", "country": "ITA" },
+      "leg1": {
+        "date": "19 FEB 2026", "time": "22:00", "stadium": "Stadion Miejski, Białystok", "s1": 0, "s2": 3,
+        "scorers": { "t1": [], "t2": [{ "name": "Ranieri", "min": "53", "type": "g" }, { "name": "Mandragora", "min": "65", "type": "g" }, { "name": "Piccoli", "min": "81", "type": "p" }] }
+      },
+      "leg2": {
+        "date": "26 FEB 2026", "time": "19:45", "stadium": "Stadio Artemio Franchi, Florence", "s1": 4, "s2": 2,
+        "scorers": { "t1": [{ "name": "Mazurek", "min": "23", "type": "g" }, { "name": "Mazurek", "min": "45+3", "type": "g" }, { "name": "Mazurek", "min": "49", "type": "g" }, { "name": "Imaz", "min": "118", "type": "g" }], "t2": [{ "name": "Fagioli", "min": "107", "type": "g" }, { "name": "Romanczuk", "min": "114", "type": "og" }] }
+      }
+    },
+    {
+      "t1": { "name": "Shkëndija", "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/KF_Shk%C3%ABndija_Logo.svg", "country": "MKD" },
+      "t2": { "name": "Samsunspor", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Samsunspor_crest.svg/500px-Samsunspor_crest.svg.png", "country": "TUR" },
+      "leg1": {
+        "date": "19 FEB 2026", "time": "22:00", "stadium": "Toše Proeski Arena, Skopje", "s1": 0, "s2": 1,
+        "scorers": { "t1": [], "t2": [{ "name": "Mouandilmadji", "min": "77", "type": "g" }] }
+      },
+      "leg2": {
+        "date": "26 FEB 2026", "time": "19:45", "stadium": "Samsun 19 Mayıs Stadium, Samsun", "s1": 0, "s2": 4,
+        "scorers": { "t1": [], "t2": [{ "name": "Ntcham", "min": "53", "type": "p" }, { "name": "Ndiaye", "min": "71", "type": "g" }, { "name": "Mouandilmadji", "min": "79", "type": "g" }, { "name": "Mouandilmadji", "min": "90+2", "type": "g" }] }
+      }
+    },
+    {
+      "t1": { "name": "Drita", "logo": "https://media.api-sports.io/football/teams/14281.png", "country": "KOS" },
+      "t2": { "name": "Celje", "logo": "https://media.api-sports.io/football/teams/4360.png", "country": "SVN" },
+      "leg1": {
+        "date": "19 FEB 2026", "time": "22:00", "stadium": "Fadil Vokrri Stadium, Pristina", "s1": 2, "s2": 3,
+        "scorers": { "t1": [{ "name": "Bl. Krasniqi", "min": "59", "type": "g" }, { "name": "Balaj", "min": "75", "type": "g" }], "t2": [{ "name": "Kučys", "min": "19", "type": "g" }, { "name": "Avdyli", "min": "41", "type": "g" }, { "name": "Poplatnik", "min": "90+4", "type": "g" }] }
+      },
+      "leg2": {
+        "date": "26 FEB 2026", "time": "19:45", "stadium": "Stadion Z'dežele, Celje", "s1": 2, "s2": 3,
+        "scorers": { "t1": [{ "name": "Bl. Krasniqi", "min": "26", "type": "g" }, { "name": "Dabiqaj", "min": "51", "type": "g" }], "t2": [{ "name": "Sešlar", "min": "19", "type": "g" }, { "name": "Sešlar", "min": "43", "type": "p" }, { "name": "Hrka", "min": "23", "type": "g" }] }
+      }
+    },
+    {
+      "t1": { "name": "Sigma Olomouc", "logo": "https://upload.wikimedia.org/wikipedia/en/a/a2/SK_Sigma_Olomouc.png", "country": "CZE" },
+      "t2": { "name": "Lausanne-Sport", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FC_Lausanne-Sport_logo.svg/500px-FC_Lausanne-Sport_logo.svg.png", "country": "SUI" },
+      "leg1": {
+        "date": "19 FEB 2026", "time": "19:45", "stadium": "Andrův stadion, Olomouc", "s1": 1, "s2": 1,
+        "scorers": { "t1": [{ "name": "Šturm", "min": "58", "type": "g" }], "t2": [{ "name": "Butler-Oyedeji", "min": "22", "type": "g" }] }
+      },
+      "leg2": {
+        "date": "26 FEB 2026", "time": "22:00", "stadium": "Stade de la Tuilière, Lausanne", "s1": 2, "s2": 1,
+        "scorers": { "t1": [{ "name": "Šíp", "min": "22", "type": "g" }, { "name": "Růsek", "min": "44", "type": "g" }], "t2": [{ "name": "Janneh", "min": "35", "type": "g" }] }
+      }
+    },
+    {
+      "t1": { "name": "Omonia", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/AC_Omonia_logo.svg/500px-AC_Omonia_logo.svg.png", "country": "CYP" },
+      "t2": { "name": "Rijeka", "logo": "https://media.api-sports.io/football/teams/561.png", "country": "CRO" },
+      "leg1": {
+        "date": "19 FEB 2026", "time": "22:00", "stadium": "GSP Stadium, Nicosia", "s1": 0, "s2": 1,
+        "scorers": { "t1": [], "t2": [{ "name": "Adu-Adjei", "min": "86", "type": "g" }] }
+      },
+      "leg2": {
+        "date": "26 FEB 2026", "time": "19:45", "stadium": "Stadion Rujevica, Rijeka", "s1": 1, "s2": 3,
+        "scorers": { "t1": [{ "name": "Tanković", "min": "13", "type": "g" }], "t2": [{ "name": "Fruk", "min": "52", "type": "g" }, { "name": "Fruk", "min": "67", "type": "g" }, { "name": "Adu-Adjei", "min": "79", "type": "g" }] }
+      }
+    }
+
+
+  ]
+},
+"Round of 16": {
+  "matches": [
+    {
+      "t1": { "name": "Lech Poznań", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/KKS_Lech_Pozna%C5%84.svg/330px-KKS_Lech_Pozna%C5%84.svg.png", "country": "POL" },
+      "t2": { "name": "Shakhtar Donetsk", "logo": "https://media.api-sports.io/football/teams/550.png", "country": "UKR" },
+      "leg1": {
+        "date": "12 MAR 2026", "time": "19:45", "stadium": "Poznań Stadium, Poznań", "s1": 1, "s2": 3,
+        "scorers": {
+          "t1": [{ "name": "Ishak", "min": "70", "type": "g" }],
+          "t2": [{ "name": "Marlon Gomes", "min": "36", "type": "g" }, { "name": "Newerton", "min": "48", "type": "g" }, { "name": "Isaque", "min": "85", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "19 MAR 2026", "time": "22:00", "stadium": "Henryk Reyman Municipal Stadium, Kraków", "s1": 2, "s2": 1,
+        "scorers": {
+          "t1": [{ "name": "Ishak", "min": "13", "type": "g" }, { "name": "Ishak", "min": "45+7", "type": "p" }],
+          "t2": [{ "name": "Moutinho", "min": "67", "type": "og" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "AZ", "logo": "https://media.api-sports.io/football/teams/201.png", "country": "NED" },
+      "t2": { "name": "Sparta Prague", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AC-Sparta-LOGO2021.svg/500px-AC-Sparta-LOGO2021.svg.png", "country": "CZE" },
+      "leg1": {
+        "date": "12 MAR 2026", "time": "19:45", "stadium": "AFAS Stadion, Alkmaar", "s1": 2, "s2": 1,
+        "scorers": {
+          "t1": [{ "name": "Parrott", "min": "29", "type": "g" }, { "name": "Parrott", "min": "87", "type": "g" }],
+          "t2": [{ "name": "Vojta", "min": "50", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "19 MAR 2026", "time": "22:00", "stadium": "Stadion Letná, Prague", "s1": 4, "s2": 0,
+        "scorers": {
+          "t1": [{ "name": "Jensen", "min": "8", "type": "g" }, { "name": "Parrott", "min": "58", "type": "g" }, { "name": "Mijnans", "min": "62", "type": "g" }, { "name": "Daal", "min": "73", "type": "g" }],
+          "t2": []
+        }
+      }
+    },
+    {
+      "t1": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png", "country": "ENG" },
+      "t2": { "name": "AEK Larnaca", "logo": "https://media.api-sports.io/football/teams/614.png", "country": "CYP" },
+      "leg1": {
+        "date": "12 MAR 2026", "time": "22:00", "stadium": "Selhurst Park, London", "s1": 0, "s2": 0,
+        "scorers": { "t1": [], "t2": [] }
+      },
+      "leg2": {
+        "date": "19 MAR 2026", "time": "19:45", "stadium": "AEK Arena, Larnaca", "s1": 2, "s2": 1,
+        "scorers": {
+          "t1": [{ "name": "Sarr", "min": "13", "type": "g" }, { "name": "Sarr", "min": "99", "type": "g" }],
+          "t2": [{ "name": "Saborit", "min": "63", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Fiorentina", "logo": "https://media.api-sports.io/football/teams/502.png", "country": "ITA" },
+      "t2": { "name": "Raków Częstochowa", "logo": "https://media.api-sports.io/football/teams/3491.png", "country": "POL" },
+      "leg1": {
+        "date": "12 MAR 2026", "time": "22:00", "stadium": "Stadio Artemio Franchi, Florence", "s1": 2, "s2": 1,
+        "scorers": {
+          "t1": [{ "name": "Ndour", "min": "62", "type": "g" }, { "name": "Guðmundsson", "min": "90+3", "type": "p" }],
+          "t2": [{ "name": "Brunes", "min": "60", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "19 MAR 2026", "time": "19:45", "stadium": "Zagłębie Sports Park, Sosnowiec", "s1": 2, "s2": 1,
+        "scorers": {
+          "t1": [{ "name": "Piccoli", "min": "68", "type": "g" }, { "name": "Pongračić", "min": "90+7", "type": "g" }],
+          "t2": [{ "name": "Struski", "min": "46", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Samsunspor", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Samsunspor_crest.svg/500px-Samsunspor_crest.svg.png", "country": "TUR" },
+      "t2": { "name": "Rayo Vallecano", "logo": "https://media.api-sports.io/football/teams/728.png", "country": "ESP" },
+      "leg1": {
+        "date": "12 MAR 2026", "time": "19:45", "stadium": "Samsun 19 Mayıs Stadium, Samsun", "s1": 1, "s2": 3,
+        "scorers": {
+          "t1": [{ "name": "Mouandilmadji", "min": "21", "type": "g" }],
+          "t2": [{ "name": "Alemão", "min": "15", "type": "g" }, { "name": "García", "min": "40", "type": "g" }, { "name": "Alemão", "min": "78", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "19 MAR 2026", "time": "22:00", "stadium": "Campo de Fútbol de Vallecas, Madrid", "s1": 1, "s2": 0,
+        "scorers": {
+          "t1": [{ "name": "Ndiaye", "min": "65", "type": "g" }],
+          "t2": []
+        }
+      }
+    },
+    {
+      "t1": { "name": "Celje", "logo": "https://media.api-sports.io/football/teams/4360.png", "country": "SVN" },
+      "t2": { "name": "AEK Athens", "logo": "https://media.api-sports.io/football/teams/575.png", "country": "GRE" },
+      "leg1": {
+        "date": "12 MAR 2026", "time": "22:00", "stadium": "Stadion Z'dežele, Celje", "s1": 0, "s2": 4,
+        "scorers": {
+          "t1": [],
+          "t2": [{ "name": "Varga", "min": "3", "type": "g" }, { "name": "Koïta", "min": "33", "type": "g" }, { "name": "Gaćinović", "min": "36", "type": "g" }, { "name": "Moukoudi", "min": "49", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "19 MAR 2026", "time": "19:45", "stadium": "Agia Sophia Stadium, Athens", "s1": 2, "s2": 0,
+        "scorers": {
+          "t1": [{ "name": "Iosifov", "min": "13", "type": "g" }, { "name": "Požeg Vancaš", "min": "42", "type": "g" }],
+          "t2": []
+        }
+      }
+    },
+    {
+      "t1": { "name": "Sigma Olomouc", "logo": "https://upload.wikimedia.org/wikipedia/en/a/a2/SK_Sigma_Olomouc.png", "country": "CZE" },
+      "t2": { "name": "Mainz 05", "logo": "https://media.api-sports.io/football/teams/164.png", "country": "GER" },
+      "leg1": {
+        "date": "12 MAR 2026", "time": "22:00", "stadium": "Andrův stadion, Olomouc", "s1": 0, "s2": 0,
+        "scorers": { "t1": [], "t2": [] }
+      },
+      "leg2": {
+        "date": "19 MAR 2026", "time": "19:45", "stadium": "Mewa Arena, Mainz", "s1": 0, "s2": 2,
+        "scorers": {
+          "t1": [],
+          "t2": [{ "name": "Posch", "min": "46", "type": "g" }, { "name": "Sieb", "min": "82", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Rijeka", "logo": "https://media.api-sports.io/football/teams/561.png", "country": "CRO" },
+      "t2": { "name": "Strasbourg", "logo": "https://media.api-sports.io/football/teams/95.png", "country": "FRA" },
+      "leg1": {
+        "date": "12 MAR 2026", "time": "19:45", "stadium": "Stadion Rujevica, Rijeka", "s1": 1, "s2": 2,
+        "scorers": {
+          "t1": [{ "name": "Majstorović", "min": "76", "type": "g" }],
+          "t2": [{ "name": "Panichelli", "min": "2", "type": "g" }, { "name": "Godo", "min": "72", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "19 MAR 2026", "time": "22:00", "stadium": "Stade de la Meinau, Strasbourg", "s1": 1, "s2": 1,
+        "scorers": {
+          "t1": [{ "name": "Fruk", "min": "21", "type": "g" }],
+          "t2": [{ "name": "Barco", "min": "71", "type": "g" }]
+        }
+      }
+    }
+  ]
+},
+"Quarter-finals": {
+  "matches": [
+    {
+      "t1": { "name": "Shakhtar Donetsk", "logo": "https://media.api-sports.io/football/teams/550.png", "country": "UKR" },
+      "t2": { "name": "AZ", "logo": "https://media.api-sports.io/football/teams/201.png", "country": "NED" },
+      "leg1": {
+        "date": "09 APR 2026", "time": "22:00", "stadium": "Henryk Reyman Municipal Stadium, Kraków", "s1": 3, "s2": 0,
+        "scorers": {
+          "t1": [{ "name": "Pedrinho", "min": "72", "type": "g" }, { "name": "Alisson", "min": "81", "type": "g" }, { "name": "Alisson", "min": "83", "type": "g" }],
+          "t2": []
+        }
+      },
+      "leg2": {
+        "date": "16 APR 2026", "time": "19:45", "status": "finished", "stadium": "AFAS Stadion, Alkmaar", "s1": "2", "s2": "2",
+        "scorers": { "t1": [{ "name": "Alisson", "min": "58", "type": "g" },{ "name": "Luca Meirelles", "min": "83", "type": "g" }], "t2": [{ "name": "Jensen", "min": "73", "type": "g" },{ "name": "Sin", "min": "80", "type": "g" }] }
+      }
+    },
+    {
+      "t1": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png", "country": "ENG" },
+      "t2": { "name": "Fiorentina", "logo": "https://media.api-sports.io/football/teams/502.png", "country": "ITA" },
+      "leg1": {
+        "date": "09 APR 2026", "time": "22:00", "stadium": "Selhurst Park, London", "s1": 3, "s2": 0,
+        "scorers": {
+          "t1": [{ "name": "Mateta", "min": "24", "type": "p" }, { "name": "Mitchell", "min": "31", "type": "g" }, { "name": "Sarr", "min": "90", "type": "g" }],
+          "t2": []
+        }
+      },
+      "leg2": {
+        "date": "16 APR 2026", "time": "22:00", "status": "finished", "stadium": "Stadio Artemio Franchi, Florence", "s1": "1", "s2": "2",
+        "scorers": { "t1": [{ "name": "Sarr", "min": "17", "type": "g" }], "t2": [{ "name": "Guðmundsson", "min": "30", "type": "p" },{ "name": "Ndour", "min": "53", "type": "g" }] }
+      }
+    },
+    {
+      "t1": { "name": "Rayo Vallecano", "logo": "https://media.api-sports.io/football/teams/728.png", "country": "ESP" },
+      "t2": { "name": "AEK Athens", "logo": "https://media.api-sports.io/football/teams/575.png", "country": "GRE" },
+      "leg1": {
+        "date": "09 APR 2026", "time": "19:45", "stadium": "Campo de Fútbol de Vallecas, Madrid", "s1": 3, "s2": 0,
+        "scorers": {
+          "t1": [{ "name": "Akhomach", "min": "2", "type": "g" }, { "name": "López", "min": "45+2", "type": "g" }, { "name": "Palazón", "min": "74", "type": "p" }],
+          "t2": []
+        }
+      },
+      "leg2": {
+        "date": "16 APR 2026", "time": "22:00", "status": "finished", "stadium": "Agia Sophia Stadium, Athens", "s1": "1", "s2": "3",
+        "scorers": { "t1": [{ "name": "Palazón", "min": "60", "type": "g" }], "t2": [{ "name": "Zini", "min": "13", "type": "g" },{ "name": "Marin", "min": "36", "type": "p" },{ "name": "Zini", "min": "51", "type": "g" }] }
+      }
+    },
+    {
+      "t1": { "name": "Mainz 05", "logo": "https://media.api-sports.io/football/teams/164.png", "country": "GER" },
+      "t2": { "name": "Strasbourg", "logo": "https://media.api-sports.io/football/teams/95.png", "country": "FRA" },
+      "leg1": {
+        "date": "09 APR 2026", "time": "22:00", "stadium": "Mewa Arena, Mainz", "s1": 2, "s2": 0,
+        "scorers": {
+          "t1": [{ "name": "Sano", "min": "11", "type": "g" }, { "name": "Posch", "min": "19", "type": "g" }],
+          "t2": []
+        }
+      },
+      "leg2": {
+        "date": "16 APR 2026", "time": "22:00", "status": "finished", "stadium": "Stade de la Meinau, Strasbourg", "s1": "0", "s2": "4",
+        "scorers": { "t1": [], "t2": [{ "name": "Nanasi", "min": "26", "type": "g" },{ "name": "Ouattara", "min": "35", "type": "g" },{ "name": "Enciso", "min": "69", "type": "g" },{ "name": "Emegha", "min": "74", "type": "g" }] }
+      }
+    }
+  ]
+},
+"Semi-finals": {
+  "matches": [
+    {
+      "t1": { "name": "Shakhtar Donetsk", "logo": "https://media.api-sports.io/football/teams/550.png", "country": "UKR"  },
+      "t2": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png", "country": "ENG" },
+      "leg1": { "date": "30 APR 2026", "time": "22:00", "status": "upcoming", "stadium": "Henryk Reyman Municipal Stadium, Kraków", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} },
+      "leg2": { "date": "07 MAY 2026", "time": "22:00", "status": "upcoming", "stadium": "Selhurst Park, London", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} }
+    },
+    {
+      "t1": { "name": "Rayo Vallecano", "logo": "https://media.api-sports.io/football/teams/728.png", "country": "ESP" },
+      "t2": { "name": "Strasbourg", "logo": "https://media.api-sports.io/football/teams/95.png", "country": "FRA" },
+      "leg1": { "date": "30 APR 2026", "time": "22:00", "status": "upcoming", "stadium": "Campo de Fútbol de Vallecas, Madrid", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} },
+      "leg2": { "date": "07 MAY 2026", "time": "22:00", "status": "upcoming", "stadium": "Stade de la Meinau, Strasbourg", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} }
+    }
+  ]
+}
+}

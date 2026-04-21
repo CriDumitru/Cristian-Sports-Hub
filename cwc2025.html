@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIFA Club World Cup 2025 — Tracker</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg: #050505;
+      --surface: #0a0a0a;
+      --accent: #d4af37; /* FIFA Gold */
+      --accent-glow: rgba(212, 175, 55, 0.15);
+      --text-main: #ffffff;
+      --text-body: #a0a0a0;
+      --muted: #4e4e4e;
+      --border: rgba(212, 175, 55, 0.12); 
+      --card-bg: rgba(255, 255, 255, 0.01);
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background-color: var(--bg);
+      color: var(--text-body);
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .fifa-gradient {
+      background: radial-gradient(circle at 50% -20%, rgba(212, 175, 55, 0.08) 0%, transparent 50%), var(--bg);
+    }
+
+    .home-btn {
+      position: absolute; top: 18px; left: 18px; z-index: 200;
+      display: flex; align-items: center; gap: 7px;
+      background: rgba(10, 10, 10, 0.8); border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px; padding: 7px 13px; text-decoration: none;
+      color: #a1a1aa; font-size: .7rem; font-weight: 500;
+      backdrop-filter: blur(12px); transition: all 0.15s;
+    }
+    .home-btn:hover { background: rgba(20, 20, 20, 0.95); color: var(--accent); border-color: var(--accent); }
+
+    .tab-pill {
+      padding: 8px 18px; font-size: .75rem; font-weight: 700; color: var(--muted);
+      background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 12px; cursor: pointer; transition: all 0.2s; white-space: nowrap;
+      text-transform: uppercase; letter-spacing: 0.05em;
+    }
+
+    .tab-pill.active {
+      background: rgba(212, 175, 55, 0.1) !important;
+      color: var(--accent) !important;
+      border-color: var(--accent) !important;
+      box-shadow: 0 4px 15px rgba(212, 175, 55, 0.1);
+    }
+
+    /* Sub-tabs Grupe (Stil Qatar) */
+    .group-pill {
+      padding: 6px 14px; font-size: 0.7rem; font-weight: 800; border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.05); transition: 0.2s; color: var(--muted);
+      background: rgba(255,255,255,0.02);
+    }
+    .group-pill.active {
+      background: rgba(212, 175, 55, 0.1) !important;
+      color: var(--accent) !important;
+      border-color: var(--accent) !important;
+    }
+
+    .match-card {
+      background: rgba(255,255,255,0.02); border: 1px solid var(--border);
+      border-radius: 16px; overflow: hidden; transition: 0.2s;
+    }
+    .match-card:hover { border-color: var(--accent); background: rgba(255,255,255,0.04); }
+
+    .header-info-bar {
+      font-size: 0.75rem; font-weight: 500; color: #666; margin-top: 12px;
+      display: flex; align-items: center; gap: 10px; text-transform: uppercase; letter-spacing: 0.05em;
+    }
+
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    #scrollTopBtn {
+      position: fixed; bottom: 30px; right: 30px; z-index: 100;
+      background: var(--accent); color: var(--bg);
+      width: 45px; height: 45px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; opacity: 0; pointer-events: none; transition: 0.4s;
+      box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
+      font-size: 1.2rem;
+    }
+    #scrollTopBtn.show { opacity: 1; pointer-events: auto; }
+  </style>
+</head>
+<body class="fifa-gradient min-h-screen">
+
+  <a href="index.html" class="home-btn">
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>
+    HOME
+  </a>
+  <div id="scrollTopBtn" onclick="scrollToTop()">▲</div>
+
+  <div class="max-w-[98%] mx-auto px-6 pt-12 pb-12">
+    
+    <header class="flex flex-col md:flex-row items-center gap-6 mb-10 pl-20 md:pl-28">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/2025_FIFA_Club_World_Cup.svg/1920px-2025_FIFA_Club_World_Cup.svg.png" 
+     alt="FIFA CWC Logo" style="height:90px; width:auto; filter: drop-shadow(0 0 15px rgba(212,175,55,0.3));">
+
+      <div class="text-center md:text-left pt-2">
+        <div style="font-size:.7rem; font-weight:800; letter-spacing:.2em; text-transform:uppercase; color:var(--accent); margin-bottom:6px">FIFA Club World Cup</div>
+        <h1 style="font-family:'Bebas Neue'; font-size:clamp(2.5rem, 6vw, 4rem); line-height:0.9; margin-bottom:5px;">
+           <span style="background:linear-gradient(to right, #fff, var(--accent)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">United States 2025</span>
+        </h1>
+        <div class="header-info-bar justify-center md:justify-start">
+          <span class="text-white/80">14 June – 13 July 2025</span>
+          <span class="text-accent/40">•</span>
+          <span>32 Teams</span>
+          <span class="text-accent/40">•</span>
+          <span>6 Confederations</span>
+          <span class="text-accent/40">•</span>
+          <span>63 Games</span>
+        </div>
+      </div>
+    </header>
+
+    <nav class="flex gap-3 mb-8 overflow-x-auto no-scrollbar border-b border-white/5 pb-8 justify-center md:justify-start">
+      <button class="tab-pill active" onclick="showTab(0)">Group Stage</button>
+      <button class="tab-pill" onclick="showTab(1)">Round of 16</button>
+      <button class="tab-pill" onclick="showTab(2)">Quarter-Finals</button>
+      <button class="tab-pill" onclick="showTab(3)">Semi-Finals</button>
+      <button class="tab-pill" onclick="showTab(4)">Final</button>
+    </nav>
+
+    <main id="mainContent" class="animate-in fade-in duration-700"></main>
+  </div>
+
+  <script>
+    let CWC_DATA = null;
+    let currentGroup = "A";
+    const phases = ["Group Stage", "Round of 16", "Quarter-Finals", "Semi-Finals", "Final"];
+    window.onscroll = function() {
+      const btn = document.getElementById("scrollTopBtn");
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        btn.classList.add("show");
+      } else {
+        btn.classList.remove("show");
+      }
+    };
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    // Funcție pentru randarea listei de marcatori cu iconițe
+const renderScorers = (scorers, isMirror) => {
+  if (!scorers || scorers.length === 0) return '';
+  return scorers.map(s => {
+    // Extragem numele și restul detaliilor (minut, tip gol)
+    const matchRegex = s.match(/^(.*?)\s(\d+.*)$/);
+    let name = s, info = "";
+    if (matchRegex) { name = matchRegex[1]; info = matchRegex[2]; }
+    
+    // Determinăm iconița conform modelului Euro/UCL
+    let emoji = info.includes('(o.g.)') ? "🚩" : (info.includes('(pen.)') ? "🎯" : "⚽");
+    
+    if (isMirror) {
+      // Echipa din dreapta: Iconiță + Minut în stânga, Nume în dreapta
+      return `
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 2px;">
+          <div style="color: var(--accent); font-weight: 800; font-size: 0.65rem; min-width: 55px;">${emoji} ${info}</div>
+          <div style="color: #fff; font-weight: 600; font-size: 0.75rem;">${name}</div>
+        </div>`;
+    } else {
+      // Echipa din stânga: Nume în stânga, Minut + Iconiță în dreapta
+      return `
+        <div style="display: flex; align-items: center; justify-content: flex-end; gap: 8px; margin-bottom: 2px;">
+          <div style="color: #fff; font-weight: 600; font-size: 0.75rem;">${name}</div>
+          <div style="color: var(--accent); font-weight: 800; font-size: 0.65rem; min-width: 55px; text-align: right;">${info} ${emoji}</div>
+        </div>`;
+    }
+  }).join('');
+};
+
+    async function loadData() {
+      try {
+        const response = await fetch('cwc25.json');
+        CWC_DATA = await response.json();
+        
+        // Citim valorile salvate
+        const savedTab = localStorage.getItem('cwcActiveTab');
+        const savedGroup = localStorage.getItem('cwcActiveGroup');
+        
+        if (savedGroup) currentGroup = savedGroup;
+        showTab(savedTab !== null ? parseInt(savedTab) : 0);
+      } catch (e) {
+        document.getElementById('mainContent').innerHTML = `<p class="text-center py-20 opacity-30 italic">Eroare la încărcarea datelor din cwc25.json</p>`;
+      }
+    }
+
+    function showTab(n) {
+  localStorage.setItem('cwcActiveTab', n); 
+  document.querySelectorAll('.tab-pill').forEach((btn, i) => btn.classList.toggle('active', i === n));
+  const container = document.getElementById('mainContent');
+  
+  if(n === 0) renderGroupStage();
+  else if(phases[n] === "Final") renderFinalsPhase(); // Noua rută pentru Finală
+  else renderKnockout(phases[n]);
+}
+
+    function renderGroupStage() {
+      const container = document.getElementById('mainContent');
+      const groups = ["A", "B", "C", "D", "E", "F", "G", "H"];
+      
+      let groupNav = `
+        <div class="flex flex-wrap gap-2 mb-8 justify-center md:justify-start">
+          ${groups.map(g => `
+            <button onclick="currentGroup='${g}'; localStorage.setItem('cwcActiveGroup', '${g}'); renderGroupStage()"
+                    class="group-pill ${currentGroup === g ? 'active' : ''}">
+              GROUP ${g}
+            </button>`).join('')}
+        </div>`;
+
+      const groupData = CWC_DATA["Group Stage"].groups[currentGroup];
+      
+      container.innerHTML = groupNav + `
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          
+          <div class="lg:col-span-7 space-y-4">
+            ${groupData.matches.map(m => {
+              const s1 = m.s1 !== null ? m.s1 : "";
+              const s2 = m.s2 !== null ? m.s2 : "";
+              const color1 = (s1 !== "" && s1 > s2) ? 'var(--accent)' : '#fff';
+              const color2 = (s2 !== "" && s2 > s1) ? 'var(--accent)' : '#fff';
+
+              return `
+<div class="match-card">
+  <div class="bg-white/[0.03] px-5 py-2 border-b border-white/5 flex justify-between items-center text-[0.6rem] font-bold tracking-widest opacity-40 uppercase">
+    <span>${m.date}</span><span>${m.stadium}</span>
+  </div>
+  <div class="p-8">
+    <div class="flex flex-col gap-6">
+      <div class="flex items-center justify-between">
+        <div class="flex-1 flex flex-col items-center gap-3">
+          <img src="${m.t1.logo}" class="w-10 h-10 object-contain drop-shadow-md">
+          <span class="text-[0.95rem] font-bold tracking-tight text-center" style="color: ${color1}">${m.t1.name}</span>
+        </div>
+
+        <div class="flex flex-col items-center mx-8">
+          <div class="flex items-center gap-4 font-['Bebas_Neue'] text-4xl leading-none tracking-widest">
+            <span style="color:${color1}">${s1 === "" ? "" : s1}</span>
+            <div class="flex flex-col items-center">
+  <span class="opacity-10 text-xl">${s1 === "" ? (m.time || "TBD") : "-"}</span>
+  ${m.status ? `<span class="text-[0.5rem] font-bold text-accent uppercase tracking-tighter mt-1">${m.status}</span>` : ''}
+</div>
+            <span style="color:${color2}">${s2 === "" ? "" : s2}</span>
+          </div>
+        </div>
+
+        <div class="flex-1 flex flex-col items-center gap-3">
+          <img src="${m.t2.logo}" class="w-10 h-10 object-contain drop-shadow-md">
+          <span class="text-[0.95rem] font-bold tracking-tight text-center" style="color: ${color2}">${m.t2.name}</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 gap-10 border-t border-white/5 pt-5">
+        <div class="flex flex-col">${renderScorers(m.t1.scorers, false)}</div>
+        <div class="flex flex-col">${renderScorers(m.t2.scorers, true)}</div>
+      </div>
+    </div>
+  </div>
+</div>`;
+            }).join('')}
+          </div>
+
+          <div class="lg:col-span-5">
+            <div class="bg-white/[0.02] border border-white/5 rounded-2xl overflow-hidden shadow-2xl">
+              <table class="w-full text-left text-[0.7rem] border-collapse">
+                <thead>
+                  <tr class="bg-white/5 text-[0.55rem] font-black uppercase tracking-widest opacity-40">
+  <th class="p-4 text-center">#</th>
+  <th class="p-4">Team</th>
+  <th class="p-4 text-center">P</th>
+  <th class="p-4 text-center">W</th>
+  <th class="p-4 text-center">D</th>
+  <th class="p-4 text-center">L</th>
+  <th class="p-4 text-center">GF</th>
+  <th class="p-4 text-center">GA</th>
+  <th class="p-4 text-center">GD</th>
+  <th class="p-4 text-center text-accent">PTS</th>
+</tr>
+                </thead>
+                <tbody>
+                  ${groupData.standings.map((t, i) => {
+                    const isQualified = i < 2;
+                    return `
+                    <tr class="border-t border-white/5 hover:bg-white/10 transition-colors ${isQualified ? 'bg-[#d4af37]/[0.04]' : ''}">
+  <td class="p-4 text-center font-black ${isQualified ? 'border-l-4 border-accent' : 'opacity-30'}">${i + 1}</td>
+<td class="p-4">
+  <div class="flex items-center gap-3">
+    <img src="${t.logo}" class="w-6 h-6 object-contain">
+    <span class="text-[0.95rem] font-bold ${isQualified ? 'text-white' : 'text-white/60'}">${t.name}</span>
+  </div>
+</td>
+<td class="p-4 text-center opacity-50">${t.p}</td>
+<td class="p-4 text-center opacity-50">${t.w}</td>
+<td class="p-4 text-center opacity-50">${t.d}</td>
+<td class="p-4 text-center opacity-50">${t.l}</td>
+<td class="p-4 text-center opacity-50">${t.gf}</td>
+<td class="p-4 text-center opacity-50">${t.ga}</td>
+<td class="p-4 text-center opacity-50">${t.gd}</td>
+<td class="p-4 text-center font-black text-accent">${t.pts}</td>
+                    </tr>`;
+                  }).join('')}
+                </tbody>
+              </table>
+            </div>
+            
+          </div>
+
+        </div>`;
+    }
+
+    function renderKnockout(phaseName) {
+      const container = document.getElementById('mainContent');
+      const phaseData = CWC_DATA[phaseName];
+      const isSemi = phaseName === "Semi-Finals";
+
+      if (!phaseData || !phaseData.matches || phaseData.matches.length === 0) {
+        container.innerHTML = `
+          <div class="py-32 flex flex-col items-center justify-center border border-dashed border-accent/10 rounded-[40px] bg-accent/[0.01]">
+            <div class="w-12 h-12 mb-6 rounded-full border border-accent/20 flex items-center justify-center opacity-50">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="1.5"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+            </div>
+            <span class="text-accent font-black tracking-[0.4em] uppercase text-[0.6rem] mb-2">${phaseName}</span>
+            <p class="text-white/20 italic text-[0.75rem]">Matches will be displayed after the group stage.</p>
+          </div>`;
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="grid grid-cols-1 ${isSemi ? 'xl:grid-cols-2 gap-10' : 'lg:grid-cols-2 gap-6'}">
+          ${phaseData.matches.map(m => {
+            const s1 = m.s1 !== null ? m.s1 : "";
+            const s2 = m.s2 !== null ? m.s2 : "";
+            const color1 = (s1 !== "" && s1 > s2) ? 'var(--accent)' : '#fff';
+            const color2 = (s2 !== "" && s2 > s1) ? 'var(--accent)' : '#fff';
+
+            return `
+            <div class="match-card ${isSemi ? 'border-2 border-accent/30' : ''}">
+              <div class="bg-white/[0.03] px-5 py-2 border-b border-white/5 flex justify-between items-center ${isSemi ? 'text-[0.7rem]' : 'text-[0.6rem]'} font-bold tracking-widest opacity-40 uppercase">
+                <span>${m.date}</span><span>${m.stadium}</span>
+              </div>
+              <div class="${isSemi ? 'p-12' : 'p-8'}">
+                <div class="flex flex-col gap-6">
+                  <div class="flex items-center justify-between">
+                    <div class="flex-1 flex flex-col items-center gap-4">
+                      <img src="${m.t1.logo}" class="${isSemi ? 'w-16 h-16' : 'w-10 h-10'} object-contain drop-shadow-lg">
+                      <span class="${isSemi ? 'text-xl' : 'text-[0.95rem]'} font-bold tracking-tight text-center" style="color: ${color1}">${m.t1.name}</span>
+                    </div>
+
+                    <div class="flex flex-col items-center mx-8">
+                      <div class="flex items-center gap-6 font-['Bebas_Neue'] ${isSemi ? 'text-7xl' : 'text-4xl'} leading-none tracking-widest">
+                        <span style="color:${color1}">${s1 === "" ? "" : s1}</span>
+                        <div class="flex flex-col items-center">
+                          <span class="opacity-10 ${isSemi ? 'text-3xl' : 'text-xl'}">${s1 === "" ? (m.time || "TBD") : "-"}</span>
+                          ${m.status ? `<span class="${isSemi ? 'text-[0.7rem]' : 'text-[0.5rem]'} font-bold text-accent uppercase tracking-tighter mt-1">${m.status}</span>` : ''}
+                        </div>
+                        <span style="color:${color2}">${s2 === "" ? "" : s2}</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-1 flex flex-col items-center gap-4">
+  <img src="${m.t2.logo}" class="${isSemi ? 'w-16 h-16' : 'w-10 h-10'} object-contain drop-shadow-lg">
+  <span class="${isSemi ? 'text-xl' : 'text-[0.95rem]'} font-bold tracking-tight text-center" style="color: ${color2}">${m.t2.name}</span>
+</div>
+                  </div>
+
+                  <div class="grid grid-cols-2 gap-10 border-t border-white/5 pt-8">
+                    <div class="flex flex-col ${isSemi ? 'text-base' : ''}">${renderScorers(m.t1.scorers, false)}</div>
+                    <div class="flex flex-col ${isSemi ? 'text-base' : ''}">${renderScorers(m.t2.scorers, true)}</div>
+                  </div>
+                </div>
+              </div>
+            </div>`;
+          }).join('')}
+        </div>`;
+    }
+function renderFinalsPhase() {
+  const container = document.getElementById('mainContent');
+  const match = CWC_DATA.Final.matches[0];
+  const isT1W = parseInt(match.team1.score) > parseInt(match.team2.score);
+
+  container.innerHTML = `
+    <div class="match-card" style="border-radius:30px; border:1px solid var(--border); overflow:hidden; background:rgba(255,255,255,0.01);">
+      <div style="background:rgba(0,0,0,0.3); padding:20px 30px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;">
+        <div>
+          <span style="font-size:0.65rem; color:var(--accent); font-weight:800; display:block; text-transform:uppercase; letter-spacing:2px;">${match.date} • FINAL</span>
+          <span style="font-size:1rem; font-weight:700; color:#fff;">${match.stadium}, ${match.city}</span>
+        </div>
+        <div style="text-align:right;">
+          <span style="font-size:0.55rem; color:var(--muted); text-transform:uppercase; display:block;">Referee</span>
+          <span style="font-size:0.9rem; font-weight:600; color:#fff;">${match.referee}</span>
+        </div>
+      </div>
+
+      <div style="padding:70px 40px; background:radial-gradient(circle at center, rgba(212,175,55,0.05) 0%, transparent 80%);">
+        <div class="flex flex-col lg:flex-row justify-between items-start gap-12">
+          <div class="flex-1 flex flex-col items-center lg:items-start">
+            <div class="flex items-center gap-6">
+              <img src="${match.team1.logo}" style="width:70px; filter:drop-shadow(0 0 10px rgba(255,255,255,0.2));">
+              <span style="font-weight:900; font-size:2.5rem; color:${isT1W ? 'var(--accent)' : '#fff'}; line-height:1;">${match.team1.name}</span>
+            </div>
+            <div style="margin-top:20px; padding-left:90px;">
+              ${match.team1.lineup.flatMap(p => (p.events || []).filter(e => e.type === 'goal').map(e => `
+                <div style="font-size:0.9rem; color:#fff; font-weight:600; margin-bottom:4px;">
+                  <span style="color:var(--accent); font-weight:800;">${e.min}' ⚽</span> ${p.name}
+                </div>
+              `)).join('')}
+            </div>
+          </div>
+
+          <div style="font-family:'Bebas Neue'; font-size:8rem; color:#fff; display:flex; align-items:center; gap:30px; line-height:1; margin-top: -5px;">
+            <span style="color:var(--accent)">${match.team1.score}</span>
+            <span style="opacity:0.1; font-size:3rem;">-</span>
+            <span style="opacity:0.3">${match.team2.score}</span>
+          </div>
+
+          <div class="flex-1 flex flex-col items-center lg:items-end">
+            <div class="flex items-center gap-6">
+              <span style="font-weight:900; font-size:2.5rem; color:#fff; line-height:1;">${match.team2.name}</span>
+              <img src="${match.team2.logo}" style="width:70px; filter:drop-shadow(0 0 10px rgba(255,255,255,0.2));">
+            </div>
+            <div style="margin-top:20px; padding-right:90px; text-align:right;">
+               <span style="font-size:0.8rem; color:var(--muted); font-style:italic;"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <details style="border-top:1px solid rgba(255,255,255,0.05); background:rgba(0,0,0,0.15);" open>
+        <summary style="padding:18px; text-align:center; color:var(--accent); font-size:0.7rem; font-weight:800; cursor:pointer; list-style:none; letter-spacing:3px;">VIEW MATCH STATISTICS ▼</summary>
+        <div style="padding:40px 15%; background:rgba(0,0,0,0.2);">
+          ${Object.values(match.stats).map(s => {
+            const v1 = parseInt(s.t1); const v2 = parseInt(s.t2); const total = v1 + v2;
+            const p1 = total === 0 ? 50 : (v1/total)*100;
+            return `
+              <div style="margin-bottom:25px;">
+                <div style="display:flex; justify-content:space-between; margin-bottom:10px; font-size:0.85rem; font-weight:700;">
+                  <span style="color:#fff;">${s.t1}</span>
+                  <span style="color:var(--muted); font-size:0.65rem; text-transform:uppercase; letter-spacing:1px;">${s.label}</span>
+                  <span style="color:#fff;">${s.t2}</span>
+                </div>
+                <div style="height:4px; background:rgba(255,255,255,0.05); border-radius:2px; display:flex; overflow:hidden;">
+                  <div style="width:${p1}%; background:var(--accent); height:100%;"></div>
+                  <div style="width:${100-p1}%; background:rgba(255,255,255,0.2); height:100%;"></div>
+                </div>
+              </div>`;
+          }).join('')}
+        </div>
+      </details>
+
+      <div style="background:rgba(0,0,0,0.3); border-top:1px solid rgba(255,255,255,0.05); padding:60px 40px;">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
+          ${renderSquadColumn(match.team1)}
+          ${renderSquadColumn(match.team2)}
+        </div>
+      </div>
+      
+      <div style="padding:30px; text-align:center; background:rgba(212,175,55,0.05); border-top:1px solid rgba(212,175,55,0.1);">
+         <span style="font-size:0.6rem; color:var(--accent); font-weight:800; text-transform:uppercase; letter-spacing:2px;">Man of the Match:</span>
+         <span style="font-size:1rem; color:#fff; font-weight:700; margin-left:10px;">${match.motm}</span>
+      </div>
+    </div>`;
+}
+
+function renderSquadColumn(team) {
+  const starters = team.lineup.filter(p => p.status === 'starter');
+  const bench = team.lineup.filter(p => p.status === 'bench');
+  return `
+    <div>
+      <h4 style="font-size:0.8rem; color:var(--accent); text-transform:uppercase; margin-bottom:25px; letter-spacing:3px; font-weight:900; border-left:4px solid var(--accent); padding-left:15px;">${team.name} Starting XI</h4>
+      <div style="margin-bottom:40px;">${starters.map(p => renderPlayerRow(p)).join('')}</div>
+      <h4 style="font-size:0.7rem; color:var(--muted); text-transform:uppercase; margin-bottom:20px; letter-spacing:2px; font-weight:800;">Substitutes</h4>
+      <div style="opacity:0.7;">${bench.map(p => renderPlayerRow(p)).join('')}</div>
+      <div style="margin-top:30px; padding:15px; background:rgba(255,255,255,0.02); border-radius:12px;">
+         <span style="font-size:0.55rem; color:var(--muted); text-transform:uppercase; display:block; margin-bottom:5px;">Manager</span>
+         <span style="font-weight:700; color:#fff;">${team.manager}</span>
+      </div>
+    </div>`;
+}
+
+function renderPlayerRow(p) {
+  const getEmoji = (type) => ({ goal: '⚽', yellow: '🟨', red: '🟥', in: '⬆️', out: '⬇️' }[type] || '⚽');
+  return `
+    <div style="display:grid; grid-template-columns: 40px 1fr 60px; align-items:center; min-height:55px; border-bottom:1px solid rgba(255,255,255,0.03);">
+      <span style="font-family:'Bebas Neue'; font-size:1.4rem; color:var(--accent); opacity:0.8;">${p.number}</span>
+      <div>
+        <span style="font-weight:700; font-size:1rem; color:#fff;">${p.name}</span>
+        <div style="display:flex; gap:10px; margin-top:3px;">
+          ${(p.events || []).map(e => `<span style="font-size:0.65rem; font-weight:800; color:var(--accent);">${getEmoji(e.type)} ${e.min}'</span>`).join('')}
+        </div>
+      </div>
+      <span style="font-size:0.6rem; text-transform:uppercase; opacity:0.2; font-weight:900; text-align:right;">${p.pos}</span>
+    </div>`;
+}
+    loadData();
+    window.addEventListener('scroll', () => {
+    sessionStorage.setItem('cwc_scroll_pos', window.scrollY);
+});
+
+// Și adaugă aceste linii la finalul funcției loadData(), imediat după showTab():
+const scrollPos = sessionStorage.getItem('cwc_scroll_pos');
+if (scrollPos) {
+    setTimeout(() => { window.scrollTo({ top: parseInt(scrollPos), behavior: 'instant' }); }, 150);
+}
+  </script>
+</body>
+</html>

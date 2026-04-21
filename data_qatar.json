@@ -1,0 +1,895 @@
+{
+  "SCHEDULE": [
+    {
+      "phase": "Group Stage",
+      "group": "Group A",
+      "standings": [
+        { "rank": 1, "team": "Netherlands", "code": "nl", "p": 3, "w": 2, "d": 1, "l": 0, "gf": 5, "ga": 1, "gd": 4, "pts": 7 },
+        { "rank": 2, "team": "Senegal", "code": "sn", "p": 3, "w": 2, "d": 0, "l": 1, "gf": 5, "ga": 4, "gd": 1, "pts": 6 },
+        { "rank": 3, "team": "Ecuador", "code": "ec", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 4, "ga": 3, "gd": 1, "pts": 4 },
+        { "rank": 4, "team": "Qatar", "code": "qa", "p": 3, "w": 0, "d": 0, "l": 3, "gf": 1, "ga": 7, "gd": -6, "pts": 0 }
+      ],
+      "matches": [
+        {
+          "date": "20 NOV 2022",
+          "stadium": "Al Bayt Stadium",
+          "team1": { "name": "Qatar", "code": "qa", "score": "0", "scorers": [] },
+          "team2": { "name": "Ecuador", "code": "ec", "score": "2", "scorers": ["E. Valencia 16' (P)", "31'"] }
+        },
+        {
+          "date": "21 NOV 2022",
+          "stadium": "Al Thumama",
+          "team1": { "name": "Senegal", "code": "sn", "score": "0", "scorers": [] },
+          "team2": { "name": "Netherlands", "code": "nl", "score": "2", "scorers": ["C. Gakpo 84'", "D. Klaassen 90+9'"] }
+        },
+        {
+          "date": "25 NOV 2022",
+          "stadium": "Al Thumama",
+          "team1": { "name": "Qatar", "code": "qa", "score": "1", "scorers": ["M. Muntari 78'"] },
+          "team2": { "name": "Senegal", "code": "sn", "score": "3", "scorers": ["B. Dia 41'", "F. Diédhiou 48'", "B. Dieng 84'"] }
+        },
+        {
+          "date": "25 NOV 2022",
+          "stadium": "Khalifa Intl",
+          "team1": { "name": "Netherlands", "code": "nl", "score": "1", "scorers": ["C. Gakpo 6'"] },
+          "team2": { "name": "Ecuador", "code": "ec", "score": "1", "scorers": ["E. Valencia 49'"] }
+        },
+        {
+          "date": "29 NOV 2022",
+          "stadium": "Khalifa Intl",
+          "team1": { "name": "Ecuador", "code": "ec", "score": "1", "scorers": ["M. Caicedo 44'"] },
+          "team2": { "name": "Senegal", "code": "sn", "score": "2", "scorers": ["I. Sarr 44' (P)", "K. Koulibaly 70'"] }
+        },
+        {
+          "date": "29 NOV 2022",
+          "stadium": "Al Bayt Stadium",
+          "team1": { "name": "Netherlands", "code": "nl", "score": "2", "scorers": ["C. Gakpo 26'", "F. de Jong 49'"] },
+          "team2": { "name": "Qatar", "code": "qa", "score": "0", "scorers": [] }
+        }
+      ]
+    },
+    {
+      "phase": "Group Stage",
+      "group": "Group B",
+      "standings": [
+        { "rank": 1, "team": "England", "code": "gb-eng", "p": 3, "w": 2, "d": 1, "l": 0, "gf": 9, "ga": 2, "gd": 7, "pts": 7 },
+        { "rank": 2, "team": "United States", "code": "us", "p": 3, "w": 1, "d": 2, "l": 0, "gf": 2, "ga": 1, "gd": 1, "pts": 5 },
+        { "rank": 3, "team": "Iran", "code": "ir", "p": 3, "w": 1, "d": 0, "l": 2, "gf": 4, "ga": 7, "gd": -3, "pts": 3 },
+        { "rank": 4, "team": "Wales", "code": "gb-wls", "p": 3, "w": 0, "d": 1, "l": 2, "gf": 1, "ga": 6, "gd": -5, "pts": 1 }
+      ],
+      "matches": [
+        {
+          "date": "21 NOV 2022",
+          "stadium": "Khalifa International",
+          "team1": { "name": "England", "code": "gb-eng", "score": "6", "scorers": ["J. Bellingham 35'", "B. Saka 43', 62'", "R. Sterling 45+1'", "M. Rashford 71'", "J. Grealish 90'"] },
+          "team2": { "name": "Iran", "code": "ir", "score": "2", "scorers": ["M. Taremi 65', 90+13' (P)"] }
+        },
+        {
+          "date": "21 NOV 2022",
+          "stadium": "Ahmad bin Ali",
+          "team1": { "name": "United States", "code": "us", "score": "1", "scorers": ["T. Weah 36'"] },
+          "team2": { "name": "Wales", "code": "gb-wls", "score": "1", "scorers": ["G. Bale 82' (P)"] }
+        },
+        {
+          "date": "25 NOV 2022",
+          "stadium": "Ahmad bin Ali",
+          "team1": { "name": "Wales", "code": "gb-wls", "score": "0", "scorers": [] },
+          "team2": { "name": "Iran", "code": "ir", "score": "2", "scorers": ["R. Cheshmi 90+8'", "R. Rezaeian 90+11'"] }
+        },
+        {
+          "date": "25 NOV 2022",
+          "stadium": "Al Bayt Stadium",
+          "team1": { "name": "England", "code": "gb-eng", "score": "0", "scorers": [] },
+          "team2": { "name": "United States", "code": "us", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "29 NOV 2022",
+          "stadium": "Ahmad bin Ali",
+          "team1": { "name": "Wales", "code": "gb-wls", "score": "0", "scorers": [] },
+          "team2": { "name": "England", "code": "gb-eng", "score": "3", "scorers": ["M. Rashford 50', 68'", "P. Foden 51'"] }
+        },
+        {
+          "date": "29 NOV 2022",
+          "stadium": "Al Thumama",
+          "team1": { "name": "Iran", "code": "ir", "score": "0", "scorers": [] },
+          "team2": { "name": "United States", "code": "us", "score": "1", "scorers": ["C. Pulisic 38'"] }
+        }
+      ]
+    },
+    {
+      "phase": "Group Stage",
+      "group": "Group C",
+      "standings": [
+        { "rank": 1, "team": "Argentina", "code": "ar", "p": 3, "w": 2, "d": 0, "l": 1, "gf": 5, "ga": 2, "gd": 3, "pts": 6 },
+        { "rank": 2, "team": "Poland", "code": "pl", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 2, "ga": 2, "gd": 0, "pts": 4 },
+        { "rank": 3, "team": "Mexico", "code": "mx", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 2, "ga": 3, "gd": -1, "pts": 4 },
+        { "rank": 4, "team": "Saudi Arabia", "code": "sa", "p": 3, "w": 1, "d": 0, "l": 2, "gf": 3, "ga": 5, "gd": -2, "pts": 3 }
+      ],
+      "matches": [
+        {
+          "date": "22 NOV 2022", "stadium": "Lusail Stadium",
+          "team1": { "name": "Argentina", "code": "ar", "score": "1", "scorers": ["L. Messi 10' (P)"] },
+          "team2": { "name": "Saudi Arabia", "code": "sa", "score": "2", "scorers": ["S. Al-Shehri 48'", "S. Al-Dawsari 53'"] }
+        },
+        {
+          "date": "22 NOV 2022", "stadium": "Stadium 974",
+          "team1": { "name": "Mexico", "code": "mx", "score": "0", "scorers": [] },
+          "team2": { "name": "Poland", "code": "pl", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "26 NOV 2022", "stadium": "Education City",
+          "team1": { "name": "Poland", "code": "pl", "score": "2", "scorers": ["P. Zieliński 39'", "R. Lewandowski 82'"] },
+          "team2": { "name": "Saudi Arabia", "code": "sa", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "26 NOV 2022", "stadium": "Lusail Stadium",
+          "team1": { "name": "Argentina", "code": "ar", "score": "2", "scorers": ["L. Messi 64'", "E. Fernández 87'"] },
+          "team2": { "name": "Mexico", "code": "mx", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "30 NOV 2022", "stadium": "Stadium 974",
+          "team1": { "name": "Poland", "code": "pl", "score": "0", "scorers": [] },
+          "team2": { "name": "Argentina", "code": "ar", "score": "2", "scorers": ["A. Mac Allister 46'", "J. Álvarez 67'"] }
+        },
+        {
+          "date": "30 NOV 2022", "stadium": "Lusail Stadium",
+          "team1": { "name": "Saudi Arabia", "code": "sa", "score": "1", "scorers": ["S. Al-Dawsari 90+5'"] },
+          "team2": { "name": "Mexico", "code": "mx", "score": "2", "scorers": ["H. Martín 47'", "L. Chávez 52'"] }
+        }
+      ]
+    },
+    {
+      "phase": "Group Stage",
+      "group": "Group D",
+      "standings": [
+        { "rank": 1, "team": "France", "code": "fr", "p": 3, "w": 2, "d": 0, "l": 1, "gf": 6, "ga": 3, "gd": 3, "pts": 6 },
+        { "rank": 2, "team": "Australia", "code": "au", "p": 3, "w": 2, "d": 0, "l": 1, "gf": 3, "ga": 4, "gd": -1, "pts": 6 },
+        { "rank": 3, "team": "Tunisia", "code": "tn", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 1, "ga": 1, "gd": 0, "pts": 4 },
+        { "rank": 4, "team": "Denmark", "code": "dk", "p": 3, "w": 0, "d": 1, "l": 2, "gf": 1, "ga": 3, "gd": -2, "pts": 1 }
+      ],
+      "matches": [
+        {
+          "date": "22 NOV 2022", "stadium": "Education City",
+          "team1": { "name": "Denmark", "code": "dk", "score": "0", "scorers": [] },
+          "team2": { "name": "Tunisia", "code": "tn", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "22 NOV 2022", "stadium": "Al Janoub",
+          "team1": { "name": "France", "code": "fr", "score": "4", "scorers": ["A. Rabiot 27'", "O. Giroud 32', 71'", "K. Mbappé 68'"] },
+          "team2": { "name": "Australia", "code": "au", "score": "1", "scorers": ["C. Goodwin 9'"] }
+        },
+        {
+          "date": "26 NOV 2022", "stadium": "Al Janoub",
+          "team1": { "name": "Tunisia", "code": "tn", "score": "0", "scorers": [] },
+          "team2": { "name": "Australia", "code": "au", "score": "1", "scorers": ["M. Duke 23'"] }
+        },
+        {
+          "date": "26 NOV 2022", "stadium": "Stadium 974",
+          "team1": { "name": "France", "code": "fr", "score": "2", "scorers": ["K. Mbappé 61', 86'"] },
+          "team2": { "name": "Denmark", "code": "dk", "score": "1", "scorers": ["A. Christensen 68'"] }
+        },
+        {
+          "date": "30 NOV 2022", "stadium": "Al Janoub",
+          "team1": { "name": "Australia", "code": "au", "score": "1", "scorers": ["M. Leckie 60'"] },
+          "team2": { "name": "Denmark", "code": "dk", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "30 NOV 2022", "stadium": "Education City",
+          "team1": { "name": "Tunisia", "code": "tn", "score": "1", "scorers": ["W. Khazri 58'"] },
+          "team2": { "name": "France", "code": "fr", "score": "0", "scorers": [] }
+        }
+      ]
+    },
+    {
+      "phase": "Group Stage",
+      "group": "Group E",
+      "standings": [
+        { "rank": 1, "team": "Japan", "code": "jp", "p": 3, "w": 2, "d": 0, "l": 1, "gf": 4, "ga": 3, "gd": 1, "pts": 6 },
+        { "rank": 2, "team": "Spain", "code": "es", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 9, "ga": 3, "gd": 6, "pts": 4 },
+        { "rank": 3, "team": "Germany", "code": "de", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 6, "ga": 5, "gd": 1, "pts": 4 },
+        { "rank": 4, "team": "Costa Rica", "code": "cr", "p": 3, "w": 1, "d": 0, "l": 2, "gf": 3, "ga": 11, "gd": -8, "pts": 3 }
+      ],
+      "matches": [
+        {
+          "date": "23 NOV 2022", "stadium": "Khalifa Intl",
+          "team1": { "name": "Germany", "code": "de", "score": "1", "scorers": ["I. Gündoğan 33' (P)"] },
+          "team2": { "name": "Japan", "code": "jp", "score": "2", "scorers": ["R. Dōan 75'", "T. Asano 83'"] }
+        },
+        {
+          "date": "23 NOV 2022", "stadium": "Al Thumama",
+          "team1": { "name": "Spain", "code": "es", "score": "7", "scorers": ["D. Olmo 11'", "M. Asensio 21'", "F. Torres 31', 54'", "Gavi 74'", "C. Soler 90'", "A. Morata 90+2'"] },
+          "team2": { "name": "Costa Rica", "code": "cr", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "27 NOV 2022", "stadium": "Ahmad bin Ali",
+          "team1": { "name": "Japan", "code": "jp", "score": "0", "scorers": [] },
+          "team2": { "name": "Costa Rica", "code": "cr", "score": "1", "scorers": ["K. Fuller 81'"] }
+        },
+        {
+          "date": "27 NOV 2022", "stadium": "Al Bayt Stadium",
+          "team1": { "name": "Spain", "code": "es", "score": "1", "scorers": ["A. Morata 62'"] },
+          "team2": { "name": "Germany", "code": "de", "score": "1", "scorers": ["N. Füllkrug 83'"] }
+        },
+        {
+          "date": "1 DEC 2022", "stadium": "Khalifa Intl",
+          "team1": { "name": "Japan", "code": "jp", "score": "2", "scorers": ["R. Dōan 48'", "A. Tanaka 51'"] },
+          "team2": { "name": "Spain", "code": "es", "score": "1", "scorers": ["A. Morata 11'"] }
+        },
+        {
+          "date": "1 DEC 2022", "stadium": "Al Bayt Stadium",
+          "team1": { "name": "Costa Rica", "code": "cr", "score": "2", "scorers": ["Y. Tejeda 58'", "J.P. Vargas 70'"] },
+          "team2": { "name": "Germany", "code": "de", "score": "4", "scorers": ["S. Gnabry 10'", "K. Havertz 73', 85'", "N. Füllkrug 89'"] }
+        }
+      ]
+    },
+    {
+      "phase": "Group Stage",
+      "group": "Group F",
+      "standings": [
+        { "rank": 1, "team": "Morocco", "code": "ma", "p": 3, "w": 2, "d": 1, "l": 0, "gf": 4, "ga": 1, "gd": 3, "pts": 7 },
+        { "rank": 2, "team": "Croatia", "code": "hr", "p": 3, "w": 1, "d": 2, "l": 0, "gf": 4, "ga": 1, "gd": 3, "pts": 5 },
+        { "rank": 3, "team": "Belgium", "code": "be", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 1, "ga": 2, "gd": -1, "pts": 4 },
+        { "rank": 4, "team": "Canada", "code": "ca", "p": 3, "w": 0, "d": 0, "l": 3, "gf": 2, "ga": 7, "gd": -5, "pts": 0 }
+      ],
+      "matches": [
+        {
+          "date": "23 NOV 2022", "stadium": "Al Bayt Stadium",
+          "team1": { "name": "Morocco", "code": "ma", "score": "0", "scorers": [] },
+          "team2": { "name": "Croatia", "code": "hr", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "23 NOV 2022", "stadium": "Ahmad bin Ali",
+          "team1": { "name": "Belgium", "code": "be", "score": "1", "scorers": ["M. Batshuayi 44'"] },
+          "team2": { "name": "Canada", "code": "ca", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "27 NOV 2022", "stadium": "Al Thumama",
+          "team1": { "name": "Belgium", "code": "be", "score": "0", "scorers": [] },
+          "team2": { "name": "Morocco", "code": "ma", "score": "2", "scorers": ["A. Sabiri 73'", "Z. Aboukhlal 90+2'"] }
+        },
+        {
+          "date": "27 NOV 2022", "stadium": "Khalifa Intl",
+          "team1": { "name": "Croatia", "code": "hr", "score": "4", "scorers": ["A. Kramarić 36', 70'", "M. Livaja 44'", "L. Majer 90+4'"] },
+          "team2": { "name": "Canada", "code": "ca", "score": "1", "scorers": ["A. Davies 2'"] }
+        },
+        {
+          "date": "1 DEC 2022", "stadium": "Ahmad bin Ali",
+          "team1": { "name": "Croatia", "code": "hr", "score": "0", "scorers": [] },
+          "team2": { "name": "Belgium", "code": "be", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "1 DEC 2022", "stadium": "Al Thumama",
+          "team1": { "name": "Canada", "code": "ca", "score": "1", "scorers": ["N. Aguerd 40' (OG)"] },
+          "team2": { "name": "Morocco", "code": "ma", "score": "2", "scorers": ["H. Ziyech 4'", "Y. En-Nesyri 23'"] }
+        }
+      ]
+    },
+    {
+      "phase": "Group Stage",
+      "group": "Group G",
+      "standings": [
+        { "rank": 1, "team": "Brazil", "code": "br", "p": 3, "w": 2, "d": 0, "l": 1, "gf": 3, "ga": 1, "gd": 2, "pts": 6 },
+        { "rank": 2, "team": "Switzerland", "code": "ch", "p": 3, "w": 2, "d": 0, "l": 1, "gf": 4, "ga": 3, "gd": 1, "pts": 6 },
+        { "rank": 3, "team": "Cameroon", "code": "cm", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 4, "ga": 4, "gd": 0, "pts": 4 },
+        { "rank": 4, "team": "Serbia", "code": "rs", "p": 3, "w": 0, "d": 1, "l": 2, "gf": 5, "ga": 8, "gd": -3, "pts": 1 }
+      ],
+      "matches": [
+        {
+          "date": "24 NOV 2022", "stadium": "Al Janoub",
+          "team1": { "name": "Switzerland", "code": "ch", "score": "1", "scorers": ["B. Embolo 48'"] },
+          "team2": { "name": "Cameroon", "code": "cm", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "24 NOV 2022", "stadium": "Lusail Stadium",
+          "team1": { "name": "Brazil", "code": "br", "score": "2", "scorers": ["Richarlison 62', 73'"] },
+          "team2": { "name": "Serbia", "code": "rs", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "28 NOV 2022", "stadium": "Al Janoub",
+          "team1": { "name": "Cameroon", "code": "cm", "score": "3", "scorers": ["J. Castelletto 29'", "V. Aboubakar 63'", "E. Choupo-Moting 66'"] },
+          "team2": { "name": "Serbia", "code": "rs", "score": "3", "scorers": ["S. Pavlović 45+1'", "S. Milinković-Savić 45+3'", "A. Mitrović 53'"] }
+        },
+        {
+          "date": "28 NOV 2022", "stadium": "Stadium 974",
+          "team1": { "name": "Brazil", "code": "br", "score": "1", "scorers": ["Casemiro 83'"] },
+          "team2": { "name": "Switzerland", "code": "ch", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "2 DEC 2022", "stadium": "Stadium 974",
+          "team1": { "name": "Serbia", "code": "rs", "score": "2", "scorers": ["A. Mitrović 26'", "D. Vlahović 35'"] },
+          "team2": { "name": "Switzerland", "code": "ch", "score": "3", "scorers": ["X. Shaqiri 20'", "B. Embolo 44'", "R. Freuler 48'"] }
+        },
+        {
+          "date": "2 DEC 2022", "stadium": "Lusail Stadium",
+          "team1": { "name": "Cameroon", "code": "cm", "score": "1", "scorers": ["V. Aboubakar 90+2'"] },
+          "team2": { "name": "Brazil", "code": "br", "score": "0", "scorers": [] }
+        }
+      ]
+    },
+    {
+      "phase": "Group Stage",
+      "group": "Group H",
+      "standings": [
+        { "rank": 1, "team": "Portugal", "code": "pt", "p": 3, "w": 2, "d": 0, "l": 1, "gf": 6, "ga": 4, "gd": 2, "pts": 6 },
+        { "rank": 2, "team": "South Korea", "code": "kr", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 4, "ga": 4, "gd": 0, "pts": 4 },
+        { "rank": 3, "team": "Uruguay", "code": "uy", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 2, "ga": 2, "gd": 0, "pts": 4 },
+        { "rank": 4, "team": "Ghana", "code": "gh", "p": 3, "w": 1, "d": 0, "l": 2, "gf": 5, "ga": 7, "gd": -2, "pts": 3 }
+      ],
+      "matches": [
+        {
+          "date": "24 NOV 2022", "stadium": "Education City",
+          "team1": { "name": "Uruguay", "code": "uy", "score": "0", "scorers": [] },
+          "team2": { "name": "South Korea", "code": "kr", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "24 NOV 2022", "stadium": "Stadium 974",
+          "team1": { "name": "Portugal", "code": "pt", "score": "3", "scorers": ["C. Ronaldo 65' (P)", "J. Félix 78'", "R. Leão 80'"] },
+          "team2": { "name": "Ghana", "code": "gh", "score": "2", "scorers": ["A. Ayew 73'", "O. Bukari 89'"] }
+        },
+        {
+          "date": "28 NOV 2022", "stadium": "Education City",
+          "team1": { "name": "South Korea", "code": "kr", "score": "2", "scorers": ["Cho Gue-sung 58', 61'"] },
+          "team2": { "name": "Ghana", "code": "gh", "score": "3", "scorers": ["M. Salisu 24'", "M. Kudus 34', 68'"] }
+        },
+        {
+          "date": "28 NOV 2022", "stadium": "Lusail Stadium",
+          "team1": { "name": "Portugal", "code": "pt", "score": "2", "scorers": ["B. Fernandes 54', 90+3' (P)"] },
+          "team2": { "name": "Uruguay", "code": "uy", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "2 DEC 2022", "stadium": "Al Janoub",
+          "team1": { "name": "Ghana", "code": "gh", "score": "0", "scorers": [] },
+          "team2": { "name": "Uruguay", "code": "uy", "score": "2", "scorers": ["G. De Arrascaeta 26', 32'"] }
+        },
+        {
+          "date": "2 DEC 2022", "stadium": "Education City",
+          "team1": { "name": "South Korea", "code": "kr", "score": "2", "scorers": ["Kim Young-gwon 27'", "Hwang Hee-chan 90+1'"] },
+          "team2": { "name": "Portugal", "code": "pt", "score": "1", "scorers": ["Ricardo Horta 5'"] }
+        }
+      ]
+    },
+  
+  {
+  "phase": "Round of 16",
+  "matches": [
+    {
+      "date": "3 DEC 2022",
+      "stadium": "Khalifa International",
+      "winner": "Netherlands",
+      "team1": { "name": "Netherlands", "code": "nl", "score": "3" },
+      "team2": { "name": "United States", "code": "us", "score": "1" },
+      "events": [
+        { "minute": "10", "player": "Memphis Depay", "type": "goal", "side": "left" },
+        { "minute": "45+1", "player": "Daley Blind", "type": "goal", "side": "left" },
+        { "minute": "76", "player": "Haji Wright", "type": "goal", "side": "right" },
+        { "minute": "81", "player": "Denzel Dumfries", "type": "goal", "side": "left" }
+      ]
+    },
+    {
+      "date": "3 DEC 2022",
+      "stadium": "Ahmad bin Ali",
+      "winner": "Argentina",
+      "team1": { "name": "Argentina", "code": "ar", "score": "2" },
+      "team2": { "name": "Australia", "code": "au", "score": "1" },
+      "events": [
+        { "minute": "35", "player": "Lionel Messi", "type": "goal", "side": "left" },
+        { "minute": "57", "player": "Julián Álvarez", "type": "goal", "side": "left" },
+        { "minute": "77", "player": "Enzo Fernández (OG)", "type": "goal", "side": "right" }
+      ]
+    },
+    {
+      "date": "4 DEC 2022",
+      "stadium": "Al Thumama",
+      "winner": "France",
+      "team1": { "name": "France", "code": "fr", "score": "3" },
+      "team2": { "name": "Poland", "code": "pl", "score": "1" },
+      "events": [
+        { "minute": "44", "player": "Olivier Giroud", "type": "goal", "side": "left" },
+        { "minute": "74", "player": "Kylian Mbappé", "type": "goal", "side": "left" },
+        { "minute": "90+1", "player": "Kylian Mbappé", "type": "goal", "side": "left" },
+        { "minute": "90+9", "player": "R. Lewandowski", "type": "penalty", "side": "right" }
+      ]
+    },
+    {
+      "date": "4 DEC 2022",
+      "stadium": "Al Bayt Stadium",
+      "winner": "England",
+      "team1": { "name": "England", "code": "gb-eng", "score": "3" },
+      "team2": { "name": "Senegal", "code": "sn", "score": "0" },
+      "events": [
+        { "minute": "38", "player": "Jordan Henderson", "type": "goal", "side": "left" },
+        { "minute": "45+3", "player": "Harry Kane", "type": "goal", "side": "left" },
+        { "minute": "57", "player": "Bukayo Saka", "type": "goal", "side": "left" }
+      ]
+    },
+    {
+      "date": "5 DEC 2022",
+      "stadium": "Al Janoub",
+      "winner": "Croatia",
+      "team1": { "name": "Japan", "code": "jp", "score": "1 (1)" },
+      "team2": { "name": "Croatia", "code": "hr", "score": "1 (3)" },
+      "events": [
+        { "minute": "43", "player": "Daizen Maeda", "type": "goal", "side": "left" },
+        { "minute": "55", "player": "Ivan Perišić", "type": "goal", "side": "right" }
+      ],
+      "shootout": {
+        "rounds": [
+          { "t1": { "player": "Minamino", "result": "miss" }, "t2": { "player": "Vlašić", "result": "goal" } },
+          { "t1": { "player": "Mitoma", "result": "miss" }, "t2": { "player": "Brozović", "result": "goal" } },
+          { "t1": { "player": "Asano", "result": "goal" }, "t2": { "player": "Livaja", "result": "miss" } },
+          { "t1": { "player": "Yoshida", "result": "miss" }, "t2": { "player": "Pašalić", "result": "goal" } }
+        ]
+      }
+    },
+    {
+      "date": "5 DEC 2022",
+      "stadium": "Stadium 974",
+      "winner": "Brazil",
+      "team1": { "name": "Brazil", "code": "br", "score": "4" },
+      "team2": { "name": "South Korea", "code": "kr", "score": "1" },
+      "events": [
+        { "minute": "7", "player": "Vinícius Júnior", "type": "goal", "side": "left" },
+        { "minute": "13", "player": "Neymar", "type": "penalty", "side": "left" },
+        { "minute": "29", "player": "Richarlison", "type": "goal", "side": "left" },
+        { "minute": "36", "player": "Lucas Paquetá", "type": "goal", "side": "left" },
+        { "minute": "76", "player": "Paik Seung-ho", "type": "goal", "side": "right" }
+      ]
+    },
+    {
+      "date": "6 DEC 2022",
+      "stadium": "Education City",
+      "winner": "Morocco",
+      "team1": { "name": "Morocco", "code": "ma", "score": "0 (3)" },
+      "team2": { "name": "Spain", "code": "es", "score": "0 (0)" },
+      "events": [],
+      "shootout": {
+        "rounds": [
+          { "t1": { "player": "Sabiri", "result": "goal" }, "t2": { "player": "Sarabia", "result": "miss" } },
+          { "t1": { "player": "Ziyech", "result": "goal" }, "t2": { "player": "Soler", "result": "miss" } },
+          { "t1": { "player": "Benoun", "result": "miss" }, "t2": { "player": "Busquets", "result": "miss" } },
+          { "t1": { "player": "Hakimi", "result": "goal" }, "t2": { "player": "", "result": "" } }
+        ]
+      }
+    },
+    {
+      "date": "6 DEC 2022",
+      "stadium": "Lusail Stadium",
+      "winner": "Portugal",
+      "team1": { "name": "Portugal", "code": "pt", "score": "6" },
+      "team2": { "name": "Switzerland", "code": "ch", "score": "1" },
+      "events": [
+        { "minute": "17", "player": "Gonçalo Ramos", "type": "goal", "side": "left" },
+        { "minute": "33", "player": "Pepe", "type": "goal", "side": "left" },
+        { "minute": "51", "player": "Gonçalo Ramos", "type": "goal", "side": "left" },
+        { "minute": "55", "player": "Raphaël Guerreiro", "type": "goal", "side": "left" },
+        { "minute": "58", "player": "Manuel Akanji", "type": "goal", "side": "right" },
+        { "minute": "67", "player": "Gonçalo Ramos", "type": "goal", "side": "left" },
+        { "minute": "90+2", "player": "Rafael Leão", "type": "goal", "side": "left" }
+      ]
+    }
+  ]
+},
+{
+  "phase": "Quarter-finals",
+  "matches": [
+    {
+      "date": "9 DEC 2022",
+      "stadium": "Education City",
+      "winner": "Croatia",
+      "team1": { "name": "Croatia", "code": "hr", "score": "1 (4)" },
+      "team2": { "name": "Brazil", "code": "br", "score": "1 (2)" },
+      "events": [
+        { "minute": "105+1", "player": "Neymar", "type": "goal", "side": "right" },
+        { "minute": "117", "player": "Bruno Petković", "type": "goal", "side": "left" }
+      ],
+      "shootout": {
+        "rounds": [
+          { "t1": { "player": "Vlašić", "result": "goal" }, "t2": { "player": "Rodrygo", "result": "miss" } },
+          { "t1": { "player": "Majer", "result": "goal" }, "t2": { "player": "Casemiro", "result": "goal" } },
+          { "t1": { "player": "Modrić", "result": "goal" }, "t2": { "player": "Pedro", "result": "goal" } },
+          { "t1": { "player": "Oršić", "result": "goal" }, "t2": { "player": "Marquinhos", "result": "miss" } }
+        ]
+      }
+    },
+    {
+      "date": "9 DEC 2022",
+      "stadium": "Lusail Stadium",
+      "winner": "Argentina",
+      "team1": { "name": "Netherlands", "code": "nl", "score": "2 (3)" },
+      "team2": { "name": "Argentina", "code": "ar", "score": "2 (4)" },
+      "events": [
+        { "minute": "35", "player": "Nahuel Molina", "type": "goal", "side": "right" },
+        { "minute": "73", "player": "Lionel Messi", "type": "penalty", "side": "right" },
+        { "minute": "83", "player": "Wout Weghorst", "type": "goal", "side": "left" },
+        { "minute": "90+11", "player": "Wout Weghorst", "type": "goal", "side": "left" }
+      ],
+      "shootout": {
+        "rounds": [
+          { "t1": { "player": "Van Dijk", "result": "miss" }, "t2": { "player": "Messi", "result": "goal" } },
+          { "t1": { "player": "Berghuis", "result": "miss" }, "t2": { "player": "Paredes", "result": "goal" } },
+          { "t1": { "player": "Koopmeiners", "result": "goal" }, "t2": { "player": "Montiel", "result": "goal" } },
+          { "t1": { "player": "Weghorst", "result": "goal" }, "t2": { "player": "Enzo F.", "result": "miss" } },
+          { "t1": { "player": "L. de Jong", "result": "goal" }, "t2": { "player": "Lautaro M.", "result": "goal" } }
+        ]
+      }
+    },
+    {
+      "date": "10 DEC 2022",
+      "stadium": "Al Thumama",
+      "winner": "Morocco",
+      "team1": { "name": "Morocco", "code": "ma", "score": "1" },
+      "team2": { "name": "Portugal", "code": "pt", "score": "0" },
+      "events": [
+        { "minute": "42", "player": "Youssef En-Nesyri", "type": "goal", "side": "left" }
+      ]
+    },
+    {
+      "date": "10 DEC 2022",
+      "stadium": "Al Bayt Stadium",
+      "winner": "France",
+      "team1": { "name": "England", "code": "gb-eng", "score": "1" },
+      "team2": { "name": "France", "code": "fr", "score": "2" },
+      "events": [
+        { "minute": "17", "player": "Aurélien Tchouaméni", "type": "goal", "side": "right" },
+        { "minute": "54", "player": "Harry Kane", "type": "penalty", "side": "left" },
+        { "minute": "78", "player": "Olivier Giroud", "type": "goal", "side": "right" }
+      ]
+    }
+  ]
+},
+{
+  "phase": "Semi-finals",
+  "matches": [
+    {
+      "date": "13 DEC 2022",
+      "stadium": "Lusail Stadium",
+      "city": "Lusail",
+      "referee": "Daniele Orsato (Italy)",
+      "winner": "Argentina",
+      "team1": {
+        "name": "Argentina",
+        "code": "ar",
+        "score": "3",
+        "manager": "Lionel Scaloni",
+        "lineup": [
+          { "number": 23, "name": "Emiliano Martínez", "pos": "GK", "status": "starter", "events": [] },
+          { "number": 26, "name": "Nahuel Molina", "pos": "DF", "status": "starter", "events": [{ "type": "sub", "min": "86" }] },
+          { "number": 13, "name": "Cristian Romero", "pos": "DF", "status": "starter", "events": [{ "type": "yellow", "min": "68" }] },
+          { "number": 19, "name": "Nicolás Otamendi", "pos": "DF", "status": "starter", "events": [{ "type": "yellow", "min": "71" }] },
+          { "number": 3, "name": "Nicolás Tagliafico", "pos": "DF", "status": "starter", "events": [] },
+          { "number": 7, "name": "Rodrigo De Paul", "pos": "MF", "status": "starter", "events": [{ "type": "sub", "min": "74" }] },
+          { "number": 5, "name": "Leandro Paredes", "pos": "MF", "status": "starter", "events": [{ "type": "sub", "min": "62" }] },
+          { "number": 24, "name": "Enzo Fernández", "pos": "MF", "status": "starter", "events": [] },
+          { "number": 20, "name": "Alexis Mac Allister", "pos": "MF", "status": "starter", "events": [{ "type": "sub", "min": "86" }] },
+          
+          { "number": 10, "name": "Lionel Messi", "pos": "FW", "status": "starter", "events": [{ "type": "penalty", "min": "34" }] },
+          
+          { "number": 9, "name": "Julián Álvarez", "pos": "FW", "status": "starter", "events": [{ "type": "goal", "min": "39" }, { "type": "goal", "min": "69" }, { "type": "sub", "min": "74" }] },
+          
+          { "number": 25, "name": "Lisandro Martínez", "pos": "DF", "status": "sub", "events": [{ "type": "in", "min": "62" }] },
+          { "number": 14, "name": "Exequiel Palacios", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "74" }] },
+          { "number": 21, "name": "Paulo Dybala", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "74" }] },
+          { "number": 15, "name": "Ángel Correa", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "86" }] },
+          { "number": 2, "name": "Juan Foyth", "pos": "DF", "status": "sub", "events": [{ "type": "in", "min": "86" }] },
+
+          { "number": 1, "name": "Franco Armani", "pos": "GK", "status": "reserve", "events": [] },
+          { "number": 12, "name": "Gerónimo Rulli", "pos": "GK", "status": "reserve", "events": [] },
+          { "number": 6, "name": "Germán Pezzella", "pos": "DF", "status": "reserve", "events": [] },
+          { "number": 11, "name": "Ángel Di María", "pos": "FW", "status": "reserve", "events": [] },
+          { "number": 16, "name": "Thiago Almada", "pos": "MF", "status": "reserve", "events": [] },
+          { "number": 17, "name": "Papu Gómez", "pos": "MF", "status": "reserve", "events": [] },
+          { "number": 18, "name": "Guido Rodríguez", "pos": "MF", "status": "reserve", "events": [] },
+          { "number": 22, "name": "Lautaro Martínez", "pos": "FW", "status": "reserve", "events": [] }
+        ]
+      },
+      "team2": {
+        "name": "Croatia",
+        "code": "hr",
+        "score": "0",
+        "manager": "Zlatko Dalić",
+        "lineup": [
+          { "number": 1, "name": "Dominik Livaković", "pos": "GK", "status": "starter", "events": [{ "type": "yellow", "min": "32" }] },
+          { "number": 22, "name": "Josip Juranović", "pos": "DF", "status": "starter", "events": [] },
+          { "number": 6, "name": "Dejan Lovren", "status": "starter", "pos": "DF", "events": [] },
+          { "number": 20, "name": "Joško Gvardiol", "status": "starter", "pos": "DF", "events": [] },
+          { "number": 19, "name": "Borna Sosa", "status": "starter", "pos": "DF", "events": [{ "type": "sub", "min": "46" }] },
+          { "number": 10, "name": "Luka Modrić", "pos": "MF", "status": "starter", "events": [{ "type": "sub", "min": "81" }] },
+          { "number": 11, "name": "Marcelo Brozović", "pos": "MF", "status": "starter", "events": [{ "type": "sub", "min": "50" }] },
+          { "number": 8, "name": "Mateo Kovačić", "pos": "MF", "status": "starter", "events": [{ "type": "yellow", "min": "32" }] },
+          { "number": 15, "name": "Mario Pašalić", "pos": "FW", "status": "starter", "events": [{ "type": "sub", "min": "46" }] },
+          { "number": 9, "name": "Andrej Kramarić", "pos": "FW", "status": "starter", "events": [{ "type": "sub", "min": "72" }] },
+          { "number": 4, "name": "Ivan Perišić", "pos": "FW", "status": "starter", "events": [] },
+          
+          { "number": 18, "name": "Mislav Oršić", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "46" }] },
+          { "number": 13, "name": "Nikola Vlašić", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "46" }] },
+          { "number": 16, "name": "Bruno Petković", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "50" }] },
+          { "number": 14, "name": "Marko Livaja", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "72" }] },
+          { "number": 7, "name": "Lovro Majer", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "81" }] },
+
+          { "number": 12, "name": "Ivo Grbić", "pos": "GK", "status": "reserve", "events": [] },
+          { "number": 23, "name": "Ivica Ivušić", "pos": "GK", "status": "reserve", "events": [] },
+          { "number": 2, "name": "Josip Stanišić", "pos": "DF", "status": "reserve", "events": [] },
+          { "number": 3, "name": "Borna Barišić", "pos": "DF", "status": "reserve", "events": [] },
+          { "number": 5, "name": "Martin Erlić", "pos": "DF", "status": "reserve", "events": [] },
+          { "number": 21, "name": "Domagoj Vida", "pos": "DF", "status": "reserve", "events": [] },
+          { "number": 24, "name": "Josip Šutalo", "pos": "DF", "status": "reserve", "events": [] },
+          { "number": 25, "name": "Luka Sučić", "pos": "MF", "status": "reserve", "events": [] },
+          { "number": 26, "name": "K. Jakić", "pos": "MF", "status": "reserve", "events": [] },
+          { "number": 17, "name": "Ante Budimir", "pos": "FW", "status": "reserve", "events": [] }
+        ]
+      },
+      "events": [
+        { "minute": "34", "player": "Lionel Messi", "type": "penalty", "side": "left" },
+        { "minute": "39", "player": "Julián Álvarez", "type": "goal", "side": "left" },
+        { "minute": "69", "player": "Julián Álvarez", "type": "goal", "side": "left" }
+      ]
+    }
+  ]
+},
+{
+      "phase": "Semi-finals",
+      "matches": [
+        {
+          "date": "14 DEC 2022",
+          "stadium": "Al Bayt Stadium",
+          "city": "Al Khor",
+          "referee": "César Ramos (Mexico)",
+          "winner": "France",
+          "team1": {
+            "name": "France",
+            "code": "fr",
+            "score": "2",
+            "manager": "Didier Deschamps",
+            "lineup": [
+              { "number": 1, "name": "Hugo Lloris", "pos": "GK", "status": "starter", "events": [] },
+              { "number": 5, "name": "Jules Koundé", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 4, "name": "Raphaël Varane", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 24, "name": "Ibrahima Konaté", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 22, "name": "Théo Hernández", "pos": "DF", "status": "starter", "events": [{ "type": "goal", "min": "5" }] },
+              { "number": 8, "name": "Aurélien Tchouaméni", "pos": "MF", "status": "starter", "events": [] },
+              { "number": 13, "name": "Youssouf Fofana", "pos": "MF", "status": "starter", "events": [] },
+              { "number": 11, "name": "Ousmane Dembélé", "pos": "FW", "status": "starter", "events": [{ "type": "sub", "min": "78" }] },
+              { "number": 7, "name": "Antoine Griezmann", "pos": "FW", "status": "starter", "events": [] },
+              { "number": 10, "name": "Kylian Mbappé", "pos": "FW", "status": "starter", "events": [] },
+              { "number": 9, "name": "Olivier Giroud", "pos": "FW", "status": "starter", "events": [{ "type": "sub", "min": "65" }] },
+              { "number": 26, "name": "Marcus Thuram", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "65" }] },
+              { "number": 12, "name": "Randal Kolo Muani", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "78" }, { "type": "goal", "min": "79" }] },
+              { "number": 16, "name": "Steve Mandanda", "pos": "GK", "status": "reserve", "events": [] },
+              { "number": 23, "name": "Alphonse Areola", "pos": "GK", "status": "reserve", "events": [] },
+              { "number": 2, "name": "Benjamin Pavard", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 3, "name": "Axel Disasi", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 6, "name": "Mattéo Guendouzi", "pos": "MF", "status": "reserve", "events": [] },
+              { "number": 15, "name": "Jordan Veretout", "pos": "MF", "status": "reserve", "events": [] },
+              { "number": 17, "name": "William Saliba", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 18, "name": "Dayot Upamecano", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 20, "name": "Kingsley Coman", "pos": "FW", "status": "reserve", "events": [] },
+              { "number": 21, "name": "Lucas Hernández", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 25, "name": "Eduardo Camavinga", "pos": "MF", "status": "reserve", "events": [] }
+            ]
+          },
+          "team2": {
+            "name": "Morocco",
+            "code": "ma",
+            "score": "0",
+            "manager": "Walid Regragui",
+            "lineup": [
+              { "number": 1, "name": "Yassine Bounou", "pos": "GK", "status": "starter", "events": [] },
+              { "number": 2, "name": "Achraf Hakimi", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 18, "name": "Jawad El Yamiq", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 20, "name": "Achraf Dari", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 6, "name": "Romain Saïss", "pos": "DF", "status": "starter", "events": [{ "type": "sub", "min": "21" }] },
+              { "number": 3, "name": "Noussair Mazraoui", "pos": "DF", "status": "starter", "events": [{ "type": "sub", "min": "46" }] },
+              { "number": 4, "name": "Sofyan Amrabat", "pos": "MF", "status": "starter", "events": [] },
+              { "number": 8, "name": "Azzedine Ounahi", "pos": "MF", "status": "starter", "events": [] },
+              { "number": 7, "name": "Hakim Ziyech", "pos": "FW", "status": "starter", "events": [] },
+              { "number": 17, "name": "Sofiane Boufal", "pos": "FW", "status": "starter", "events": [{ "type": "yellow", "min": "27" }, { "type": "sub", "min": "66" }] },
+              { "number": 19, "name": "Youssef En-Nesyri", "pos": "FW", "status": "starter", "events": [{ "type": "sub", "min": "66" }] },
+              { "number": 15, "name": "Selim Amallah", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "21" }, { "type": "sub", "min": "78" }] },
+              { "number": 25, "name": "Yahia Attiyat Allah", "pos": "DF", "status": "sub", "events": [{ "type": "in", "min": "46" }] },
+              { "number": 9, "name": "Abderrazak Hamdallah", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "66" }] },
+              { "number": 14, "name": "Zakaria Aboukhlal", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "66" }] },
+              { "number": 16, "name": "Abde Ezzalzouli", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "78" }] },
+              { "number": 12, "name": "Munir El Kajoui", "pos": "GK", "status": "reserve", "events": [] },
+              { "number": 22, "name": "Ahmed Tagnaouti", "pos": "GK", "status": "reserve", "events": [] },
+              { "number": 10, "name": "Anass Zaroury", "pos": "FW", "status": "reserve", "events": [] },
+              { "number": 11, "name": "Abdelhamid Sabiri", "pos": "MF", "status": "reserve", "events": [] },
+              { "number": 13, "name": "Ilias Chair", "pos": "MF", "status": "reserve", "events": [] },
+              { "number": 21, "name": "Walid Cheddira", "pos": "FW", "status": "reserve", "events": [] },
+              { "number": 23, "name": "Bilal El Khannouss", "pos": "MF", "status": "reserve", "events": [] },
+              { "number": 24, "name": "Badr Benoun", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 26, "name": "Yahya Jabrane", "pos": "MF", "status": "reserve", "events": [] }
+            ]
+          },
+          "events": [
+            { "minute": "5", "player": "Théo Hernández", "type": "goal", "side": "left" },
+            { "minute": "79", "player": "Randal Kolo Muani", "type": "goal", "side": "left" }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "3rd Place Playoff",
+      "matches": [
+        {
+          "date": "17 DEC 2022",
+          "stadium": "Khalifa International",
+          "city": "Ar-Rayyan",
+          "referee": "Abdulrahman Al-Jassim (Qatar)",
+          "winner": "Croatia",
+          "team1": {
+            "name": "Croatia",
+            "code": "hr",
+            "score": "2",
+            "manager": "Zlatko Dalić",
+            "lineup": [
+              { "number": 1, "name": "Dominik Livaković", "pos": "GK", "status": "starter", "events": [] },
+              { "number": 2, "name": "Josip Stanišić", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 24, "name": "Josip Šutalo", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 20, "name": "Joško Gvardiol", "pos": "DF", "status": "starter", "events": [{ "type": "goal", "min": "7" }] },
+              { "number": 4, "name": "Ivan Perišić", "pos": "FW", "status": "starter", "events": [] },
+              { "number": 10, "name": "Luka Modrić", "pos": "MF", "status": "starter", "events": [] },
+              { "number": 8, "name": "Mateo Kovačić", "pos": "MF", "status": "starter", "events": [] },
+              { "number": 7, "name": "Lovro Majer", "pos": "MF", "status": "starter", "events": [{ "type": "sub", "min": "66" }] },
+              { "number": 9, "name": "Andrej Kramarić", "pos": "FW", "status": "starter", "events": [{ "type": "sub", "min": "61" }] },
+              { "number": 18, "name": "Mislav Oršić", "pos": "FW", "status": "starter", "events": [{ "type": "goal", "min": "42" }, { "type": "sub", "min": "90" }] },
+              { "number": 14, "name": "Marko Livaja", "pos": "FW", "status": "starter", "events": [{ "type": "sub", "min": "66" }] },
+              { "number": 13, "name": "Nikola Vlašić", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "61" }] },
+              { "number": 15, "name": "Mario Pašalić", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "66" }] },
+              { "number": 16, "name": "Bruno Petković", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "66" }] },
+              { "number": 26, "name": "Kristijan Jakić", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "90" }] },
+              { "number": 12, "name": "Ivo Grbić", "pos": "GK", "status": "reserve", "events": [] },
+              { "number": 23, "name": "Ivica Ivušić", "pos": "GK", "status": "reserve", "events": [] },
+              { "number": 3, "name": "Borna Barišić", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 5, "name": "Martin Erlić", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 6, "name": "Dejan Lovren", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 21, "name": "Domagoj Vida", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 11, "name": "Marcelo Brozović", "pos": "MF", "status": "reserve", "events": [] },
+              { "number": 25, "name": "Luka Sučić", "pos": "MF", "status": "reserve", "events": [] },
+              { "number": 17, "name": "Ante Budimir", "pos": "FW", "status": "reserve", "events": [] }
+            ]
+          },
+          "team2": {
+            "name": "Morocco",
+            "code": "ma",
+            "score": "1",
+            "manager": "Walid Regragui",
+            "lineup": [
+              { "number": 1, "name": "Yassine Bounou", "pos": "GK", "status": "starter", "events": [] },
+              { "number": 2, "name": "Achraf Hakimi", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 18, "name": "Jawad El Yamiq", "pos": "DF", "status": "starter", "events": [{ "type": "sub", "min": "67" }] },
+              { "number": 20, "name": "Achraf Dari", "pos": "DF", "status": "starter", "events": [{ "type": "goal", "min": "9" }, { "type": "sub", "min": "64" }] },
+              { "number": 25, "name": "Yahia Attiyat Allah", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 4, "name": "Sofyan Amrabat", "pos": "MF", "status": "starter", "events": [] },
+              { "number": 23, "name": "Bilal El Khannouss", "pos": "MF", "status": "starter", "events": [{ "type": "sub", "min": "56" }] },
+              { "number": 11, "name": "Abdelhamid Sabiri", "pos": "MF", "status": "starter", "events": [{ "type": "sub", "min": "46" }] },
+              { "number": 7, "name": "Hakim Ziyech", "pos": "FW", "status": "starter", "events": [] },
+              { "number": 19, "name": "Youssef En-Nesyri", "pos": "FW", "status": "starter", "events": [] },
+              { "number": 17, "name": "Sofiane Boufal", "pos": "FW", "status": "starter", "events": [{ "type": "sub", "min": "64" }] },
+              { "number": 13, "name": "Ilias Chair", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "46" }] },
+              { "number": 8, "name": "Azzedine Ounahi", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "56" }, { "type": "yellow", "min": "90" }] },
+              { "number": 10, "name": "Anass Zaroury", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "64" }] },
+              { "number": 24, "name": "Badr Benoun", "pos": "DF", "status": "sub", "events": [{ "type": "in", "min": "64" }] },
+              { "number": 15, "name": "Selim Amallah", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "67" }, { "type": "yellow", "min": "84" }] },
+              { "number": 12, "name": "Munir El Kajoui", "pos": "GK", "status": "reserve", "events": [] },
+              { "number": 22, "name": "Ahmed Tagnaouti", "pos": "GK", "status": "reserve", "events": [] },
+              { "number": 6, "name": "Romain Saïss", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 9, "name": "Abderrazak Hamdallah", "pos": "FW", "status": "reserve", "events": [] },
+              { "number": 14, "name": "Zakaria Aboukhlal", "pos": "FW", "status": "reserve", "events": [] },
+              { "number": 16, "name": "Abde Ezzalzouli", "pos": "FW", "status": "reserve", "events": [] },
+              { "number": 21, "name": "Walid Cheddira", "pos": "FW", "status": "reserve", "events": [] },
+              { "number": 26, "name": "Yahya Jabrane", "pos": "MF", "status": "reserve", "events": [] }
+            ]
+          },
+          "events": [
+            { "minute": "7", "player": "Joško Gvardiol", "type": "goal", "side": "left" },
+            { "minute": "9", "player": "Achraf Dari", "type": "goal", "side": "right" },
+            { "minute": "42", "player": "Mislav Oršić", "type": "goal", "side": "left" }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "Final",
+      "matches": [
+        {
+          "date": "18 DEC 2022",
+          "stadium": "Lusail Stadium",
+          "city": "Lusail",
+          "referee": "Szymon Marciniak (Poland)",
+          "winner": "Argentina",
+          "team1": {
+            "name": "Argentina",
+            "code": "ar",
+            "score": "3 (4)",
+            "manager": "Lionel Scaloni",
+            "lineup": [
+              { "number": 23, "name": "Emiliano Martínez", "pos": "GK", "status": "starter", "events": [{ "type": "yellow", "min": "120" }] },
+              { "number": 26, "name": "Nahuel Molina", "pos": "DF", "status": "starter", "events": [{ "type": "sub", "min": "91" }] },
+              { "number": 13, "name": "Cristian Romero", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 19, "name": "Nicolás Otamendi", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 3, "name": "Nicolás Tagliafico", "pos": "DF", "status": "starter", "events": [{ "type": "sub", "min": "120" }] },
+              { "number": 7, "name": "Rodrigo De Paul", "pos": "MF", "status": "starter", "events": [{ "type": "sub", "min": "102" }] },
+              { "number": 24, "name": "Enzo Fernández", "pos": "MF", "status": "starter", "events": [{ "type": "yellow", "min": "45" }] },
+              { "number": 20, "name": "Alexis Mac Allister", "pos": "MF", "status": "starter", "events": [{ "type": "sub", "min": "116" }] },
+              { "number": 10, "name": "Lionel Messi", "pos": "FW", "status": "starter", "events": [{ "type": "penalty", "min": "23" }, { "type": "goal", "min": "108" }, { "type": "so_goal" }] },
+              { "number": 9, "name": "Julián Álvarez", "pos": "FW", "status": "starter", "events": [{ "type": "sub", "min": "102" }] },
+              { "number": 11, "name": "Ángel Di María", "pos": "FW", "status": "starter", "events": [{ "type": "goal", "min": "36" }, { "type": "sub", "min": "64" }] },
+              { "number": 8, "name": "Marcos Acuña", "pos": "DF", "status": "sub", "events": [{ "type": "in", "min": "64" }, { "type": "yellow", "min": "90" }] },
+              { "number": 4, "name": "Gonzalo Montiel", "pos": "DF", "status": "sub", "events": [{ "type": "in", "min": "91" }, { "type": "yellow", "min": "116" }, { "type": "so_goal" }] },
+              { "number": 5, "name": "Leandro Paredes", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "102" }, { "type": "yellow", "min": "114" }, { "type": "so_goal" }] },
+              { "number": 22, "name": "Lautaro Martínez", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "102" }] },
+              { "number": 6, "name": "Germán Pezzella", "pos": "DF", "status": "sub", "events": [{ "type": "in", "min": "116" }] },
+              { "number": 21, "name": "Paulo Dybala", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "120" }, { "type": "so_goal" }] },
+              { "number": 1, "name": "Franco Armani", "pos": "GK", "status": "reserve", "events": [] },
+              { "number": 12, "name": "Gerónimo Rulli", "pos": "GK", "status": "reserve", "events": [] },
+              { "number": 2, "name": "Juan Foyth", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 14, "name": "Exequiel Palacios", "pos": "MF", "status": "reserve", "events": [] },
+              { "number": 15, "name": "Ángel Correa", "pos": "FW", "status": "reserve", "events": [] },
+              { "number": 16, "name": "Thiago Almada", "pos": "MF", "status": "reserve", "events": [] },
+              { "number": 17, "name": "Alejandro Gómez", "pos": "MF", "status": "reserve", "events": [] },
+              { "number": 18, "name": "Guido Rodríguez", "pos": "MF", "status": "reserve", "events": [] },
+              { "number": 25, "name": "Lisandro Martínez", "pos": "DF", "status": "reserve", "events": [] }
+            ]
+          },
+          "team2": {
+            "name": "France",
+            "code": "fr",
+            "score": "3 (2)",
+            "manager": "Didier Deschamps",
+            "lineup": [
+              { "number": 1, "name": "Hugo Lloris", "pos": "GK", "status": "starter", "events": [] },
+              { "number": 5, "name": "Jules Koundé", "pos": "DF", "status": "starter", "events": [{ "type": "sub", "min": "120" }] },
+              { "number": 4, "name": "Raphaël Varane", "pos": "DF", "status": "starter", "events": [{ "type": "sub", "min": "113" }] },
+              { "number": 18, "name": "Dayot Upamecano", "pos": "DF", "status": "starter", "events": [] },
+              { "number": 22, "name": "Théo Hernández", "pos": "DF", "status": "starter", "events": [{ "type": "sub", "min": "71" }] },
+              { "number": 8, "name": "Aurélien Tchouaméni", "pos": "MF", "status": "starter", "events": [{ "type": "so_miss" }] },
+              { "number": 14, "name": "Adrien Rabiot", "pos": "MF", "status": "starter", "events": [{ "type": "yellow", "min": "55" }, { "type": "sub", "min": "96" }] },
+              { "number": 11, "name": "Ousmane Dembélé", "pos": "FW", "status": "starter", "events": [{ "type": "sub", "min": "41" }] },
+              { "number": 7, "name": "Antoine Griezmann", "pos": "FW", "status": "starter", "events": [{ "type": "sub", "min": "71" }] },
+              { "number": 10, "name": "Kylian Mbappé", "pos": "FW", "status": "starter", "events": [{ "type": "penalty", "min": "80" }, { "type": "goal", "min": "81" }, { "type": "penalty", "min": "118" }, { "type": "so_goal" }] },
+              { "number": 9, "name": "Olivier Giroud", "pos": "FW", "status": "starter", "events": [{ "type": "yellow", "min": "90" }, { "type": "sub", "min": "41" }] },
+              { "number": 12, "name": "Randal Kolo Muani", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "41" }, { "type": "so_goal" }] },
+              { "number": 26, "name": "Marcus Thuram", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "41" }, { "type": "yellow", "min": "87" }] },
+              { "number": 20, "name": "Kingsley Coman", "pos": "FW", "status": "sub", "events": [{ "type": "in", "min": "71" }, { "type": "so_miss" }] },
+              { "number": 25, "name": "Eduardo Camavinga", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "71" }] },
+              { "number": 13, "name": "Youssouf Fofana", "pos": "MF", "status": "sub", "events": [{ "type": "in", "min": "96" }] },
+              { "number": 24, "name": "Ibrahima Konaté", "pos": "DF", "status": "sub", "events": [{ "type": "in", "min": "113" }] },
+              { "number": 3, "name": "Axel Disasi", "pos": "DF", "status": "sub", "events": [{ "type": "in", "min": "120" }] },
+              { "number": 16, "name": "Steve Mandanda", "pos": "GK", "status": "reserve", "events": [] },
+              { "number": 23, "name": "Alphonse Areola", "pos": "GK", "status": "reserve", "events": [] },
+              { "number": 2, "name": "Benjamin Pavard", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 17, "name": "William Saliba", "pos": "DF", "status": "reserve", "events": [] },
+              { "number": 6, "name": "Mattéo Guendouzi", "pos": "MF", "status": "reserve", "events": [] },
+              { "number": 15, "name": "Jordan Veretout", "pos": "MF", "status": "reserve", "events": [] }
+            ]
+          },
+          "events": [
+            { "minute": "23", "player": "Lionel Messi", "type": "penalty", "side": "left" },
+            { "minute": "36", "player": "Ángel Di María", "type": "goal", "side": "left" },
+            { "minute": "80", "player": "Kylian Mbappé", "type": "penalty", "side": "right" },
+            { "minute": "81", "player": "Kylian Mbappé", "type": "goal", "side": "right" },
+            { "minute": "108", "player": "Lionel Messi", "type": "goal", "side": "left" },
+            { "minute": "118", "player": "Kylian Mbappé", "type": "penalty", "side": "right" }
+          ],
+          "shootout": {
+            "rounds": [
+              { "t2": { "player": "Mbappé", "result": "goal" }, "t1": { "player": "Messi", "result": "goal" } },
+              { "t2": { "player": "Coman", "result": "miss" }, "t1": { "player": "Dybala", "result": "goal" } },
+              { "t2": { "player": "Tchouaméni", "result": "miss" }, "t1": { "player": "Paredes", "result": "goal" } },
+              { "t2": { "player": "Kolo Muani", "result": "goal" }, "t1": { "player": "Montiel", "result": "goal" } }
+            ]
+          },"stats": {
+  "possession": { "t1": "46%", "t2": "40%", "label": "Possession", "inContest": "14%" },
+  "shots": { "t1": "20", "t2": "10", "label": "Total Shots" },
+  "shotsOnGoal": { "t1": "10", "t2": "5", "label": "Shots on Goal" },
+  "passes": { "t1": "635", "t2": "525", "label": "Total Passes" },
+  "passAccuracy": { "t1": "82%", "t2": "75%", "label": "Pass Accuracy" },
+  "fouls": { "t1": "26", "t2": "19", "label": "Fouls Committed" },
+  "corners": { "t1": "6", "t2": "5", "label": "Corners" },
+  "offsides": { "t1": "4", "t2": "4", "label": "Offsides" }
+}
+        }
+      ]
+    }
+  ]
+}

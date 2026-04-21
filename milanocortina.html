@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milano-Cortina 2026 — Cristian's Sport Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;       /* Cer de iarnă întunecat */
+      --bg2: #1e293b;      /* Ardezie rece */
+      --surface: #334155;  /* Suprafață înghețată */
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #f8fafc;     /* Alb zăpadă pentru text */
+      --muted: #94a3b8;    /* Gri rece pentru text secundar */
+      --accent: #0ea5e9;   /* Albastru gheață (Ice Blue) */
+      --accent2: #38bdf8;  /* Cyan rece */
+    }
+    
+    body{font-family:'Inter',sans-serif;}
+.home-btn {
+      position: absolute; /* Aceasta este setarea care îl împiedică să coboare la scroll */
+      top: 18px;
+      left: 18px;
+      z-index: 200;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(15, 15, 24, 0.88);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 7px 13px;
+      text-decoration: none;
+      color: #a1a1aa;
+      font-size: .76rem;
+      font-weight: 500;
+      backdrop-filter: blur(12px);
+      transition: all 0.15s;
+    }
+    .home-btn:hover {
+      background: rgba(25, 25, 40, 0.95);
+      color: #f4f4f5;
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+/* Containerul fără bordură, doar cu spațiere între pastile */
+    .tab-container {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 32px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      scrollbar-width: none;
+    }
+    .tab-container::-webkit-scrollbar { display: none; }
+
+    .tab-pill {
+      padding: 10px 22px;
+      font-size: .85rem;
+      font-weight: 700;
+      color: #71717a; /* Text discret când e inactiv */
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      cursor: pointer;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .tab-pill:hover {
+      background: rgba(255, 255, 255, 0.07);
+      color: #d4d4d8;
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    /* Pastila Medal Table - Tematică Aurie */
+    .tab-pill.active.medal-pill {
+      background: rgba(251, 191, 36, 0.15) !important;
+      color: #fbbf24 !important;
+      border-color: rgba(251, 191, 36, 0.4) !important;
+      box-shadow: 0 4px 20px rgba(251, 191, 36, 0.08);
+    }
+
+    /* Pastila Romania Results - Tricolor (Gradient) */
+    .tab-pill.active.ro-pill {
+      background: linear-gradient(to right, 
+        rgba(0, 43, 127, 0.85), 
+        rgba(252, 209, 22, 0.85), 
+        rgba(206, 17, 38, 0.85)
+      ) !important;
+      color: #fff !important;
+      border-color: rgba(255, 255, 255, 0.25) !important;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Pastila Medals by Sport - Tematică Indigo/Blue */
+    .tab-pill.active.sport-pill {
+      background: rgba(129, 140, 248, 0.15) !important;
+      color: #a5b4fc !important;
+      border-color: rgba(129, 140, 248, 0.4) !important;
+      box-shadow: 0 4px 20px rgba(129, 140, 248, 0.08);
+    }
+        .medal-row{transition:background .1s;}
+    .medal-row:hover{background:rgba(255,255,255,0.03);}
+    .flag-img{width:26px;height:18px;object-fit:cover;border-radius:3px;flex-shrink:0;}
+    .col-g{color:#fbbf24;font-weight:700;}
+    .col-s{color:#94a3b8;font-weight:700;}
+    .col-b{color:#b87333;font-weight:700;}
+    .sort-th{cursor:pointer;user-select:none;transition:color .12s;}
+    .sort-th:hover{color:#f9a8d4;}
+    .sort-active{color:#f9a8d4!important;}
+    @keyframes spin{to{transform:rotate(360deg);}}
+    .spinner{width:30px;height:30px;border:3px solid #27272a;border-top-color:#f9a8d4;border-radius:50%;animation:spin .8s linear infinite;margin:0 auto;}
+    input[type=search]::-webkit-search-cancel-button{display:none;}
+  </style>
+</head>
+<body class="text-zinc-100 min-h-screen" style="background:var(--bg);font-family:'DM Sans',Inter,sans-serif;">
+
+  <a href="index.html" class="home-btn">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+      <polyline points="9,22 9,12 15,12 15,22"/>
+    </svg>
+    Home
+  </a>
+
+  <button onclick="window.scrollTo({top:0,behavior:'smooth'})" id="goUpBtn" style="display:none;position:fixed;bottom:24px;left:18px;z-index:200;width:40px;height:40px;border-radius:50%;background:rgba(15,15,24,.88);border:1px solid rgba(255,255,255,.1);color:#a1a1aa;font-size:1rem;cursor:pointer;backdrop-filter:blur(12px);transition:all .15s;align-items:center;justify-content:center;">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18,15 12,9 6,15"/></svg>
+  </button>
+  <script>
+    (function(){
+      var btn=document.getElementById('goUpBtn');
+      window.addEventListener('scroll',function(){
+        btn.style.display=window.scrollY>200?'flex':'none';
+      });
+    })();
+  </script>
+
+  <div id="appContainer" style="display:block">
+    <div class="max-w-[94%] mx-auto px-6 pt-10 pb-12">
+    
+    <div class="flex flex-col md:flex-row items-end justify-between mb-10 pl-20 md:pl-28">
+      <div style="display:flex; align-items:center; gap:18px">
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/2026_Winter_Olympics_logo.svg/1920px-2026_Winter_Olympics_logo.svg.png"
+             alt="Milano Cortina 2026" style="height:90px; width:auto; flex-shrink:0;">
+
+        <div>
+          <div style="font-size:.7rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; color:#06b6d4; margin-bottom:6px">Winter Olympics</div>
+          <h1 style="font-family:'Bebas Neue'; font-size:clamp(2.5rem, 6vw, 4rem); font-weight:800; letter-spacing:.02em; color:#f4f4f5; line-height:0.9; margin-bottom:5px">
+            Milano Cortina <span style="background:linear-gradient(135deg,#f9a8d4 0%,#06b6d4 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text">2026</span>
+          </h1>
+          <p style="font-size:.85rem; color:#52525b;">February 6 – February 22, 2026 · Milano & Cortina d'Ampezzo, Italy · 92 NOCs · 116 events</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-container">
+      <button class="tab-pill active medal-pill" onclick="showTab(0)" id="tab0">🏅 Medal Table</button>
+      <button class="tab-pill ro-pill" onclick="showTab(1)" id="tab1">
+        <img src="https://flagcdn.com/w80/ro.png" style="height:14px; border-radius:2px;"> Romania Results
+      </button>
+      <button class="tab-pill sport-pill" onclick="showTab(2)" id="tab2">📅 Medals by Sport</button>
+    </div>
+
+      <div id="tabContent"></div>
+    </div>
+  </div>
+
+  <script>
+    // 1. Variabile globale
+    let USA_MEDALS = {};
+    let ALL_MEDALS = {};
+    let ATHLETES_COUNT = {};
+    let MEDALS = [];
+    let ROMANIA = [];
+    let SCHEDULE = [];
+    
+    let sortKey = 'rank', sortAsc = true;
+    let allExpanded = false;
+
+    // 2. Încărcarea datelor
+    async function loadDataAndInit() {
+      const container = document.getElementById('tabContent');
+      if (!container) return; // Plasă de siguranță suplimentară
+
+      try {
+        container.innerHTML = `
+          <div style="text-align:center; padding:50px; color:#a1a1aa;">
+            <div class="spinner"></div>
+            <div style="margin-top:15px; font-size:.85rem;">Se încarcă baza de date...</div>
+          </div>`;
+
+        const response = await fetch('data_milano.json');
+        if (!response.ok) throw new Error('Nu am putut încărca data.json');
+        const data = await response.json();
+
+        USA_MEDALS = data.USA_MEDALS || {};
+        ALL_MEDALS = data.ALL_MEDALS || {};
+        ATHLETES_COUNT = data.ATHLETES_COUNT || {};
+        MEDALS = data.MEDALS || [];
+        ROMANIA = data.ROMANIA || [];
+        SCHEDULE = data.SCHEDULE || [];
+
+        // Citim ultimul tab salvat din memorie (sau 0 dacă e prima vizită)
+        const savedTab = parseInt(localStorage.getItem('activeTab')) || 0;
+        showTab(savedTab);
+      } catch (error) {
+        console.error("Eroare la încărcare:", error);
+        container.innerHTML = `
+          <div style="background:rgba(239, 68, 68, 0.1); border:1px solid rgba(239, 68, 68, 0.3); color:#fca5a5; padding:20px; border-radius:12px; text-align:center; font-size:.85rem; margin-top:20px;">
+            <p style="font-weight:bold; font-size:1rem; margin-bottom:5px;">Eroare de securitate CORS / Încărcare</p>
+            <p>Deoarece folosim <b>fetch()</b>, nu poți deschide fișierul dând dublu-click direct în browser.</p>
+            <p style="margin-top:10px;">Te rog să folosești extensia <b>Live Server</b> din VS Code pentru a rula aplicația.</p>
+          </div>`;
+      }
+    }
+
+    // 3. Funcții de Navigare și Sortare
+    function showTab(n) {
+      // Salvăm tab-ul curent în memoria browserului pentru a-l reține la refresh
+      localStorage.setItem('activeTab', n);
+      
+      [0,1,2].forEach(i=>document.getElementById('tab'+i).classList.toggle('active',i===n));
+      if(n===0) renderMedals();
+      else if(n===1) renderRomania();
+      else renderSchedule();
+    }
+
+    function setSort(k) {
+      sortAsc = sortKey===k ? !sortAsc : (k==='rank');
+      sortKey=k; renderMedals();
+    }
+
+    // Funcția necesară pentru a adăuga "st", "nd", "th" la locuri (ex: 1st, 2nd)
+    function formatRank(rank) {
+      if (!rank && rank !== 0) return '';
+      if (rank === 'DSQ' || rank === 'DNF' || rank === 'DNS') return rank;
+      const n = parseInt(rank);
+      if (isNaN(n)) return '';
+      const s = ["th", "st", "nd", "rd"];
+      const v = n % 100;
+      return n + (s[(v - 20) % 10] || s[v] || s[0]);
+    }
+
+    // 4. TAB 0: MEDAL TABLE
+    function renderMedals() {
+      const q=(document.getElementById('medalSearch')?.value||'').toLowerCase();
+      let data=[...MEDALS];
+      if(q) data=data.filter(r=>r.country.toLowerCase().includes(q));
+      data.sort((a,b)=>{const va=a[sortKey],vb=b[sortKey];return typeof va==='string'?(sortAsc?va.localeCompare(vb):vb.localeCompare(va)):(sortAsc?va-vb:vb-va);});
+      const th=(k,lbl)=>`<span class="sort-th ${sortKey===k?'sort-active':''}" onclick="setSort('${k}')">${lbl} ${sortKey===k?(sortAsc?'▲':'▼'):''}</span>`;
+      
+      document.getElementById('tabContent').innerHTML=`
+        <div style="display:flex;gap:8px;margin-bottom:14px;align-items:center;flex-wrap:wrap">
+          <input type="search" id="medalSearch" placeholder="Search country…"
+            style="flex:1;background:rgba(255,255,255,0.02);border:1px solid #2d2d33;border-radius:10px;padding:8px 14px;font-size:.82rem;color:#f4f4f5;outline:none;"
+            oninput="renderMedals()" value="${q}">
+        </div>
+        <div style="background:rgba(255,255,255,0.015);border-radius:16px;overflow:hidden;border:1px solid #2d2d33">
+          <table class="w-full text-sm">
+            <thead><tr style="background:rgba(255,255,255,0.02);border-bottom:1px solid #2d2d33" class="text-zinc-500 text-xs">
+              <th class="px-4 py-3 text-left w-10">${th('rank','#')}</th>
+              <th class="px-3 py-3 text-center w-8" style="padding:0">
+                <button id="toggleAllBtn" onclick="toggleAllCountries()" style="width:26px;height:22px;border-radius:6px;border:1px solid rgba(100,100,200,0.35);background:rgba(100,100,200,0.1);color:#a5b4fc;font-size:.6rem;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;margin:auto" title="Expand/Collapse All">${allExpanded ? '▲' : '▼'}</button>
+              </th>
+              <th class="px-4 py-3 text-left">Country</th>
+              <th class="px-4 py-3 text-center w-12">${th('gold','🥇')}</th>
+              <th class="px-4 py-3 text-center w-12">${th('silver','🥈')}</th>
+              <th class="px-4 py-3 text-center w-12">${th('bronze','🥉')}</th>
+              <th class="px-4 py-3 text-center w-14">${th('total','Total')}</th>
+              <th class="px-4 py-3 text-center w-16" style="color:#818cf8">Athletes</th>
+            </tr></thead>
+            <tbody>${data.map(r=>{
+              const isRo=r.country==='Romania';
+              const flag=r.code?`<img src="https://flagcdn.com/w40/${r.code}.png" class="flag-img" alt="" >`:'<span class="w-7 inline-block"></span>';
+              const isUsa=r.country==='United States';
+              
+              const cData = ALL_MEDALS[r.country];
+              const totalMedalsInDB = cData ? ((cData.gold?.length || 0) + (cData.silver?.length || 0) + (cData.bronze?.length || 0)) : 0;
+              const hasData = isUsa || totalMedalsInDB > 0;
+              
+              const rowId = isUsa ? 'usa-expand-row' : 'expand-' + r.country.replace(/[^a-zA-Z0-9]/g, '_');
+              
+              const expandBtn = hasData ? `<button class="row-expand-btn" onclick="toggleRow(this, '${rowId}', '${r.country}')" style="width:26px;height:22px;border-radius:6px;border:1px solid rgba(100,100,200,0.35);background:rgba(100,100,200,0.1);color:#a5b4fc;font-size:.6rem;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;margin:auto">${allExpanded ? '▲' : '▼'}</button>` : '';
+              
+              return`<tr class="medal-row" style="border-top:1px solid #2d2d33; ${isRo?'background:rgba(16,185,129,0.15)':''} ${isUsa?'background:rgba(59,130,246,0.06)':''}">
+                <td class="px-4 py-2.5 text-zinc-600 text-xs font-mono">${r.rank}</td>
+                <td class="px-3 py-2.5">${expandBtn}</td>
+                <td class="px-4 py-2.5"><div class="flex items-center gap-3">${flag}<span class="font-medium ${isRo?'text-emerald-400':''}">${r.country}</span></div></td>
+                <td class="px-4 py-2.5 text-center col-g">${r.gold||'—'}</td>
+                <td class="px-4 py-2.5 text-center col-s">${r.silver}</td>
+                <td class="px-4 py-2.5 text-center col-b">${r.bronze}</td>
+                <td class="px-4 py-2.5 text-center font-semibold text-zinc-200">${r.total}</td>
+                <td class="px-4 py-2.5 text-center text-xs" style="color:#818cf8">${ATHLETES_COUNT[r.country]||'—'}</td>
+              </tr>
+              <tr id="${rowId}" data-country="${r.country}" style="display:${allExpanded && hasData ? 'table-row' : 'none'}"></tr>`;
+            }).join('')}
+            </tbody>
+          </table>
+        </div>
+        <p class="text-xs text-zinc-700 mt-3 text-center">Source: IOC · Paris 2024 Final Medal Table</p>`;
+
+        if (allExpanded) {
+            document.querySelectorAll('tr[id^="usa-expand-row"], tr[id^="expand-"]').forEach(row => {
+                if (!row.dataset.loaded) {
+                    const country = row.getAttribute('data-country');
+                    if (country === 'United States') renderCountryPanel(country, row.id, USA_MEDALS);
+                    else renderCountryPanel(country, row.id, ALL_MEDALS[country]);
+                    row.dataset.loaded = '1';
+                }
+            });
+        }
+    }
+
+    function toggleAllCountries() {
+      allExpanded = !allExpanded;
+      const mainBtn = document.getElementById('toggleAllBtn');
+      if (mainBtn) mainBtn.textContent = allExpanded ? '▲' : '▼';
+      
+      document.querySelectorAll('.row-expand-btn').forEach(btn => btn.textContent = allExpanded ? '▲' : '▼');
+
+      document.querySelectorAll('tr[id^="usa-expand-row"], tr[id^="expand-"]').forEach(row => {
+        if (allExpanded && !row.dataset.loaded) {
+          const country = row.getAttribute('data-country');
+          if (country === 'United States') renderCountryPanel(country, row.id, USA_MEDALS);
+          else renderCountryPanel(country, row.id, ALL_MEDALS[country]);
+          row.dataset.loaded = '1';
+        }
+        if (row.previousElementSibling.querySelector('.row-expand-btn')) {
+            row.style.display = allExpanded ? 'table-row' : 'none';
+        }
+      });
+    }
+
+    function toggleRow(btn, rowId, country) {
+      const row = document.getElementById(rowId);
+      const isOpen = row.style.display === 'table-row';
+      
+      if (!isOpen && !row.dataset.loaded) {
+        if (country === 'United States') renderCountryPanel(country, rowId, USA_MEDALS);
+        else renderCountryPanel(country, rowId, ALL_MEDALS[country]);
+        row.dataset.loaded = '1';
+      }
+      row.style.display = isOpen ? 'none' : 'table-row';
+      btn.textContent = isOpen ? '▼' : '▲';
+      
+      if (isOpen) {
+          allExpanded = false;
+          const mainBtn = document.getElementById('toggleAllBtn');
+          if(mainBtn) mainBtn.textContent = '▼';
+      }
+    }
+
+    window.switchMedalTab = function(rowId, type, count) {
+      if (count === 0) return; 
+      
+      const types = ['gold', 'silver', 'bronze'];
+      const styles = {
+        gold: { bg: 'rgba(251,191,36,0.15)', color: '#fbbf24', border: 'rgba(251,191,36,0.4)' },
+        silver: { bg: 'rgba(148,163,184,0.15)', color: '#94a3b8', border: 'rgba(148,163,184,0.4)' },
+        bronze: { bg: 'rgba(184,115,51,0.15)', color: '#b87333', border: 'rgba(184,115,51,0.4)' }
+      };
+
+      types.forEach(t => {
+        const btn = document.getElementById(`tab-btn-${t}-${rowId}`);
+        const content = document.getElementById(`tab-content-${t}-${rowId}`);
+        if (btn && content) {
+            if (t === type) {
+              content.style.display = 'grid';
+              btn.style.background = styles[t].bg;
+              btn.style.color = styles[t].color;
+              btn.style.border = `1px solid ${styles[t].border}`;
+            } else {
+              content.style.display = 'none';
+              btn.style.background = 'transparent';
+              btn.style.color = '#52525b';
+              btn.style.border = '1px solid transparent';
+            }
+        }
+      });
+    };
+
+    function renderCountryPanel(country, rowId, medals) {
+      const row = document.getElementById(rowId);
+      
+      if (!medals || (!(medals.gold||[]).length && !(medals.silver||[]).length && !(medals.bronze||[]).length)) {
+         row.innerHTML = `<td colspan="8"><div style="padding:16px;text-align:center;color:#71717a">No details available</div></td>`;
+         return;
+      }
+
+      const gList = medals.gold || [];
+      const sList = medals.silver || [];
+      const bList = medals.bronze || [];
+
+      let activeTab = gList.length > 0 ? 'gold' : (sList.length > 0 ? 'silver' : 'bronze');
+
+      const makeCards = (mlist, numColor) => {
+        if (!mlist || mlist.length === 0) return '';
+        return mlist.map((m, i) => {
+          const nameStr = m.athletes || '';
+          const parts = nameStr.split(',').map(p=>p.trim()).filter(Boolean);
+          let teamSuffix = 'Team';
+          const ev = (m.event || '').toLowerCase();
+          if (ev.includes("women's") || ev.includes("women")) teamSuffix = "Women's Team";
+          else if (ev.includes("men's") || ev.includes("men")) teamSuffix = "Men's Team";
+          else if (ev.includes("mixed")) teamSuffix = "Mixed Team";
+          
+          const showName = parts.length <= 3 ? nameStr : country + ' ' + teamSuffix;
+          
+          return `
+          <div style="background:rgba(255,255,255,0.02);border:1px solid #2d2d33;border-left:3px solid ${numColor};border-radius:10px;padding:12px 14px">
+            <div style="display:flex;gap:10px">
+              <span style="font-size:.65rem;font-weight:700;color:${numColor};background:rgba(255,255,255,0.05);padding:2px 6px;border-radius:6px;height:fit-content">${i+1}</span>
+              <div>
+                <div style="font-size:.85rem;font-weight:700;color:#f4f4f5">${showName}</div>
+                <div style="font-size:.75rem;color:#f9a8d4">${m.sport || ''}</div>
+                <div style="font-size:.65rem;color:#52525b">${m.event || ''}</div>
+              </div>
+            </div>
+          </div>`;
+        }).join('');
+      };
+
+      row.innerHTML = `<td colspan="8" style="padding:0">
+        <div style="background:rgba(20,22,40,0.5);padding:20px;border-top:1px solid #2d2d33;box-shadow:inset 0 4px 20px rgba(0,0,0,0.15);">
+          
+          <div style="display:flex;gap:8px;margin-bottom:16px;border-bottom:1px solid #2d2d33;padding-bottom:12px;overflow-x:auto;">
+            <button onclick="switchMedalTab('${rowId}', 'gold', ${gList.length})" id="tab-btn-gold-${rowId}" 
+              style="padding:8px 16px; border-radius:8px; font-size:.8rem; font-weight:700; cursor:${gList.length ? 'pointer' : 'default'}; transition:all .2s; opacity:${gList.length ? '1' : '0.4'};
+                     ${activeTab==='gold' ? 'background:rgba(251,191,36,0.15); color:#fbbf24; border:1px solid rgba(251,191,36,0.4);' : 'background:transparent; color:#52525b; border:1px solid transparent;'}">
+              🥇 Gold (${gList.length})
+            </button>
+            <button onclick="switchMedalTab('${rowId}', 'silver', ${sList.length})" id="tab-btn-silver-${rowId}" 
+              style="padding:8px 16px; border-radius:8px; font-size:.8rem; font-weight:700; cursor:${sList.length ? 'pointer' : 'default'}; transition:all .2s; opacity:${sList.length ? '1' : '0.4'};
+                     ${activeTab==='silver' ? 'background:rgba(148,163,184,0.15); color:#94a3b8; border:1px solid rgba(148,163,184,0.4);' : 'background:transparent; color:#52525b; border:1px solid transparent;'}">
+              🥈 Silver (${sList.length})
+            </button>
+            <button onclick="switchMedalTab('${rowId}', 'bronze', ${bList.length})" id="tab-btn-bronze-${rowId}" 
+              style="padding:8px 16px; border-radius:8px; font-size:.8rem; font-weight:700; cursor:${bList.length ? 'pointer' : 'default'}; transition:all .2s; opacity:${bList.length ? '1' : '0.4'};
+                     ${activeTab==='bronze' ? 'background:rgba(184,115,51,0.15); color:#b87333; border:1px solid rgba(184,115,51,0.4);' : 'background:transparent; color:#52525b; border:1px solid transparent;'}">
+              🥉 Bronze (${bList.length})
+            </button>
+          </div>
+
+          <div id="tab-content-gold-${rowId}" style="display:${activeTab==='gold' ? 'grid' : 'none'}; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:10px;">
+            ${makeCards(gList, '#fbbf24')}
+          </div>
+          <div id="tab-content-silver-${rowId}" style="display:${activeTab==='silver' ? 'grid' : 'none'}; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:10px;">
+            ${makeCards(sList, '#94a3b8')}
+          </div>
+          <div id="tab-content-bronze-${rowId}" style="display:${activeTab==='bronze' ? 'grid' : 'none'}; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:10px;">
+            ${makeCards(bList, '#b87333')}
+          </div>
+
+        </div></td>`;
+    }
+
+    // 5. TAB 1: ROMANIA
+    function renderRomania() {
+      const MC={G:'🥇',S:'🥈',B:'🥉'}, CC={G:'#fbbf24',S:'#94a3b8',B:'#b87333'};
+      const accentColors = ['#6366f1','#0ea5e9','#10b981','#f59e0b','#ec4899','#8b5cf6','#14b8a6','#f97316','#06b6d4','#84cc16','#ef4444','#a78bfa','#22d3ee','#fb7185','#34d399','#fbbf24','#60a5fa'];
+      
+      const sports = [...new Set((ROMANIA||[]).map(a => a.sport).filter(Boolean))].sort();
+      window.roAllExpanded = false;
+
+      let html = `
+        <div style="background:rgba(255,255,255,0.015);border-radius:14px;padding:14px 18px;margin-bottom:16px;display:flex;align-items:center;gap:16px;border:1px solid #2d2d33">
+          <img src="https://flagcdn.com/w80/ro.png" style="height:40px;border-radius:4px;box-shadow:0 2px 8px rgba(0,0,0,.3)" alt="Romania flag">
+          <div>
+            <div style="font-size:1rem;font-weight:700;color:#f4f4f5">Romania at Milano Cortina 2026</div>
+            <div style="font-size:.75rem;color:#71717a;margin-top:2px">29 athletes · 8 sports </div>
+          </div>
+          </div>
+        </div>
+        
+        <div style="display:flex;gap:8px;margin-bottom:14px">
+          <button id="roToggleAllBtn" onclick="toggleRoAll()" style="padding:6px 13px;border-radius:10px;border:1px solid rgba(100,100,200,0.35);background:rgba(100,100,200,0.1);color:#a5b4fc;font-size:.72rem;font-weight:600;cursor:pointer;transition:all .2s;">▼ Expand all</button>
+        </div>`;
+
+      sports.forEach((sport, si) => {
+        const athletesInSport = ROMANIA.filter(a => a.sport === sport);
+        const events = [...new Set(athletesInSport.map(a => a.event))];
+        const accent = accentColors[si % accentColors.length];
+        const sid = 'ro-sport-' + si;
+
+        let uniqueAthletes = new Set();
+        athletesInSport.forEach(a => {
+          if(a.name) {
+            a.name.split(',').forEach(p => {
+              const clean = p.trim();
+              if(clean) uniqueAthletes.add(clean);
+            });
+          }
+        });
+        const totalCount = uniqueAthletes.size;
+        
+
+        html += `<div style="margin-bottom:10px;border:1px solid #2d2d33;border-left:3px solid ${accent};border-radius:12px;overflow:hidden;background:rgba(255,255,255,0.015)">
+          <div onclick="roToggle('${sid}')" style="padding:9px 16px;display:flex;align-items:center;gap:10px;cursor:pointer;user-select:none;background:rgba(255,255,255,0.02)">
+            <span style="width:6px;height:6px;border-radius:50%;background:${accent};display:inline-block;flex-shrink:0"></span>
+            <span style="font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:${accent};opacity:.9;flex:1">${sport}</span>
+            <span style="font-size:.62rem;font-weight:600;color:#a1a1aa;background:rgba(255,255,255,0.05);padding:3px 8px;border-radius:6px;border:1px solid rgba(255,255,255,0.05);">${totalCount} athlete${totalCount!==1?'s':''}</span>
+            ${athletesInSport.filter(a=>a.medal).map(a=>`<span style="font-size:.95rem">${MC[a.medal]||''}</span>`).join('')}
+            <span id="${sid}-arrow" style="font-size:.65rem;color:#52525b;margin-left:4px;transition:transform .2s;display:inline-block;transform:rotate(-90deg)">▼</span>
+          </div>
+          <div id="${sid}" style="display:none;border-top:1px solid #27272a">`;
+
+        events.forEach(event => {
+          const evAthletes = athletesInSport.filter(a => a.event === event);
+          html += `<div style="padding:0 16px">
+            <div style="font-size:.68rem;font-weight:600;color:#6366f1;padding:9px 0 6px;border-bottom:1px solid rgba(255,255,255,0.04);display:flex;align-items:center;gap:6px">
+              <span style="width:4px;height:4px;border-radius:50%;background:#6366f1;display:inline-block;flex-shrink:0"></span>${event}
+            </div>`;
+
+          evAthletes.forEach((a, i) => {
+            const isMedal = !!a.medal;
+            const bgRgb = a.medal==='G' ? '251,191,36' : a.medal==='S' ? '148,163,184' : '184,115,51';
+            const displayNote = (a.note || '').replace(/^(🥇\s*Gold|🥈\s*Silver|🥉\s*Bronze)\s*—\s*/i, '').trim();
+
+            const nameStr = a.name || '';
+            const parts = nameStr.split(',').map(p=>p.trim()).filter(Boolean);
+            let finalDisplayName = nameStr;
+
+            if (parts.length > 3) {
+              let teamSuffix = 'Team';
+              const evLow = (a.event || '').toLowerCase();
+              if (evLow.includes("women's") || evLow.includes("women")) teamSuffix = "Women's Team";
+              else if (evLow.includes("men's") || evLow.includes("men")) teamSuffix = "Men's Team";
+              else if (evLow.includes("mixed")) teamSuffix = "Mixed Team";
+              finalDisplayName = "Romania " + teamSuffix;
+            }
+
+            const hasJourney = a.journey && a.journey.length > 0;
+            const safeNameForId = nameStr.replace(/[^a-zA-Z0-9]/g, '_');
+            const safeEventForId = event.replace(/[^a-zA-Z0-9]/g, '_');
+            const jId = `journey-${sid}-${safeEventForId}-${safeNameForId}`; 
+            
+            let journeyHtml = '';
+            if (hasJourney) {
+              journeyHtml = `<div id="${jId}" style="display:none; margin-top:12px; margin-bottom:8px; padding-left:10px; border-left:2px solid rgba(255,255,255,0.08); margin-left:6px;">`;
+              a.journey.forEach(step => {
+                const isWin = step.status === 'win';
+                const isLoss = step.status === 'loss';
+                const dotColor = isWin ? '#10b981' : (isLoss ? '#ef4444' : '#818cf8'); 
+                journeyHtml += `
+                  <div style="position:relative; padding-left:14px; margin-bottom:12px;">
+                    <div style="position:absolute; left:-21px; top:5px; width:10px; height:10px; border-radius:50%; background:${dotColor}; box-shadow: 0 0 0 3px rgba(37,37,64,1);"></div>
+                    <div style="font-size:.65rem; color:#a1a1aa; font-weight:700; text-transform:uppercase; letter-spacing:.05em;">${step.round}</div>
+                    ${step.opponent && step.opponent !== '-' ? `<div style="font-size:.8rem; color:#f4f4f5; margin-top:2px;">vs. ${step.opponent}</div>` : ''}
+                    <div style="font-size:.75rem; color:${dotColor}; font-weight:700; margin-top:1px;">${step.score}</div>
+                  </div>`;
+              });
+              journeyHtml += `</div>`;
+            }
+
+            html += `<div style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.03);display:flex;align-items:flex-start;gap:12px;
+              ${isMedal ? `background:linear-gradient(90deg,rgba(${bgRgb},0.07) 0%,transparent 80%);margin:0 -16px;padding:8px 16px;border-left:2px solid rgba(${bgRgb},0.4);` : ''}">
+              <div style="flex:1;min-width:0; padding-top:2px;">
+                <div title="${nameStr}" style="font-size:.92rem;font-weight:${isMedal?'700':'500'};color:${isMedal?'#f4f4f5':'#e8e8f0'};white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+                  ${isMedal?'text-shadow:0 0 20px rgba('+bgRgb+',.25);':''}">${finalDisplayName}</div>
+                
+                ${hasJourney 
+                  ? `<button onclick="const el=document.getElementById('${jId}'); const isClosed = el.style.display==='none'; el.style.display = isClosed ? 'block' : 'none'; this.innerHTML = isClosed ? 'Hide journey ▲' : 'See journey ▼'; this.style.color = isClosed ? '#f4f4f5' : '#a1a1aa';" 
+                      style="font-size:.65rem; font-weight:600; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); padding:4px 10px; border-radius:6px; color:#a1a1aa; cursor:pointer; margin-top:6px; transition:all .2s;">See journey ▼</button>
+                     ${journeyHtml}`
+                  : (displayNote ? `<div style="font-size:.72rem;color:#a1a1aa;margin-top:3px;line-height:1.4">${displayNote}</div>` : '')
+                }
+
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;flex-shrink:0; padding-top:2px;">
+                ${a.rank || a.rank===0 ? `<span style="font-size:.75rem;font-weight:700;color:${a.rank==='DSQ'?'#ef4444':a.rank==='DNF'||a.rank==='DNS'?'#6b7280':parseInt(a.rank)===1?'#fbbf24':parseInt(a.rank)===2?'#94a3b8':parseInt(a.rank)===3?'#b87333':parseInt(a.rank)<=8?'#818cf8':'#52525b'}">${formatRank(a.rank)}</span>` : ''}
+                ${isMedal ? `<span style="font-size:1.15rem">${MC[a.medal]}</span>` : ''}
+              </div>
+            </div>`;
+          });
+          html += `</div>`;
+        });
+        html += `</div></div>`;
+      });
+      document.getElementById('tabContent').innerHTML = html;
+
+      window.roToggle = function(id) {
+        const body = document.getElementById(id);
+        const arrow = document.getElementById(id + '-arrow');
+        const open = body.style.display !== 'none';
+        body.style.display = open ? 'none' : 'block';
+        if (arrow) arrow.style.transform = open ? 'rotate(-90deg)' : '';
+      };
+      
+      window.toggleRoAll = function() {
+        window.roAllExpanded = !window.roAllExpanded;
+        const btn = document.getElementById('roToggleAllBtn');
+        if (btn) {
+            btn.innerHTML = window.roAllExpanded ? '▲ Collapse all' : '▼ Expand all';
+            btn.style.color = window.roAllExpanded ? '#52525b' : '#a5b4fc';
+        }
+        sports.forEach((_, si) => {
+          const body = document.getElementById('ro-sport-' + si);
+          const arrow = document.getElementById('ro-sport-' + si + '-arrow');
+          if (body) body.style.display = window.roAllExpanded ? 'block' : 'none';
+          if (arrow) arrow.style.transform = window.roAllExpanded ? '' : 'rotate(-90deg)';
+        });
+      };
+    }
+
+    // 6. TAB 2: SCHEDULE
+    function renderSchedule() {
+      const MC = {G:'🥇', S:'🥈', B:'🥉'};
+      const CC = {G:'#fbbf24', S:'#94a3b8', B:'#b87333'};
+      const BG = {G:'251,191,36', S:'148,163,184', B:'184,115,51'};
+      const accentColors = ['#6366f1','#0ea5e9','#10b981','#f59e0b','#ec4899','#8b5cf6','#14b8a6','#f97316','#06b6d4','#84cc16','#ef4444','#a78bfa','#22d3ee','#fb7185','#34d399','#fbbf24','#60a5fa'];
+      
+      // Variabilă globală pentru starea butonului
+      window.schedAllExpanded = false;
+
+      let html = `
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap">
+          <div style="flex:1;min-width:160px;position:relative">
+            <input id="sched-search" type="text" placeholder="Search sport, athlete, country…"
+              oninput="schedFilter(this.value)"
+              style="width:100%;box-sizing:border-box;background:rgba(255,255,255,0.02);border:1px solid #2d2d33;border-radius:10px;
+                     padding:8px 14px 8px 36px;font-size:.82rem;color:#f4f4f5;outline:none;transition:border-color .2s;">
+            <span style="position:absolute;left:14px;top:50%;transform:translateY(-50%);color:#52525b;font-size:.85rem">🔍</span>
+          </div>
+          
+          <button id="schedToggleAllBtn" onclick="toggleSchedAll()" style="padding:6px 13px;border-radius:10px;border:1px solid rgba(100,100,200,0.35);background:rgba(100,100,200,0.1);color:#a5b4fc;font-size:.72rem;font-weight:600;cursor:pointer;transition:all .2s;">▼ Expand all</button>
+        </div>
+        <div id="sched-list">`;
+
+      (SCHEDULE||[]).filter(Boolean).forEach((s, si) => {
+        const accent = accentColors[si % accentColors.length];
+        const sid = 'sched-sport-' + si;
+
+        const sportName = s.sport || 'Unknown Sport';
+        const searchTags = (s.events||[]).map(e=>(e.athletes||[]).map(a=>(a.name||'')+' '+(a.country||'')).join(' ')).join(' ').toLowerCase();
+        
+        // Numărăm evenimentele
+        const eventCount = (s.events||[]).length;
+
+        html += `
+          <div class="sched-card" data-sport="${sportName.toLowerCase()}" data-athletes="${searchTags}"
+               style="margin-bottom:10px;border:1px solid #2d2d33;border-left:3px solid ${accent};border-radius:12px;overflow:hidden;background:rgba(255,255,255,0.015)">
+            <div onclick="schedToggle('${sid}')" style="padding:10px 16px;display:flex;align-items:center;gap:10px;cursor:pointer;user-select:none;background:rgba(255,255,255,0.02)">
+              <span style="width:6px;height:6px;border-radius:50%;background:${accent};display:inline-block;flex-shrink:0"></span>
+              <span style="font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:${accent};opacity:.9;flex:1">${sportName}</span>
+              
+              <span style="font-size:.62rem;font-weight:600;color:#a1a1aa;background:rgba(255,255,255,0.05);padding:3px 8px;border-radius:6px;border:1px solid rgba(255,255,255,0.05);">${eventCount} event${eventCount!==1?'s':''}</span>
+              
+              <span id="${sid}-arrow" style="font-size:.65rem;color:#52525b;margin-left:4px;transition:transform .2s;display:inline-block;transform:rotate(-90deg)">▼</span>
+            </div>
+            <div id="${sid}" style="display:none;border-top:1px solid #27272a">`;
+
+        (s.events||[]).forEach(e => {
+          html += `<div style="padding:0 16px">
+            <div style="display:flex;align-items:center;gap:6px;padding:9px 0 6px;border-bottom:1px solid rgba(255,255,255,0.04)">
+              <span style="width:4px;height:4px;border-radius:50%;background:#6366f1;display:inline-block;flex-shrink:0"></span>
+              <span style="font-size:.68rem;font-weight:600;color:#a5b4fc">${e.event || ''}</span>
+            </div>`;
+
+          (e.athletes||[]).forEach(a => {
+            const medal = a.medal || 'G';
+            const bgRgb = BG[medal] || '255,255,255';
+            const mcolor = CC[medal] || '#a1a1aa';
+            const micon = MC[medal] || '🏅';
+            
+            const nameStr = a.name || a.country || 'Unknown';
+            const parts = nameStr.split(',').map(p=>p.trim()).filter(Boolean);
+            let teamSuffix = 'Team';
+            const ev = (e.event || '').toLowerCase();
+            if (ev.includes("women's") || ev.includes("women")) teamSuffix = "Women's Team";
+            else if (ev.includes("men's") || ev.includes("men")) teamSuffix = "Men's Team";
+            else if (ev.includes("mixed")) teamSuffix = "Mixed Team";
+
+            const showName = parts.length <= 3 ? nameStr : (a.country || 'Team') + ' ' + teamSuffix;
+
+            html += `
+            <div style="display:flex;align-items:center;gap:12px;border-bottom:1px solid rgba(255,255,255,0.03);
+                        background:linear-gradient(90deg,${a.ro ? 'rgba(0,180,100,0.07)' : `rgba(${bgRgb},0.05)`} 0%,transparent 70%);
+                        margin:0 -16px;padding:8px 16px;
+                        ${a.ro ? 'border-left:2px solid rgba(0,200,100,0.5);' : ''}">
+              <span style="font-size:1.1rem;flex-shrink:0">${micon}</span>
+              <div style="flex:1;min-width:0">
+                <div style="display:flex;align-items:center;gap:6px">
+                  <div style="font-size:1rem;font-weight:600;color:${a.ro ? '#4ade80' : '#f4f4f5'};white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${showName}</div>
+                  ${a.ro ? '<span style="font-size:.55rem;font-weight:700;letter-spacing:.08em;color:#4ade80;background:rgba(0,200,100,0.15);padding:1px 5px;border-radius:4px;flex-shrink:0">RO</span>' : ''}
+                </div>
+                <div style="font-size:.7rem;color:#71717a;margin-top:2px">${a.country || ''}</div>
+              </div>
+              ${a.result ? `<span style="font-size:.7rem;font-weight:600;color:${a.ro ? '#4ade80' : mcolor};background:${a.ro ? 'rgba(0,200,100,0.12)' : `rgba(${bgRgb},0.12)`};padding:3px 10px;border-radius:8px;flex-shrink:0;white-space:normal;text-align:right;line-height:1.4">${a.result}</span>` : `<span style="font-size:.72rem;font-weight:700;color:${mcolor};background:rgba(${bgRgb},0.1);padding:2px 9px;border-radius:8px;flex-shrink:0">${medal==='G'?'Gold':medal==='S'?'Silver':'Bronze'}</span>`}
+            </div>`;
+          });
+          html += `</div>`;
+        });
+        html += `</div></div>`;
+      });
+
+      html += `</div>
+        <div id="sched-no-results" style="display:none;text-align:center;padding:32px;color:#52525b;font-size:.85rem">No results found</div>`;
+
+      document.getElementById('tabContent').innerHTML = html;
+
+      // Logica de Expand/Collapse a unui singur sport
+      window.schedToggle = function(id) {
+        const body = document.getElementById(id);
+        const arrow = document.getElementById(id + '-arrow');
+        const open = body.style.display !== 'none';
+        body.style.display = open ? 'none' : 'block';
+        if (arrow) arrow.style.transform = open ? 'rotate(-90deg)' : '';
+      };
+
+      // Funcția inteligentă pentru butonul Expand All / Collapse All
+      window.toggleSchedAll = function() {
+        window.schedAllExpanded = !window.schedAllExpanded;
+        const btn = document.getElementById('schedToggleAllBtn');
+        
+        if (btn) {
+            btn.innerHTML = window.schedAllExpanded ? '▲ Collapse all' : '▼ Expand all';
+            btn.style.background = window.schedAllExpanded ? 'transparent' : 'rgba(100,100,200,0.1)';
+            btn.style.border = window.schedAllExpanded ? '1px solid rgba(100,100,200,0.2)' : '1px solid rgba(100,100,200,0.35)';
+            btn.style.color = window.schedAllExpanded ? '#52525b' : '#a5b4fc';
+        }
+        
+        document.querySelectorAll('[id^="sched-sport-"]:not([id$="-arrow"])').forEach(el => el.style.display = window.schedAllExpanded ? 'block' : 'none');
+        document.querySelectorAll('[id$="-arrow"]').forEach(el => el.style.transform = window.schedAllExpanded ? '' : 'rotate(-90deg)');
+      };
+
+      // Filtrarea Search
+      window.schedFilter = function(q) {
+        const term = q.toLowerCase().trim();
+        let anyVisible = false;
+        document.querySelectorAll('.sched-card').forEach(card => {
+          const match = !term || card.dataset.sport.includes(term) || card.dataset.athletes.includes(term);
+          card.style.display = match ? '' : 'none';
+          if (match) {
+            anyVisible = true;
+            if (term) {
+              const bodyEl = card.querySelector('[id^="sched-sport-"]:not([id$="-arrow"])');
+              const arrowEl = card.querySelector('[id$="-arrow"]');
+              if (bodyEl) bodyEl.style.display = 'block';
+              if (arrowEl) arrowEl.style.transform = '';
+            }
+          }
+        });
+        const noRes = document.getElementById('sched-no-results');
+        if (noRes) noRes.style.display = anyVisible ? 'none' : 'block';
+      };
+    }
+
+    // Așteptăm ca HTML-ul să fie generat înainte de a rula codul
+    document.addEventListener("DOMContentLoaded", () => {
+        loadDataAndInit();
+    });
+  </script>
+</body>
+</html>

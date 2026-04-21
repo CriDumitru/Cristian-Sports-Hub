@@ -1,0 +1,2095 @@
+{
+  "Qualifiers": {
+    "rounds": [
+      {
+        "name": "First Qualifying Round",
+        "matches": [
+          {
+            "t1": { "name": "FCSB", "logo": "https://media.api-sports.io/football/teams/559.png", "country": "ROU" },
+            "t2": { "name": "Inter Club d'Escaldes", "logo": "https://media.api-sports.io/football/teams/3342.png", "country": "AND" },
+            "leg1": { "date": "09 JUL 2025", "stadium": "Steaua Stadium, Bucharest", "s1": 3, "s2": 1 },
+            "leg2": { "date": "15 JUL 2025", "stadium": "Estadi Nacional, Andorra la Vella", "s1": 1, "s2": 2 }
+          },
+          {
+            "t1": { "name": "Ludogorets Razgrad", "logo": "https://media.api-sports.io/football/teams/566.png", "country": "BUL" },
+            "t2": { "name": "Dinamo Minsk", "logo": "https://media.api-sports.io/football/teams/394.png", "country": "BLR" },
+            "leg1": { "date": "09 JUL 2025", "stadium": "Huvepharma Arena, Razgrad", "s1": 1, "s2": 0 },
+            "leg2": { "date": "15 JUL 2025", "stadium": "Mezőkövesdi Városi Stadion, Hungary", "s1": 2, "s2": 2 }
+          },
+          {
+            "t1": { "name": "Virtus", "logo": "https://media.api-sports.io/football/teams/5308.png", "country": "SMR" },
+            "t2": { "name": "Zrinjski Mostar", "logo": "https://media.api-sports.io/football/teams/588.png", "country": "BIH" },
+            "leg1": { "date": "09 JUL 2025", "stadium": "San Marino Stadium, Serravalle", "s1": 0, "s2": 2 },
+            "leg2": { "date": "15 JUL 2025", "stadium": "Stadion pod Bijelim Brijegom, Mostar", "s1": 1, "s2": 2 }
+          },
+          {
+            "t1": { "name": "Slovan Bratislava", "logo": "https://media.api-sports.io/football/teams/656.png", "country": "SVK" },
+            "t2": { "name": "Struga", "logo": "https://media.api-sports.io/football/teams/4346.png", "country": "MKD" },
+            "leg1": { "date": "09 JUL 2025", "stadium": "Tehelné pole, Bratislava", "s1": 4, "s2": 2 },
+            "leg2": { "date": "16 JUL 2025", "stadium": "Gradska Plaža Stadium, Struga", "s1": 2, "s2": 1 }
+          },
+          {
+            "t1": { "name": "Malmö FF", "logo": "https://media.api-sports.io/football/teams/375.png", "country": "SWE" },
+            "t2": { "name": "Iberia 1999", "logo": "https://media.api-sports.io/football/teams/16505.png", "country": "GEO" },
+            "leg1": { "date": "08 JUL 2025", "stadium": "Eleda Stadion, Malmö", "s1": 3, "s2": 1 },
+            "leg2": { "date": "15 JUL 2025", "stadium": "Mikheil Meskhi Stadium, Tbilisi", "s1": 3, "s2": 1 }
+          },
+          {
+            "t1": { "name": "Hamrun Spartans", "logo": "https://media.api-sports.io/football/teams/4626.png", "country": "MLT" },
+            "t2": { "name": "Žalgiris", "logo": "https://media.api-sports.io/football/teams/586.png", "country": "LTU" },
+            "leg1": { "date": "08 JUL 2025", "stadium": "Victor Tedesco Stadium, Hamrun", "s1": 0, "s2": 2 },
+            "leg2": { "date": "15 JUL 2025", "stadium": "LFF Stadium, Vilnius", "s1": 2, "s2": 0 }
+          },
+          {
+            "t1": { "name": "KuPS", "logo": "https://media.api-sports.io/football/teams/1165.png", "country": "FIN" },
+            "t2": { "name": "Milsami Orhei", "logo": "https://media.api-sports.io/football/teams/691.png", "country": "MDA" },
+            "leg1": { "date": "08 JUL 2025", "stadium": "Väre Areena, Kuopio", "s1": 1, "s2": 0 },
+            "leg2": { "date": "15 JUL 2025", "stadium": "District Sport Complex, Orhei", "s1": 0, "s2": 0 }
+          },
+          {
+            "t1": { "name": "Noah", "logo": "https://media.api-sports.io/football/teams/3684.png", "country": "ARM" },
+            "t2": { "name": "Budućnost Podgorica", "logo": "https://media.api-sports.io/football/teams/579.png", "country": "MNE" },
+            "leg1": { "date": "09 JUL 2025", "stadium": "Abovyan City Stadium, Abovyan", "s1": 1, "s2": 0 },
+            "leg2": { "date": "15 JUL 2025", "stadium": "Pod Goricom Stadium, Podgorica", "s1": 2, "s2": 2 }
+          }
+        ]
+      },
+      { "name": "Second Qualifying Round", "matches": [
+  {
+    "t1": { "name": "RFS", "logo": "https://media.api-sports.io/football/teams/18836.png", "country": "LVA" },
+    "t2": { "name": "Malmö FF", "logo": "https://media.api-sports.io/football/teams/375.png", "country": "SWE" },
+    "path": "Champions Path",
+    "leg1": { "date": "22 JUL 2025", "stadium": "LNK Arena, Riga", "s1": 1, "s2": 4 },
+    "leg2": { "date": "29 JUL 2025", "stadium": "Eleda Stadion, Malmö", "s1": 0, "s2": 1 }
+  },
+  {
+    "t1": { "name": "Hamrun Spartans", "logo": "https://media.api-sports.io/football/teams/4626.png", "country": "MLT" },
+    "t2": { "name": "Dynamo Kyiv", "logo": "https://media.api-sports.io/football/teams/572.png", "country": "UKR" },
+    "path": "Champions Path",
+    "leg1": { "date": "23 JUL 2025", "stadium": "National Stadium, Ta' Qali", "s1": 0, "s2": 3 },
+    "leg2": { "date": "30 JUL 2025", "stadium": "Arena Lublin, Poland", "s1": 0, "s2": 3 }
+  },
+  {
+    "t1": { "name": "Pafos", "logo": "https://media.api-sports.io/football/teams/3403.png", "country": "CYP" },
+    "t2": { "name": "Maccabi Tel Aviv", "logo": "https://media.api-sports.io/football/teams/604.png", "country": "ISR" },
+    "path": "Champions Path",
+    "leg1": { "date": "23 JUL 2025", "stadium": "Stelios Kyriakides Stadium, Paphos", "s1": 1, "s2": 1 },
+    "leg2": { "date": "30 JUL 2025", "stadium": "Bloomfield Stadium, Tel Aviv", "s1": 1, "s2": 0 }
+  },
+  {
+    "t1": { "name": "Lincoln Red Imps", "logo": "https://media.api-sports.io/football/teams/667.png", "country": "GIB" },
+    "t2": { "name": "Red Star Belgrade", "logo": "https://media.api-sports.io/football/teams/598.png", "country": "SRB" },
+    "path": "Champions Path",
+    "leg1": { "date": "23 JUL 2025", "stadium": "Victoria Stadium, Gibraltar", "s1": 0, "s2": 1 },
+    "leg2": { "date": "30 JUL 2025", "stadium": "Rajko Mitić Stadium, Belgrade", "s1": 1, "s2": 5 }
+  },
+  {
+    "t1": { "name": "Noah", "logo": "https://media.api-sports.io/football/teams/3684.png", "country": "ARM" },
+    "t2": { "name": "Ferencváros", "logo": "https://media.api-sports.io/football/teams/651.png", "country": "HUN" },
+    "path": "Champions Path",
+    "leg1": { "date": "23 JUL 2025", "stadium": "Abovyan City Stadium, Abovyan", "s1": 1, "s2": 2 },
+    "leg2": { "date": "30 JUL 2025", "stadium": "Groupama Aréna, Budapest", "s1": 3, "s2": 4 }
+  },
+  {
+    "t1": { "name": "Lech Poznań", "logo": "https://media.api-sports.io/football/teams/347.png", "country": "POL" },
+    "t2": { "name": "Breiðablik", "logo": "https://media.api-sports.io/football/teams/276.png", "country": "ISL" },
+    "path": "Champions Path",
+    "leg1": { "date": "22 JUL 2025", "stadium": "Poznań Stadium, Poznań", "s1": 7, "s2": 1 },
+    "leg2": { "date": "29 JUL 2025", "stadium": "Kópavogsvöllur, Kópavogur", "s1": 1, "s2": 0 }
+  },
+  {
+    "t1": { "name": "Copenhagen", "logo": "https://media.api-sports.io/football/teams/400.png", "country": "DEN" },
+    "t2": { "name": "Drita", "logo": "https://media.api-sports.io/football/teams/14281.png", "country": "KOS" },
+    "path": "Champions Path",
+    "leg1": { "date": "23 JUL 2025", "stadium": "Parken Stadium, Copenhagen", "s1": 2, "s2": 0 },
+    "leg2": { "date": "30 JUL 2025", "stadium": "Fadil Vokrri Stadium, Pristina", "s1": 1, "s2": 0 }
+  },
+  {
+    "t1": { "name": "Rijeka", "logo": "https://media.api-sports.io/football/teams/561.png", "country": "CRO" },
+    "t2": { "name": "Ludogorets Razgrad", "logo": "https://media.api-sports.io/football/teams/566.png", "country": "BUL" },
+    "path": "Champions Path",
+    "leg1": { "date": "23 JUL 2025", "stadium": "Stadion Rujevica, Rijeka", "s1": 0, "s2": 0 },
+    "leg2": { "date": "30 JUL 2025", "stadium": "Huvepharma Arena, Razgrad", "s1": 1, "s2": 3 }
+  },
+  {
+    "t1": { "name": "Shkëndija", "logo": "https://media.api-sports.io/football/teams/609.png", "country": "MKD" },
+    "t2": { "name": "FCSB", "logo": "https://media.api-sports.io/football/teams/559.png", "country": "ROU" },
+    "path": "Champions Path",
+    "leg1": { "date": "23 JUL 2025", "stadium": "Ecolog Arena, Tetovo", "s1": 1, "s2": 0 },
+    "leg2": { "date": "30 JUL 2025", "stadium": "Steaua Stadium, Bucharest", "s1": 2, "s2": 1 }
+  },
+  {
+    "t1": { "name": "Slovan Bratislava", "logo": "https://media.api-sports.io/football/teams/656.png", "country": "SVK" },
+    "t2": { "name": "Zrinjski Mostar", "logo": "https://media.api-sports.io/football/teams/588.png", "country": "BIH" },
+    "path": "Champions Path",
+    "leg1": { "date": "22 JUL 2025", "stadium": "Tehelné pole, Bratislava", "s1": 4, "s2": 0 },
+    "leg2": { "date": "29 JUL 2025", "stadium": "Stadion pod Bijelim Brijegom, Mostar", "s1": 2, "s2": 2 }
+  },
+  {
+    "t1": { "name": "Shelbourne", "logo": "https://media.api-sports.io/football/teams/3854.png", "country": "IRL" },
+    "t2": { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE" },
+    "path": "Champions Path",
+    "leg1": { "date": "23 JUL 2025", "stadium": "Tolka Park, Dublin", "s1": 0, "s2": 3 },
+    "leg2": { "date": "30 JUL 2025", "stadium": "Tofiq Bahramov Stadium, Baku", "s1": 0, "s2": 1 }
+  },
+  {
+    "t1": { "name": "KuPS", "logo": "https://media.api-sports.io/football/teams/1165.png", "country": "FIN" },
+    "t2": { "name": "Kairat", "logo": "https://media.api-sports.io/football/teams/664.png", "country": "KAZ" },
+    "path": "Champions Path",
+    "leg1": { "date": "23 JUL 2025", "stadium": "Väre Areena, Kuopio", "s1": 2, "s2": 0 },
+    "leg2": { "date": "30 JUL 2025", "stadium": "Almaty Central Stadium, Almaty", "s1": 0, "s2": 3 }
+  },
+  {
+    "t1": { "name": "Brann", "logo": "https://media.api-sports.io/football/teams/319.png", "country": "NOR" },
+    "t2": { "name": "Red Bull Salzburg", "logo": "https://media.api-sports.io/football/teams/571.png", "country": "AUT" },
+    "path": "League Path",
+    "leg1": { "date": "23 JUL 2025", "stadium": "Brann Stadion, Bergen", "s1": 1, "s2": 4 },
+    "leg2": { "date": "30 JUL 2025", "stadium": "Red Bull Arena, Salzburg", "s1": 1, "s2": 1 }
+  },
+  {
+    "t1": { "name": "Viktoria Plzeň", "logo": "https://media.api-sports.io/football/teams/567.png", "country": "CZE" },
+    "t2": { "name": "Servette", "logo": "https://media.api-sports.io/football/teams/2184.png", "country": "SUI" },
+    "path": "League Path",
+    "leg1": { "date": "23 JUL 2025", "stadium": "Doosan Arena, Plzeň", "s1": 0, "s2": 1 },
+    "leg2": { "date": "30 JUL 2025", "stadium": "Stade de Genève, Geneva", "s1": 3, "s2": 1 }
+  },
+  {
+    "t1": { "name": "Rangers", "logo": "https://media.api-sports.io/football/teams/257.png", "country": "SCO" },
+    "t2": { "name": "Panathinaikos", "logo": "https://media.api-sports.io/football/teams/617.png", "country": "GRE" },
+    "path": "League Path",
+    "leg1": { "date": "23 JUL 2025", "stadium": "Ibrox Stadium, Glasgow", "s1": 2, "s2": 0 },
+    "leg2": { "date": "30 JUL 2025", "stadium": "Olympic Stadium, Athens", "s1": 1, "s2": 1 }
+  }
+] },
+      { "name": "Third Qualifying Round", "matches": [
+  {
+    "t1": { "name": "Malmö FF", "logo": "https://media.api-sports.io/football/teams/375.png", "country": "SWE" },
+    "t2": { "name": "Copenhagen", "logo": "https://media.api-sports.io/football/teams/400.png", "country": "DEN" },
+    "path": "Champions Path",
+    "leg1": { "date": "06 AUG 2025", "stadium": "Eleda Stadion, Malmö", "s1": 0, "s2": 0 },
+    "leg2": { "date": "13 AUG 2025", "stadium": "Parken Stadium, Copenhagen", "s1": 0, "s2": 5 }
+    
+  },
+  {
+    "t1": { "name": "Kairat", "logo": "https://media.api-sports.io/football/teams/664.png", "country": "KAZ" },
+    "t2": { "name": "Slovan Bratislava", "logo": "https://media.api-sports.io/football/teams/656.png", "country": "SVK" },
+    "path": "Champions Path",
+    "leg1": { "date": "06 AUG 2025", "stadium": "Almaty Central Stadium, Almaty", "s1": 1, "s2": 0 },
+    "leg2": { "date": "13 AUG 2025", "stadium": "Tehelné pole, Bratislava", "s1": 0, "s2": 1 },
+    "penalties": { "s1": 4, "s2": 3 }
+  },
+  {
+    "t1": { "name": "Lech Poznań", "logo": "https://media.api-sports.io/football/teams/347.png", "country": "POL" },
+    "t2": { "name": "Red Star Belgrade", "logo": "https://media.api-sports.io/football/teams/598.png", "country": "SRB" },
+    "path": "Champions Path",
+    "leg1": { "date": "06 AUG 2025", "stadium": "Poznań Stadium, Poznań", "s1": 1, "s2": 3 },
+    "leg2": { "date": "13 AUG 2025", "stadium": "Rajko Mitić Stadium, Belgrade", "s1": 1, "s2": 1 }
+  },
+  {
+    "t1": { "name": "Ludogorets Razgrad", "logo": "https://media.api-sports.io/football/teams/566.png", "country": "BUL" },
+    "t2": { "name": "Ferencváros", "logo": "https://media.api-sports.io/football/teams/651.png", "country": "HUN" },
+    "path": "Champions Path",
+    "leg1": { "date": "06 AUG 2025", "stadium": "Huvepharma Arena, Razgrad", "s1": 0, "s2": 0 },
+    "leg2": { "date": "13 AUG 2025", "stadium": "Groupama Aréna, Budapest", "s1": 0, "s2": 3 }
+  },
+  {
+    "t1": { "name": "Dynamo Kyiv", "logo": "https://media.api-sports.io/football/teams/572.png", "country": "UKR" },
+    "t2": { "name": "Pafos", "logo": "https://media.api-sports.io/football/teams/3403.png", "country": "CYP" },
+    "path": "Champions Path",
+    "leg1": { "date": "06 AUG 2025", "stadium": "Arena Lublin, Poland", "s1": 0, "s2": 1 },
+    "leg2": { "date": "13 AUG 2025", "stadium": "Stelios Kyriakides Stadium, Paphos", "s1": 0, "s2": 2 }
+  },
+  {
+    "t1": { "name": "Shkëndija", "logo": "https://media.api-sports.io/football/teams/609.png", "country": "MKD" },
+    "t2": { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE" },
+    "path": "Champions Path",
+    "leg1": { "date": "06 AUG 2025", "stadium": "Toše Proeski Arena, Skopje", "s1": 0, "s2": 1 },
+    "leg2": { "date": "13 AUG 2025", "stadium": "Tofiq Bahramov Stadium, Baku", "s1": 1, "s2": 5 }
+  },
+  {
+    "t1": { "name": "Red Bull Salzburg", "logo": "https://media.api-sports.io/football/teams/571.png", "country": "AUT" },
+    "t2": { "name": "Club Brugge", "logo": "https://media.api-sports.io/football/teams/569.png", "country": "BEL" },
+    "path": "League Path",
+    "leg1": { "date": "05 AUG 2025", "stadium": "Red Bull Arena, Salzburg", "s1": 0, "s2": 1 },
+    "leg2": { "date": "12 AUG 2025", "stadium": "Jan Breydel Stadium, Bruges", "s1": 2, "s2": 3 }
+  },
+  {
+    "t1": { "name": "Rangers", "logo": "https://media.api-sports.io/football/teams/257.png", "country": "SCO" },
+    "t2": { "name": "Viktoria Plzeň", "logo": "https://media.api-sports.io/football/teams/567.png", "country": "CZE" },
+    "path": "League Path",
+    "leg1": { "date": "05 AUG 2025", "stadium": "Ibrox Stadium, Glasgow", "s1": 3, "s2": 0 },
+    "leg2": { "date": "12 AUG 2025", "stadium": "Doosan Arena, Plzeň", "s1": 1, "s2": 2 }
+  },
+  {
+    "t1": { "name": "Nice", "logo": "https://media.api-sports.io/football/teams/84.png", "country": "FRA" },
+    "t2": { "name": "Benfica", "logo": "https://media.api-sports.io/football/teams/211.png", "country": "POR" },
+    "path": "League Path",
+    "leg1": { "date": "05 AUG 2025", "stadium": "Allianz Riviera, Nice", "s1": 0, "s2": 2 },
+    "leg2": { "date": "12 AUG 2025", "stadium": "Estádio da Luz, Lisbon", "s1": 0, "s2": 2 }
+  },
+  {
+    "t1": { "name": "Feyenoord", "logo": "https://media.api-sports.io/football/teams/209.png", "country": "NED" },
+    "t2": { "name": "Fenerbahçe", "logo": "https://media.api-sports.io/football/teams/611.png", "country": "TUR" },
+    "path": "League Path",
+    "leg1": { "date": "05 AUG 2025", "stadium": "De Kuip, Rotterdam", "s1": 2, "s2": 1 },
+    "leg2": { "date": "12 AUG 2025", "stadium": "Şükrü Saracoğlu Stadium, Istanbul", "s1": 2, "s2": 5 }
+  }
+] },
+      { "name": "Play-off Round", "matches": [
+  {
+    "t1": { "name": "Ferencváros", "logo": "https://media.api-sports.io/football/teams/651.png", "country": "HUN" },
+    "t2": { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE" },
+    "path": "Champions Path",
+    "leg1": { "date": "19 AUG 2025", "stadium": "Groupama Aréna, Budapest", "s1": 1, "s2": 3 },
+    "leg2": { "date": "26 AUG 2025", "stadium": "Tofiq Bahramov Stadium, Baku", "s1": 3, "s2": 2 }
+  },
+  {
+    "t1": { "name": "Red Star Belgrade", "logo": "https://media.api-sports.io/football/teams/598.png", "country": "SRB" },
+    "t2": { "name": "Pafos", "logo": "https://media.api-sports.io/football/teams/3403.png", "country": "CYP" },
+    "path": "Champions Path",
+    "leg1": { "date": "19 AUG 2025", "stadium": "Rajko Mitić Stadium, Belgrade", "s1": 1, "s2": 2 },
+    "leg2": { "date": "26 AUG 2025", "stadium": "Stelios Kyriakides Stadium, Paphos", "s1": 1, "s2": 1 }
+  },
+  {
+    "t1": { "name": "Bodø/Glimt", "logo": "https://media.api-sports.io/football/teams/327.png", "country": "NOR" },
+    "t2": { "name": "Sturm Graz", "logo": "https://media.api-sports.io/football/teams/637.png", "country": "AUT" },
+    "path": "Champions Path",
+    "leg1": { "date": "20 AUG 2025", "stadium": "Aspmyra Stadion, Bodø", "s1": 5, "s2": 0 },
+    "leg2": { "date": "27 AUG 2025", "stadium": "Liebenauer Stadium, Graz", "s1": 1, "s2": 2 }
+  },
+  {
+    "t1": { "name": "Celtic", "logo": "https://media.api-sports.io/football/teams/247.png", "country": "SCO" },
+    "t2": { "name": "Kairat", "logo": "https://media.api-sports.io/football/teams/664.png", "country": "KAZ" },
+    "path": "Champions Path",
+    "leg1": { "date": "20 AUG 2025", "stadium": "Celtic Park, Glasgow", "s1": 0, "s2": 0 },
+    "leg2": { "date": "27 AUG 2025", "stadium": "Almaty Central Stadium, Almaty", "s1": 0, "s2": 0 },
+    "penalties": { "s1": 2, "s2": 3 }
+  },
+  {
+    "t1": { "name": "Basel", "logo": "https://media.api-sports.io/football/teams/551.png", "country": "SUI" },
+    "t2": { "name": "Copenhagen", "logo": "https://media.api-sports.io/football/teams/400.png", "country": "DEN" },
+    "path": "Champions Path",
+    "leg1": { "date": "20 AUG 2025", "stadium": "St. Jakob-Park, Basel", "s1": 1, "s2": 1 },
+    "leg2": { "date": "27 AUG 2025", "stadium": "Parken Stadium, Copenhagen", "s1": 0, "s2": 2 }
+  },
+  {
+    "t1": { "name": "Fenerbahçe", "logo": "https://media.api-sports.io/football/teams/611.png", "country": "TUR" },
+    "t2": { "name": "Benfica", "logo": "https://media.api-sports.io/football/teams/211.png", "country": "POR" },
+    "path": "League Path",
+    "leg1": { "date": "19 AUG 2025", "stadium": "Şükrü Saracoğlu Stadium, Istanbul", "s1": 0, "s2": 0 },
+    "leg2": { "date": "26 AUG 2025", "stadium": "Estádio da Luz, Lisbon", "s1": 0, "s2": 1 }
+  },
+  {
+    "t1": { "name": "Rangers", "logo": "https://media.api-sports.io/football/teams/257.png", "country": "SCO" },
+    "t2": { "name": "Club Brugge", "logo": "https://media.api-sports.io/football/teams/569.png", "country": "BEL" },
+    "path": "League Path",
+    "leg1": { "date": "20 AUG 2025", "stadium": "Ibrox Stadium, Glasgow", "s1": 1, "s2": 3 },
+    "leg2": { "date": "27 AUG 2025", "stadium": "Jan Breydel Stadium, Bruges", "s1": 0, "s2": 6 }
+  }
+] }
+    ]
+  },
+  "League Phase": {
+    "standings": [
+  { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG", "m": 8, "v": 8, "e": 0, "d": 0, "gm": 23, "gp": 4, "p": 24 },
+  { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER", "m": 8, "v": 7, "e": 0, "d": 1, "gm": 22, "gp": 8, "p": 21 },
+  { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png", "country": "ENG", "m": 8, "v": 6, "e": 0, "d": 2, "gm": 20, "gp": 8, "p": 18 },
+  { "name": "Tottenham Hotspur", "logo": "https://media.api-sports.io/football/teams/47.png", "country": "ENG", "m": 8, "v": 5, "e": 2, "d": 1, "gm": 17, "gp": 7, "p": 17 },
+  { "name": "Barcelona", "logo": "https://media.api-sports.io/football/teams/529.png", "country": "ESP", "m": 8, "v": 5, "e": 1, "d": 2, "gm": 22, "gp": 14, "p": 16 },
+  { "name": "Chelsea", "logo": "https://media.api-sports.io/football/teams/49.png", "country": "ENG", "m": 8, "v": 5, "e": 1, "d": 2, "gm": 17, "gp": 10, "p": 16 },
+  { "name": "Sporting CP", "logo": "https://media.api-sports.io/football/teams/228.png", "country": "POR", "m": 8, "v": 5, "e": 1, "d": 2, "gm": 17, "gp": 11, "p": 16 },
+  { "name": "Manchester City", "logo": "https://media.api-sports.io/football/teams/50.png", "country": "ENG", "m": 8, "v": 5, "e": 1, "d": 2, "gm": 15, "gp": 9, "p": 16 },
+  { "name": "Real Madrid", "logo": "https://media.api-sports.io/football/teams/541.png", "country": "ESP", "m": 8, "v": 5, "e": 0, "d": 3, "gm": 21, "gp": 12, "p": 15 },
+  { "name": "Inter Milan", "logo": "https://media.api-sports.io/football/teams/505.png", "country": "ITA", "m": 8, "v": 5, "e": 0, "d": 3, "gm": 15, "gp": 7, "p": 15 },
+  { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA", "m": 8, "v": 4, "e": 2, "d": 2, "gm": 21, "gp": 11, "p": 14 },
+  { "name": "Newcastle United", "logo": "https://media.api-sports.io/football/teams/34.png", "country": "ENG", "m": 8, "v": 4, "e": 2, "d": 2, "gm": 17, "gp": 7, "p": 14 },
+  { "name": "Juventus", "logo": "https://media.api-sports.io/football/teams/496.png", "country": "ITA", "m": 8, "v": 3, "e": 4, "d": 1, "gm": 14, "gp": 10, "p": 13 },
+  { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP", "m": 8, "v": 4, "e": 1, "d": 3, "gm": 17, "gp": 15, "p": 13 },
+  { "name": "Atalanta", "logo": "https://media.api-sports.io/football/teams/499.png", "country": "ITA", "m": 8, "v": 4, "e": 1, "d": 3, "gm": 10, "gp": 10, "p": 13 },
+  { "name": "Bayer Leverkusen", "logo": "https://media.api-sports.io/football/teams/168.png", "country": "GER", "m": 8, "v": 3, "e": 3, "d": 2, "gm": 13, "gp": 14, "p": 12 },
+  { "name": "Borussia Dortmund", "logo": "https://media.api-sports.io/football/teams/165.png", "country": "GER", "m": 8, "v": 3, "e": 2, "d": 3, "gm": 19, "gp": 17, "p": 11 },
+  { "name": "Olympiacos", "logo": "https://media.api-sports.io/football/teams/553.png", "country": "GRE", "m": 8, "v": 3, "e": 2, "d": 3, "gm": 10, "gp": 14, "p": 11 },
+  { "name": "Club Brugge", "logo": "https://media.api-sports.io/football/teams/569.png", "country": "BEL", "m": 8, "v": 3, "e": 1, "d": 4, "gm": 15, "gp": 17, "p": 10 },
+  { "name": "Galatasaray", "logo": "https://media.api-sports.io/football/teams/645.png", "country": "TUR", "m": 8, "v": 3, "e": 1, "d": 4, "gm": 9, "gp": 11, "p": 10 },
+  { "name": "Monaco", "logo": "https://media.api-sports.io/football/teams/91.png", "country": "FRA", "m": 8, "v": 2, "e": 4, "d": 2, "gm": 8, "gp": 14, "p": 10 },
+  { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE", "m": 8, "v": 3, "e": 1, "d": 4, "gm": 13, "gp": 21, "p": 10 },
+  { "name": "Bodø/Glimt", "logo": "https://media.api-sports.io/football/teams/327.png", "country": "NOR", "m": 8, "v": 2, "e": 3, "d": 3, "gm": 14, "gp": 15, "p": 9 },
+  { "name": "Benfica", "logo": "https://media.api-sports.io/football/teams/211.png", "country": "POR", "m": 8, "v": 3, "e": 0, "d": 5, "gm": 10, "gp": 12, "p": 9 },
+  { "name": "Marseille", "logo": "https://media.api-sports.io/football/teams/81.png", "country": "FRA", "m": 8, "v": 3, "e": 0, "d": 5, "gm": 11, "gp": 14, "p": 9 },
+  { "name": "Pafos", "logo": "https://media.api-sports.io/football/teams/3403.png", "country": "CYP", "m": 8, "v": 2, "e": 3, "d": 3, "gm": 8, "gp": 11, "p": 9 },
+  { "name": "Union Saint-Gilloise", "logo": "https://media.api-sports.io/football/teams/1393.png", "country": "BEL", "m": 8, "v": 3, "e": 0, "d": 5, "gm": 8, "gp": 17, "p": 9 },
+  { "name": "PSV Eindhoven", "logo": "https://media.api-sports.io/football/teams/197.png", "country": "NED", "m": 8, "v": 2, "e": 2, "d": 4, "gm": 16, "gp": 16, "p": 8 },
+  { "name": "Athletic Bilbao", "logo": "https://media.api-sports.io/football/teams/531.png", "country": "ESP", "m": 8, "v": 2, "e": 2, "d": 4, "gm": 9, "gp": 14, "p": 8 },
+  { "name": "Napoli", "logo": "https://media.api-sports.io/football/teams/492.png", "country": "ITA", "m": 8, "v": 2, "e": 2, "d": 4, "gm": 9, "gp": 15, "p": 8 },
+  { "name": "Copenhagen", "logo": "https://media.api-sports.io/football/teams/400.png", "country": "DEN", "m": 8, "v": 2, "e": 2, "d": 4, "gm": 12, "gp": 21, "p": 8 },
+  { "name": "Ajax", "logo": "https://media.api-sports.io/football/teams/194.png", "country": "NED", "m": 8, "v": 2, "e": 0, "d": 6, "gm": 8, "gp": 21, "p": 6 },
+  { "name": "Eintracht Frankfurt", "logo": "https://media.api-sports.io/football/teams/169.png", "country": "GER", "m": 8, "v": 1, "e": 1, "d": 6, "gm": 10, "gp": 21, "p": 4 },
+  { "name": "Slavia Prague", "logo": "https://media.api-sports.io/football/teams/560.png", "country": "CZE", "m": 8, "v": 0, "e": 3, "d": 5, "gm": 5, "gp": 19, "p": 3 },
+  { "name": "Villarreal", "logo": "https://media.api-sports.io/football/teams/533.png", "country": "ESP", "m": 8, "v": 0, "e": 1, "d": 7, "gm": 5, "gp": 18, "p": 1 },
+  { "name": "Kairat", "logo": "https://media.api-sports.io/football/teams/664.png", "country": "KAZ", "m": 8, "v": 0, "e": 1, "d": 7, "gm": 7, "gp": 22, "p": 1 }
+],
+    "matchdays": [
+      {
+        "day": 1,
+        "matches": [
+          {
+            "t1": { "name": "Athletic Bilbao", "logo": "https://media.api-sports.io/football/teams/531.png", "country": "ESP" },
+            "t2": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
+            "leg1": { "date": "16 SEP 2025", "stadium": "San Mamés, Bilbao", "s1": 0, "s2": 2 },
+            "scorers": { "t2": [{ "name": "Martinelli", "min": "72", "type": "g" }, { "name": "Trossard", "min": "87", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "PSV Eindhoven", "logo": "https://media.api-sports.io/football/teams/197.png", "country": "NED" },
+            "t2": { "name": "Union Saint-Gilloise", "logo": "https://media.api-sports.io/football/teams/1393.png", "country": "BEL" },
+            "leg1": { "date": "16 SEP 2025", "stadium": "Philips Stadion, Eindhoven", "s1": 1, "s2": 3 },
+            "scorers": { "t1": [{ "name": "Van Bommel", "min": "90", "type": "g" }], "t2": [{ "name": "David", "min": "9", "type": "p" }, { "name": "All El Hadj", "min": "39", "type": "g" }, { "name": "Mac Allister", "min": "81", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "Juventus", "logo": "https://media.api-sports.io/football/teams/496.png", "country": "ITA" },
+            "t2": { "name": "Borussia Dortmund", "logo": "https://media.api-sports.io/football/teams/165.png", "country": "GER" },
+            "leg1": { "date": "16 SEP 2025", "stadium": "Juventus Stadium, Turin", "s1": 4, "s2": 4 },
+            "scorers": { "t1": [{ "name": "Yildiz", "min": "40", "type": "g" }, { "name": "Vlahovic", "min": "67", "type": "g" }, { "name": "Vlahovic", "min": "90+4", "type": "g" }, { "name": "Kelly", "min": "90+2", "type": "g" }], "t2": [{ "name": "Adeyemi", "min": "52", "type": "g" }, { "name": "Nmecha", "min": "65", "type": "g" }, { "name": "Couto", "min": "74", "type": "g" }, { "name": "Bensebaini", "min": "80", "type": "p" }] }
+          },
+          {
+            "t1": { "name": "Real Madrid", "logo": "https://media.api-sports.io/football/teams/541.png", "country": "ESP" },
+            "t2": { "name": "Marseille", "logo": "https://media.api-sports.io/football/teams/81.png", "country": "FRA" },
+            "leg1": { "date": "16 SEP 2025", "stadium": "Santiago Bernabéu, Madrid", "s1": 2, "s2": 1 },
+            "scorers": { "t1": [{ "name": "Mbappe", "min": "28", "type": "p" }, { "name": "Mbappe", "min": "81", "type": "p" }], "t2": [{ "name": "Wahi", "min": "22", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "Benfica", "logo": "https://media.api-sports.io/football/teams/211.png", "country": "POR" },
+            "t2": { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE" },
+            "leg1": { "date": "16 SEP 2025", "stadium": "Estádio da Luz, Lisbon", "s1": 2, "s2": 3 },
+            "scorers": { "t1": [{ "name": "Barrenechea", "min": "6", "type": "g" }, { "name": "Pavlidis", "min": "16", "type": "g" }], "t2": [{ "name": "Andrade", "min": "32", "type": "g" }, { "name": "Diakhaby", "min": "48", "type": "g" }, { "name": "Kashchuk", "min": "80", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "Tottenham Hotspur", "logo": "https://media.api-sports.io/football/teams/47.png", "country": "ENG" },
+            "t2": { "name": "Villarreal", "logo": "https://media.api-sports.io/football/teams/533.png", "country": "ESP" },
+            "leg1": { "date": "16 SEP 2025", "stadium": "Tottenham Hotspur Stadium, London", "s1": 1, "s2": 0 },
+            "scorers": { "t1": [{ "name": "Lut Junior", "min": "4", "type": "og" }] }
+          },
+          {
+            "t1": { "name": "Olympiacos", "logo": "https://media.api-sports.io/football/teams/553.png", "country": "GRE" },
+            "t2": { "name": "Pafos", "logo": "https://media.api-sports.io/football/teams/3403.png", "country": "CYP" },
+            "leg1": { "date": "17 SEP 2025", "stadium": "Karaiskakis Stadium, Piraeus", "s1": 0, "s2": 0 },
+            "scorers": { "t1": [], "t2": [] }
+          },
+          {
+            "t1": { "name": "Slavia Prague", "logo": "https://media.api-sports.io/football/teams/560.png", "country": "CZE" },
+            "t2": { "name": "Bodø/Glimt", "logo": "https://media.api-sports.io/football/teams/327.png", "country": "NOR" },
+            "leg1": { "date": "17 SEP 2025", "stadium": "Fortuna Arena, Prague", "s1": 2, "s2": 2 },
+            "scorers": { "t1": [{ "name": "Mbanyi", "min": "23", "type": "g" }, { "name": "Mbanyi", "min": "74", "type": "g" }], "t2": [{ "name": "Berg", "min": "78", "type": "g" }, { "name": "Fet", "min": "90", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "Ajax", "logo": "https://media.api-sports.io/football/teams/194.png", "country": "NED" },
+            "t2": { "name": "Inter Milan", "logo": "https://media.api-sports.io/football/teams/505.png", "country": "ITA" },
+            "leg1": { "date": "17 SEP 2025", "stadium": "Johan Cruyff Arena, Amsterdam", "s1": 0, "s2": 2 },
+            "scorers": { "t2": [{ "name": "Thuram", "min": "42", "type": "g" }, { "name": "Thuram", "min": "47", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER" },
+            "t2": { "name": "Chelsea", "logo": "https://media.api-sports.io/football/teams/49.png", "country": "ENG" },
+            "leg1": { "date": "17 SEP 2025", "stadium": "Allianz Arena, Munich", "s1": 3, "s2": 1 },
+            "scorers": { "t1": [{ "name": "Chalobah", "min": "20", "type": "og" }, { "name": "Kane", "min": "27", "type": "p" }, { "name": "Kane", "min": "63", "type": "g" }], "t2": [{ "name": "Palmer", "min": "29", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png", "country": "ENG" },
+            "t2": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
+            "leg1": { "date": "17 SEP 2025", "stadium": "Anfield, Liverpool", "s1": 3, "s2": 2 },
+            "scorers": { "t1": [{ "name": "Robertson", "min": "4", "type": "g" }, { "name": "Salah", "min": "15", "type": "g" }, { "name": "Van Dijk", "min": "80", "type": "g" }], "t2": [{ "name": "Llorente", "min": "45+3", "type": "g" }, { "name": "Llorente", "min": "61", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
+            "t2": { "name": "Atalanta", "logo": "https://media.api-sports.io/football/teams/499.png", "country": "ITA" },
+            "leg1": { "date": "17 SEP 2025", "stadium": "Parc des Princes, Paris", "s1": 4, "s2": 0 },
+            "scorers": { "t1": [{ "name": "Marquinhos", "min": "3", "type": "g" }, { "name": "Kvaratskhelia", "min": "38", "type": "g" }, { "name": "Mendes", "min": "51", "type": "g" }, { "name": "Ramos", "min": "90+1", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "Club Brugge", "logo": "https://media.api-sports.io/football/teams/569.png", "country": "BEL" },
+            "t2": { "name": "Monaco", "logo": "https://media.api-sports.io/football/teams/91.png", "country": "FRA" },
+            "leg1": { "date": "18 SEP 2025", "stadium": "Jan Breydel Stadium, Bruges", "s1": 4, "s2": 1 },
+            "scorers": { "t1": [{ "name": "Tzolis", "min": "32", "type": "g" }, { "name": "Onyedika", "min": "38", "type": "g" }, { "name": "Vanaken", "min": "42", "type": "g" }, { "name": "Nilsson", "min": "75", "type": "g" }], "t2": [{ "name": "Fati", "min": "90+1", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "Copenhagen", "logo": "https://media.api-sports.io/football/teams/400.png", "country": "DEN" },
+            "t2": { "name": "Bayer Leverkusen", "logo": "https://media.api-sports.io/football/teams/168.png", "country": "GER" },
+            "leg1": { "date": "18 SEP 2025", "stadium": "Parken Stadium, Copenhagen", "s1": 2, "s2": 2 },
+            "scorers": { "t1": [{ "name": "Larsson", "min": "9", "type": "g" }, { "name": "Robert", "min": "67", "type": "g" }], "t2": [{ "name": "Grimaldo", "min": "52", "type": "g" }, { "name": "Hatzidiakos", "min": "90+1", "type": "og" }] }
+          },
+          {
+            "t1": { "name": "Eintracht Frankfurt", "logo": "https://media.api-sports.io/football/teams/169.png", "country": "GER" },
+            "t2": { "name": "Galatasaray", "logo": "https://media.api-sports.io/football/teams/645.png", "country": "TUR" },
+            "leg1": { "date": "18 SEP 2025", "stadium": "Waldstadion, Frankfurt", "s1": 5, "s2": 1 },
+            "scorers": { "t1": [{ "name": "Sánchez", "min": "37", "type": "og" }, { "name": "Uzun", "min": "45+2", "type": "g" }, { "name": "Singo", "min": "45+4", "type": "og" }, { "name": "Burkardt", "min": "66", "type": "g" }, { "name": "Knauff", "min": "75", "type": "g" }], "t2": [{ "name": "Akgün", "min": "8", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "Manchester City", "logo": "https://media.api-sports.io/football/teams/50.png", "country": "ENG" },
+            "t2": { "name": "Napoli", "logo": "https://media.api-sports.io/football/teams/492.png", "country": "ITA" },
+            "leg1": { "date": "18 SEP 2025", "stadium": "Etihad Stadium, Manchester", "s1": 2, "s2": 0 },
+            "scorers": { "t1": [{ "name": "Haaland", "min": "58", "type": "g" }, { "name": "Doku", "min": "65", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "Newcastle United", "logo": "https://media.api-sports.io/football/teams/34.png", "country": "ENG" },
+            "t2": { "name": "Barcelona", "logo": "https://media.api-sports.io/football/teams/529.png", "country": "ESP" },
+            "leg1": { "date": "18 SEP 2025", "stadium": "St James' Park, Newcastle", "s1": 1, "s2": 2 },
+            "scorers": { "t1": [{ "name": "Gordon", "min": "90", "type": "g" }], "t2": [{ "name": "Rashford", "min": "58", "type": "g" }, { "name": "Rashford", "min": "67", "type": "g" }] }
+          },
+          {
+            "t1": { "name": "Sporting CP", "logo": "https://media.api-sports.io/football/teams/228.png", "country": "POR" },
+            "t2": { "name": "Kairat", "logo": "https://media.api-sports.io/football/teams/664.png", "country": "KAZ" },
+            "leg1": { "date": "18 SEP 2025", "stadium": "Estádio José Alvalade, Lisbon", "s1": 4, "s2": 1 },
+            "scorers": { "t1": [{ "name": "Trincão", "min": "44", "type": "g" }, { "name": "Trincão", "min": "65", "type": "g" }, { "name": "Alisson", "min": "67", "type": "g" }, { "name": "Quenda", "min": "88", "type": "g" }], "t2": [{ "name": "Edmilson", "min": "80", "type": "g" }] }
+          }
+        ]
+      },
+      {
+  "day": 2,
+  "matches": [
+    {
+      "t1": { "name": "Atalanta", "logo": "https://media.api-sports.io/football/teams/499.png", "country": "ITA" },
+      "t2": { "name": "Club Brugge", "logo": "https://media.api-sports.io/football/teams/569.png", "country": "BEL" },
+      "leg1": { "date": "30 SEP 2025", "stadium": "Stadio Atleti Azzurri d'Italia, Bergamo", "s1": 2, "s2": 1 },
+      "scorers": { "t1": [{ "name": "Samardzic", "min": "74", "type": "p" }, { "name": "Pasalic", "min": "87", "type": "g" }], "t2": [{ "name": "Tzolis", "min": "32", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Kairat", "logo": "https://media.api-sports.io/football/teams/664.png", "country": "KAZ" },
+      "t2": { "name": "Real Madrid", "logo": "https://media.api-sports.io/football/teams/541.png", "country": "ESP" },
+      "leg1": { "date": "30 SEP 2025", "stadium": "Central Stadium, Almaty", "s1": 0, "s2": 5 },
+      "scorers": { "t2": [{ "name": "Mbappe", "min": "25", "type": "p" }, { "name": "Mbappe", "min": "52", "type": "g" }, { "name": "Mbappe", "min": "73", "type": "g" }, { "name": "Camavinga", "min": "63", "type": "g" }, { "name": "Brahim", "min": "90+3", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Atletico Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
+      "t2": { "name": "Eintracht Frankfurt", "logo": "https://media.api-sports.io/football/teams/169.png", "country": "GER" },
+      "leg1": { "date": "30 SEP 2025", "stadium": "Metropolitano Stadium, Madrid", "s1": 5, "s2": 1 },
+      "scorers": { "t1": [{ "name": "Raspadori", "min": "4", "type": "g" }, { "name": "Le Normand", "min": "33", "type": "g" }, { "name": "Griezmann", "min": "45+1", "type": "g" }, { "name": "Simeone", "min": "70", "type": "g" }, { "name": "Alvarez", "min": "82", "type": "p" }], "t2": [{ "name": "Burkardt", "min": "57", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Chelsea", "logo": "https://media.api-sports.io/football/teams/49.png", "country": "ENG" },
+      "t2": { "name": "Benfica", "logo": "https://media.api-sports.io/football/teams/211.png", "country": "POR" },
+      "leg1": { "date": "30 SEP 2025", "stadium": "Stamford Bridge, London", "s1": 1, "s2": 0 },
+      "scorers": { "t1": [{ "name": "Rios", "min": "18", "type": "og" }] }
+    },
+    {
+      "t1": { "name": "Inter Milan", "logo": "https://media.api-sports.io/football/teams/505.png", "country": "ITA" },
+      "t2": { "name": "Slavia Prague", "logo": "https://media.api-sports.io/football/teams/560.png", "country": "CZE" },
+      "leg1": { "date": "30 SEP 2025", "stadium": "San Siro, Milan", "s1": 3, "s2": 0 },
+      "scorers": { "t1": [{ "name": "L. Martinez", "min": "30", "type": "g" }, { "name": "L. Martinez", "min": "65", "type": "g" }, { "name": "Dumfries", "min": "34", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Bodø/Glimt", "logo": "https://media.api-sports.io/football/teams/327.png", "country": "NOR" },
+      "t2": { "name": "Tottenham Hotspur", "logo": "https://media.api-sports.io/football/teams/47.png", "country": "ENG" },
+      "leg1": { "date": "30 SEP 2025", "stadium": "Aspmyra Stadion, Bodo", "s1": 2, "s2": 2 },
+      "scorers": { "t1": [{ "name": "Hauge", "min": "53", "type": "g" }, { "name": "Hauge", "min": "60", "type": "g" }], "t2": [{ "name": "Van de Ven", "min": "88", "type": "g" }, { "name": "Gundersen", "min": "89", "type": "og" }] }
+    },
+    {
+      "t1": { "name": "Galatasaray", "logo": "https://media.api-sports.io/football/teams/645.png", "country": "TUR" },
+      "t2": { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png", "country": "ENG" },
+      "leg1": { "date": "30 SEP 2025", "stadium": "Rams Park, Istanbul", "s1": 1, "s2": 0 },
+      "scorers": { "t1": [{ "name": "Osimhen", "min": "10", "type": "p" }] }
+    },
+    {
+      "t1": { "name": "Marseille", "logo": "https://media.api-sports.io/football/teams/81.png", "country": "FRA" },
+      "t2": { "name": "Ajax", "logo": "https://media.api-sports.io/football/teams/194.png", "country": "NED" },
+      "leg1": { "date": "30 SEP 2025", "stadium": "Stade Velodrome, Marseille", "s1": 4, "s2": 0 },
+      "scorers": { "t1": [{ "name": "Polido", "min": "8", "type": "g" }, { "name": "Polido", "min": "12", "type": "g" }, { "name": "Greenwood", "min": "26", "type": "g" }, { "name": "Aubameyang", "min": "52", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Pafos", "logo": "https://media.api-sports.io/football/teams/3403.png", "country": "CYP" },
+      "t2": { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER" },
+      "leg1": { "date": "30 SEP 2025", "stadium": "Alphamega Stadium, Limassol", "s1": 1, "s2": 5 },
+      "scorers": { "t1": [{ "name": "Onic", "min": "45", "type": "g" }], "t2": [{ "name": "Kane", "min": "15", "type": "g" }, { "name": "Kane", "min": "34", "type": "g" }, { "name": "Guerreiro", "min": "28", "type": "g" }, { "name": "Jackson", "min": "31", "type": "g" }, { "name": "Olise", "min": "68", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE" },
+      "t2": { "name": "Copenhagen", "logo": "https://media.api-sports.io/football/teams/400.png", "country": "DEN" },
+      "leg1": { "date": "01 OCT 2025", "stadium": "Tofiq Bahramov Republican Stadium, Baku", "s1": 2, "s2": 0 },
+      "scorers": { "t1": [{ "name": "Zoubir", "min": "28", "type": "g" }, { "name": "Addai", "min": "83", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Union Saint-Gilloise", "logo": "https://media.api-sports.io/football/teams/1393.png", "country": "BEL" },
+      "t2": { "name": "Newcastle United", "logo": "https://media.api-sports.io/football/teams/34.png", "country": "ENG" },
+      "leg1": { "date": "01 OCT 2025", "stadium": "Constant Vanden Stock Stadium, Brussels", "s1": 0, "s2": 4 },
+      "scorers": { "t2": [{ "name": "Woltemade", "min": "17", "type": "g" }, { "name": "Gordon", "min": "43", "type": "p" }, { "name": "Gordon", "min": "64", "type": "p" }, { "name": "Barnes", "min": "82", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
+      "t2": { "name": "Olympiacos", "logo": "https://media.api-sports.io/football/teams/553.png", "country": "GRE" },
+      "leg1": { "date": "01 OCT 2025", "stadium": "Emirates Stadium, London", "s1": 2, "s2": 0 },
+      "scorers": { "t1": [{ "name": "Martinelli", "min": "12", "type": "g" }, { "name": "Saka", "min": "90+2", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Monaco", "logo": "https://media.api-sports.io/football/teams/91.png", "country": "FRA" },
+      "t2": { "name": "Manchester City", "logo": "https://media.api-sports.io/football/teams/50.png", "country": "ENG" },
+      "leg1": { "date": "01 OCT 2025", "stadium": "Stade Louis II, Monaco", "s1": 2, "s2": 2 },
+      "scorers": { "t1": [{ "name": "Teze", "min": "18", "type": "g" }, { "name": "Dier", "min": "90", "type": "p" }], "t2": [{ "name": "Haaland", "min": "15", "type": "g" }, { "name": "Haaland", "min": "44", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Bayer Leverkusen", "logo": "https://media.api-sports.io/football/teams/168.png", "country": "GER" },
+      "t2": { "name": "PSV Eindhoven", "logo": "https://media.api-sports.io/football/teams/197.png", "country": "NED" },
+      "leg1": { "date": "01 OCT 2025", "stadium": "BayArena, Leverkusen", "s1": 1, "s2": 1 },
+      "scorers": { "t1": [{ "name": "Kofana", "min": "65", "type": "g" }], "t2": [{ "name": "Saibari", "min": "72", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Borussia Dortmund", "logo": "https://media.api-sports.io/football/teams/165.png", "country": "GER" },
+      "t2": { "name": "Athletic Bilbao", "logo": "https://media.api-sports.io/football/teams/531.png", "country": "ESP" },
+      "leg1": { "date": "01 OCT 2025", "stadium": "Westfalenstadion, Dortmund", "s1": 4, "s2": 1 },
+      "scorers": { "t1": [{ "name": "Svensson", "min": "28", "type": "g" }, { "name": "Chukwuemeka", "min": "50", "type": "g" }, { "name": "Guirassy", "min": "62", "type": "g" }, { "name": "Brandt", "min": "90+1", "type": "g" }], "t2": [{ "name": "Guruzeta", "min": "81", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Barcelona", "logo": "https://media.api-sports.io/football/teams/529.png", "country": "ESP" },
+      "t2": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
+      "leg1": { "date": "01 OCT 2025", "stadium": "Estadi Olimpic Lluis Companys, Barcelona", "s1": 1, "s2": 2 },
+      "scorers": { "t1": [{ "name": "Torres", "min": "19", "type": "g" }], "t2": [{ "name": "Mayulu", "min": "38", "type": "g" }, { "name": "Ramos", "min": "90", "type": "g" }] }
+    },
+    {
+      "t1": { "name": "Napoli", "logo": "https://media.api-sports.io/football/teams/492.png", "country": "ITA" },
+      "t2": { "name": "Sporting CP", "logo": "https://media.api-sports.io/football/teams/228.png", "country": "POR" },
+      "leg1": { "date": "01 OCT 2025", "stadium": "Stadio Diego Armando Maradona, Naples", "s1": 2, "s2": 1 },
+      "scorers": { "t1": [{ "name": "Hojlund", "min": "30", "type": "g" }, { "name": "Hojlund", "min": "79", "type": "g" }], "t2": [{ "name": "Suarez", "min": "62", "type": "p" }] }
+    },
+    {
+      "t1": { "name": "Villarreal", "logo": "https://media.api-sports.io/football/teams/533.png", "country": "ESP" },
+      "t2": { "name": "Juventus", "logo": "https://media.api-sports.io/football/teams/496.png", "country": "ITA" },
+      "leg1": { "date": "01 OCT 2025", "stadium": "Estadio de la Ceramica, Vila-real", "s1": 2, "s2": 2 },
+      "scorers": { "t1": [{ "name": "Mikautadze", "min": "18", "type": "g" }, { "name": "Veiga", "min": "90", "type": "g" }], "t2": [{ "name": "Gatti", "min": "49", "type": "g" }, { "name": "Conceicao", "min": "50", "type": "g" }] }
+    }
+  ]
+},{
+  "day": 3,
+  "matches": [
+    {
+      "t1": { "name": "Kairat", "logo": "https://media.api-sports.io/football/teams/664.png", "country": "KAZ" },
+      "t2": { "name": "Pafos", "logo": "https://media.api-sports.io/football/teams/3403.png", "country": "CYP" },
+      "leg1": { "date": "21 OCT 2025", "stadium": "Almaty Ortalyk Stadium, Almaty", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Barcelona", "logo": "https://media.api-sports.io/football/teams/529.png", "country": "ESP" },
+      "t2": { "name": "Olympiacos", "logo": "https://media.api-sports.io/football/teams/553.png", "country": "GRE" },
+      "leg1": { "date": "21 OCT 2025", "stadium": "Estadi Olímpic Lluís Companys, Barcelona", "s1": 6, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Fermín", "min": "6", "type": "g" },
+          { "name": "Fermín", "min": "38", "type": "g" },
+          { "name": "Lamine Yamal", "min": "67", "type": "g" },
+          { "name": "Rashford", "min": "73", "type": "g" },
+          { "name": "Fermín", "min": "75", "type": "g" },
+          { "name": "Rashford", "min": "78", "type": "g" }
+        ],
+        "t2": [{ "name": "El Kaabi", "min": "52", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Villarreal", "logo": "https://media.api-sports.io/football/teams/533.png", "country": "ESP" },
+      "t2": { "name": "Manchester City", "logo": "https://media.api-sports.io/football/teams/50.png", "country": "ENG" },
+      "leg1": { "date": "21 OCT 2025", "stadium": "Estadio de la Cerámica, Vila-real", "s1": 0, "s2": 2 },
+      "scorers": {
+        "t2": [
+          { "name": "Haaland", "min": "16", "type": "g" },
+          { "name": "Bernardo Silva", "min": "39", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
+      "t2": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
+      "leg1": { "date": "21 OCT 2025", "stadium": "Emirates Stadium, London", "s1": 4, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Gabriel", "min": "56", "type": "g" },
+          { "name": "Martinelli", "min": "63", "type": "g" },
+          { "name": "Gyökeres", "min": "66", "type": "g" },
+          { "name": "Gyökeres", "min": "69", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "PSV Eindhoven", "logo": "https://media.api-sports.io/football/teams/197.png", "country": "NED" },
+      "t2": { "name": "Napoli", "logo": "https://media.api-sports.io/football/teams/492.png", "country": "ITA" },
+      "leg1": { "date": "21 OCT 2025", "stadium": "Philips Stadion, Eindhoven", "s1": 6, "s2": 2 },
+      "scorers": {
+        "t1": [
+          { "name": "Buongiorno", "min": "34", "type": "og" },
+          { "name": "Saibari", "min": "37", "type": "g" },
+          { "name": "Man", "min": "53", "type": "g" },
+          { "name": "Man", "min": "79", "type": "g" },
+          { "name": "Pepi", "min": "86", "type": "g" },
+          { "name": "Driouech", "min": "88", "type": "g" }
+        ],
+        "t2": [
+          { "name": "McTominay", "min": "30", "type": "g" },
+          { "name": "Lucca", "min": "75", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Bayer Leverkusen", "logo": "https://media.api-sports.io/football/teams/168.png", "country": "GER" },
+      "t2": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
+      "leg1": { "date": "21 OCT 2025", "stadium": "BayArena, Leverkusen", "s1": 2, "s2": 7 },
+      "scorers": {
+        "t1": [
+          { "name": "Andrich", "min": "32", "type": "g" },
+          { "name": "Aleix García", "min": "37", "type": "g" }
+        ],
+        "t2": [
+          { "name": "Pacho", "min": "6", "type": "g" },
+          { "name": "Zabarnyi", "min": "36", "type": "g" },
+          { "name": "Doué", "min": "40", "type": "g" },
+          { "name": "Kvaratskhelia", "min": "43", "type": "g" },
+          { "name": "Doué", "min": "47", "type": "g" },
+          { "name": "Mendes", "min": "49", "type": "g" },
+          { "name": "Dembélé", "min": "65", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Copenhagen", "logo": "https://media.api-sports.io/football/teams/400.png", "country": "DEN" },
+      "t2": { "name": "Borussia Dortmund", "logo": "https://media.api-sports.io/football/teams/165.png", "country": "GER" },
+      "leg1": { "date": "21 OCT 2025", "stadium": "Parken Stadium, Copenhagen", "s1": 2, "s2": 4 },
+      "scorers": {
+        "t1": [
+          { "name": "Anton", "min": "32", "type": "og" },
+          { "name": "Dadason", "min": "89", "type": "g" }
+        ],
+        "t2": [
+          { "name": "F. Nmecha", "min": "19", "type": "g" },
+          { "name": "Bensebaini", "min": "60", "type": "g" },
+          { "name": "F. Nmecha", "min": "75", "type": "g" },
+          { "name": "Fabio Silva", "min": "86", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Newcastle United", "logo": "https://media.api-sports.io/football/teams/34.png", "country": "ENG" },
+      "t2": { "name": "Benfica", "logo": "https://media.api-sports.io/football/teams/211.png", "country": "POR" },
+      "leg1": { "date": "21 OCT 2025", "stadium": "St. James' Park, Newcastle", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Gordon", "min": "31", "type": "g" },
+          { "name": "Barnes", "min": "69", "type": "g" },
+          { "name": "Barnes", "min": "82", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Union Saint-Gilloise", "logo": "https://media.api-sports.io/football/teams/1393.png", "country": "BEL" },
+      "t2": { "name": "Inter Milan", "logo": "https://media.api-sports.io/football/teams/505.png", "country": "ITA" },
+      "leg1": { "date": "21 OCT 2025", "stadium": "Lotto Park, Brussels", "s1": 0, "s2": 4 },
+      "scorers": {
+        "t2": [
+          { "name": "Dumfries", "min": "40", "type": "g" },
+          { "name": "Lautaro Martínez", "min": "45", "type": "g" },
+          { "name": "Calhanoglu", "min": "52", "type": "g" },
+          { "name": "F. Esposito", "min": "75", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Galatasaray", "logo": "https://media.api-sports.io/football/teams/645.png", "country": "TUR" },
+      "t2": { "name": "Bodø/Glimt", "logo": "https://media.api-sports.io/football/teams/327.png", "country": "NOR" },
+      "leg1": { "date": "22 OCT 2025", "stadium": "Rams Park, Istanbul", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Osimhen", "min": "3", "type": "g" },
+          { "name": "Osimhen", "min": "33", "type": "g" },
+          { "name": "Akgün", "min": "60", "type": "g" }
+        ],
+        "t2": [{ "name": "Helmersen", "min": "76", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Athletic Bilbao", "logo": "https://media.api-sports.io/football/teams/531.png", "country": "ESP" },
+      "t2": { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE" },
+      "leg1": { "date": "22 OCT 2025", "stadium": "San Mamés, Bilbao", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Guruzeta", "min": "40", "type": "g" },
+          { "name": "Navarro", "min": "70", "type": "g" },
+          { "name": "Guruzeta", "min": "88", "type": "g" }
+        ],
+        "t2": [{ "name": "Andrade", "min": "1", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Chelsea", "logo": "https://media.api-sports.io/football/teams/49.png", "country": "ENG" },
+      "t2": { "name": "Ajax", "logo": "https://media.api-sports.io/football/teams/194.png", "country": "NED" },
+      "leg1": { "date": "22 OCT 2025", "stadium": "Stamford Bridge, London", "s1": 5, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Marc Guiu", "min": "18", "type": "g" },
+          { "name": "Caicedo", "min": "27", "type": "g" },
+          { "name": "Enzo Fernández", "min": "45", "type": "p" },
+          { "name": "Estêvão", "min": "45+6", "type": "p" },
+          { "name": "George", "min": "48", "type": "g" }
+        ],
+        "t2": [{ "name": "Weghorst", "min": "33", "type": "p" }]
+      }
+    },
+    {
+      "t1": { "name": "Atalanta", "logo": "https://media.api-sports.io/football/teams/499.png", "country": "ITA" },
+      "t2": { "name": "Slavia Prague", "logo": "https://media.api-sports.io/football/teams/560.png", "country": "CZE" },
+      "leg1": { "date": "22 OCT 2025", "stadium": "New Balance Arena, Bergamo", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Eintracht Frankfurt", "logo": "https://media.api-sports.io/football/teams/169.png", "country": "GER" },
+      "t2": { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png", "country": "ENG" },
+      "leg1": { "date": "22 OCT 2025", "stadium": "Waldstadion, Frankfurt", "s1": 1, "s2": 5 },
+      "scorers": {
+        "t1": [{ "name": "Kristensen", "min": "26", "type": "g" }],
+        "t2": [
+          { "name": "Ekitike", "min": "35", "type": "g" },
+          { "name": "Van Dijk", "min": "39", "type": "g" },
+          { "name": "Konaté", "min": "44", "type": "g" },
+          { "name": "Gakpo", "min": "66", "type": "g" },
+          { "name": "Szoboszlai", "min": "70", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Sporting CP", "logo": "https://media.api-sports.io/football/teams/228.png", "country": "POR" },
+      "t2": { "name": "Marseille", "logo": "https://media.api-sports.io/football/teams/81.png", "country": "FRA" },
+      "leg1": { "date": "22 OCT 2025", "stadium": "Estádio José Alvalade, Lisbon", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t2": [{ "name": "Paixão", "min": "14", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Monaco", "logo": "https://media.api-sports.io/football/teams/91.png", "country": "FRA" },
+      "t2": { "name": "Tottenham", "logo": "https://media.api-sports.io/football/teams/47.png", "country": "ENG" },
+      "leg1": { "date": "22 OCT 2025", "stadium": "Stade Louis II, Monaco", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Real Madrid", "logo": "https://media.api-sports.io/football/teams/541.png", "country": "ESP" },
+      "t2": { "name": "Juventus", "logo": "https://media.api-sports.io/football/teams/496.png", "country": "ITA" },
+      "leg1": { "date": "22 OCT 2025", "stadium": "Estadio Bernabeu, Madrid", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Bellingham", "min": "57", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER" },
+      "t2": { "name": "Club Brugge", "logo": "https://media.api-sports.io/football/teams/569.png", "country": "BEL" },
+      "leg1": { "date": "22 OCT 2025", "stadium": "Allianz Arena, Munich", "s1": 4, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Karl", "min": "5", "type": "g" },
+          { "name": "Kane", "min": "14", "type": "g" },
+          { "name": "Luis Díaz", "min": "34", "type": "g" },
+          { "name": "Jackson", "min": "79", "type": "g" }
+        ]
+      }
+    }
+  ]
+},
+{
+  "day": 4,
+  "matches": [
+    {
+      "t1": { "name": "Slavia Prague", "logo": "https://media.api-sports.io/football/teams/560.png", "country": "CZE" },
+      "t2": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
+      "leg1": { "date": "04 NOV 2025", "stadium": "Fortuna Arena, Prague", "s1": 0, "s2": 3 },
+      "scorers": {
+        "t2": [
+          { "name": "Saka", "min": "31", "type": "p" },
+          { "name": "Merino", "min": "45", "type": "g" },
+          { "name": "Merino", "min": "67", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Napoli", "logo": "https://media.api-sports.io/football/teams/492.png", "country": "ITA" },
+      "t2": { "name": "Eintracht Frankfurt", "logo": "https://media.api-sports.io/football/teams/169.png", "country": "GER" },
+      "leg1": { "date": "04 NOV 2025", "stadium": "Stadio Diego Armando Maradona, Naples", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
+      "t2": { "name": "Union Saint-Gilloise", "logo": "https://media.api-sports.io/football/teams/1393.png", "country": "BEL" },
+      "leg1": { "date": "04 NOV 2025", "stadium": "Riyadh Air Metropolitano, Madrid", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Álvarez", "min": "39", "type": "g" },
+          { "name": "Gallagher", "min": "72", "type": "g" },
+          { "name": "Llorente", "min": "90+6", "type": "g" }
+        ],
+        "t2": [{ "name": "Sykes", "min": "80", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Bodø/Glimt", "logo": "https://media.api-sports.io/football/teams/327.png", "country": "NOR" },
+      "t2": { "name": "Monaco", "logo": "https://media.api-sports.io/football/teams/91.png", "country": "FRA" },
+      "leg1": { "date": "04 NOV 2025", "stadium": "Aspmyra Stadion, Bodø", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t2": [{ "name": "Balogun", "min": "43", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Juventus", "logo": "https://media.api-sports.io/football/teams/496.png", "country": "ITA" },
+      "t2": { "name": "Sporting CP", "logo": "https://media.api-sports.io/football/teams/228.png", "country": "POR" },
+      "leg1": { "date": "04 NOV 2025", "stadium": "Allianz Stadium, Turin", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Vlahovic", "min": "33", "type": "g" }],
+        "t2": [{ "name": "Araujo", "min": "11", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png", "country": "ENG" },
+      "t2": { "name": "Real Madrid", "logo": "https://media.api-sports.io/football/teams/541.png", "country": "ESP" },
+      "leg1": { "date": "04 NOV 2025", "stadium": "Anfield, Liverpool", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Mac Allister", "min": "61", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Olympiacos", "logo": "https://media.api-sports.io/football/teams/553.png", "country": "GRE" },
+      "t2": { "name": "PSV Eindhoven", "logo": "https://media.api-sports.io/football/teams/197.png", "country": "NED" },
+      "leg1": { "date": "04 NOV 2025", "stadium": "Georgios Karaiskakis Stadium, Piraeus", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Gelson Martins", "min": "16", "type": "g" }],
+        "t2": [{ "name": "Pepi", "min": "92", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
+      "t2": { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER" },
+      "leg1": { "date": "04 NOV 2025", "stadium": "Parc des Princes, Paris", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "João Neves", "min": "74", "type": "g" }],
+        "t2": [
+          { "name": "Luis Díaz", "min": "4", "type": "g" },
+          { "name": "Luis Díaz", "min": "32", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Tottenham Hotspur", "logo": "https://media.api-sports.io/football/teams/47.png", "country": "ENG" },
+      "t2": { "name": "Copenhagen", "logo": "https://media.api-sports.io/football/teams/400.png", "country": "DEN" },
+      "leg1": { "date": "04 NOV 2025", "stadium": "Tottenham Hotspur Stadium, London", "s1": 4, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "B. Johnson", "min": "19", "type": "g" },
+          { "name": "Odobert", "min": "51", "type": "g" },
+          { "name": "B. Johnson", "min": "57", "type": "g" },
+          { "name": "Van de Ven", "min": "64", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Pafos", "logo": "https://media.api-sports.io/football/teams/3403.png", "country": "CYP" },
+      "t2": { "name": "Villarreal", "logo": "https://media.api-sports.io/football/teams/533.png", "country": "ESP" },
+      "leg1": { "date": "05 NOV 2025", "stadium": "Alphamega Stadium, Limassol", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Luckassen", "min": "45", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE" },
+      "t2": { "name": "Chelsea", "logo": "https://media.api-sports.io/football/teams/49.png", "country": "ENG" },
+      "leg1": { "date": "05 NOV 2025", "stadium": "Tofiq Bahramov Republican Stadium, Baku", "s1": 2, "s2": 2 },
+      "scorers": {
+        "t1": [
+          { "name": "Andrade", "min": "28", "type": "g" },
+          { "name": "Jankovic", "min": "38", "type": "p" }
+        ],
+        "t2": [
+          { "name": "Estêvão", "min": "15", "type": "g" },
+          { "name": "Garnacho", "min": "52", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Ajax", "logo": "https://media.api-sports.io/football/teams/194.png", "country": "NED" },
+      "t2": { "name": "Galatasaray", "logo": "https://media.api-sports.io/football/teams/645.png", "country": "TUR" },
+      "leg1": { "date": "05 NOV 2025", "stadium": "Johan Cruijff ArenA, Amsterdam", "s1": 0, "s2": 3 },
+      "scorers": {
+        "t2": [
+          { "name": "Osimhen", "min": "58", "type": "g" },
+          { "name": "Osimhen", "min": "65", "type": "g" },
+          { "name": "Osimhen", "min": "77", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Club Brugge", "logo": "https://media.api-sports.io/football/teams/569.png", "country": "BEL" },
+      "t2": { "name": "Barcelona", "logo": "https://media.api-sports.io/football/teams/529.png", "country": "ESP" },
+      "leg1": { "date": "05 NOV 2025", "stadium": "Jan Breydelstadion, Bruges", "s1": 3, "s2": 3 },
+      "scorers": {
+        "t1": [
+          { "name": "Tresoldi", "min": "6", "type": "g" },
+          { "name": "Carlos Forbs", "min": "17", "type": "g" },
+          { "name": "Carlos Forbs", "min": "63", "type": "g" }
+        ],
+        "t2": [
+          { "name": "Ferran Torres", "min": "8", "type": "g" },
+          { "name": "Lamine Yamal", "min": "61", "type": "g" },
+          { "name": "Tzolis", "min": "77", "type": "og" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Inter Milan", "logo": "https://media.api-sports.io/football/teams/505.png", "country": "ITA" },
+      "t2": { "name": "Kairat", "logo": "https://media.api-sports.io/football/teams/664.png", "country": "KAZ" },
+      "leg1": { "date": "05 NOV 2025", "stadium": "San Siro, Milan", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "L. Martinez", "min": "44", "type": "g" },
+          { "name": "Carlos Augusto", "min": "66", "type": "g" }
+        ],
+        "t2": [{ "name": "Ofri Arad", "min": "54", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Manchester City", "logo": "https://media.api-sports.io/football/teams/50.png", "country": "ENG" },
+      "t2": { "name": "Borussia Dortmund", "logo": "https://media.api-sports.io/football/teams/165.png", "country": "GER" },
+      "leg1": { "date": "05 NOV 2025", "stadium": "Etihad Stadium, Manchester", "s1": 4, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Foden", "min": "21", "type": "g" },
+          { "name": "Haaland", "min": "28", "type": "g" },
+          { "name": "Foden", "min": "56", "type": "g" },
+          { "name": "Cherki", "min": "90", "type": "g" }
+        ],
+        "t2": [{ "name": "Anton", "min": "71", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Newcastle United", "logo": "https://media.api-sports.io/football/teams/34.png", "country": "ENG" },
+      "t2": { "name": "Athletic Bilbao", "logo": "https://media.api-sports.io/football/teams/531.png", "country": "ESP" },
+      "leg1": { "date": "05 NOV 2025", "stadium": "St. James' Park, Newcastle", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Dan Burn", "min": "10", "type": "g" },
+          { "name": "Joelinton", "min": "48", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Marseille", "logo": "https://media.api-sports.io/football/teams/81.png", "country": "FRA" },
+      "t2": { "name": "Atalanta", "logo": "https://media.api-sports.io/football/teams/499.png", "country": "ITA" },
+      "leg1": { "date": "05 NOV 2025", "stadium": "Orange Vélodrome, Marseille", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t2": [{ "name": "Samardzic", "min": "89", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Benfica", "logo": "https://media.api-sports.io/football/teams/211.png", "country": "POR" },
+      "t2": { "name": "Bayer Leverkusen", "logo": "https://media.api-sports.io/football/teams/168.png", "country": "GER" },
+      "leg1": { "date": "05 NOV 2025", "stadium": "Estádio da Luz, Lisbon", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t2": [{ "name": "Schick", "min": "64", "type": "g" }]
+      }
+    }
+  ]
+},
+{
+  "day": 5,
+  "matches": [
+    {
+      "t1": { "name": "Ajax", "logo": "https://media.api-sports.io/football/teams/194.png", "country": "NED" },
+      "t2": { "name": "Benfica", "logo": "https://media.api-sports.io/football/teams/211.png", "country": "POR" },
+      "leg1": { "date": "25 NOV 2025", "stadium": "Johan Cruyff ArenA, Amsterdam", "s1": 0, "s2": 2 },
+      "scorers": {
+        "t2": [
+          { "name": "Dahl", "min": "6", "type": "g" },
+          { "name": "Barreiro", "min": "90", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Galatasaray", "logo": "https://media.api-sports.io/football/teams/645.png", "country": "TUR" },
+      "t2": { "name": "Union Saint-Gilloise", "logo": "https://media.api-sports.io/football/teams/1393.png", "country": "BEL" },
+      "leg1": { "date": "25 NOV 2025", "stadium": "Rams Park, Istanbul", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t2": [{ "name": "David", "min": "57", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Manchester City", "logo": "https://media.api-sports.io/football/teams/50.png", "country": "ENG" },
+      "t2": { "name": "Bayer Leverkusen", "logo": "https://media.api-sports.io/football/teams/168.png", "country": "GER" },
+      "leg1": { "date": "25 NOV 2025", "stadium": "Etihad Stadium, Manchester", "s1": 0, "s2": 2 },
+      "scorers": {
+        "t2": [
+          { "name": "Grimaldo", "min": "23", "type": "g" },
+          { "name": "Schick", "min": "54", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Chelsea", "logo": "https://media.api-sports.io/football/teams/49.png", "country": "ENG" },
+      "t2": { "name": "Barcelona", "logo": "https://media.api-sports.io/football/teams/529.png", "country": "ESP" },
+      "leg1": { "date": "25 NOV 2025", "stadium": "Stamford Bridge, London", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Koundé", "min": "27", "type": "og" },
+          { "name": "Estêvão", "min": "55", "type": "g" },
+          { "name": "Liam Delap", "min": "73", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Borussia Dortmund", "logo": "https://media.api-sports.io/football/teams/165.png", "country": "GER" },
+      "t2": { "name": "Villarreal", "logo": "https://media.api-sports.io/football/teams/533.png", "country": "ESP" },
+      "leg1": { "date": "25 NOV 2025", "stadium": "BVB Stadion Dortmund", "s1": 4, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Guirassy", "min": "45+2", "type": "g" },
+          { "name": "Guirassy", "min": "54", "type": "g" },
+          { "name": "Adeyemi", "min": "58", "type": "g" },
+          { "name": "Svensson", "min": "90+5", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Napoli", "logo": "https://media.api-sports.io/football/teams/492.png", "country": "ITA" },
+      "t2": { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE" },
+      "leg1": { "date": "25 NOV 2025", "stadium": "Stadio Diego Armando Maradona, Naples", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "McTominay", "min": "65", "type": "g" },
+          { "name": "Janković", "min": "72", "type": "og" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Slavia Prague", "logo": "https://media.api-sports.io/football/teams/560.png", "country": "CZE" },
+      "t2": { "name": "Athletic Bilbao", "logo": "https://media.api-sports.io/football/teams/531.png", "country": "ESP" },
+      "leg1": { "date": "25 NOV 2025", "stadium": "Fortuna Arena, Prague", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Bodø/Glimt", "logo": "https://media.api-sports.io/football/teams/327.png", "country": "NOR" },
+      "t2": { "name": "Juventus", "logo": "https://media.api-sports.io/football/teams/496.png", "country": "ITA" },
+      "leg1": { "date": "25 NOV 2025", "stadium": "Aspmyra Stadion, Bodø", "s1": 2, "s2": 3 },
+      "scorers": {
+        "t1": [
+          { "name": "Blomberg", "min": "27", "type": "g" },
+          { "name": "Brunstad Fet", "min": "87", "type": "p" }
+        ],
+        "t2": [
+          { "name": "Openda", "min": "48", "type": "g" },
+          { "name": "McKennie", "min": "59", "type": "g" },
+          { "name": "David", "min": "90+1", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Marseille", "logo": "https://media.api-sports.io/football/teams/81.png", "country": "FRA" },
+      "t2": { "name": "Newcastle United", "logo": "https://media.api-sports.io/football/teams/34.png", "country": "ENG" },
+      "leg1": { "date": "25 NOV 2025", "stadium": "Orange Vélodrome, Marseille", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Aubameyang", "min": "46", "type": "g" },
+          { "name": "Aubameyang", "min": "52", "type": "g" }
+        ],
+        "t2": [{ "name": "Harvey Barnes", "min": "6", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Copenhagen", "logo": "https://media.api-sports.io/football/teams/400.png", "country": "DEN" },
+      "t2": { "name": "Kairat", "logo": "https://media.api-sports.io/football/teams/664.png", "country": "KAZ" },
+      "leg1": { "date": "26 NOV 2025", "stadium": "Parken Stadium, Copenhagen", "s1": 3, "s2": 2 },
+      "scorers": {
+        "t1": [
+          { "name": "Viktor Dadason", "min": "26", "type": "g" },
+          { "name": "Jordan Larsson", "min": "59", "type": "p" },
+          { "name": "Robert", "min": "73", "type": "g" }
+        ],
+        "t2": [
+          { "name": "Satpayev", "min": "81", "type": "g" },
+          { "name": "Olzhas Baibek", "min": "90", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Pafos", "logo": "https://media.api-sports.io/football/teams/3403.png", "country": "CYP" },
+      "t2": { "name": "Monaco", "logo": "https://media.api-sports.io/football/teams/91.png", "country": "FRA" },
+      "leg1": { "date": "26 NOV 2025", "stadium": "Alphamega Stadium, Limassol", "s1": 2, "s2": 2 },
+      "scorers": {
+        "t1": [
+          { "name": "David Luiz", "min": "18", "type": "g" },
+          { "name": "Salisu", "min": "88", "type": "og" }
+        ],
+        "t2": [
+          { "name": "Minamino", "min": "5", "type": "g" },
+          { "name": "Balogun", "min": "26", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
+      "t2": { "name": "Tottenham Hotspur", "logo": "https://media.api-sports.io/football/teams/47.png", "country": "ENG" },
+      "leg1": { "date": "26 NOV 2025", "stadium": "Parc des Princes, Paris", "s1": 5, "s2": 3 },
+      "scorers": {
+        "t1": [
+          { "name": "Vitinha", "min": "35", "type": "g" },
+          { "name": "Vitinha", "min": "55", "type": "g" },
+          { "name": "Fabian Ruiz", "min": "62", "type": "g" },
+          { "name": "Willian Pacho", "min": "66", "type": "g" },
+          { "name": "Vitinha", "min": "83", "type": "g" }
+        ],
+        "t2": [
+          { "name": "Richarlison", "min": "10", "type": "g" },
+          { "name": "Kolo Muani", "min": "44", "type": "g" },
+          { "name": "Kolo Muani", "min": "78", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png", "country": "ENG" },
+      "t2": { "name": "PSV Eindhoven", "logo": "https://media.api-sports.io/football/teams/197.png", "country": "NED" },
+      "leg1": { "date": "26 NOV 2025", "stadium": "Anfield, Liverpool", "s1": 1, "s2": 4 },
+      "scorers": {
+        "t1": [{ "name": "Szoboszlai", "min": "16", "type": "g" }],
+        "t2": [
+          { "name": "Perisic", "min": "6", "type": "p" },
+          { "name": "Til", "min": "56", "type": "g" },
+          { "name": "Driouech", "min": "73", "type": "g" },
+          { "name": "Driouech", "min": "90+1", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
+      "t2": { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER" },
+      "leg1": { "date": "26 NOV 2025", "stadium": "Emirates Stadium, London", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Timber", "min": "21", "type": "g" },
+          { "name": "Madueke", "min": "68", "type": "g" },
+          { "name": "Martinelli", "min": "76", "type": "g" }
+        ],
+        "t2": [{ "name": "Lennart Karl", "min": "31", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
+      "t2": { "name": "Inter Milan", "logo": "https://media.api-sports.io/football/teams/505.png", "country": "ITA" },
+      "leg1": { "date": "26 NOV 2025", "stadium": "Riyadh Air Metropolitano, Madrid", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Álvarez", "min": "9", "type": "g" },
+          { "name": "Giménez", "min": "90+3", "type": "g" }
+        ],
+        "t2": [{ "name": "Zielinski", "min": "54", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Eintracht Frankfurt", "logo": "https://media.api-sports.io/football/teams/169.png", "country": "GER" },
+      "t2": { "name": "Atalanta", "logo": "https://media.api-sports.io/football/teams/499.png", "country": "ITA" },
+      "leg1": { "date": "26 NOV 2025", "stadium": "Waldstadion, Frankfurt", "s1": 0, "s2": 3 },
+      "scorers": {
+        "t2": [
+          { "name": "Lookman", "min": "60", "type": "g" },
+          { "name": "Éderson", "min": "62", "type": "g" },
+          { "name": "De Ketelaere", "min": "65", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Sporting CP", "logo": "https://media.api-sports.io/football/teams/228.png", "country": "POR" },
+      "t2": { "name": "Club Brugge", "logo": "https://media.api-sports.io/football/teams/569.png", "country": "BEL" },
+      "leg1": { "date": "26 NOV 2025", "stadium": "Estádio José Alvalade, Lisbon", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Quenda", "min": "24", "type": "g" },
+          { "name": "L. Suárez", "min": "31", "type": "g" },
+          { "name": "Trincão", "min": "70", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Olympiacos", "logo": "https://media.api-sports.io/football/teams/553.png", "country": "GRE" },
+      "t2": { "name": "Real Madrid", "logo": "https://media.api-sports.io/football/teams/541.png", "country": "ESP" },
+      "leg1": { "date": "26 NOV 2025", "stadium": "Georgios Karaiskakis Stadium, Piraeus", "s1": 3, "s2": 4 },
+      "scorers": {
+        "t1": [
+          { "name": "Chiquinho", "min": "7", "type": "g" },
+          { "name": "Taremi", "min": "51", "type": "g" },
+          { "name": "El Kaabi", "min": "80", "type": "g" }
+        ],
+        "t2": [
+          { "name": "Mbappé", "min": "21", "type": "g" },
+          { "name": "Mbappé", "min": "23", "type": "g" },
+          { "name": "Mbappé", "min": "28", "type": "g" },
+          { "name": "Mbappé", "min": "59", "type": "g" }
+        ]
+      }
+    }
+  ]
+},
+{
+  "day": 6,
+  "matches": [
+    {
+      "t1": { "name": "Bayer Leverkusen", "logo": "https://media.api-sports.io/football/teams/168.png", "country": "GER" },
+      "t2": { "name": "Inter Milan", "logo": "https://media.api-sports.io/football/teams/505.png", "country": "ITA" },
+      "leg1": { "date": "09 DEC 2025", "stadium": "BayArena, Leverkusen", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Wirtz", "min": "55", "type": "g" }],
+        "t2": [{ "name": "Lautaro", "min": "14", "type": "g" }, { "name": "Thuram", "min": "88", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Club Brugge", "logo": "https://media.api-sports.io/football/teams/569.png", "country": "BEL" },
+      "t2": { "name": "Sporting CP", "logo": "https://media.api-sports.io/football/teams/228.png", "country": "POR" },
+      "leg1": { "date": "09 DEC 2025", "stadium": "Jan Breydel Stadium, Bruges", "s1": 2, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Vanaken", "min": "32", "type": "p" }, { "name": "Tzolis", "min": "67", "type": "g" }],
+        "t2": [{ "name": "Gyökeres", "min": "41", "type": "g" }, { "name": "Trincão", "min": "80", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Kairat", "logo": "https://media.api-sports.io/football/teams/664.png", "country": "KAZ" },
+      "t2": { "name": "Olympiacos", "logo": "https://media.api-sports.io/football/teams/553.png", "country": "GRE" },
+      "leg1": { "date": "09 DEC 2025", "stadium": "Central Stadium, Almaty", "s1": 0, "s2": 1 },
+      "scorers": {
+        "t2": [{ "name": "El Kaabi", "min": "74", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Pafos", "logo": "https://media.api-sports.io/football/teams/3403.png", "country": "CYP" },
+      "t2": { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER" },
+      "leg1": { "date": "09 DEC 2025", "stadium": "Alphamega Stadium, Limassol", "s1": 0, "s2": 4 },
+      "scorers": {
+        "t2": [{ "name": "Kane", "min": "12", "type": "g" }, { "name": "Kane", "min": "45+2", "type": "p" }, { "name": "Musiala", "min": "61", "type": "g" }, { "name": "Sané", "min": "83", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Atalanta", "logo": "https://media.api-sports.io/football/teams/499.png", "country": "ITA" },
+      "t2": { "name": "Real Madrid", "logo": "https://media.api-sports.io/football/teams/541.png", "country": "ESP" },
+      "leg1": { "date": "09 DEC 2025", "stadium": "Gewiss Stadium, Bergamo", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Lookman", "min": "38", "type": "g" }],
+        "t2": [{ "name": "Mbappé", "min": "72", "type": "p" }]
+      }
+    },
+    {
+      "t1": { "name": "Benfica", "logo": "https://media.api-sports.io/football/teams/211.png", "country": "POR" },
+      "t2": { "name": "Union Saint-Gilloise", "logo": "https://media.api-sports.io/football/teams/1393.png", "country": "BEL" },
+      "leg1": { "date": "09 DEC 2025", "stadium": "Estádio da Luz, Lisbon", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Di María", "min": "15", "type": "g" }, { "name": "Pavlidis", "min": "63", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Marseille", "logo": "https://media.api-sports.io/football/teams/81.png", "country": "FRA" },
+      "t2": { "name": "PSV Eindhoven", "logo": "https://media.api-sports.io/football/teams/197.png", "country": "NED" },
+      "leg1": { "date": "09 DEC 2025", "stadium": "Orange Vélodrome, Marseille", "s1": 2, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Greenwood", "min": "28", "type": "g" }, { "name": "Rabiot", "min": "90+4", "type": "g" }],
+        "t2": [{ "name": "De Jong", "min": "44", "type": "g" }, { "name": "Lang", "min": "61", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Villarreal", "logo": "https://media.api-sports.io/football/teams/533.png", "country": "ESP" },
+      "t2": { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png", "country": "ENG" },
+      "leg1": { "date": "09 DEC 2025", "stadium": "Estadio de la Cerámica, Vila-real", "s1": 1, "s2": 3 },
+      "scorers": {
+        "t1": [{ "name": "Gerard Moreno", "min": "81", "type": "g" }],
+        "t2": [{ "name": "Salah", "min": "19", "type": "g" }, { "name": "Salah", "min": "44", "type": "p" }, { "name": "Luis Díaz", "min": "68", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Athletic Bilbao", "logo": "https://media.api-sports.io/football/teams/531.png", "country": "ESP" },
+      "t2": { "name": "Ajax", "logo": "https://media.api-sports.io/football/teams/194.png", "country": "NED" },
+      "leg1": { "date": "09 DEC 2025", "stadium": "San Mamés, Bilbao", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "I. Williams", "min": "24", "type": "g" }, { "name": "Sancet", "min": "78", "type": "g" }],
+        "t2": [{ "name": "Brobbey", "min": "41", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
+      "t2": { "name": "Monaco", "logo": "https://media.api-sports.io/football/teams/91.png", "country": "FRA" },
+      "leg1": { "date": "10 DEC 2025", "stadium": "Emirates Stadium, London", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Havertz", "min": "21", "type": "g" }, { "name": "Saka", "min": "45", "type": "g" }, { "name": "Ødegaard", "min": "62", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Newcastle United", "logo": "https://media.api-sports.io/football/teams/34.png", "country": "ENG" },
+      "t2": { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE" },
+      "leg1": { "date": "10 DEC 2025", "stadium": "St. James' Park, Newcastle", "s1": 4, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Isak", "min": "18", "type": "g" }, { "name": "Isak", "min": "33", "type": "g" }, { "name": "Gordon", "min": "51", "type": "g" }, { "name": "Tonali", "min": "89", "type": "g" }],
+        "t2": [{ "name": "Juninho", "min": "44", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Borussia Dortmund", "logo": "https://media.api-sports.io/football/teams/165.png", "country": "GER" },
+      "t2": { "name": "Barcelona", "logo": "https://media.api-sports.io/football/teams/529.png", "country": "ESP" },
+      "leg1": { "date": "10 DEC 2025", "stadium": "Westfalenstadion, Dortmund", "s1": 2, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Guirassy", "min": "40", "type": "g" }, { "name": "Brandt", "min": "90+2", "type": "g" }],
+        "t2": [{ "name": "Lewandowski", "min": "15", "type": "g" }, { "name": "Raphinha", "min": "56", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Juventus", "logo": "https://media.api-sports.io/football/teams/496.png", "country": "ITA" },
+      "t2": { "name": "Manchester City", "logo": "https://media.api-sports.io/football/teams/50.png", "country": "ENG" },
+      "leg1": { "date": "10 DEC 2025", "stadium": "Allianz Stadium, Turin", "s1": 1, "s2": 3 },
+      "scorers": {
+        "t1": [{ "name": "Vlahović", "min": "44", "type": "g" }],
+        "t2": [{ "name": "Haaland", "min": "19", "type": "g" }, { "name": "Haaland", "min": "62", "type": "p" }, { "name": "Foden", "min": "88", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Eintracht Frankfurt", "logo": "https://media.api-sports.io/football/teams/169.png", "country": "GER" },
+      "t2": { "name": "Tottenham Hotspur", "logo": "https://media.api-sports.io/football/teams/47.png", "country": "ENG" },
+      "leg1": { "date": "10 DEC 2025", "stadium": "Waldstadion, Frankfurt", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Marmoush", "min": "29", "type": "g" }],
+        "t2": [{ "name": "Son", "min": "51", "type": "g" }, { "name": "Solanke", "min": "76", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
+      "t2": { "name": "Bodø/Glimt", "logo": "https://media.api-sports.io/football/teams/327.png", "country": "NOR" },
+      "leg1": { "date": "10 DEC 2025", "stadium": "Parc des Princes, Paris", "s1": 5, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Ramos", "min": "14", "type": "g" }, { "name": "Ramos", "min": "45", "type": "g" }, { "name": "Dembélé", "min": "32", "type": "g" }, { "name": "Vitinha", "min": "58", "type": "g" }, { "name": "Gundersen", "min": "66", "type": "🚩" }]
+      }
+    },
+    {
+      "t1": { "name": "Slavia Prague", "logo": "https://media.api-sports.io/football/teams/560.png", "country": "CZE" },
+      "t2": { "name": "Copenhagen", "logo": "https://media.api-sports.io/football/teams/400.png", "country": "DEN" },
+      "leg1": { "date": "10 DEC 2025", "stadium": "Fortuna Arena, Prague", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Chelsea", "logo": "https://media.api-sports.io/football/teams/49.png", "country": "ENG" },
+      "t2": { "name": "Galatasaray", "logo": "https://media.api-sports.io/football/teams/645.png", "country": "TUR" },
+      "leg1": { "date": "10 DEC 2025", "stadium": "Stamford Bridge, London", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Palmer", "min": "22", "type": "g" }, { "name": "Palmer", "min": "45+1", "type": "p" }, { "name": "Jackson", "min": "80", "type": "g" }],
+        "t2": [{ "name": "Osimhen", "min": "57", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Napoli", "logo": "https://media.api-sports.io/football/teams/492.png", "country": "ITA" },
+      "t2": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
+      "leg1": { "date": "10 DEC 2025", "stadium": "Stadio Diego Armando Maradona, Naples", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Kvaratskhelia", "min": "61", "type": "g" }],
+        "t2": [{ "name": "Griezmann", "min": "29", "type": "g" }, { "name": "Álvarez", "min": "84", "type": "g" }]
+      }
+    }
+  ]
+},
+{
+  "day": 7,
+  "matches": [
+    {
+      "t1": { "name": "Kairat", "logo": "https://media.api-sports.io/football/teams/664.png", "country": "KAZ" },
+      "t2": { "name": "Club Brugge", "logo": "https://media.api-sports.io/football/teams/569.png", "country": "BEL" },
+      "leg1": { "date": "20 JAN 2026", "stadium": "Astana Arena, Astana", "s1": 1, "s2": 4 },
+      "scorers": {
+        "t1": [{ "name": "Sadybekov", "min": "90+2", "type": "g" }],
+        "t2": [
+          { "name": "Stanković", "min": "32", "type": "g" },
+          { "name": "Vanaken", "min": "38", "type": "g" },
+          { "name": "Vermant", "min": "74", "type": "g" },
+          { "name": "Mechele", "min": "84", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Bodø/Glimt", "logo": "https://media.api-sports.io/football/teams/327.png", "country": "NOR" },
+      "t2": { "name": "Manchester City", "logo": "https://media.api-sports.io/football/teams/50.png", "country": "ENG" },
+      "leg1": { "date": "20 JAN 2026", "stadium": "Aspmyra Stadion, Bodø", "s1": 3, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Høgh", "min": "22", "type": "g" },
+          { "name": "Høgh", "min": "24", "type": "g" },
+          { "name": "Hauge", "min": "58", "type": "g" }
+        ],
+        "t2": [{ "name": "Cherki", "min": "60", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Copenhagen", "logo": "https://media.api-sports.io/football/teams/400.png", "country": "DEN" },
+      "t2": { "name": "Napoli", "logo": "https://media.api-sports.io/football/teams/492.png", "country": "ITA" },
+      "leg1": { "date": "20 JAN 2026", "stadium": "Parken Stadium, Copenhagen", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Larsson", "min": "72", "type": "g" }],
+        "t2": [{ "name": "McTominay", "min": "39", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Inter Milan", "logo": "https://media.api-sports.io/football/teams/505.png", "country": "ITA" },
+      "t2": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
+      "leg1": { "date": "20 JAN 2026", "stadium": "San Siro, Milan", "s1": 1, "s2": 3 },
+      "scorers": {
+        "t1": [{ "name": "Sučić", "min": "18", "type": "g" }],
+        "t2": [
+          { "name": "Gabriel Jesus", "min": "10", "type": "g" },
+          { "name": "Gabriel Jesus", "min": "31", "type": "g" },
+          { "name": "Gyökeres", "min": "84", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Olympiacos", "logo": "https://media.api-sports.io/football/teams/553.png", "country": "GRE" },
+      "t2": { "name": "Bayer Leverkusen", "logo": "https://media.api-sports.io/football/teams/168.png", "country": "GER" },
+      "leg1": { "date": "20 JAN 2026", "stadium": "Karaiskakis Stadium, Piraeus", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Costinha", "min": "2", "type": "g" },
+          { "name": "Taremi", "min": "45+1", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Real Madrid", "logo": "https://media.api-sports.io/football/teams/541.png", "country": "ESP" },
+      "t2": { "name": "Monaco", "logo": "https://media.api-sports.io/football/teams/91.png", "country": "FRA" },
+      "leg1": { "date": "20 JAN 2026", "stadium": "Santiago Bernabéu, Madrid", "s1": 6, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Mbappé", "min": "5", "type": "g" },
+          { "name": "Mbappé", "min": "26", "type": "g" },
+          { "name": "Mastantuono", "min": "51", "type": "g" },
+          { "name": "Kehrer", "min": "55", "type": "🚩" },
+          { "name": "Vinícius", "min": "83", "type": "g" },
+          { "name": "Bellingham", "min": "80", "type": "g" }
+        ],
+        "t2": [{ "name": "Teze", "min": "72", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Sporting CP", "logo": "https://media.api-sports.io/football/teams/228.png", "country": "POR" },
+      "t2": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
+      "leg1": { "date": "20 JAN 2026", "stadium": "Estádio José Alvalade, Lisbon", "s1": 2, "s2": 1 },
+      "scorers": {
+        "t1": [
+          { "name": "Suárez", "min": "74", "type": "g" },
+          { "name": "Suárez", "min": "90", "type": "g" }
+        ],
+        "t2": [{ "name": "Kvaratskhelia", "min": "79", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Tottenham Hotspur", "logo": "https://media.api-sports.io/football/teams/47.png", "country": "ENG" },
+      "t2": { "name": "Borussia Dortmund", "logo": "https://media.api-sports.io/football/teams/165.png", "country": "GER" },
+      "leg1": { "date": "20 JAN 2026", "stadium": "Tottenham Hotspur Stadium, London", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Romero", "min": "14", "type": "g" },
+          { "name": "Solanke", "min": "37", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Villarreal", "logo": "https://media.api-sports.io/football/teams/533.png", "country": "ESP" },
+      "t2": { "name": "Ajax", "logo": "https://media.api-sports.io/football/teams/194.png", "country": "NED" },
+      "leg1": { "date": "20 JAN 2026", "stadium": "Estadio de la Cerámica, Vila-real", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Oluwasayi", "min": "49", "type": "g" }],
+        "t2": [
+          { "name": "Gloukh", "min": "61", "type": "g" },
+          { "name": "Edvardsen", "min": "90", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Galatasaray", "logo": "https://media.api-sports.io/football/teams/645.png", "country": "TUR" },
+      "t2": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
+      "leg1": { "date": "21 JAN 2026", "stadium": "Rams Park, Istanbul", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Llorente", "min": "20", "type": "🚩" }],
+        "t2": [{ "name": "Simeone", "min": "4", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE" },
+      "t2": { "name": "Eintracht Frankfurt", "logo": "https://media.api-sports.io/football/teams/169.png", "country": "GER" },
+      "leg1": { "date": "21 JAN 2026", "stadium": "Tofiq Bahramov Republican Stadium, Baku", "s1": 3, "s2": 2 },
+      "scorers": {
+        "t1": [
+          { "name": "Durán", "min": "4", "type": "g" },
+          { "name": "Durán", "min": "80", "type": "g" },
+          { "name": "Mustafazade", "min": "90+4", "type": "g" }
+        ],
+        "t2": [
+          { "name": "Uzun", "min": "10", "type": "g" },
+          { "name": "Chaïbi", "min": "78", "type": "🎯" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Atalanta", "logo": "https://media.api-sports.io/football/teams/499.png", "country": "ITA" },
+      "t2": { "name": "Athletic Bilbao", "logo": "https://media.api-sports.io/football/teams/531.png", "country": "ESP" },
+      "leg1": { "date": "21 JAN 2026", "stadium": "Stadio Atleti Azzurri d'Italia, Bergamo", "s1": 2, "s2": 3 },
+      "scorers": {
+        "t1": [
+          { "name": "Scamacca", "min": "16", "type": "g" },
+          { "name": "Krstović", "min": "88", "type": "g" }
+        ],
+        "t2": [
+          { "name": "Guruzeta", "min": "58", "type": "g" },
+          { "name": "Serrano", "min": "70", "type": "g" },
+          { "name": "Navarro", "min": "74", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Chelsea", "logo": "https://media.api-sports.io/football/teams/49.png", "country": "ENG" },
+      "t2": { "name": "Pafos", "logo": "https://media.api-sports.io/football/teams/3403.png", "country": "CYP" },
+      "leg1": { "date": "21 JAN 2026", "stadium": "Stamford Bridge, London", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Caicedo", "min": "78", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER" },
+      "t2": { "name": "Union Saint-Gilloise", "logo": "https://media.api-sports.io/football/teams/1393.png", "country": "BEL" },
+      "leg1": { "date": "21 JAN 2026", "stadium": "Allianz Arena, Munich", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Kane", "min": "52", "type": "g" },
+          { "name": "Kane", "min": "55", "type": "🎯" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Juventus", "logo": "https://media.api-sports.io/football/teams/496.png", "country": "ITA" },
+      "t2": { "name": "Benfica", "logo": "https://media.api-sports.io/football/teams/211.png", "country": "POR" },
+      "leg1": { "date": "21 JAN 2026", "stadium": "Juventus Stadium, Turin", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Thuram", "min": "55", "type": "g" },
+          { "name": "McKennie", "min": "84", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Newcastle United", "logo": "https://media.api-sports.io/football/teams/34.png", "country": "ENG" },
+      "t2": { "name": "PSV Eindhoven", "logo": "https://media.api-sports.io/football/teams/197.png", "country": "NED" },
+      "leg1": { "date": "21 JAN 2026", "stadium": "St James' Park, Newcastle upon Tyne", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [
+          { "name": "Wissa", "min": "8", "type": "g" },
+          { "name": "Gordon", "min": "30", "type": "g" },
+          { "name": "Barnes", "min": "65", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Marseille", "logo": "https://media.api-sports.io/football/teams/81.png", "country": "FRA" },
+      "t2": { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png", "country": "ENG" },
+      "leg1": { "date": "21 JAN 2026", "stadium": "Stade Vélodrome, Marseille", "s1": 0, "s2": 3 },
+      "scorers": {
+        "t2": [
+          { "name": "Szoboszlai", "min": "45+1", "type": "g" },
+          { "name": "Rulli", "min": "72", "type": "🚩" },
+          { "name": "Gakpo", "min": "90+3", "type": "g" }
+        ]
+      }
+    },
+    {
+      "t1": { "name": "Slavia Prague", "logo": "https://media.api-sports.io/football/teams/560.png", "country": "CZE" },
+      "t2": { "name": "Barcelona", "logo": "https://media.api-sports.io/football/teams/529.png", "country": "ESP" },
+      "leg1": { "date": "21 JAN 2026", "stadium": "Fortuna Arena, Prague", "s1": 2, "s2": 4 },
+      "scorers": {
+        "t1": [
+          { "name": "Kušej", "min": "10", "type": "g" },
+          { "name": "Lewandowski", "min": "44", "type": "🚩" }
+        ],
+        "t2": [
+          { "name": "López", "min": "34", "type": "g" },
+          { "name": "López", "min": "42", "type": "g" },
+          { "name": "Olmo", "min": "63", "type": "g" },
+          { "name": "Lewandowski", "min": "71", "type": "g" }
+        ]
+      }
+    }
+  ]
+},
+{
+  "day": 8,
+  "matches": [
+    {
+      "t1": { "name": "Ajax", "logo": "https://media.api-sports.io/football/teams/194.png", "country": "NED" },
+      "t2": { "name": "Olympiacos", "logo": "https://media.api-sports.io/football/teams/553.png", "country": "GRE" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Johan Cruyff ArenA, Amsterdam", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Dolberg", "min": "69", "type": "p" }],
+        "t2": [{ "name": "Martins", "min": "52", "type": "g" }, { "name": "Hezze", "min": "79", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
+      "t2": { "name": "Kairat", "logo": "https://media.api-sports.io/football/teams/664.png", "country": "KAZ" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Emirates Stadium, London", "s1": 3, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Gyökeres", "min": "3", "type": "g" }, { "name": "Havertz", "min": "15", "type": "g" }, { "name": "Martinelli", "min": "36", "type": "g" }],
+        "t2": [{ "name": "Jorginho", "min": "7", "type": "p" }, { "name": "Ricardinho", "min": "90+4", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Monaco", "logo": "https://media.api-sports.io/football/teams/91.png", "country": "FRA" },
+      "t2": { "name": "Juventus", "logo": "https://media.api-sports.io/football/teams/496.png", "country": "ITA" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Stade Louis II, Monaco", "s1": 0, "s2": 0 },
+      "scorers": { "t1": [], "t2": [] }
+    },
+    {
+      "t1": { "name": "Athletic Bilbao", "logo": "https://media.api-sports.io/football/teams/531.png", "country": "ESP" },
+      "t2": { "name": "Sporting CP", "logo": "https://media.api-sports.io/football/teams/228.png", "country": "POR" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "San Mamés, Bilbao", "s1": 2, "s2": 3 },
+      "scorers": {
+        "t1": [{ "name": "Sancet", "min": "3", "type": "g" }, { "name": "Guruzeta", "min": "28", "type": "g" }],
+        "t2": [{ "name": "Diomande", "min": "12", "type": "g" }, { "name": "Trincão", "min": "62", "type": "g" }, { "name": "Alisson", "min": "90+4", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
+      "t2": { "name": "Bodø/Glimt", "logo": "https://media.api-sports.io/football/teams/327.png", "country": "NOR" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Metropolitano Stadium, Madrid", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Sørloth", "min": "15", "type": "g" }],
+        "t2": [{ "name": "Sjøvold", "min": "34", "type": "g" }, { "name": "Høgh", "min": "59", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Bayer Leverkusen", "logo": "https://media.api-sports.io/football/teams/168.png", "country": "GER" },
+      "t2": { "name": "Villarreal", "logo": "https://media.api-sports.io/football/teams/533.png", "country": "ESP" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "BayArena, Leverkusen", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Tillman", "min": "12", "type": "g" }, { "name": "Tillman", "min": "35", "type": "g" }, { "name": "Grimaldo", "min": "57", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Borussia Dortmund", "logo": "https://media.api-sports.io/football/teams/165.png", "country": "GER" },
+      "t2": { "name": "Inter Milan", "logo": "https://media.api-sports.io/football/teams/505.png", "country": "ITA" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Westfalenstadion, Dortmund", "s1": 0, "s2": 2 },
+      "scorers": {
+        "t2": [{ "name": "Dimarco", "min": "81", "type": "g" }, { "name": "Diouf", "min": "90+4", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Club Brugge", "logo": "https://media.api-sports.io/football/teams/569.png", "country": "BEL" },
+      "t2": { "name": "Marseille", "logo": "https://media.api-sports.io/football/teams/81.png", "country": "FRA" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Jan Breydel Stadium, Bruges", "s1": 3, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Diakhon", "min": "4", "type": "g" }, { "name": "Vermant", "min": "11", "type": "g" }, { "name": "Stanković", "min": "79", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Eintracht Frankfurt", "logo": "https://media.api-sports.io/football/teams/169.png", "country": "GER" },
+      "t2": { "name": "Tottenham Hotspur", "logo": "https://media.api-sports.io/football/teams/47.png", "country": "ENG" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Waldstadion, Frankfurt", "s1": 0, "s2": 2 },
+      "scorers": {
+        "t2": [{ "name": "Kolo Muani", "min": "47", "type": "g" }, { "name": "Solanke", "min": "77", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Barcelona", "logo": "https://media.api-sports.io/football/teams/529.png", "country": "ESP" },
+      "t2": { "name": "Copenhagen", "logo": "https://media.api-sports.io/football/teams/400.png", "country": "DEN" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Camp Nou, Barcelona", "s1": 4, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Lewandowski", "min": "48", "type": "g" }, { "name": "Yamal", "min": "60", "type": "g" }, { "name": "Raphinha", "min": "69", "type": "p" }, { "name": "Rashford", "min": "85", "type": "g" }],
+        "t2": [{ "name": "Dadason", "min": "4", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png", "country": "ENG" },
+      "t2": { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Anfield, Liverpool", "s1": 6, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Mac Allister", "min": "15", "type": "g" }, { "name": "Mac Allister", "min": "61", "type": "g" }, { "name": "Wirtz", "min": "21", "type": "g" }, { "name": "Salah", "min": "50", "type": "g" }, { "name": "Ekitike", "min": "57", "type": "g" }, { "name": "Chiesa", "min": "90", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Manchester City", "logo": "https://media.api-sports.io/football/teams/50.png", "country": "ENG" },
+      "t2": { "name": "Galatasaray", "logo": "https://media.api-sports.io/football/teams/645.png", "country": "TUR" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Etihad Stadium, Manchester", "s1": 2, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Haaland", "min": "11", "type": "g" }, { "name": "Cherki", "min": "29", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Pafos", "logo": "https://media.api-sports.io/football/teams/3403.png", "country": "CYP" },
+      "t2": { "name": "Slavia Prague", "logo": "https://media.api-sports.io/football/teams/560.png", "country": "CZE" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Alphamega Stadium, Limassol", "s1": 4, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Dragomir", "min": "17", "type": "g" }, { "name": "Bruno", "min": "53", "type": "g" }, { "name": "Anderson", "min": "84", "type": "g" }, { "name": "Oršić", "min": "87", "type": "g" }],
+        "t2": [{ "name": "Chaloupek", "min": "44", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
+      "t2": { "name": "Newcastle United", "logo": "https://media.api-sports.io/football/teams/34.png", "country": "ENG" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Parc des Princes, Paris", "s1": 1, "s2": 1 },
+      "scorers": {
+        "t1": [{ "name": "Vitinha", "min": "8", "type": "g" }],
+        "t2": [{ "name": "Willock", "min": "45+2", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "PSV Eindhoven", "logo": "https://media.api-sports.io/football/teams/197.png", "country": "NED" },
+      "t2": { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Philips Stadion, Eindhoven", "s1": 1, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Saibari", "min": "78", "type": "g" }],
+        "t2": [{ "name": "Musiala", "min": "58", "type": "g" }, { "name": "Kane", "min": "84", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Union Saint-Gilloise", "logo": "https://media.api-sports.io/football/teams/1393.png", "country": "BEL" },
+      "t2": { "name": "Atalanta", "logo": "https://media.api-sports.io/football/teams/499.png", "country": "ITA" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Constant Vanden Stock Stadium, Brussels", "s1": 1, "s2": 0 },
+      "scorers": {
+        "t1": [{ "name": "Khalaily", "min": "70", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Benfica", "logo": "https://media.api-sports.io/football/teams/211.png", "country": "POR" },
+      "t2": { "name": "Real Madrid", "logo": "https://media.api-sports.io/football/teams/541.png", "country": "ESP" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Estádio da Luz, Lisbon", "s1": 4, "s2": 2 },
+      "scorers": {
+        "t1": [{ "name": "Schjelderup", "min": "38", "type": "g" }, { "name": "Schjelderup", "min": "54", "type": "g" }, { "name": "Pavlidis", "min": "45+5", "type": "p" }, { "name": "Trubin", "min": "90+8", "type": "g" }],
+        "t2": [{ "name": "Mbappé", "min": "30", "type": "g" }, { "name": "Mbappé", "min": "58", "type": "g" }]
+      }
+    },
+    {
+      "t1": { "name": "Napoli", "logo": "https://media.api-sports.io/football/teams/492.png", "country": "ITA" },
+      "t2": { "name": "Chelsea", "logo": "https://media.api-sports.io/football/teams/49.png", "country": "ENG" },
+      "leg1": { "date": "28 JAN 2026", "stadium": "Stadio Diego Armando Maradona, Naples", "s1": 2, "s2": 3 },
+      "scorers": {
+        "t1": [{ "name": "Vergara", "min": "33", "type": "g" }, { "name": "Højlund", "min": "43", "type": "g" }],
+        "t2": [{ "name": "Fernández", "min": "19", "type": "p" }, { "name": "João Pedro", "min": "61", "type": "g" }, { "name": "João Pedro", "min": "82", "type": "g" }]
+      }}
+      ]
+    }
+  ]},
+  "Knockout Play-off": {
+  "matches": [
+    {
+      "t1": { "name": "Monaco", "logo": "https://media.api-sports.io/football/teams/91.png", "country": "FRA" },
+      "t2": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
+      "leg1": {
+        "date": "17 FEB 2026", "stadium": "Stade Louis II, Monaco", "s1": 2, "s2": 3,
+        "scorers": {
+          "t1": [{ "name": "Balogun", "min": "1", "type": "g" }, { "name": "Balogun", "min": "18", "type": "g" }],
+          "t2": [{ "name": "Doué", "min": "29", "type": "g" }, { "name": "Doué", "min": "67", "type": "g" }, { "name": "Hakimi", "min": "41", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "25 FEB 2026", "stadium": "Parc des Princes, Paris", "s1": 2, "s2": 2,
+        "scorers": {
+          "t1": [{ "name": "Akliouche", "min": "45", "type": "g" }, { "name": "Teze", "min": "90+1", "type": "g" }],
+          "t2": [{ "name": "Marquinhos", "min": "60", "type": "g" }, { "name": "Kvaratskhelia", "min": "66", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Galatasaray", "logo": "https://media.api-sports.io/football/teams/645.png", "country": "TUR" },
+      "t2": { "name": "Juventus", "logo": "https://media.api-sports.io/football/teams/496.png", "country": "ITA" },
+      "leg1": {
+        "date": "17 FEB 2026", "stadium": "Rams Park, Istanbul", "s1": 5, "s2": 2,
+        "scorers": {
+          "t1": [{ "name": "Sara", "min": "15", "type": "g" }, { "name": "Lang", "min": "49", "type": "g" }, { "name": "Lang", "min": "75", "type": "g" }, { "name": "Sánchez", "min": "60", "type": "g" }, { "name": "Boey", "min": "86", "type": "g" }],
+          "t2": [{ "name": "Koopmeiners", "min": "16", "type": "g" }, { "name": "Koopmeiners", "min": "32", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "25 FEB 2026", "stadium": "Juventus Stadium, Turin", "s1": 2, "s2": 3,
+        "scorers": {
+          "t1": [{ "name": "Osimhen", "min": "105+1", "type": "g" }, { "name": "Yılmaz", "min": "119", "type": "g" }],
+          "t2": [{ "name": "Locatelli", "min": "37", "type": "p" }, { "name": "Gatti", "min": "70", "type": "g" }, { "name": "McKennie", "min": "82", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Benfica", "logo": "https://media.api-sports.io/football/teams/211.png", "country": "POR" },
+      "t2": { "name": "Real Madrid", "logo": "https://media.api-sports.io/football/teams/541.png", "country": "ESP" },
+      "leg1": {
+        "date": "17 FEB 2026", "stadium": "Estádio da Luz, Lisbon", "s1": 0, "s2": 1,
+        "scorers": { "t2": [{ "name": "Vinícius Jr", "min": "50", "type": "g" }] }
+      },
+      "leg2": {
+        "date": "25 FEB 2026", "stadium": "Santiago Bernabéu, Madrid", "s1": 1, "s2": 2,
+        "scorers": {
+          "t1": [{ "name": "R. Silva", "min": "14", "type": "g" }],
+          "t2": [{ "name": "Tchouaméni", "min": "16", "type": "g" }, { "name": "Vinícius Jr", "min": "80", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Borussia Dortmund", "logo": "https://media.api-sports.io/football/teams/165.png", "country": "GER" },
+      "t2": { "name": "Atalanta", "logo": "https://media.api-sports.io/football/teams/499.png", "country": "ITA" },
+      "leg1": {
+        "date": "17 FEB 2026", "stadium": "Westfalenstadion, Dortmund", "s1": 2, "s2": 0,
+        "scorers": { "t1": [{ "name": "Guirassy", "min": "3", "type": "g" }, { "name": "Beier", "min": "42", "type": "g" }] }
+      },
+      "leg2": {
+        "date": "25 FEB 2026", "stadium": "Stadio Atleti Azzurri d'Italia, Bergamo", "s1": 1, "s2": 4,
+        "scorers": {
+          "t1": [{ "name": "Adeyemi", "min": "75", "type": "g" }],
+          "t2": [{ "name": "Scamacca", "min": "5", "type": "g" }, { "name": "Zappacosta", "min": "45", "type": "g" }, { "name": "Pašalić", "min": "57", "type": "g" }, { "name": "Samardžić", "min": "90+8", "type": "p" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Qarabağ", "logo": "https://media.api-sports.io/football/teams/556.png", "country": "AZE" },
+      "t2": { "name": "Newcastle United", "logo": "https://media.api-sports.io/football/teams/34.png", "country": "ENG" },
+      "leg1": {
+        "date": "18 FEB 2026", "stadium": "Tofiq Bahramov Republican Stadium, Baku", "s1": 1, "s2": 6,
+        "scorers": {
+          "t1": [{ "name": "Cafarguliyev", "min": "54", "type": "g" }],
+          "t2": [{ "name": "Gordon", "min": "3", "type": "g" }, { "name": "Thiaw", "min": "8", "type": "g" }, { "name": "Gordon", "min": "32", "type": "p" }, { "name": "Gordon", "min": "33", "type": "g" }, { "name": "Gordon", "min": "45+1", "type": "p" }, { "name": "J. Murphy", "min": "72", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "24 FEB 2026", "stadium": "St James' Park, Newcastle", "s1": 2, "s2": 3,
+        "scorers": {
+          "t1": [{ "name": "Durán", "min": "51", "type": "g" }, { "name": "Cafarguliyev", "min": "57", "type": "g" }],
+          "t2": [{ "name": "Tonali", "min": "4", "type": "g" }, { "name": "Joelinton", "min": "6", "type": "g" }, { "name": "Botman", "min": "52", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Club Brugge", "logo": "https://media.api-sports.io/football/teams/569.png", "country": "BEL" },
+      "t2": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
+      "leg1": {
+        "date": "18 FEB 2026", "stadium": "Jan Breydel Stadium, Bruges", "s1": 3, "s2": 3,
+        "scorers": {
+          "t1": [{ "name": "Onyedika", "min": "52", "type": "g" }, { "name": "Tresoldi", "min": "60", "type": "g" }, { "name": "Tzolis", "min": "89", "type": "g" }],
+          "t2": [{ "name": "Alvarez", "min": "8", "type": "p" }, { "name": "Lookman", "min": "45+4", "type": "g" }, { "name": "Ordóñez", "min": "79", "type": "og" }]
+        }
+      },
+      "leg2": {
+        "date": "24 FEB 2026", "stadium": "Metropolitano Stadium, Madrid", "s1": 1, "s2": 4,
+        "scorers": {
+          "t1": [{ "name": "Ordóñez", "min": "36", "type": "g" }],
+          "t2": [{ "name": "Sørloth", "min": "23", "type": "g" }, { "name": "Cardoso", "min": "48", "type": "g" }, { "name": "Sørloth", "min": "76", "type": "g" }, { "name": "Sørloth", "min": "87", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Bodø/Glimt", "logo": "https://media.api-sports.io/football/teams/327.png", "country": "NOR" },
+      "t2": { "name": "Inter Milan", "logo": "https://media.api-sports.io/football/teams/505.png", "country": "ITA" },
+      "leg1": {
+        "date": "18 FEB 2026", "stadium": "Aspmyra Stadion, Bodø", "s1": 3, "s2": 1,
+        "scorers": {
+          "t1": [{ "name": "Fet", "min": "20", "type": "g" }, { "name": "Hauge", "min": "61", "type": "g" }, { "name": "Høgh", "min": "64", "type": "g" }],
+          "t2": [{ "name": "Esposito", "min": "30", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "24 FEB 2026", "stadium": "San Siro, Milan", "s1": 2, "s2": 1,
+        "scorers": {
+          "t1": [{ "name": "Hauge", "min": "58", "type": "g" }, { "name": "Evjen", "min": "72", "type": "g" }],
+          "t2": [{ "name": "Bastoni", "min": "76", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Olympiacos", "logo": "https://media.api-sports.io/football/teams/553.png", "country": "GRE" },
+      "t2": { "name": "Bayer Leverkusen", "logo": "https://media.api-sports.io/football/teams/168.png", "country": "GER" },
+      "leg1": {
+        "date": "18 FEB 2026", "stadium": "Karaiskakis Stadium, Piraeus", "s1": 0, "s2": 2,
+        "scorers": { "t2": [{ "name": "Schick", "min": "60", "type": "g" }, { "name": "Schick", "min": "63", "type": "g" }] }
+      },
+      "leg2": {
+        "date": "24 FEB 2026", "stadium": "BayArena, Leverkusen", "s1": 0, "s2": 0,
+        "scorers": { "t1": [], "t2": [] }
+      }
+    }
+  ]
+},
+  "Round of 16": {
+  "matches": [
+    {
+      "t1": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
+      "t2": { "name": "Chelsea", "logo": "https://media.api-sports.io/football/teams/49.png", "country": "ENG" },
+      "leg1": {
+        "date": "11 MAR 2026", "stadium": "Parc des Princes, Paris", "s1": 5, "s2": 2,
+        "scorers": {
+          "t1": [{ "name": "Barcola", "min": "10", "type": "g" }, { "name": "Dembélé", "min": "40", "type": "g" }, { "name": "Vitinha", "min": "74", "type": "g" }, { "name": "Kvaratskhelia", "min": "86", "type": "g" }, { "name": "Kvaratskhelia", "min": "90+4", "type": "g" }],
+          "t2": [{ "name": "Gusto", "min": "28", "type": "g" }, { "name": "Fernández", "min": "57", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "17 MAR 2026", "stadium": "Stamford Bridge, London", "s1": 3, "s2": 0,
+        "scorers": {
+          "t1": [{ "name": "Kvaratskhelia", "min": "6", "type": "g" }, { "name": "Barcola", "min": "15", "type": "g" }, { "name": "Mayulu", "min": "62", "type": "g" }],
+          "t2": []
+        }
+      }
+    },
+    {
+      "t1": { "name": "Galatasaray", "logo": "https://media.api-sports.io/football/teams/645.png", "country": "TUR" },
+      "t2": { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png", "country": "ENG" },
+      "leg1": {
+        "date": "10 MAR 2026", "stadium": "Rams Park, Istanbul", "s1": 1, "s2": 0,
+        "scorers": { "t1": [{ "name": "Lemina", "min": "7", "type": "g" }], "t2": [] }
+      },
+      "leg2": {
+        "date": "18 MAR 2026", "stadium": "Anfield, Liverpool", "s1": 0, "s2": 4,
+        "scorers": {
+          "t1": [],
+          "t2": [{ "name": "Szoboszlai", "min": "25", "type": "g" }, { "name": "Ekitike", "min": "51", "type": "g" }, { "name": "Gravenberch", "min": "53", "type": "g" }, { "name": "Salah", "min": "62", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Real Madrid", "logo": "https://media.api-sports.io/football/teams/541.png", "country": "ESP" },
+      "t2": { "name": "Manchester City", "logo": "https://media.api-sports.io/football/teams/50.png", "country": "ENG" },
+      "leg1": {
+        "date": "11 MAR 2026", "stadium": "Santiago Bernabéu, Madrid", "s1": 3, "s2": 0,
+        "scorers": { "t1": [{ "name": "Valverde", "min": "20", "type": "g" }, { "name": "Valverde", "min": "27", "type": "g" }, { "name": "Valverde", "min": "42", "type": "g" }], "t2": [] }
+      },
+      "leg2": {
+        "date": "17 MAR 2026", "stadium": "City of Manchester Stadium", "s1": 2, "s2": 1,
+        "scorers": {
+          "t1": [{ "name": "Vinícius Jr", "min": "22", "type": "p" }, { "name": "Vinícius Jr", "min": "90+3", "type": "g" }],
+          "t2": [{ "name": "Haaland", "min": "41", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Atalanta", "logo": "https://media.api-sports.io/football/teams/499.png", "country": "ITA" },
+      "t2": { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER" },
+      "leg1": {
+        "date": "10 MAR 2026", "stadium": "Stadio Atleti Azzurri d'Italia", "s1": 1, "s2": 6,
+        "scorers": {
+          "t1": [{ "name": "Pašalić", "min": "90+3", "type": "g" }],
+          "t2": [{ "name": "Stanišić", "min": "12", "type": "g" }, { "name": "Olise", "min": "22", "type": "g" }, { "name": "Olise", "min": "64", "type": "g" }, { "name": "Gnabry", "min": "25", "type": "g" }, { "name": "Jackson", "min": "52", "type": "g" }, { "name": "Musiala", "min": "67", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "18 MAR 2026", "stadium": "Allianz Arena, Munich", "s1": 1, "s2": 4,
+        "scorers": {
+          "t1": [{ "name": "Samardžić", "min": "85", "type": "g" }],
+          "t2": [{ "name": "Kane", "min": "25", "type": "p" }, { "name": "Kane", "min": "54", "type": "g" }, { "name": "Karl", "min": "56", "type": "g" }, { "name": "Díaz", "min": "70", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Newcastle United", "logo": "https://media.api-sports.io/football/teams/34.png", "country": "ENG" },
+      "t2": { "name": "Barcelona", "logo": "https://media.api-sports.io/football/teams/529.png", "country": "ESP" },
+      "leg1": {
+        "date": "10 MAR 2026", "stadium": "St James' Park, Newcastle", "s1": 1, "s2": 1,
+        "scorers": { "t1": [{ "name": "Barnes", "min": "86", "type": "g" }], "t2": [{ "name": "Yamal", "min": "90+6", "type": "p" }] }
+      },
+      "leg2": {
+        "date": "18 MAR 2026", "stadium": "Camp Nou, Barcelona", "s1": 2, "s2": 7,
+        "scorers": {
+          "t1": [{ "name": "Elanga", "min": "15", "type": "g" }, { "name": "Elanga", "min": "28", "type": "g" }],
+          "t2": [{ "name": "Raphinha", "min": "6", "type": "g" }, { "name": "Raphinha", "min": "72", "type": "g" }, { "name": "Bernal", "min": "18", "type": "g" }, { "name": "Yamal", "min": "45+7", "type": "p" }, { "name": "López", "min": "51", "type": "g" }, { "name": "Lewandowski", "min": "56", "type": "g" }, { "name": "Lewandowski", "min": "61", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
+      "t2": { "name": "Tottenham Hotspur", "logo": "https://media.api-sports.io/football/teams/47.png", "country": "ENG" },
+      "leg1": {
+        "date": "10 MAR 2026", "stadium": "Metropolitano Stadium, Madrid", "s1": 5, "s2": 2,
+        "scorers": {
+          "t1": [{ "name": "Llorente", "min": "6", "type": "g" }, { "name": "Griezmann", "min": "14", "type": "g" }, { "name": "Alvarez", "min": "15", "type": "g" }, { "name": "Alvarez", "min": "55", "type": "g" }, { "name": "Le Normand", "min": "22", "type": "g" }],
+          "t2": [{ "name": "Porro", "min": "26", "type": "g" }, { "name": "Solanke", "min": "76", "type": "g" }]
+        }
+      },
+      "leg2": {
+        "date": "18 MAR 2026", "stadium": "Tottenham Hotspur Stadium", "s1": 2, "s2": 3,
+        "scorers": {
+          "t1": [{ "name": "Alvarez", "min": "47", "type": "g" }, { "name": "Hancko", "min": "75", "type": "g" }],
+          "t2": [{ "name": "Kolo Muani", "min": "30", "type": "g" }, { "name": "Simons", "min": "52", "type": "g" }, { "name": "Simons", "min": "90", "type": "p" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Bodø/Glimt", "logo": "https://media.api-sports.io/football/teams/327.png", "country": "NOR" },
+      "t2": { "name": "Sporting CP", "logo": "https://media.api-sports.io/football/teams/228.png", "country": "POR" },
+      "leg1": {
+        "date": "11 MAR 2026", "stadium": "Aspmyra Stadion, Bodø", "s1": 3, "s2": 0,
+        "scorers": { "t1": [{ "name": "Fet", "min": "32", "type": "p" }, { "name": "Blomberg", "min": "45+1", "type": "g" }, { "name": "Høgh", "min": "71", "type": "g" }], "t2": [] }
+      },
+      "leg2": {
+        "date": "17 MAR 2026", "stadium": "Estádio José Alvalade, Lisbon", "s1": 0, "s2": 5,
+        "scorers": {
+          "t1": [],
+          "t2": [{ "name": "Inácio", "min": "34", "type": "g" }, { "name": "Gonçalves", "min": "61", "type": "g" }, { "name": "Suárez", "min": "78", "type": "p" }, { "name": "Araújo", "min": "92", "type": "g" }, { "name": "Nel", "min": "120+1", "type": "g" }]
+        }
+      }
+    },
+    {
+      "t1": { "name": "Bayer Leverkusen", "logo": "https://media.api-sports.io/football/teams/168.png", "country": "GER" },
+      "t2": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
+      "leg1": {
+        "date": "11 MAR 2026", "stadium": "BayArena, Leverkusen", "s1": 1, "s2": 1,
+        "scorers": { "t1": [{ "name": "Andrich", "min": "46", "type": "g" }], "t2": [{ "name": "Havertz", "min": "89", "type": "p" }] }
+      },
+      "leg2": {
+        "date": "17 MAR 2026", "stadium": "Emirates Stadium, London", "s1": 0, "s2": 2,
+        "scorers": {
+          "t1": [],
+          "t2": [{ "name": "Eze", "min": "36", "type": "g" }, { "name": "Rice", "min": "63", "type": "g" }]
+        }
+      }
+    }
+  ]
+},
+  "Quarter-finals": {
+  "matches": [
+    {
+      "t1": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
+      "t2": { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png", "country": "ENG" },
+      "leg1": {
+        "date": "08 APR 2026", "time": "22:00", "stadium": "Parc des Princes, Paris", "s1": 2, "s2": 0,
+        "scorers": { "t1": [{ "name": "Doué", "min": "11", "type": "g" }, { "name": "Kvaratskhelia", "min": "65", "type": "g" }], "t2": [] }
+      },
+      "leg2": { "date": "14 APR 2026", "time": "22:00", "status": "finished", "stadium": "Anfield, Liverpool", "s1": "2", "s2": "0", 
+      "scorers": {"t1":[{ "name": "Dembele", "min": "73", "type": "g" }, { "name": "Dembele", "min": "90+1", "type": "g" }], "t2":[]} }
+    },
+    {
+      "t1": { "name": "Real Madrid", "logo": "https://media.api-sports.io/football/teams/541.png", "country": "ESP" },
+      "t2": { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER" },
+      "leg1": {
+        "date": "07 APR 2026", "time": "22:00", "stadium": "Santiago Bernabéu, Madrid", "s1": 1, "s2": 2,
+        "scorers": { "t1": [{ "name": "Mbappé", "min": "74", "type": "g" }], "t2": [{ "name": "Díaz", "min": "41", "type": "g" }, { "name": "Kane", "min": "46", "type": "g" }] }
+      },
+      "leg2": { "date": "15 APR 2026", "time": "22:00", "status": "finished", "stadium": "Allianz Arena, Munich", "s1": "3", "s2": "4", "scorers": {"t1":[{ "name": "Guler", "min": "1", "type": "g" }, { "name": "Guler", "min": "29", "type": "g" }, { "name": "Mbappe", "min": "42", "type": "g" }], "t2":[{ "name": "Pavlovic", "min": "6", "type": "g" }, { "name": "Kane", "min": "38", "type": "g" }, { "name": "Diaz", "min": "89", "type": "g" }, { "name": "Olise", "min": "90+4", "type": "g" }]} }
+    },
+    {
+      "t1": { "name": "Barcelona", "logo": "https://media.api-sports.io/football/teams/529.png", "country": "ESP" },
+      "t2": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
+      "leg1": {
+        "date": "08 APR 2026", "time": "22:00", "stadium": "Camp Nou, Barcelona", "s1": 0, "s2": 2,
+        "scorers": { "t1": [], "t2": [{ "name": "Alvarez", "min": "45", "type": "g" }, { "name": "Sørloth", "min": "70", "type": "g" }] }
+      },
+      "leg2": { "date": "14 APR 2026", "time": "22:00", "status": "finished", "stadium": "Metropolitano Stadium, Madrid", "s1": "2", "s2": "1",
+       "scorers": {"t1":[{ "name": "Yamal", "min": "4", "type": "g" }, { "name": "Torres", "min": "24", "type": "g" }], "t2":[{ "name": "Lookman", "min": "31", "type": "g" }]} }
+    },
+    {
+      "t1": { "name": "Sporting CP", "logo": "https://media.api-sports.io/football/teams/228.png", "country": "POR" },
+      "t2": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
+      "leg1": {
+        "date": "07 APR 2026", "time": "22:00", "stadium": "Estádio José Alvalade, Lisbon", "s1": 0, "s2": 1,
+        "scorers": { "t1": [], "t2": [{ "name": "Havertz", "min": "90+1", "type": "g" }] }
+      },
+      "leg2": { "date": "15 APR 2026", "time": "22:00", "status": "finished", "stadium": "Emirates Stadium, London", "s1": "0", "s2": "0", "scorers": {"t1":[], "t2":[]} }
+    }
+  ]
+},
+  "Semi-finals": {
+  "matches": [
+    {
+      "t1": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
+      "t2": { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER" },
+      "leg1": { "date": "28 APR 2026", "time": "22:00", "status": "upcoming", "stadium": "Parc des Princes, Paris", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} },
+      "leg2": { "date": "06 MAY 2026", "time": "22:00", "status": "upcoming", "stadium": "Allianz Arena, Munich", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} }
+    },
+    {
+      "t1": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
+      "t2": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
+      "leg1": { "date": "29 APR 2026", "time": "22:00", "status": "upcoming", "stadium": "Metropolitano Stadium, Madrid", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} },
+      "leg2": { "date": "05 MAY 2026", "time": "22:00", "status": "upcoming", "stadium": "Emirates Stadium, London", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} }
+    }
+  ]
+},
+  "Final": { "matches": [] }
+}
+  

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Schedule - Sport Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Includem variabilele și reset-ul de pe prima pagină pentru consistență */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #050508;
+      --bg-card: #12121b;
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #f0f0f5;
+      --muted: #71717a;
+      --accent: #ff4757; /* Culoarea roșie pentru TV Schedule */
+      --green: #34d399;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(255, 71, 87, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at center, #0d0d1a 0%, #050508 100%);
+      background-attachment: fixed;
+      background-size: cover;
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      min-height: 100vh;
+    }
+
+    header, main, footer, .topbar {
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      height: 64px;
+      background: rgba(10, 10, 15, 0.8);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+    }
+
+    .back-btn {
+      color: var(--text);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 500;
+      transition: 0.2s;
+    }
+
+    .back-btn:hover {
+      color: var(--accent);
+    }
+
+    header {
+      padding-top: 60px;
+      padding-bottom: 40px;
+    }
+    
+    .header-title-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .header-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(40px, 6vw, 80px);
+      line-height: 1;
+    }
+
+    .header-title span {
+      color: var(--accent);
+    }
+
+    .schedule-container {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .schedule-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 100px 150px 1fr 120px;
+      align-items: center;
+      gap: 20px;
+      transition: 0.3s;
+    }
+
+    .schedule-item:hover {
+      border-color: rgba(255, 71, 87, 0.3);
+      background: #1a1a26;
+    }
+
+    .time {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: var(--accent);
+    }
+
+    .event-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .event-name {
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 4px;
+    }
+
+    .competition {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .status-tag {
+        justify-self: end;
+        padding: 4px 12px;
+        border-radius: 100px;
+        font-size: 0.7rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        border: 1px solid currentColor;
+        white-space: nowrap;
+    }
+
+    .status-tag.live {
+        color: var(--green);
+        border-color: rgba(52, 211, 153, 0.4);
+        background: rgba(52, 211, 153, 0.05);
+        animation: pulse 2s infinite;
+    }
+    
+    .status-tag.upcoming {
+        color: var(--muted);
+        border-color: var(--border);
+    }
+
+    .status-tag.finished {
+        color: #444;
+        border-color: #222;
+        opacity: 0.5;
+    }
+
+    @keyframes pulse {
+        0% { opacity: 1; }
+        50% { opacity: 0.5; }
+        100% { opacity: 1; }
+    }
+
+    .channels-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1rem;
+        min-width: 150px;
+    }
+
+    .channel-tag {
+        color: var(--text);
+        border-left: 2px solid var(--accent);
+        padding-left: 8px;
+        display: block;
+    }
+
+    .date-header {
+        font-family: 'Bebas Neue', sans-serif;
+        color: var(--accent);
+        font-size: 1.8rem;
+        margin: 40px 0 20px 0;
+        letter-spacing: 1px;
+        border-left: 4px solid var(--accent);
+        padding-left: 15px;
+    }
+
+    /* FILTRE */
+    .filters-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 30px;
+      padding: 10px 0;
+    }
+
+    .filter-pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 8px 20px;
+      border-radius: 100px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: capitalize;
+    }
+
+    .filter-pill:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text);
+    }
+
+    .filter-pill.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: white;
+      box-shadow: 0 0 15px rgba(255, 71, 87, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="index.html" class="back-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+      Home
+    </a>
+  </nav>
+
+  <header>
+    <div class="header-title-wrapper">
+      <h1 class="header-title">TV <span>Schedule</span></h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="filters-container" id="filters-bar">
+      <button class="filter-pill active" onclick="filterBySport('all', this)">All Sports</button>
+    </div>
+
+    <div class="schedule-container" id="schedule-list">
+      </div>
+  </main>
+
+  <script>
+    let rawData = []; 
+
+    async function init() {
+        try {
+            const response = await fetch('schedule.json');
+            rawData = await response.json();
+            
+            generateFilterButtons();
+            renderSchedule('all');
+        } catch (e) {
+            console.error("Eroare la încărcarea datelor:", e);
+        }
+    }
+
+    function generateFilterButtons() {
+        const filterBar = document.getElementById('filters-bar');
+        const sportsSet = new Set();
+        
+        rawData.forEach(day => {
+            day.programs.forEach(p => sportsSet.add(p.sport));
+        });
+        
+        sportsSet.forEach(sport => {
+            const btn = document.createElement('button');
+            btn.className = 'filter-pill';
+            btn.innerText = sport;
+            btn.onclick = () => filterBySport(sport, btn);
+            filterBar.appendChild(btn);
+        });
+    }
+
+    function filterBySport(sport, clickedBtn) {
+        document.querySelectorAll('.filter-pill').forEach(btn => btn.classList.remove('active'));
+        clickedBtn.classList.add('active');
+        renderSchedule(sport);
+    }
+
+    function renderSchedule(filter) {
+        const container = document.getElementById('schedule-list');
+        container.innerHTML = '';
+
+        // 1. Sortare după dată (respectând ordinea blocurilor din JSON)
+        rawData.forEach(day => {
+            let programs = filter === 'all' 
+                ? day.programs 
+                : day.programs.filter(p => p.sport === filter);
+
+            if (programs.length === 0) return;
+
+            // 2. Grupare canale pentru evenimente identice
+            const grouped = [];
+            programs.forEach(item => {
+                const exist = grouped.find(g => g.time === item.time && g.event === item.event);
+                if (exist) {
+                    if (!exist.channels.includes(item.channel)) exist.channels.push(item.channel);
+                } else {
+                    grouped.push({ ...item, channels: [item.channel] });
+                }
+            });
+
+            // 3. Sortare pură după oră (00:00 -> 23:59)
+            grouped.sort((a, b) => a.time.localeCompare(b.time));
+
+            // Creare Header Dată
+            const dateHeader = document.createElement('h2');
+            dateHeader.className = "date-header";
+            dateHeader.innerText = day.date;
+            container.appendChild(dateHeader);
+
+            // Creare elemente program
+            grouped.forEach(item => {
+                const scheduleItem = document.createElement('div');
+                scheduleItem.className = 'schedule-item';
+                
+                const statusClass = item.status === 'live' ? 'status-tag live' : 
+                                    item.status === 'finished' ? 'status-tag finished' : 'status-tag upcoming';
+
+                const channelsHtml = item.channels.map(ch => `<span class="channel-tag">${ch}</span>`).join('');
+
+                scheduleItem.innerHTML = `
+                    <div class="time">${item.time}</div>
+                    <div class="channels-container">${channelsHtml}</div>
+                    <div class="event-info">
+                        <span class="event-name">${item.event}</span>
+                        <span class="competition">${item.competition}</span>
+                    </div>
+                    <div class="${statusClass}">${item.status.toUpperCase()}</div>
+                `;
+                container.appendChild(scheduleItem);
+            });
+        });
+    }
+
+    window.onload = init;
+  </script>
+</body>
+</html>

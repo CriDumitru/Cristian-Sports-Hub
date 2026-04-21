@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qatar 2022 — Cristian's World Cup Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #350405;       /* Qatar Maroon */
+      --surface: #410506;  
+      --border: rgba(212, 175, 55, 0.12);
+      /* 1. Reducem luminozitatea fontului principal (de la #fff la #e2d1d2) */
+      --text: #e2d1d2;     
+      --muted: #bda3a4;
+      --accent: #d4af37;   /* Gold */
+      --accent2: #360707;  /* Vibrant Maroon */
+    }
+    body{font-family:'DM Sans',sans-serif; background: var(--bg); color: var(--text); overflow-x: hidden;}
+.home-btn {
+      position: absolute; /* Aceasta este setarea care îl împiedică să coboare la scroll */
+      top: 18px;
+      left: 18px;
+      z-index: 200;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(15, 15, 24, 0.88);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 7px 13px;
+      text-decoration: none;
+      color: #a1a1aa;
+      font-size: .76rem;
+      font-weight: 500;
+      backdrop-filter: blur(12px);
+      transition: all 0.15s;
+    }
+    .home-btn:hover {
+      background: rgba(25, 25, 40, 0.95);
+      color: #f4f4f5;
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+/* Container general pentru scroll orizontal pe mobil */
+    .tab-container {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+      overflow-x: auto;
+      padding: 5px 2px;
+      scrollbar-width: none;
+    }
+    .tab-container::-webkit-scrollbar { display: none; }
+
+    /* Pastilele MARI (Etapele competiției) */
+    .tab-pill {
+      padding: 10px 18px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #a1a1aa;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+      text-transform: none; /* Title Case activat */
+    }
+
+    .tab-pill.active.qatar-pill {
+      background: rgba(138, 21, 56, 0.3) !important;
+      color: #fbbf24 !important;
+      border-color: rgba(251, 191, 36, 0.4) !important;
+      box-shadow: 0 4px 15px rgba(138, 21, 56, 0.2);
+    }
+
+    /* Sub-pastilele (Grupele A, B, C...) */
+    .group-pill {
+      padding: 6px 14px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 8px;
+      color: #71717a;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .group-pill.active {
+      background: rgba(251, 191, 36, 0.1) !important;
+      color: #fbbf24 !important;
+      border-color: rgba(251, 191, 36, 0.3) !important;
+    }    
+    /* Stil pentru carduri - reducem opacitatea fundalului */
+    .match-card{background:rgba(6, 2, 20, 0.015); border:1px solid var(--border); border-radius:16px; margin-bottom:12px; transition: transform 0.2s; overflow: hidden;}
+    .match-card:hover{transform: translateY(-2px); background:rgba(255,255,255,0.03);}
+
+    /* Stilul scorului (Poza 2) */
+    .score-box-horizontal{font-family:'Bebas Neue',sans-serif; font-size:2.8rem; color: var(--accent); line-height: 1; display: flex; align-items: center; gap: 10px; margin: 0 15px;}
+    
+    .spinner{width:30px;height:30px;border:3px solid rgba(255,255,255,0.1);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:40px auto;}
+    @keyframes spin{to{transform:rotate(360deg);}}
+    /* Stil pentru butonul Scroll Up */
+    #scrollUpBtn {
+      display: none; /* Ascuns implicit */
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 99;
+      background: var(--surface);
+      color: var(--accent);
+      border: 1px solid var(--border);
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(10px);
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+    #scrollUpBtn:hover {
+      background: var(--accent);
+      color: var(--bg);
+      transform: translateY(-5px);
+    }
+
+    /* Ajustare spațiere header pentru a evita overlap-ul cu Home */
+    @media (min-width: 768px) {
+      .header-section {
+        padding-left: 100px; /* Îl mutăm la dreapta doar pe desktop */
+      }
+    }
+  </style>
+  
+</head>
+<body class="min-h-screen">
+
+  <a href="index.html" class="home-btn">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+      <polyline points="9,22 9,12 15,12 15,22"/>
+    </svg>
+    Home
+  </a>
+<div class="max-w-[98%] mx-auto px-6 pt-12 pb-12">
+  
+  <div class="header-section flex flex-col md:flex-row items-end gap-6 mb-10 pl-20 md:pl-28">
+    
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/1920px-2022_FIFA_World_Cup.svg.png" 
+         alt="Qatar 2022" 
+         style="height:90px; width:auto; filter:drop-shadow(0 2px 12px rgba(0,0,0,0.5));">
+
+    <div class="text-center md:text-left">
+      <div style="font-size:.7rem; font-weight:800; letter-spacing:.2em; text-transform:uppercase; color:var(--accent); margin-bottom:6px">FIFA World Cup</div>
+      <h1 style="font-family:'Bebas Neue'; font-size:clamp(2.5rem, 6vw, 4rem); line-height:0.9; margin-bottom:5px;">
+        Qatar <span style="background:linear-gradient(to right, #fff, var(--accent)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">2022</span>
+      </h1>
+      <p style="font-size:.85rem; color:var(--muted)">20 November – 18 December 2022 • Qatar • 32 Nations • 64 Games</p>
+    </div>
+    
+  </div>
+
+    <button id="scrollUpBtn" onclick="scrollToTop()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <div class="tab-container">
+      <button class="tab-pill active qatar-pill" onclick="showTab(0)" id="tab0">Group Stage</button>
+      <button class="tab-pill qatar-pill" onclick="showTab(1)" id="tab1">Round of 16</button>
+      <button class="tab-pill qatar-pill" onclick="showTab(2)" id="tab2">Quarter-finals</button>
+      <button class="tab-pill qatar-pill" onclick="showTab(3)" id="tab3">Semi-finals</button>
+      <button class="tab-pill qatar-pill" onclick="showTab(4)" id="tab4">3rd Place Playoff</button>
+      <button class="tab-pill qatar-pill" onclick="showTab(5)" id="tab5">Final</button>
+    </div>
+
+    <div id="tabContent"></div>
+  </div>
+
+  <script>
+    // Arătăm butonul doar când utilizatorul a coborât 300px în pagină
+    window.onscroll = function() {
+      const btn = document.getElementById("scrollUpBtn");
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        btn.style.display = "flex";
+      } else {
+        btn.style.display = "none";
+      }
+    };
+
+    // Funcția care urcă pagina lin până sus
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+    let QATAR_DATA = [];
+let currentGroup = "Group A";
+const phases = ["Group Stage", "Round of 16", "Quarter-finals", "Semi-finals", "3rd Place Playoff", "Final"];
+
+async function loadDataAndInit() {
+  const container = document.getElementById('tabContent');
+  try {
+    container.innerHTML = `<div class="spinner"></div>`;
+    const response = await fetch('data_qatar.json');
+    const data = await response.json();
+    QATAR_DATA = data.SCHEDULE || [];
+
+    // --- LOGICA DE MEMORARE ---
+    const savedTab = localStorage.getItem('activeTab');
+    const savedGroup = localStorage.getItem('activeGroup');
+
+    if (savedGroup) {
+      currentGroup = savedGroup; // Restaurăm grupa (A, B, C...)
+    }
+
+    if (savedTab !== null) {
+      showTab(parseInt(savedTab)); // Restaurăm tab-ul (Group Stage, Round of 16...)
+    } else {
+      showTab(0); // Default dacă nu e nimic salvat
+    }
+    // ---------------------------
+
+  } catch (e) {
+    container.innerHTML = `<p style="color:var(--muted); text-align:center; padding:40px;">Eroare la încărcarea datelor.</p>`;
+  }
+}
+
+function showTab(n) {
+  localStorage.setItem('activeTab', n);
+  document.querySelectorAll('.tab-pill').forEach((btn, i) => btn.classList.toggle('active', i === n));
+  
+  const currentPhase = phases[n];
+
+  if (currentPhase === "Group Stage") {
+    renderGroupStage();
+  } 
+  // RERUTARE PENTRU FINALE
+  else if (currentPhase === "3rd Place Playoff" || currentPhase === "Final") {
+    renderFinalsPhase(currentPhase);
+  } 
+  // RĂMÂNE NEATINS PENTRU OPTIMI -> SEMIFINALE
+  else {
+    renderKnockoutPhase(currentPhase);
+  }
+}
+
+function renderGroupStage() {
+  const container = document.getElementById('tabContent');
+  const groups = ["Group A", "Group B", "Group C", "Group D", "Group E", "Group F", "Group G", "Group H"];
+  
+  let groupNav = `
+    <div style="display:flex; gap:8px; margin-bottom:25px; overflow-x:auto; padding-bottom:10px;" class="no-scrollbar">
+      ${groups.map(g => `
+        <button onclick="currentGroup='${g}'; localStorage.setItem('activeGroup', '${g}'); renderGroupStage()" 
+                style="padding:8px 16px; border-radius:8px; font-size:.75rem; font-weight:700; border:1px solid ${currentGroup === g ? 'var(--accent)' : 'rgba(255,255,255,0.05)'}; 
+                       background:${currentGroup === g ? 'rgba(212,175,55,0.1)' : 'transparent'}; 
+                       color:${currentGroup === g ? 'var(--accent)' : 'var(--muted)'}; transition:all 0.2s; cursor:pointer; white-space:nowrap;">
+          ${g}
+        </button>`).join('')}
+    </div>`;
+
+  const groupData = QATAR_DATA.find(m => m.group === currentGroup);
+  if (!groupData) {
+    container.innerHTML = groupNav + `<p style="text-align:center; color:var(--muted); padding:40px;">No data found.</p>`;
+    return;
+  }
+
+  // Am trecut la grid-cols-12 pentru control fin: 7 coloane meciuri, 5 coloane clasament
+  container.innerHTML = groupNav + `
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+      
+      <div class="lg:col-span-7">
+        <div class="grid grid-cols-1 gap-4">
+          ${groupData.matches.map(match => {
+            const s1 = parseInt(match.team1.score);
+            const s2 = parseInt(match.team2.score);
+            const color1 = s1 > s2 ? 'var(--accent)' : (s1 < s2 ? 'rgba(255,255,255,0.2)' : '#fff');
+            const color2 = s2 > s1 ? 'var(--accent)' : (s2 < s1 ? 'rgba(255,255,255,0.2)' : '#fff');
+
+            return `
+            <div class="match-card">
+              <div style="background:rgba(0,0,0,0.15); padding:8px 20px; font-size:0.6rem; color:var(--muted); font-weight:700; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; text-transform:uppercase; letter-spacing:1px;">
+                <span>${match.date}</span><span>${match.stadium}</span>
+              </div>
+              <div style="padding:25px 20px;">
+                <div style="display:flex; align-items:center; justify-content:center;">
+                  
+                  <div style="flex:1; display:flex; flex-direction:column; align-items:flex-end;">
+                    <div style="display:flex; align-items:center; gap:12px;">
+                      <span style="font-weight:700; font-size:1.15rem; color:#fff;">${match.team1.name}</span>
+                      <img src="https://flagcdn.com/w40/${match.team1.code}.png" style="width:28px; border-radius:2px;">
+                    </div>
+                    <div style="font-size:0.65rem; color:var(--muted); text-align:right; margin-top:6px; min-height:14px;">
+                      ${match.team1.scorers ? match.team1.scorers.join(', ') : ''}
+                    </div>
+                  </div>
+
+                  <div style="font-family:'Bebas Neue',sans-serif; font-size:2.3rem; display:flex; align-items:center; gap:15px; margin:0 30px; line-height:1; letter-spacing:2px;">
+                    <span style="color:${color1}">${match.team1.score}</span>
+                    <span style="font-size:1.2rem; opacity:0.1;">-</span>
+                    <span style="color:${color2}">${match.team2.score}</span>
+                  </div>
+
+                  <div style="flex:1; display:flex; flex-direction:column; align-items:flex-start;">
+                    <div style="display:flex; align-items:center; gap:12px;">
+                      <img src="https://flagcdn.com/w40/${match.team2.code}.png" style="width:28px; border-radius:2px;">
+                      <span style="font-weight:700; font-size:1.15rem; color:#fff;">${match.team2.name}</span>
+                    </div>
+                    <div style="font-size:0.65rem; color:var(--muted); text-align:left; margin-top:6px; min-height:14px;">
+                      ${match.team2.scorers ? match.team2.scorers.join(', ') : ''}
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>`;
+          }).join('')}
+        </div>
+      </div>
+
+      <div class="lg:col-span-5">
+        <div style="background:rgba(0,0,0,0.2); border:1px solid var(--border); border-radius:12px; overflow:hidden;">
+          <table style="width:100%; font-size:0.75rem; text-align:left; border-collapse:collapse;">
+            <thead>
+              <tr style="background:rgba(255,255,255,0.03); color:var(--muted); text-transform:uppercase; font-size:0.55rem; letter-spacing:1px;">
+                <th style="padding:15px 12px;">#</th>
+                <th style="padding:15px 12px;">Team</th>
+                <th style="padding:15px 5px; text-align:center;">P</th>
+                <th style="padding:15px 5px; text-align:center;">W</th>
+                <th style="padding:15px 5px; text-align:center;">D</th>
+                <th style="padding:15px 5px; text-align:center;">L</th>
+                <th style="padding:15px 5px; text-align:center;">GF</th>
+                <th style="padding:15px 5px; text-align:center;">GA</th>
+                <th style="padding:15px 5px; text-align:center;">GD</th>
+                <th style="padding:15px 12px; text-align:center; color:var(--accent);">Pts</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${groupData.standings.map((t, idx) => {
+                const isQualified = idx < 2;
+                const rowBg = isQualified ? 'rgba(34,197,94,0.05)' : 'transparent';
+                const accentColor = isQualified ? '#22c55e' : 'var(--accent)';
+                
+                return `
+                <tr style="border-top:1px solid rgba(255,255,255,0.04); background:${rowBg};">
+                  <td style="padding:15px 12px; font-weight:800; color:${isQualified ? '#22c55e' : 'var(--muted)'}">${t.rank}</td>
+                  <td style="padding:15px 12px;">
+                    <div style="display:flex; align-items:center; gap:10px;">
+                      <img src="https://flagcdn.com/w40/${t.code}.png" style="width:20px; border-radius:1px;">
+                      <span style="font-weight:700; color:${isQualified ? '#fff' : 'var(--text)'}">${t.team}</span>
+                    </div>
+                  </td>
+                  <td style="padding:15px 5px; text-align:center; opacity:0.7;">${t.p}</td>
+                  <td style="padding:15px 5px; text-align:center; opacity:0.7;">${t.w}</td>
+                  <td style="padding:15px 5px; text-align:center; opacity:0.7;">${t.d}</td>
+                  <td style="padding:15px 5px; text-align:center; opacity:0.7;">${t.l}</td>
+                  <td style="padding:15px 5px; text-align:center; opacity:0.7;">${t.gf}</td>
+                  <td style="padding:15px 5px; text-align:center; opacity:0.7;">${t.ga}</td>
+                  <td style="padding:15px 5px; text-align:center; opacity:0.9; font-weight:600;">${t.gd}</td>
+                  <td style="padding:15px 12px; text-align:center; font-weight:900; color:${accentColor}; font-size:0.9rem;">${t.pts}</td>
+                </tr>`;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+        <div style="display:flex; align-items:center; gap:6px; margin-top:12px; padding-left:10px;">
+           <span style="width:6px; height:6px; border-radius:50%; background:#22c55e;"></span>
+           <p style="font-size:0.6rem; color:#22c55e; font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">Promoted to Knockout Stage</p>
+        </div>
+      </div>
+    </div>`;
+}
+
+function renderKnockoutPhase(phaseName) {
+  const container = document.getElementById('tabContent');
+  const phaseMatches = QATAR_DATA.filter(m => m.phase === phaseName);
+  
+  if (phaseMatches.length === 0) {
+    container.innerHTML = `<p style="text-align:center; color:var(--muted); padding:40px;">No matches found for ${phaseName}.</p>`;
+    return;
+  }
+
+  const isAdvanced = (phaseName === "Semi-finals" || phaseName === "Final");
+
+  // Grid pe 2 coloane pentru Optimi/Sferturi, 1 coloană pentru Semifinale
+  container.innerHTML = `
+    <div class="grid grid-cols-1 ${isAdvanced ? 'gap-10' : 'md:grid-cols-2 gap-6'}">
+      ${phaseMatches.map(m => m.matches.map(match => {
+        const isT1W = match.winner === match.team1.name;
+        const isT2W = match.winner === match.team2.name;
+
+        if (isAdvanced) {
+          return renderAdvancedMatchCard(match, isT1W, isT2W);
+        } else {
+          return renderStandardMatchCard(match, isT1W, isT2W);
+        }
+      }).join('')).join('')}
+    </div>`;
+}
+
+// FORMATUL PENTRU OPTIMI ȘI SFERTURI (Scor + Marcatori + Penalty-uri)
+function renderStandardMatchCard(match, isT1W, isT2W) {
+  return `
+    <div class="match-card" style="background: rgba(255,255,255,0.02); border: 1px solid var(--border); border-radius: 20px; overflow: hidden;">
+      <div style="background:rgba(0,0,0,0.2); padding:10px 20px; font-size:0.6rem; color:var(--muted); font-weight:700; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; text-transform:uppercase;">
+        <span>${match.date}</span><span>${match.stadium}</span>
+      </div>
+      
+      <div style="padding:30px 20px; text-align:center; border-bottom: 1px solid rgba(255,255,255,0.03);">
+        <div style="display:flex; align-items:center; justify-content:center; gap:20px;">
+          <div style="display:flex; flex-direction:column; align-items:center; flex:1;">
+            <img src="https://flagcdn.com/w80/${match.team1.code}.png" style="width:40px; border-radius:3px; margin-bottom:8px;">
+            <span style="font-weight:800; font-size:1rem; color:${isT1W ? 'var(--accent)' : '#fff'}">${match.team1.name}</span>
+          </div>
+          <div style="font-family:'Bebas Neue',sans-serif; text-align:center;">
+            <div style="font-size:3rem; line-height:1; display:flex; gap:10px;">
+               <span style="color:${isT1W ? 'var(--accent)' : 'rgba(255,255,255,0.3)'}">${match.team1.score.split(' ')[0]}</span>
+               <span style="opacity:0.1">-</span>
+               <span style="color:${isT2W ? 'var(--accent)' : 'rgba(255,255,255,0.3)'}">${match.team2.score.split(' ')[0]}</span>
+            </div>
+            ${match.team1.score.includes('(') ? `<div style="font-size:1rem; color:var(--accent); letter-spacing:2px;">${match.team1.score.match(/\(([^)]+)\)/)[0]} - ${match.team2.score.match(/\(([^)]+)\)/)[0]}</div>` : ''}
+          </div>
+          <div style="display:flex; flex-direction:column; align-items:center; flex:1;">
+            <img src="https://flagcdn.com/w80/${match.team2.code}.png" style="width:40px; border-radius:3px; margin-bottom:8px;">
+            <span style="font-weight:800; font-size:1rem; color:${isT2W ? 'var(--accent)' : '#fff'}">${match.team2.name}</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="padding:20px; background: rgba(0,0,0,0.1);">
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          ${(match.events || []).map(ev => `
+            <div style="display:flex; align-items:center; justify-content: ${ev.side === 'left' ? 'flex-start' : 'flex-end'}; gap:8px;">
+              ${ev.side === 'left' ? `<span style="font-size:0.7rem; font-weight:800; color:var(--accent);">${ev.minute}'</span>` : ''}
+              <div style="font-size:0.75rem; font-weight:600;">${ev.player} <span style="opacity:0.5; font-size:0.6rem;">${ev.type === 'goal' ? '⚽' : '👟 (P)'}</span></div>
+              ${ev.side === 'right' ? `<span style="font-size:0.7rem; font-weight:800; color:var(--accent);">${ev.minute}'</span>` : ''}
+            </div>
+          `).join('')}
+        </div>
+
+        ${match.shootout ? `
+          <div style="margin-top:15px; padding-top:15px; border-top: 1px solid rgba(255,255,255,0.05);">
+            ${match.shootout.rounds.map((r, i) => `
+              <div style="display:grid; grid-template-columns: 1fr 30px 1fr; align-items:center; margin-bottom:5px; font-size:0.7rem;">
+                <div style="text-align:right; color:${r.t1.result === 'goal' ? '#fff' : 'rgba(255,255,255,0.3)'}">${r.t1.player} ${r.t1.result === 'goal' ? '⚽' : '❌'}</div>
+                <div style="text-align:center; opacity:0.2; font-size:0.6rem;">${i+1}</div>
+                <div style="text-align:left; color:${r.t2.result === 'goal' ? '#fff' : 'rgba(255,255,255,0.3)'}">${r.t2.result === 'goal' ? '⚽' : '❌'} ${r.t2.player}</div>
+              </div>
+            `).join('')}
+          </div>
+        ` : ''}
+      </div>
+    </div>`;
+}
+
+// --- 1. CARDUL AVANSAT (SEMIFINALE / FINALĂ) ---
+function renderAdvancedMatchCard(match, isT1W, isT2W) {
+  // CONFIGURARE CULORI CONFORM REGULILOR:
+  // Invingatoarea: Gold (Accent) / Infranta: Alb (Nume/Steag) & Grey (Scor)
+  const nameColor1 = isT1W ? 'var(--accent)' : '#fff';
+  const nameColor2 = isT2W ? 'var(--accent)' : '#fff';
+  
+  const scoreColor1 = isT1W ? 'var(--accent)' : 'rgba(255,255,255,0.2)';
+  const scoreColor2 = isT2W ? 'var(--accent)' : 'rgba(255,255,255,0.2)';
+
+  return `
+    <div class="match-card" style="border-radius:24px; margin-bottom: 20px; overflow:hidden; background: rgba(255,255,255,0.02); border: 1px solid var(--border);">
+      <div style="background:rgba(0,0,0,0.3); padding:15px 25px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;">
+        <div>
+          <span style="font-size:0.6rem; color:var(--accent); font-weight:800; display:block; text-transform:uppercase; letter-spacing:1px;">${match.date}</span>
+          <span style="font-size:0.85rem; font-weight:700; color:#fff;">${match.stadium}, ${match.city}</span>
+        </div>
+        <div style="text-align:right;">
+          <span style="font-size:0.55rem; color:var(--muted); text-transform:uppercase; display:block; letter-spacing:1px;">Referee</span>
+          <span style="font-size:0.8rem; font-weight:600; color:#fff;">${match.referee}</span>
+        </div>
+      </div>
+      
+      <div style="padding:60px 40px; background: radial-gradient(circle at center, rgba(212,175,55,0.03) 0%, transparent 80%);">
+        <div style="display:flex; justify-content:space-between; align-items: center;">
+          
+          <div style="flex:1; display:flex; flex-direction:column; align-items: flex-start;">
+            <div style="display:flex; align-items:center; gap:15px; height: 50px;">
+              <img src="https://flagcdn.com/w80/${match.team1.code}.png" style="width:55px; border-radius:4px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+              <span style="font-weight:800; font-size:2rem; color:${nameColor1}; letter-spacing:-0.5px; transition: 0.3s;">${match.team1.name}</span>
+            </div>
+            <div style="margin-top: 8px; padding-left: 70px; min-height: 40px;">
+              ${(match.events || []).filter(e => e.side === 'left').map(ev => `
+                <div style="font-size:0.8rem; font-weight:600; color:#fff; margin-bottom:3px;">
+                   <span style="color:var(--accent); font-weight:800;">${ev.minute}'</span> ${ev.player} ${ev.type === 'goal' ? '⚽' : '👟(P)'}
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <div style="font-family:'Bebas Neue',sans-serif; font-size:5.8rem; line-height:1; display:flex; align-items:center; gap:25px; padding: 0 40px; position:relative; top: -15px;">
+            <span style="color:${scoreColor1}">${match.team1.score}</span>
+            <span style="opacity:0.05; font-size:2.5rem; color:#fff;">-</span>
+            <span style="color:${scoreColor2}">${match.team2.score}</span>
+          </div>
+
+          <div style="flex:1; display:flex; flex-direction:column; align-items: flex-end;">
+            <div style="display:flex; align-items:center; gap:15px; height: 50px;">
+              <span style="font-weight:800; font-size:2rem; color:${nameColor2}; letter-spacing:-0.5px; transition: 0.3s;">${match.team2.name}</span>
+              <img src="https://flagcdn.com/w80/${match.team2.code}.png" style="width:55px; border-radius:4px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+            </div>
+            <div style="margin-top: 8px; padding-right: 70px; text-align:right; min-height: 40px;">
+              ${(match.events || []).filter(e => e.side === 'right').map(ev => `
+                <div style="font-size:0.8rem; font-weight:600; color:#fff; margin-bottom:3px;">
+                   ${ev.player} ${ev.type === 'goal' ? '⚽' : '👟(P)'} <span style="color:var(--accent); font-weight:800;">${ev.minute}'</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <details style="border-top: 1px solid rgba(255,255,255,0.05);">
+        <summary style="padding:18px; text-align:center; color:var(--accent); font-size:0.7rem; font-weight:800; cursor:pointer; list-style:none; letter-spacing:2px; background:rgba(212,175,55,0.03);">
+          VIEW FULL LINEUPS & PLAYER EVENTS ▼
+        </summary>
+        <div style="padding:40px; display:grid; grid-template-columns: 1fr 1fr; gap:60px; background:rgba(0,0,0,0.2);">
+          ${renderSquadList(match.team1)}
+          ${renderSquadList(match.team2)}
+        </div>
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:60px; padding:0 40px 40px; background:rgba(0,0,0,0.2);">
+           ${renderManager(match.team1)}
+           ${renderManager(match.team2)}
+        </div>
+      </details>
+    </div>`;
+}
+
+// --- 2. FUNCȚIA MANAGER (Fix ReferenceError) ---
+function renderManager(team) {
+  return `
+    <div style="padding:15px; background:rgba(212,175,55,0.03); border:1px solid rgba(212,175,55,0.1); border-radius:12px; height: 60px; display:flex; flex-direction:column; justify-content:center;">
+      <span style="font-size:0.55rem; color:var(--muted); text-transform:uppercase; letter-spacing:1px; font-weight:800; opacity:0.6;">Head Coach</span>
+      <span style="font-weight:800; font-size:1rem; color:#fff;">${team.manager}</span>
+    </div>
+  `;
+}
+
+// FUNCȚIE AJUTOR PENTRU LOTURI (Grid rigid, Nume complete, Fără descentrare)
+function renderSquadList(team) {
+  const starters = (team.lineup || []).filter(p => p.status === 'starter');
+  const bench = (team.lineup || []).filter(p => p.status !== 'starter');
+  
+  // Înălțime fixă per rând pentru a asigura alinierea orizontală simetrică
+  const rowHeight = "54px"; 
+
+  const playerItem = (p) => `
+    <div style="display:grid; grid-template-columns: 40px 1fr 50px; align-items: center; height:${rowHeight}; border-bottom:1px solid rgba(255,255,255,0.03); padding: 0 5px;">
+       
+       <span style="font-family:'Bebas Neue'; font-size:1.6rem; color:var(--accent); text-align:center; opacity:0.8;">${p.number || '-'}</span>
+       
+       <div style="display:flex; flex-direction:column; justify-content:center; overflow:hidden;">
+          <span style="font-weight:700; font-size:1rem; color:#fff; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${p.name}</span>
+          <div style="display:flex; gap:6px; margin-top:2px;">
+            ${(p.events || []).map(e => `
+              <span style="font-size:0.6rem; font-weight:800; color:var(--accent);">
+                ${e.type === 'goal' ? '⚽' : e.type === 'penalty' ? '👟(P)' : e.type === 'yellow' ? '🟨' : e.type === 'red' ? '🟥' : e.type === 'in' ? '⬆️' : '⬇️'} ${e.min}'
+              </span>
+            `).join('')}
+          </div>
+       </div>
+
+       <span style="font-size:0.6rem; text-transform:uppercase; opacity:0.3; font-weight:800; text-align:right;">${p.pos}</span>
+    </div>
+  `;
+
+  return `
+    <div style="display: flex; flex-direction: column;">
+      <h4 style="font-size:0.75rem; color:var(--accent); text-transform:uppercase; margin-bottom:15px; letter-spacing:2px; font-weight:900;">Starting XI</h4>
+      <div style="margin-bottom:30px; border: 1px solid rgba(255,255,255,0.02); border-radius:12px; overflow:hidden; padding: 0 10px;">${starters.map(playerItem).join('')}</div>
+      
+      <h4 style="font-size:0.75rem; color:var(--muted); text-transform:uppercase; margin-bottom:15px; letter-spacing:2px; font-weight:800;">Bench / Reserves (full squad)</h4>
+      <div style="border: 1px solid rgba(255,255,255,0.01); border-radius:12px; overflow:hidden; padding: 0 10px; opacity: 0.6;">${bench.map(playerItem).join('')}</div>
+    </div>
+  `;
+}
+function renderFinalsPhase(phaseName) {
+  const container = document.getElementById('tabContent');
+  const phaseMatches = QATAR_DATA.filter(m => m.phase === phaseName);
+  
+  if (phaseMatches.length === 0) {
+    container.innerHTML = `<p style="text-align:center; color:var(--muted); padding:40px;">Nu există date.</p>`;
+    return;
+  }
+  function renderMatchStats(stats) {
+  if (!stats) return '';
+  
+  const statsKeys = Object.keys(stats);
+  
+  return statsKeys.map(key => {
+    const s = stats[key];
+    // Calculăm lățimea barei (estimativ pentru vizualizare)
+    const val1 = parseInt(s.t1);
+    const val2 = parseInt(s.t2);
+    const total = val1 + val2;
+    const p1 = total === 0 ? 50 : (val1 / total) * 100;
+    const p2 = 100 - p1;
+
+    return `
+      <div style="margin-bottom: 20px;">
+        <div style="display:flex; justify-content:space-between; margin-bottom:8px; font-size:0.8rem; font-weight:700; text-transform:uppercase; letter-spacing:1px;">
+          <span style="color:#fff;">${s.t1}</span>
+          <span style="color:var(--muted); font-size:0.7rem;">${s.label}</span>
+          <span style="color:#fff;">${s.t2}</span>
+        </div>
+        <div style="height:6px; background:rgba(255,255,255,0.05); border-radius:3px; display:flex; overflow:hidden;">
+          <div style="width:${p1}%; background:var(--accent); height:100%; transition: width 1s ease;"></div>
+          <div style="width:${p2}%; background:rgba(255,255,255,0.2); height:100%; transition: width 1s ease;"></div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+  container.innerHTML = `
+    <div class="grid grid-cols-1 gap-10">
+      ${phaseMatches.map(m => m.matches.map(match => {
+        const isT1W = match.winner === match.team1.name;
+        const isT2W = match.winner === match.team2.name;
+
+        const nameColor1 = isT1W ? 'var(--accent)' : '#fff';
+        const nameColor2 = isT2W ? 'var(--accent)' : '#fff';
+
+        // Split scor pentru a micșora penalty-urile: "3 (4)" -> "3" și "(4)"
+        const s1 = match.team1.score.split(' ');
+        const s2 = match.team2.score.split(' ');
+        
+        const scoreColor1 = isT1W ? 'var(--accent)' : 'rgba(255,255,255,0.2)';
+        const scoreColor2 = isT2W ? 'var(--accent)' : 'rgba(255,255,255,0.2)';
+
+        return `
+        <div class="match-card" style="border-radius:24px; border: 1px solid var(--border); overflow:hidden; background: rgba(255,255,255,0.01);">
+          
+          <div style="background:rgba(0,0,0,0.3); padding:18px 25px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;">
+            <div>
+              <span style="font-size:0.6rem; color:var(--accent); font-weight:800; display:block; text-transform:uppercase; letter-spacing:1px;">${match.date}</span>
+              <span style="font-size:0.9rem; font-weight:700; color:#fff;">${match.stadium}, ${match.city}</span>
+            </div>
+            <div style="text-align:right;">
+              <span style="font-size:0.55rem; color:var(--muted); text-transform:uppercase; display:block; letter-spacing:1px;">Referee</span>
+              <span style="font-size:0.85rem; font-weight:600; color:#fff;">${match.referee}</span>
+            </div>
+          </div>
+          
+          <div style="padding:65px 45px; background: radial-gradient(circle at center, rgba(212,175,55,0.04) 0%, transparent 80%);">
+            <div style="display:flex; justify-content:space-between; align-items: center;">
+              
+              <div style="flex:1; display:flex; flex-direction:column; align-items: flex-start;">
+                <div style="display:flex; align-items:center; gap:18px; height: 50px;">
+                  <img src="https://flagcdn.com/w80/${match.team1.code}.png" style="width:60px; border-radius:4px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+                  <span style="font-weight:800; font-size:2.2rem; color:${nameColor1};">${match.team1.name}</span>
+                </div>
+                <div style="margin-top: 12px; padding-left: 78px;">
+                  ${(match.events || []).filter(e => e.side === 'left').map(ev => `
+                    <div style="font-size:0.85rem; font-weight:600; color:#fff; margin-bottom:4px;">
+                       <span style="color:var(--accent); font-weight:800;">${ev.minute}'</span> ${ev.player} ${ev.type === 'goal' ? '⚽' : '👟(P)'}
+                    </div>`).join('')}
+                </div>
+              </div>
+
+              <div style="font-family:'Bebas Neue',sans-serif; text-align:center; padding: 0 45px; position:relative; top: -18px;">
+                <div style="font-size:6.5rem; line-height:1; display:flex; align-items:baseline; gap:10px;">
+                   <span style="color:${scoreColor1}">${s1[0]}</span>
+                   ${s1[1] ? `<span style="font-size:2rem; color:var(--accent); margin-left:-5px;">${s1[1]}</span>` : ''}
+                   <span style="opacity:0.1; font-size:2.5rem; color:#fff; margin:0 10px; position: relative; top: -15px;">-</span>
+                   ${s2[1] ? `<span style="font-size:2rem; color:var(--accent); margin-right:-5px;">${s2[1]}</span>` : ''}
+                   <span style="color:${scoreColor2}">${s2[0]}</span>
+                </div>
+              </div>
+
+              <div style="flex:1; display:flex; flex-direction:column; align-items: flex-end;">
+                <div style="display:flex; align-items:center; gap:18px; height: 50px;">
+                  <span style="font-weight:800; font-size:2.2rem; color:${nameColor2};">${match.team2.name}</span>
+                  <img src="https://flagcdn.com/w80/${match.team2.code}.png" style="width:60px; border-radius:4px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+                </div>
+                <div style="margin-top: 12px; padding-right: 78px; text-align:right;">
+                  ${(match.events || []).filter(e => e.side === 'right').map(ev => `
+                    <div style="font-size:0.85rem; font-weight:600; color:#fff; margin-bottom:4px;">
+                       ${ev.player} ${ev.type === 'goal' ? '⚽' : '👟(P)'} <span style="color:var(--accent); font-weight:800;">${ev.minute}'</span>
+                    </div>`).join('')}
+                </div>
+              </div>
+            </div>
+
+            ${match.shootout ? `
+              <div style="margin-top:50px; padding-top:30px; border-top: 1px dashed rgba(212,175,55,0.1); max-width:600px; margin-left:auto; margin-right:auto;">
+                <div style="text-align:center; font-size:0.65rem; color:var(--accent); font-weight:800; text-transform:uppercase; letter-spacing:3px; margin-bottom:20px;">Penalty Shootout Sequence</div>
+                ${match.shootout.rounds.map((r, i) => `
+                  <div style="display:grid; grid-template-columns: 1fr 40px 1fr; align-items:center; margin-bottom:8px; font-size:0.9rem;">
+                    <div style="text-align:right; color:${r.t1.result === 'goal' ? '#fff' : 'rgba(255,255,255,0.2)'}; font-weight:600;">
+                      ${r.t1.player} ${r.t1.result === 'goal' ? '⚽' : '❌'}
+                    </div>
+                    <div style="text-align:center; font-family:'Bebas Neue'; opacity:0.2; font-size:0.8rem;">${i+1}</div>
+                    <div style="text-align:left; color:${r.t2.result === 'goal' ? '#fff' : 'rgba(255,255,255,0.2)'}; font-weight:600;">
+                      ${r.t2.result === 'goal' ? '⚽' : '❌'} ${r.t2.player}
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            ` : ''}
+          </div>
+${(phaseName === "Final" && match.stats) ? `
+<details style="border-top: 1px solid rgba(255,255,255,0.05); background: rgba(0,0,0,0.15);">
+  <summary style="padding:15px; text-align:center; color:var(--accent); font-size:0.7rem; font-weight:800; cursor:pointer; list-style:none; letter-spacing:2px;">
+    VIEW MATCH STATISTICS ▼
+  </summary>
+  <div style="padding:40px 150px; background: rgba(0,0,0,0.2);">
+    ${renderMatchStats(match.stats)}
+    ${match.stats.possession && match.stats.possession.inContest ? `
+      <div style="text-align:center; margin-top:10px; font-size:0.6rem; color:var(--muted); text-transform:uppercase;">
+        * ${match.stats.possession.inContest} In Contest Possession
+      </div>
+    ` : ''}
+  </div>
+</details>
+` : ''}
+          <div style="background:rgba(0,0,0,0.2); border-top: 1px solid rgba(255,255,255,0.05); padding:45px;">
+             <div style="display:grid; grid-template-columns: 1fr 1fr; gap:65px;">
+                ${renderSquadListFinals(match.team1)}
+                ${renderSquadListFinals(match.team2)}
+             </div>
+             <div style="display:grid; grid-template-columns: 1fr 1fr; gap:65px; margin-top:45px;">
+                ${renderManagerFinals(match.team1)}
+                ${renderManagerFinals(match.team2)}
+             </div>
+          </div>
+        </div>`;
+      }).join('')).join('')}
+    </div>`;
+}
+function renderManagerFinals(team) {
+
+  return `
+
+    <div style="padding:18px; background:rgba(212,175,55,0.03); border:1px solid rgba(212,175,55,0.1); border-radius:12px;">
+
+      <span style="font-size:0.6rem; color:var(--muted); text-transform:uppercase; letter-spacing:1px; font-weight:800; opacity:0.6; display:block; margin-bottom:5px;">Head Coach</span>
+
+      <span style="font-weight:800; font-size:1.1rem; color:#fff;">${team.manager}</span>
+
+    </div>`;
+
+}
+// Actualizarea Squad List pentru a arăta penalty-urile din shootout
+function renderSquadListFinals(team) {
+  const starters = (team.lineup || []).filter(p => p.status === 'starter');
+  const others = (team.lineup || []).filter(p => p.status !== 'starter');
+  const rowH = "58px";
+  
+  const pRow = (p) => `
+    <div style="height:${rowH}; border-bottom:1px solid rgba(255,255,255,0.03); display:flex; flex-direction:column; justify-content:center; padding: 0 5px;">
+       <div style="display:grid; grid-template-columns: 40px 1fr 50px; align-items:center;">
+          <span style="font-family:'Bebas Neue'; font-size:1.2rem; color:var(--accent); text-align:center;">${p.number}</span>
+          <span style="font-weight:700; font-size:1.05rem; color:#fff;">${p.name}</span>
+          <span style="font-size:0.6rem; text-transform:uppercase; opacity:0.3; font-weight:800; text-align:right;">${p.pos}</span>
+       </div>
+       <div style="display:flex; gap:8px; padding-left:40px; height:15px; margin-top:2px;">
+          ${(p.events || []).map(e => `
+            <span style="font-size:0.6rem; font-weight:800; color:${e.type.includes('miss') ? '#ff4d4d' : 'var(--accent)'};">
+              ${e.type === 'goal' ? '⚽' : 
+                e.type === 'penalty' ? '👟(P)' : 
+                e.type === 'so_goal' ? '🎯⚽' : 
+                e.type === 'so_miss' ? '❌⚽' : 
+                e.type === 'yellow' ? '🟨' : e.type === 'in' ? '⬆️' : '⬇️'} ${e.min || ''}
+            </span>
+          `).join('')}
+       </div>
+    </div>`;
+
+  return `<div>
+    <h4 style="font-size:0.75rem; color:var(--accent); text-transform:uppercase; margin-bottom:18px; letter-spacing:2px; font-weight:900;">Starting XI</h4>
+    <div style="margin-bottom:35px;">${starters.map(pRow).join('')}</div>
+    <h4 style="font-size:0.75rem; color:var(--accent); text-transform:uppercase; margin-bottom:18px; letter-spacing:2px; font-weight:900;">Bench</h4>
+    <div style="opacity:0.7;">${others.map(pRow).join('')}</div>
+  </div>`;
+}
+document.addEventListener("DOMContentLoaded", loadDataAndInit);
+  </script>
+</body>
+</html>

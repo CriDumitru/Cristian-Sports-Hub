@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UCL 25/26 — Competition Tracker</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg: #00040f;
+      --surface: #00112c;
+      --accent: #00f0ff;
+      --accent-glow: rgba(0, 240, 255, 0.3);
+      --text-main: #ffffff;
+      --text-body: #a0b3cc;
+      --muted: #4e617d;
+      --border: rgba(0, 240, 255, 0.1); 
+      --card-bg: rgba(255, 255, 255, 0.02);
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background-color: var(--bg);
+      color: var(--text-body);
+      margin: 0;
+    }
+
+    .ucl-gradient {
+      background: radial-gradient(circle at 50% -20%, rgba(0, 70, 150, 0.2) 0%, transparent 60%), var(--bg);
+    }
+
+    /* --- BUTOANE NAVIGARE FIXE --- */
+    .home-btn {
+      position: absolute; /* Aceasta este setarea care îl împiedică să coboare la scroll */
+      top: 18px;
+      left: 18px;
+      z-index: 200;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(15, 15, 24, 0.88);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 7px 13px;
+      text-decoration: none;
+      color: #a1a1aa;
+      font-size: .76rem;
+      font-weight: 500;
+      backdrop-filter: blur(12px);
+      transition: all 0.15s;
+    }
+    .home-btn:hover {
+      background: rgba(25, 25, 40, 0.95);
+      color: #f4f4f5;
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    #scrollTopBtn {
+      position: fixed; bottom: 30px; right: 30px; z-index: 100;
+      background: var(--accent); color: var(--bg);
+      width: 45px; height: 45px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; opacity: 0; pointer-events: none; transition: 0.4s;
+      box-shadow: 0 10px 25px rgba(0, 240, 255, 0.3);
+    }
+    #scrollTopBtn.show { opacity: 1; pointer-events: auto; }
+
+    /* --- CARDURI & TABS --- */
+    .match-card {
+      background: var(--card-bg); 
+      border: 1px solid var(--border);
+      border-radius: 12px; 
+      transition: 0.3s;
+    }
+    .match-card:hover { border-color: rgba(0, 240, 255, 0.3); background: rgba(255, 255, 255, 0.04); }
+
+/* Containerul pentru pastile (fără bordură) */
+    .tab-container {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 32px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+
+    /* Pastila de bază UCL */
+    .tab-pill {
+      padding: 10px 22px;
+      font-size: .85rem;
+      font-weight: 700;
+      color: var(--muted);
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+      text-transform: none; /* Activează Title Case */
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Pastila Activă UCL (Cyan Glow) */
+    .tab-pill.active.ucl-pill {
+      background: rgba(0, 240, 255, 0.1) !important;
+      color: var(--accent) !important;
+      border-color: rgba(0, 240, 255, 0.4) !important;
+      box-shadow: 0 4px 20px rgba(0, 240, 255, 0.15);
+      text-shadow: 0 0 10px var(--accent-glow);
+    }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+  </style>
+</head>
+<body class="ucl-gradient min-h-screen">
+
+  <a href="index.html" class="home-btn">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+      <polyline points="9,22 9,12 15,12 15,22"/>
+    </svg>
+    Home
+  </a>
+  <div id="scrollTopBtn" onclick="scrollToTop()">▲</div>
+
+  <div class="max-w-[98%] mx-auto px-6 pt-10 pb-12">
+    
+    <header class="flex flex-col md:flex-row items-end gap-8 mb-12 pl-20 md:pl-28">
+      
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UEFA_Champions_League.svg/1920px-UEFA_Champions_League.svg.png" 
+           alt="UCL Logo" 
+           style="height:90px; width:auto; filter: drop-shadow(0 0 15px rgba(255,255,255,0.4)) drop-shadow(0 0 2px rgba(255,255,255,0.8)); flex-shrink:0;">
+
+      <div class="text-center md:text-left">
+        <h1 style="font-family:'Bebas Neue'; font-size: clamp(2.5rem, 6vw, 4rem); line-height: 1; background: linear-gradient(to right, #fff, var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; white-space: nowrap;">
+          UEFA CHAMPIONS LEAGUE
+        </h1>
+        
+        <p style="font-size: .85rem; font-weight: 700; color: #a0b3cc; margin-top: 5px; text-transform: uppercase; letter-spacing: 0.1em;">
+          Season 2025/2026 • Road to Budapest
+        </p>
+      </div>
+      
+    </header>
+
+    <nav class="tab-container no-scrollbar">
+      <button class="tab-pill active ucl-pill" onclick="showTab(0)" id="tab0">Upcoming</button>
+      <button class="tab-pill ucl-pill" onclick="showTab(1)" id="tab1">Qualifiers</button>
+      <button class="tab-pill ucl-pill" onclick="showTab(2)" id="tab2">League Phase</button>
+      <button class="tab-pill ucl-pill" onclick="showTab(3)" id="tab3">Play-off</button>
+      <button class="tab-pill ucl-pill" onclick="showTab(4)" id="tab4">Round of 16</button>
+      <button class="tab-pill ucl-pill" onclick="showTab(5)" id="tab5">Quarter-finals</button>
+      <button class="tab-pill ucl-pill" onclick="showTab(6)" id="tab6">Semi-finals</button>
+      <button class="tab-pill ucl-pill" onclick="showTab(7)" id="tab7">Final</button>
+    </nav>
+
+    <main id="uclContent" class="space-y-4"></main>
+  </div>
+
+  <script>
+    let UCL_DATA = null;
+    // Am uniformizat numele tab-ului pentru a evita confuzia cu calificările
+    const phases = ["Upcoming", "Qualifiers", "League Phase", "Knockout Play-off", "Round of 16", "Quarter-finals", "Semi-finals", "Final"];
+    let currentSubPhase = 0; 
+    let currentLeagueSubTab = 0; 
+
+    window.onscroll = function() {
+      const btn = document.getElementById("scrollTopBtn");
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        btn.classList.add("show");
+      } else {
+        btn.classList.remove("show");
+      }
+    };
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    async function loadData() {
+      try {
+        const response = await fetch('ucl_2526.json?v=' + new Date().getTime());
+        UCL_DATA = await response.json();
+        
+        const savedTab = localStorage.getItem('uclActiveTab');
+        const savedSubTab = localStorage.getItem('uclActiveSubTab');
+        
+        currentSubPhase = savedSubTab ? parseInt(savedSubTab) : 0;
+        showTab(savedTab ? parseInt(savedTab) : 0);
+      } catch (e) {
+        document.getElementById('uclContent').innerHTML = `<p class="text-center py-20 opacity-30 italic">Eroare la încărcarea datelor.</p>`;
+      }
+    }
+
+    // --- FUNCȚIA SHOWTAB UNICĂ ȘI CORECTATĂ ---
+   function showTab(n) {
+  localStorage.setItem('uclActiveTab', n);
+  document.querySelectorAll('.tab-pill').forEach((btn, i) => btn.classList.toggle('active', i === n));
+  
+  const phase = phases[n];
+  const container = document.getElementById('uclContent');
+
+  if (phase === "Upcoming") {
+    renderScheduleTab();
+    return;
+  }
+      if (phase === "Qualifiers") {
+        renderQualifiersWithSubTabs(UCL_DATA[phase]);
+      } else if (phase === "League Phase") {
+        renderLeaguePhaseWithSubTabs(UCL_DATA[phase]);
+      } else if (["Knockout Play-off", "Round of 16", "Quarter-finals", "Semi-finals"].includes(phase)) {
+        // LOGICĂ GRID DIFERENȚIATĂ
+        const gridClass = (phase === "Quarter-finals" || phase === "Semi-finals") 
+          ? "grid-cols-1 xl:grid-cols-2 gap-10" // 2 pe rând pentru Sferturi
+          : "grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-6"; // 3 pe rând pentru restul
+          
+        container.innerHTML = `<div class="grid ${gridClass} pt-4">
+          ${UCL_DATA[phase].matches.map(tie => renderKnockoutTieHTML(tie, phase)).join('')}
+        </div>`;
+       } else if (phase === "Final") {
+        // Placeholder pentru Marea Finală
+        container.innerHTML = `
+          <div class="flex flex-col items-center justify-center py-32 border-2 border-accent/20 rounded-[40px] bg-[#030816] shadow-2xl">
+            <div class="w-24 h-24 mb-8 opacity-20 animate-pulse">
+               <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UEFA_Champions_League.svg/1920px-UEFA_Champions_League.svg.png" alt="UCL Logo">
+            </div>
+            <h2 class="text-accent font-black tracking-[0.5em] uppercase text-[0.6rem] mb-6 border-b border-accent/30 pb-2">Match Center Coming Soon</h2>
+            <p class="text-white font-black text-2xl md:text-3xl tracking-tighter text-center px-6 leading-tight">
+              Uefa Champions League Final — 30 May 2026 — 22:00 — Puskás Aréna — Budapest
+            </p>
+            <div class="mt-10 flex gap-4 opacity-10">
+               <div class="w-12 h-1 bg-white"></div>
+               <div class="w-12 h-1 bg-accent"></div>
+               <div class="w-12 h-1 bg-white"></div>
+            </div>
+          </div>`;
+      } else {
+        renderStandardMatches(UCL_DATA[phase]);
+      }
+    }
+    function renderScheduleTab() {
+  const container = document.getElementById('uclContent');
+  let activeMatches = [];
+  const monthMap = { 'JAN': 0, 'FEB': 1, 'MAR': 2, 'APR': 3, 'MAY': 4, 'JUN': 5, 'JUL': 6, 'AUG': 7, 'SEP': 8, 'OCT': 9, 'NOV': 10, 'DEC': 11 };
+
+  // 1. Colectăm toate meciurile cu status "live" sau "upcoming" din JSON
+  Object.keys(UCL_DATA).forEach(phase => {
+    const data = UCL_DATA[phase];
+    let matchesToSearch = [];
+    if (data.matches) matchesToSearch = data.matches;
+    else if (data.matchdays) data.matchdays.forEach(md => matchesToSearch = [...matchesToSearch, ...md.matches]);
+    else if (data.rounds) data.rounds.forEach(r => matchesToSearch = [...matchesToSearch, ...r.matches]);
+
+    matchesToSearch.forEach(m => {
+      [m.leg1, m.leg2].forEach((leg, idx) => {
+        if (leg && (leg.status === "live" || leg.status === "upcoming")) {
+          activeMatches.push({ ...m, currentLeg: leg, phaseName: phase, isLeg2: idx === 1 });
+        }
+      });
+    });
+  });
+
+  if (activeMatches.length === 0) {
+    container.innerHTML = `<div class="py-20 text-center border-2 border-dashed border-white/5 rounded-[40px]"><p class="opacity-30 italic">Nu sunt meciuri programate momentan.</p></div>`;
+    return;
+  }
+
+  // 2. Sortare cronologică (Dată + Oră)
+  activeMatches.sort((a, b) => {
+    const parse = (leg) => {
+      const p = leg.date.split(' ');
+      const time = (leg.time || "21:00").split(':');
+      return new Date(p[2] || 2026, monthMap[p[1].toUpperCase()], p[0], time[0], time[1]).getTime();
+    };
+    return parse(a.currentLeg) - parse(b.currentLeg);
+  });
+
+  // 3. Grupare pe Date & Time pentru Headere
+  let groups = {};
+  activeMatches.forEach(m => {
+    const key = `${m.currentLeg.date} — ${m.currentLeg.time || '21:00'}`;
+    if (!groups[key]) groups[key] = [];
+    groups[key].push(m);
+  });
+
+  // 4. Randare cu Headere de separare
+  container.innerHTML = Object.keys(groups).map(dateTime => `
+    <div class="mb-12">
+      <div class="flex items-center gap-6 mb-8">
+        <h3 class="text-accent font-black tracking-[0.4em] uppercase text-[0.75rem] whitespace-nowrap bg-accent/10 px-6 py-2 rounded-full border border-accent/20 shadow-[0_0_20px_rgba(0,240,255,0.1)]">
+          ${dateTime}
+        </h3>
+        <div class="h-[1px] flex-1 bg-gradient-to-r from-accent/20 to-transparent"></div>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        ${groups[dateTime].map(m => renderScheduleCard(m)).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderScheduleCard(m) {
+  const isLive = m.currentLeg.status === "live";
+  
+  // LOGICĂ INVERSARE (la fel ca în tab-ul original)
+  const teamLeft = m.isLeg2 ? m.t2 : m.t1;
+  const teamRight = m.isLeg2 ? m.t1 : m.t2;
+  
+  const scoreLeft = m.isLeg2 ? m.currentLeg.s2 : m.currentLeg.s1;
+  const scoreRight = m.isLeg2 ? m.currentLeg.s1 : m.currentLeg.s2;
+
+  // Marcatorii preluați din m.currentLeg.scorers
+  const scorersLeft = m.isLeg2 ? m.currentLeg.scorers?.t2 : m.currentLeg.scorers?.t1;
+  const scorersRight = m.isLeg2 ? m.currentLeg.scorers?.t1 : m.currentLeg.scorers?.t2;
+
+  // Funcție Helper pentru randarea marcatorilor (identică cu cea din tab-ul original)
+  const renderScorers = (list, align) => {
+    if (!list || list.length === 0) return '';
+    return list.map(s => {
+      const emoji = s.type === 'p' ? '🎯' : (s.type === 'og' ? '🚩' : '⚽');
+      const isHome = align === 'right';
+      return `
+        <div class="flex items-center gap-1.5 ${isHome ? 'justify-end' : 'justify-start'} mb-0.5">
+          ${!isHome ? `<span class="text-accent text-[0.6rem]">${emoji}</span> <span class="opacity-60 text-[0.55rem]">${s.min}'</span>` : ''}
+          <span class="text-white/80 font-medium text-[0.65rem] whitespace-nowrap">${s.name}</span>
+          ${isHome ? `<span class="opacity-60 text-[0.55rem]">${s.min}'</span> <span class="text-accent text-[0.6rem]">${emoji}</span>` : ''}
+        </div>`;
+    }).join('');
+  };
+
+  const firstLegInfo = m.isLeg2 ? `
+    <div class="text-[0.55rem] font-bold text-accent/60 uppercase tracking-[0.15em] mt-3 italic whitespace-nowrap">
+      * First Leg: ${m.leg1.s2}-${m.leg1.s1}
+    </div>` : '';
+
+  return `
+    <div class="w-full bg-[#030816] border-2 ${isLive ? 'border-red-500/50 shadow-[0_0_30px_rgba(239,68,68,0.1)]' : 'border-white/5'} rounded-[30px] overflow-hidden transition-all hover:border-accent/30 shadow-xl">
+      
+      <div class="px-6 py-3 bg-white/[0.02] border-b border-white/5 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+          <span class="text-[0.6rem] font-black uppercase tracking-widest text-accent">${m.phaseName}</span>
+          <span class="text-[0.5rem] font-bold uppercase tracking-widest opacity-30">${m.isLeg2 ? '2nd Leg' : '1st Leg'}</span>
+        </div>
+        ${isLive ? `
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
+            <span class="text-[0.6rem] font-black text-red-500 uppercase tracking-tighter">Live Now</span>
+          </div>` : ''}
+      </div>
+
+      <div class="p-10">
+        <div class="flex flex-col gap-6">
+          <div class="flex items-center justify-center gap-8">
+            
+            <div class="flex flex-col items-center gap-3 w-[160px]">
+              <img src="${teamLeft.logo}" class="w-14 h-14 object-contain drop-shadow-lg">
+              <span class="text-base font-bold text-center text-white/90 leading-tight">${teamLeft.name}</span>
+            </div>
+            
+            <div class="flex flex-col items-center">
+              <div class="bg-white/5 px-8 py-4 rounded-[20px] border border-white/10 min-w-[160px] text-center shadow-inner">
+                <span class="font-['Bebas_Neue'] text-5xl text-white tracking-tight whitespace-nowrap">
+                  ${isLive || (scoreLeft !== "" && scoreLeft !== null) ? `${scoreLeft} - ${scoreRight}` : (m.currentLeg.time || '21:00')}
+                </span>
+              </div>
+              ${firstLegInfo}
+            </div>
+
+            <div class="flex flex-col items-center gap-3 w-[160px]">
+              <img src="${teamRight.logo}" class="w-14 h-14 object-contain drop-shadow-lg">
+              <span class="text-base font-bold text-center text-white/90 leading-tight">${teamRight.name}</span>
+            </div>
+          </div>
+
+          ${(scorersLeft?.length > 0 || scorersRight?.length > 0) ? `
+          <div class="grid grid-cols-2 gap-10 border-t border-white/5 pt-6 mt-4">
+            <div class="flex flex-col">${renderScorers(scorersLeft, 'right')}</div>
+            <div class="flex flex-col">${renderScorers(scorersRight, 'left')}</div>
+          </div>
+          ` : ''}
+        </div>
+      </div>
+    </div>`;
+}
+    // REPARARE: Funcția pentru sub-etapele de calificare (lipsea anterior)
+    function setSubPhase(i) {
+      currentSubPhase = i;
+      localStorage.setItem('uclActiveSubTab', i);
+      showTab(1); 
+    }
+
+    function renderQualifiersWithSubTabs(data) {
+      const container = document.getElementById('uclContent');
+      const subPhases = ["First Round", "Second Round", "Third Round", "Qualifiers Play-off"];
+      const roundMatches = data.rounds[currentSubPhase].matches;
+
+      const championsPath = roundMatches.filter(m => m.path === "Champions Path");
+      const leaguePath = roundMatches.filter(m => m.path === "League Path");
+      const faraPath = roundMatches.filter(m => !m.path);
+
+      const renderSection = (title, matches) => {
+        if (matches.length === 0) return '';
+        return `
+          <div class="mb-10">
+            <h3 class="text-[0.6rem] font-black uppercase tracking-[0.3em] text-cyan-400/50 mb-6 border-l-2 border-cyan-400/30 pl-4">${title}</h3>
+            <div class="flex flex-col gap-2">${matches.map(match => renderMatchHTML(match)).join('')}</div>
+          </div>`;
+      };
+
+      container.innerHTML = `
+        <div class="flex gap-4 mb-8 overflow-x-auto no-scrollbar pb-2">
+          ${subPhases.map((name, i) => `
+            <button onclick="setSubPhase(${i})" 
+                    class="px-4 py-2 rounded-full border border-white/5 text-[0.6rem] font-black uppercase tracking-widest transition-all
+                    ${currentSubPhase === i ? 'bg-accent text-white shadow-[0_0_15px_rgba(0,0,0,0.4)]' : 'bg-white/5 opacity-40'}">
+              ${name}
+            </button>
+          `).join('')}
+        </div>
+        <div class="flex flex-col">
+          ${faraPath.length > 0 ? `<div class="mb-10 flex flex-col gap-2">${faraPath.map(m => renderMatchHTML(m)).join('')}</div>` : ''}
+          ${renderSection("Champions Path", championsPath)}
+          ${renderSection("League Path", leaguePath)}
+        </div>`;
+    }
+
+    // --- NOU: FORMATUL PENTRU TUR-RETUR (DOUĂ MATCH CARDURI) ---
+    function renderKnockoutTieHTML(tie, phase) {
+      const isLargeStage = phase === "Quarter-finals" || phase === "Semi-finals";
+      
+      const s1_l1 = parseInt(tie.leg1.s1) || 0;
+      const s2_l1 = parseInt(tie.leg1.s2) || 0;
+      const s1_l2 = parseInt(tie.leg2?.s1) || 0;
+      const s2_l2 = parseInt(tie.leg2?.s2) || 0;
+      const agg1 = s1_l1 + s1_l2;
+      const agg2 = s2_l1 + s2_l2;
+      const hasPens = tie.penalties != null;
+      const isAgg1W = agg1 > agg2 || (hasPens && tie.penalties.s1 > tie.penalties.s2);
+      const isAgg2W = agg2 > agg1 || (hasPens && tie.penalties.s2 > tie.penalties.s1);
+
+      // Helper marcatori
+      const renderScorers = (list, align) => {
+        if (!list || list.length === 0) return '';
+        return list.map(s => {
+          const emoji = s.type === 'p' ? '🎯' : (s.type === 'og' ? '🚩' : '⚽');
+          return `
+            <div class="flex items-center gap-1.5 ${align === 'right' ? 'justify-end' : 'justify-start'} mb-0.5">
+              ${align !== 'right' ? `<span class="text-accent text-[0.6rem]">${emoji}</span> <span class="opacity-60 text-[0.55rem]">${s.min}'</span>` : ''}
+              <span class="text-white/80 font-medium ${isLargeStage ? 'text-[0.75rem]' : 'text-[0.65rem]'} whitespace-nowrap">${s.name}</span>
+              ${align === 'right' ? `<span class="opacity-60 text-[0.55rem]">${s.min}'</span> <span class="text-accent text-[0.6rem]">${emoji}</span>` : ''}
+            </div>`;
+        }).join('');
+      };
+
+      const renderLegRow = (legData, isFirst) => {
+        if (!legData) return '';
+        const leftTeam = isFirst ? tie.t1 : tie.t2;
+        const rightTeam = isFirst ? tie.t2 : tie.t1;
+        const leftScore = isFirst ? legData.s1 : legData.s2;
+        const rightScore = isFirst ? legData.s2 : legData.s1;
+        const leftScorers = isFirst ? legData.scorers?.t1 : legData.scorers?.t2;
+        const rightScorers = isFirst ? legData.scorers?.t2 : legData.scorers?.t1;
+
+        const leftColor = (isFirst ? isAgg1W : isAgg2W) ? 'var(--accent)' : '#fff';
+        const rightColor = (isFirst ? isAgg2W : isAgg1W) ? 'var(--accent)' : '#fff';
+
+        const isPlayed = legData.s1 !== "" && legData.s1 !== null;
+        const scoreDisplay = isPlayed ? `${leftScore} - ${rightScore}` : (legData.time || '21:00');
+
+        return `
+        <div class="${!isFirst ? 'border-t border-white/5 pt-6 mt-6' : ''}">
+          <div class="flex justify-between items-center mb-4 px-1">
+             <span class="text-[0.55rem] font-black tracking-widest opacity-50 uppercase">${isFirst ? '1st Leg' : '2nd Leg'} — ${legData.date}</span>
+             <span class="text-[0.55rem] font-black tracking-widest opacity-50 uppercase truncate max-w-[200px]">${legData.stadium}</span>
+          </div>
+          <div class="flex items-center justify-center gap-4 mb-4">
+             <div class="flex items-center justify-end gap-3 ${isLargeStage ? 'w-[280px]' : 'w-[220px]'}">
+<span class="${isLargeStage ? 'text-lg' : 'text-base'} font-black tracking-tighter leading-none whitespace-nowrap ${(isFirst ? isAgg1W : isAgg2W) ? 'text-blue-400' : 'text-white'}">${leftTeam.name}</span>                <img src="${leftTeam.logo}" class="${isLargeStage ? 'w-10 h-10' : 'w-8 h-8'} object-contain flex-shrink-0">
+             </div>
+             <div class="bg-white/5 px-4 py-2 rounded-xl border border-white/10 ${isLargeStage ? 'min-w-[120px]' : 'min-w-[90px]'} text-center shadow-inner">
+                <span class="font-['Bebas_Neue'] ${isLargeStage ? 'text-5xl' : 'text-3xl'} tracking-tighter text-blue-400">${scoreDisplay}</span>
+             </div>
+             <div class="flex items-center justify-start gap-3 ${isLargeStage ? 'w-[280px]' : 'w-[220px]'}">
+                <img src="${rightTeam.logo}" class="${isLargeStage ? 'w-10 h-10' : 'w-8 h-8'} object-contain flex-shrink-0">
+<span class="${isLargeStage ? 'text-lg' : 'text-base'} font-black tracking-tighter leading-none whitespace-nowrap ${(isFirst ? isAgg2W : isAgg1W) ? 'text-blue-400' : 'text-white'}">${rightTeam.name}</span>             </div>
+          </div>
+          <div class="grid grid-cols-2 gap-6 px-2">
+             <div class="bg-black/20 rounded-xl p-3 min-h-[40px] border border-white/[0.02]">${renderScorers(leftScorers, 'right')}</div>
+             <div class="bg-black/20 rounded-xl p-3 min-h-[40px] border border-white/[0.02]">${renderScorers(rightScorers, 'left')}</div>
+          </div>
+        </div>`;
+      };
+
+      return `
+<div class="w-full match-card border-2 border-accent/40 rounded-[30px] overflow-hidden shadow-2xl transition-all">        <div class="bg-white/[0.02] border-b border-white/5 py-5 px-6 flex justify-center items-center gap-6">
+           <div class="${isLargeStage ? 'w-[280px]' : 'w-[220px]'} flex justify-end">
+              <span class="${isLargeStage ? 'text-sm' : 'text-[0.65rem]'} font-black uppercase tracking-wider text-right leading-tight ${isAgg1W ? 'text-blue-400' : 'text-white/20'}">${tie.t1.name}</span>
+           </div>
+           <div class="bg-accent/5 px-6 py-2 rounded-full border border-accent/20 min-w-fit flex flex-col items-center leading-none">
+              <span class="font-['Bebas_Neue'] ${isLargeStage ? 'text-3xl' : 'text-xl'} text-blue-400 tracking-tight">${agg1} - ${agg2}</span>
+              ${hasPens ? `<span class="text-[0.5rem] font-black text-accent/50 mt-0.5 uppercase">(${tie.penalties.s1}-${tie.penalties.s2} P)</span>` : ''}
+           </div>
+           <div class="${isLargeStage ? 'w-[280px]' : 'w-[220px]'} flex justify-start">
+              <span class="${isLargeStage ? 'text-sm' : 'text-[0.65rem]'} font-black uppercase tracking-wider text-left leading-tight ${isAgg2W ? 'text-blue-400' : 'text-white/20'}">${tie.t2.name}</span>
+           </div>
+        </div>
+        <div class="${isLargeStage ? 'p-10' : 'p-6'}">
+           ${renderLegRow(tie.leg1, true)}
+           ${renderLegRow(tie.leg2, false)}
+        </div>
+      </div>`;
+    }
+    // --- LEAGUE PHASE LOGIC ---
+    function renderLeaguePhaseWithSubTabs(data) {
+      const container = document.getElementById('uclContent');
+      const mdButtons = Array.from({length: 8}, (_, i) => `Matchday ${i+1}`);
+      const allSubTabs = ["Standings", ...mdButtons];
+
+      container.innerHTML = `
+        <div class="flex gap-4 mb-8 overflow-x-auto no-scrollbar pb-2">
+          ${allSubTabs.map((name, i) => `
+            <button onclick="setLeagueSubTab(${i})" 
+                    class="px-4 py-2 rounded-full border border-white/5 text-[0.6rem] font-black uppercase tracking-widest transition-all whitespace-nowrap
+                    ${currentLeagueSubTab === i ? 'bg-accent text-white shadow-[0_0_15px_rgba(0,0,0,0.4)]' : 'bg-white/5 opacity-40'}">
+              ${name}
+            </button>
+          `).join('')}
+        </div>
+        <div id="leagueSubContent"></div>
+      `;
+      renderLeagueSubContent(data);
+    }
+
+    function setLeagueSubTab(i) {
+      currentLeagueSubTab = i;
+      renderLeaguePhaseWithSubTabs(UCL_DATA["League Phase"]);
+    }
+
+    function renderLeagueSubContent(data) {
+      const subContainer = document.getElementById('leagueSubContent');
+      if (currentLeagueSubTab === 0) {
+        subContainer.innerHTML = renderLeagueStandings(data.standings);
+      } else {
+        const mdIndex = currentLeagueSubTab - 1;
+        const dayMatches = data.matchdays[mdIndex]?.matches || [];
+        // Grid cu 3 coloane pe monitoare mari (2xl)
+        subContainer.innerHTML = `<div class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-6 pt-4">
+          ${dayMatches.map(m => renderMatchHTML(m)).join('')}
+        </div>`;
+      }
+    }
+
+    function renderLeagueStandings(standings) {
+      if (!standings || standings.length === 0) return `<p class="text-center py-10 opacity-30 italic">Clasamentul nu este disponibil.</p>`;
+      return `
+        <div class="overflow-x-auto rounded-xl border border-white/5 bg-white/[0.02]">
+          <table class="w-full text-left text-xs border-collapse">
+            <thead>
+              <tr class="bg-white/5 text-[0.6rem] font-black uppercase tracking-widest opacity-50">
+                <th class="p-4 text-center">Pos</th>
+                <th class="p-4">Echipă</th>
+                <th class="p-4 text-center">M</th>
+                <th class="p-4 text-center">W</th>
+                <th class="p-4 text-center">D</th>
+                <th class="p-4 text-center">L</th>
+                <th class="p-4 text-center">GF</th>
+                <th class="p-4 text-center">GA</th>
+                <th class="p-4 text-center">GD</th>
+                <th class="p-4 text-center text-accent">PTS</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${standings.map((t, i) => {
+                const pos = i + 1;
+                const gd = t.gm - t.gp;
+                let rowBg = pos <= 8 ? "bg-[#00ff88]/[0.03]" : (pos <= 24 ? "bg-blue-500/[0.03]" : "");
+                let indicator = pos <= 8 ? "border-l-4 border-[#00ff88]" : (pos <= 24 ? "border-l-4 border-blue-500/50" : "");
+                return `
+                <tr class="border-t border-white/5 hover:bg-white/10 transition-colors ${rowBg}">
+                  <td class="p-4 text-center font-black ${indicator}">${pos}</td>
+                  <td class="p-4"><div class="flex items-center gap-3"><img src="${t.logo}" class="w-6 h-6 object-contain"><span class="font-bold text-white text-base">${t.name}</span></div></td>
+                  <td class="p-4 text-center opacity-80">${t.m}</td>
+                  <td class="p-4 text-center opacity-80">${t.v}</td>
+                  <td class="p-4 text-center opacity-80">${t.e}</td>
+                  <td class="p-4 text-center opacity-80">${t.d}</td>
+                  <td class="p-4 text-center opacity-80">${t.gm}</td>
+                  <td class="p-4 text-center opacity-80">${t.gp}</td>
+                  <td class="p-4 text-center opacity-80">${gd > 0 ? '+' + gd : gd}</td>
+                  <td class="p-4 text-center font-black text-accent">${t.p}</td>
+                </tr>`;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>`;
+    }
+
+    function renderStandardMatches(data) {
+      const container = document.getElementById('uclContent');
+      container.innerHTML = `<div class="flex flex-col gap-2">${data.matches.map(match => renderMatchHTML(match)).join('')}</div>`;
+    }
+
+    function renderMatchHTML(match) {
+      const isLeague = match.scorers !== undefined;
+      if (!isLeague) {
+        const s1_l1 = parseInt(match.leg1.s1) || 0;
+        const s2_l1 = parseInt(match.leg1.s2) || 0;
+        const s1_l2 = parseInt(match.leg2?.s1) || 0;
+        const s2_l2 = parseInt(match.leg2?.s2) || 0;
+        const agg1 = s1_l1 + s1_l2;
+        const agg2 = s2_l1 + s2_l2;
+        
+        const p1 = match.penalties?.s1 || 0;
+        const p2 = match.penalties?.s2 || 0;
+        const hasPens = match.penalties != null;
+        
+        const isT1W = agg1 > agg2 || (hasPens && p1 > p2);
+
+        return `
+        <div class="match-card p-6 flex items-center justify-center gap-20"> 
+          <div class="flex items-center justify-center w-[550px] flex-shrink-0 gap-7">
+            <div class="flex items-center justify-end gap-3 w-[240px]">
+<span class="text-base font-black tracking-tight leading-none ${isT1W ? 'text-blue-400' : 'text-white'}">${match.t1.name}</span>              <img src="${match.t1.logo}" class="w-7 h-7 min-w-[28px] object-contain">
+            </div>
+            <span class="opacity-10">-</span>
+            <div class="flex items-center justify-start gap-3 w-[240px]">
+              <img src="${match.t2.logo}" class="w-7 h-7 min-w-[28px] object-contain">
+<span class="text-base font-black tracking-tight leading-none ${!isT1W && (agg1 !== agg2 || hasPens) ? 'text-blue-400' : 'text-white'}">${match.t2.name}</span>            </div>
+          </div>
+          
+          <div class="flex items-center gap-12">
+            <div class="flex flex-col items-center w-[80px]">
+              <span class="text-[0.55rem] font-black uppercase tracking-widest opacity-30 mb-2">AGG</span>
+              <div class="flex flex-col items-center">
+                <span class="font-['Bebas_Neue'] text-3xl tracking-[2px] text-blue-400 leading-none">${agg1}-${agg2}</span>
+                ${hasPens ? `<span class="text-[0.4rem] font-black text-accent/50 mt-1 uppercase">(${p1}-${p2} P)</span>` : ''}
+              </div>
+            </div>
+            
+            <div class="flex flex-col gap-3 border-l border-white/5 pl-8">
+              <div class="flex flex-col items-end w-[200px]">
+                <span class="text-[0.45rem] font-black uppercase tracking-widest opacity-20 mb-1 truncate max-w-full">${match.leg1.stadium}</span>
+<span class="font-['Bebas_Neue'] text-lg tracking-[1px] text-accent leading-none">${match.leg1.s1}-${match.leg1.s2}</span>              </div>
+              ${match.leg2 ? `
+              <div class="flex flex-col items-end w-[200px]">
+                <span class="text-[0.45rem] font-black uppercase tracking-widest opacity-20 mb-1 truncate max-w-full">${match.leg2.stadium}</span>
+                <span class="font-['Bebas_Neue'] text-lg tracking-[1px] text-white opacity-40 leading-none">${match.leg2.s1}-${match.leg2.s2}</span>
+              </div>` : ''}
+            </div>
+          </div>
+        </div>`;
+      }
+
+      // Logica League Phase (German v3)
+      const s1 = parseInt(match.leg1.s1) || 0;
+      const s2 = parseInt(match.leg1.s2) || 0;
+      const renderScorers = (list, align) => {
+        if (!list || list.length === 0) return '';
+        return list.map(s => {
+          const emoji = s.type === 'p' ? '🎯' : (s.type === 'og' ? '🚩' : '⚽');
+          const isHome = align === 'right';
+          return `
+            <div class="flex items-center gap-2 ${isHome ? 'justify-end' : 'justify-start'} mb-1">
+              ${!isHome ? `<span class="text-accent text-[0.7rem]">${emoji}</span> <span class="opacity-60 text-[0.6rem]">${s.min}'</span>` : ''}
+              <span class="text-white font-medium">${s.name} ${s.type === 'p' ? '(P)' : (s.type === 'og' ? '(OG)' : '')}</span>
+              ${isHome ? `<span class="opacity-60 text-[0.6rem]">${s.min}'</span> <span class="text-accent text-[0.7rem]">${emoji}</span>` : ''}
+            </div>`;
+        }).join('');
+      };
+
+      return `
+      <div class="w-full match-card overflow-hidden mb-2 shadow-2xl">
+        <div class="flex justify-between items-center px-4 py-2 border-b border-white/5 bg-white/[0.03]">
+          <span class="text-[0.55rem] font-bold tracking-widest opacity-50 uppercase">${match.leg1.date}</span>
+          <span class="text-[0.55rem] font-bold tracking-widest opacity-50 uppercase truncate max-w-[250px]">${match.leg1.stadium}</span>
+        </div>
+        <div class="p-5">
+          <div class="flex items-center justify-center gap-3">
+             <div class="flex items-center justify-end gap-3 w-[220px]">
+                <span class="text-base font-black tracking-tight text-right leading-none ${s1 > s2 ? 'text-blue-400' : 'text-white'}">${match.t1.name}</span>
+                <img src="${match.t1.logo}" class="w-8 h-8 object-contain flex-shrink-0">
+             </div>
+             <div class="bg-white/5 px-4 py-1.5 rounded-xl border border-white/5 min-w-[90px] justify-center text-center">
+                <span class="font-['Bebas_Neue'] text-4xl tracking-tighter text-blue-400">
+   ${s1} - ${s2}
+</span>
+             </div>
+             <div class="flex items-center justify-start gap-3 w-[220px]">
+                <img src="${match.t2.logo}" class="w-8 h-8 object-contain flex-shrink-0">
+                <span class="text-base font-black tracking-tight text-left leading-none ${s2 > s1 ? 'text-blue-400' : 'text-white'}">${match.t2.name}</span>
+             </div>
+          </div>
+          <div class="grid grid-cols-2 gap-4 mt-6">
+            <div class="bg-black/20 border border-white/[0.02] rounded-lg p-3 min-h-[40px] text-[0.65rem]">${renderScorers(match.scorers?.t1, 'right')}</div>
+            <div class="bg-black/20 border border-white/[0.02] rounded-lg p-3 min-h-[40px] text-[0.65rem]">${renderScorers(match.scorers?.t2, 'left')}</div>
+          </div>
+        </div>
+      </div>`;
+    }
+
+    loadData();
+  </script>
+</body>
+</html>

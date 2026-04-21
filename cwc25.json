@@ -1,0 +1,1114 @@
+{
+  "Group Stage": {
+    "groups": {
+      "A": {
+        "standings": [
+          {
+            "name": "Palmeiras",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/SE_Palmeiras_2025_crest.png/500px-SE_Palmeiras_2025_crest.png",
+            "p": 3, "w": 1, "d": 2, "l": 0, "gf": 4, "ga": 2, "gd": 2, "pts": 5
+          },
+          {
+            "name": "Inter Miami CF",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Inter_Miami_CF_logo.svg/1920px-Inter_Miami_CF_logo.svg.png",
+            "p": 3, "w": 1, "d": 2, "l": 0, "gf": 4, "ga": 3, "gd": 1, "pts": 5
+          },
+          {
+            "name": "Porto",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/FC_Porto.svg/1920px-FC_Porto.svg.png",
+            "p": 3, "w": 0, "d": 2, "l": 1, "gf": 5, "ga": 6, "gd": -1, "pts": 2
+          },
+          {
+            "name": "Al Ahly",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Al_Ahly_SC_logo.svg/500px-Al_Ahly_SC_logo.svg.png",
+            "p": 3, "w": 0, "d": 2, "l": 1, "gf": 4, "ga": 6, "gd": -2, "pts": 2
+          }
+        ],
+        "matches": [
+          {
+            "date": "14 June 2025",
+            "time": "20:00 EDT",
+            "stadium": "Hard Rock Stadium, Miami Gardens",
+            "t1": { "name": "Al Ahly", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Al_Ahly_SC_logo.svg/500px-Al_Ahly_SC_logo.svg.png", "scorers": [] },
+            "t2": { "name": "Inter Miami CF", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Inter_Miami_CF_logo.svg/1920px-Inter_Miami_CF_logo.svg.png", "scorers": [] },
+            "s1": 0, "s2": 0
+          },
+          {
+            "date": "15 June 2025",
+            "time": "18:00 EDT",
+            "stadium": "MetLife Stadium, East Rutherford",
+            "t1": { "name": "Palmeiras", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/SE_Palmeiras_2025_crest.png/500px-SE_Palmeiras_2025_crest.png", "scorers": [] },
+            "t2": { "name": "Porto", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/FC_Porto.svg/1920px-FC_Porto.svg.png", "scorers": [] },
+            "s1": 0, "s2": 0
+          },
+          {
+            "date": "19 June 2025",
+            "time": "12:00 EDT",
+            "stadium": "MetLife Stadium, East Rutherford",
+            "t1": { 
+              "name": "Palmeiras", 
+              "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/SE_Palmeiras_2025_crest.png/500px-SE_Palmeiras_2025_crest.png", 
+              "scorers": ["Abou Ali 49' (o.g.)", "López 59'"] 
+            },
+            "t2": { 
+              "name": "Al Ahly", 
+              "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Al_Ahly_SC_logo.svg/500px-Al_Ahly_SC_logo.svg.png", 
+              "scorers": [] 
+            },
+            "s1": 2, "s2": 0
+          },
+          {
+            "date": "19 June 2025",
+            "time": "15:00 EDT",
+            "stadium": "Mercedes-Benz Stadium, Atlanta",
+            "t1": { 
+              "name": "Inter Miami CF", 
+              "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Inter_Miami_CF_logo.svg/1920px-Inter_Miami_CF_logo.svg.png", 
+              "scorers": ["Segovia 47'", "Messi 54'"] 
+            },
+            "t2": { 
+              "name": "Porto", 
+              "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/FC_Porto.svg/1920px-FC_Porto.svg.png", 
+              "scorers": ["Aghehowa 8' (pen.)"] 
+            },
+            "s1": 2, "s2": 1
+          },
+          {
+            "date": "23 June 2025",
+            "time": "21:00 EDT",
+            "stadium": "Hard Rock Stadium, Miami Gardens",
+            "t1": { 
+              "name": "Inter Miami CF", 
+              "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Inter_Miami_CF_logo.svg/1920px-Inter_Miami_CF_logo.svg.png", 
+              "scorers": ["Allende 16'", "Suárez 65'"] 
+            },
+            "t2": { 
+              "name": "Palmeiras", 
+              "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/SE_Palmeiras_2025_crest.png/500px-SE_Palmeiras_2025_crest.png", 
+              "scorers": ["Paulinho 80'", "Maurício 87'"] 
+            },
+            "s1": 2, "s2": 2
+          },
+          {
+            "date": "23 June 2025",
+            "time": "21:00 EDT",
+            "stadium": "Camping World Stadium, Orlando",
+            "t1": { 
+              "name": "Porto", 
+              "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/FC_Porto.svg/1920px-FC_Porto.svg.png", 
+              "scorers": ["Mora 23'", "William Gomes 50'", "Aghehowa 53'", "Pepê 89'"] 
+            },
+            "t2": { 
+              "name": "Al Ahly", 
+              "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Al_Ahly_SC_logo.svg/500px-Al_Ahly_SC_logo.svg.png", 
+              "scorers": ["Abou Ali 15'", "Abou Ali 45+2' (pen.)", "Abou Ali 51'", "Ben Romdhane 81'"] 
+            },
+            "s1": 4, "s2": 4
+          }
+        ]
+      },
+      "B": {
+  "standings": [
+    {
+      "name": "Paris Saint-Germain",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/500px-Paris_Saint-Germain_F.C..svg.png",
+      "p": 3, "w": 2, "d": 0, "l": 1, "gf": 6, "ga": 1, "gd": 5, "pts": 6
+    },
+    {
+      "name": "Botafogo",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/500px-Botafogo_de_Futebol_e_Regatas_logo.svg.png.png",
+      "p": 3, "w": 2, "d": 0, "l": 1, "gf": 3, "ga": 2, "gd": 1, "pts": 6
+    },
+    {
+      "name": "Atlético Madrid",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Atletico_Madrid_Logo_2024.svg/500px-Atletico_Madrid_Logo_2024.svg.png",
+      "p": 3, "w": 2, "d": 0, "l": 1, "gf": 4, "ga": 5, "gd": -1, "pts": 6
+    },
+    {
+      "name": "Seattle Sounders FC",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Seattle_Sounders_logo.svg/500px-Seattle_Sounders_logo.svg.png",
+      "p": 3, "w": 0, "d": 0, "l": 3, "gf": 2, "ga": 7, "gd": -5, "pts": 0
+    }
+  ],
+  "matches": [
+    {
+      "date": "15 JUNE 2025",
+      "time": "12:00 PM PDT",
+      "stadium": "Rose Bowl, Pasadena",
+      "t1": { 
+        "name": "Paris Saint-Germain", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/500px-Paris_Saint-Germain_F.C..svg.png",
+        "scorers": ["Fabián 19'", "Vitinha 45+1'", "Mayulu 87'", "Lee Kang-in 90+7' (pen.)"] 
+      },
+      "t2": { 
+        "name": "Atlético Madrid", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Atletico_Madrid_Logo_2024.svg/500px-Atletico_Madrid_Logo_2024.svg.png",
+        "scorers": [] 
+      },
+      "s1": 4, "s2": 0
+    },
+    {
+      "date": "15 JUNE 2025",
+      "time": "7:00 PM PDT",
+      "stadium": "Lumen Field, Seattle",
+      "t1": { 
+        "name": "Botafogo", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/500px-Botafogo_de_Futebol_e_Regatas_logo.svg.png.png",
+        "scorers": ["Jair Cunha 28'", "Igor Jesus 44'"] 
+      },
+      "t2": { 
+        "name": "Seattle Sounders FC", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Seattle_Sounders_logo.svg/500px-Seattle_Sounders_logo.svg.png",
+        "scorers": ["C. Roldan 75'"] 
+      },
+      "s1": 2, "s2": 1
+    },
+    {
+      "date": "19 JUNE 2025",
+      "time": "3:00 PM PDT",
+      "stadium": "Lumen Field, Seattle",
+      "t1": { 
+        "name": "Seattle Sounders FC", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Seattle_Sounders_logo.svg/500px-Seattle_Sounders_logo.svg.png",
+        "scorers": ["Rusnák 50'"] 
+      },
+      "t2": { 
+        "name": "Atlético Madrid", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Atletico_Madrid_Logo_2024.svg/500px-Atletico_Madrid_Logo_2024.svg.png",
+        "scorers": ["Barrios 11'", "Witsel 47'", "Barrios 55'"] 
+      },
+      "s1": 1, "s2": 3
+    },
+    {
+      "date": "19 JUNE 2025",
+      "time": "6:00 PM PDT",
+      "stadium": "Rose Bowl, Pasadena",
+      "t1": { 
+        "name": "Paris Saint-Germain", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/500px-Paris_Saint-Germain_F.C..svg.png",
+        "scorers": [] 
+      },
+      "t2": { 
+        "name": "Botafogo", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/500px-Botafogo_de_Futebol_e_Regatas_logo.svg.png.png",
+        "scorers": ["Igor Jesus 36'"] 
+      },
+      "s1": 0, "s2": 1
+    },
+    {
+      "date": "23 JUNE 2025",
+      "time": "12:00 PM PDT",
+      "stadium": "Lumen Field, Seattle",
+      "t1": { 
+        "name": "Seattle Sounders FC", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Seattle_Sounders_logo.svg/500px-Seattle_Sounders_logo.svg.png",
+        "scorers": [] 
+      },
+      "t2": { 
+        "name": "Paris Saint-Germain", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/500px-Paris_Saint-Germain_F.C..svg.png",
+        "scorers": ["Kvaratskhelia 35'", "Hakimi 66'"] 
+      },
+      "s1": 0, "s2": 2
+    },
+    {
+      "date": "23 JUNE 2025",
+      "time": "12:00 PM PDT",
+      "stadium": "Rose Bowl, Pasadena",
+      "t1": { 
+        "name": "Atlético Madrid", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Atletico_Madrid_Logo_2024.svg/500px-Atletico_Madrid_Logo_2024.svg.png",
+        "scorers": ["Griezmann 87'"] 
+      },
+      "t2": { 
+        "name": "Botafogo", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/500px-Botafogo_de_Futebol_e_Regatas_logo.svg.png.png",
+        "scorers": [] 
+      },
+      "s1": 1, "s2": 0
+    }
+  ]
+},
+      "C": {
+  "standings": [
+    {
+      "name": "Benfica",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/500px-SL_Benfica_logo.svg.png",
+      "p": 3, "w": 2, "d": 1, "l": 0, "gf": 9, "ga": 2, "gd": 7, "pts": 7
+    },
+    {
+      "name": "Bayern Munich",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/500px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
+      "p": 3, "w": 2, "d": 0, "l": 1, "gf": 12, "ga": 2, "gd": 10, "pts": 6
+    },
+    {
+      "name": "Boca Juniors",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Boca_Juniors_logo18.svg/500px-Boca_Juniors_logo18.svg.png",
+      "p": 3, "w": 0, "d": 2, "l": 1, "gf": 4, "ga": 5, "gd": -1, "pts": 2
+    },
+    {
+      "name": "Auckland City",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/53/New_Auckland_City_FC_logo_%28updated_2022%29.png",
+      "p": 3, "w": 0, "d": 1, "l": 2, "gf": 1, "ga": 17, "gd": -16, "pts": 1
+    }
+  ],
+  "matches": [
+    {
+      "date": "15 JUNE 2025",
+      "time": "12:00 PM EDT",
+      "stadium": "TQL Stadium, Cincinnati",
+      "t1": { 
+        "name": "Bayern Munich", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/500px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
+        "scorers": ["Coman 6'", "Boey 18'", "Olise 20'", "Coman 21'", "Müller 45'", "Olise 45+3'", "Musiala 67'", "Musiala 73' (pen.)", "Musiala 84'", "Müller 89'"] 
+      },
+      "t2": { 
+        "name": "Auckland City", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/5/53/New_Auckland_City_FC_logo_%28updated_2022%29.png",
+        "scorers": [] 
+      },
+      "s1": 10, "s2": 0
+    },
+    {
+      "date": "16 JUNE 2025",
+      "time": "6:00 PM EDT",
+      "stadium": "Hard Rock Stadium, Miami Gardens",
+      "t1": { 
+        "name": "Boca Juniors", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Boca_Juniors_logo18.svg/500px-Boca_Juniors_logo18.svg.png",
+        "scorers": ["Otamendi 21' (o.g.)", "Battaglia 27'"] 
+      },
+      "t2": { 
+        "name": "Benfica", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/500px-SL_Benfica_logo.svg.png",
+        "scorers": ["Di María 45+3' (pen.)", "Otamendi 84'"] 
+      },
+      "s1": 2, "s2": 2
+    },
+    {
+      "date": "20 JUNE 2025",
+      "time": "12:00 PM EDT",
+      "stadium": "Inter&Co Stadium, Orlando",
+      "t1": { 
+        "name": "Benfica", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/500px-SL_Benfica_logo.svg.png",
+        "scorers": ["Di María 45+8' (pen.)", "Pavlidis 53'", "Sanches 63'", "Barreiro 76'", "Barreiro 78'", "Di María 90+8' (pen.)"] 
+      },
+      "t2": { 
+        "name": "Auckland City", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/5/53/New_Auckland_City_FC_logo_%28updated_2022%29.png",
+        "scorers": [] 
+      },
+      "s1": 6, "s2": 0
+    },
+    {
+      "date": "20 JUNE 2025",
+      "time": "9:00 PM EDT",
+      "stadium": "Hard Rock Stadium, Miami Gardens",
+      "t1": { 
+        "name": "Bayern Munich", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/500px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
+        "scorers": ["Kane 18'", "Olise 84'"] 
+      },
+      "t2": { 
+        "name": "Boca Juniors", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Boca_Juniors_logo18.svg/500px-Boca_Juniors_logo18.svg.png",
+        "scorers": ["Merentiel 66'"] 
+      },
+      "s1": 2, "s2": 1
+    },
+    {
+      "date": "24 JUNE 2025",
+      "time": "2:00 PM CDT",
+      "stadium": "Geodis Park, Nashville",
+      "t1": { 
+        "name": "Auckland City", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/5/53/New_Auckland_City_FC_logo_%28updated_2022%29.png",
+        "scorers": ["Gray 52'"] 
+      },
+      "t2": { 
+        "name": "Boca Juniors", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Boca_Juniors_logo18.svg/500px-Boca_Juniors_logo18.svg.png",
+        "scorers": ["Garrow 26' (o.g.)"] 
+      },
+      "s1": 1, "s2": 1
+    },
+    {
+      "date": "24 JUNE 2025",
+      "time": "3:00 PM EDT",
+      "stadium": "Bank of America Stadium, Charlotte",
+      "t1": { 
+        "name": "Benfica", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/500px-SL_Benfica_logo.svg.png",
+        "scorers": ["Schjelderup 13'"] 
+      },
+      "t2": { 
+        "name": "Bayern Munich", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/500px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
+        "scorers": [] 
+      },
+      "s1": 1, "s2": 0
+    }
+  ]
+},
+      "D": {
+  "standings": [
+    {
+      "name": "Flamengo",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/500px-Clube_de_Regatas_do_Flamengo_logo.svg.png",
+      "p": 3, "w": 2, "d": 1, "l": 0, "gf": 6, "ga": 2, "gd": 4, "pts": 7
+    },
+    {
+      "name": "Chelsea",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/500px-Chelsea_FC.svg.png",
+      "p": 3, "w": 2, "d": 0, "l": 1, "gf": 6, "ga": 3, "gd": 3, "pts": 6
+    },
+    {
+      "name": "Espérance de Tunis",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/f/fb/Esp%C3%A9rance_Sportive_de_Tunis_logo.png",
+      "p": 3, "w": 1, "d": 0, "l": 2, "gf": 1, "ga": 5, "gd": -4, "pts": 3
+    },
+    {
+      "name": "Los Angeles FC",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Los_Angeles_Football_Club.svg/500px-Los_Angeles_Football_Club.svg.png",
+      "p": 3, "w": 0, "d": 1, "l": 2, "gf": 1, "ga": 4, "gd": -3, "pts": 1
+    }
+  ],
+  "matches": [
+    {
+      "date": "16 JUNE 2025",
+      "time": "3:00 PM EDT",
+      "stadium": "Mercedes-Benz Stadium, Atlanta",
+      "t1": { 
+        "name": "Chelsea", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/500px-Chelsea_FC.svg.png",
+        "scorers": ["Neto 34'", "Fernández 79'"] 
+      },
+      "t2": { 
+        "name": "Los Angeles FC", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Los_Angeles_Football_Club.svg/500px-Los_Angeles_Football_Club.svg.png",
+        "scorers": [] 
+      },
+      "s1": 2, "s2": 0
+    },
+    {
+      "date": "16 JUNE 2025",
+      "time": "9:00 PM EDT",
+      "stadium": "Lincoln Financial Field, Philadelphia",
+      "t1": { 
+        "name": "Flamengo", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/500px-Clube_de_Regatas_do_Flamengo_logo.svg.png",
+        "scorers": ["De Arrascaeta 17'", "L. Araújo 70'"] 
+      },
+      "t2": { 
+        "name": "Espérance de Tunis", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/f/fb/Esp%C3%A9rance_Sportive_de_Tunis_logo.png",
+        "scorers": [] 
+      },
+      "s1": 2, "s2": 0
+    },
+    {
+      "date": "20 JUNE 2025",
+      "time": "2:00 PM EDT",
+      "stadium": "Lincoln Financial Field, Philadelphia",
+      "t1": { 
+        "name": "Flamengo", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/500px-Clube_de_Regatas_do_Flamengo_logo.svg.png",
+        "scorers": ["Bruno Henrique 62'", "Danilo 65'", "Wallace Yan 83'"] 
+      },
+      "t2": { 
+        "name": "Chelsea", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/500px-Chelsea_FC.svg.png",
+        "scorers": ["Neto 13'"] 
+      },
+      "s1": 3, "s2": 1
+    },
+    {
+      "date": "20 JUNE 2025",
+      "time": "5:00 PM CDT",
+      "stadium": "Geodis Park, Nashville",
+      "t1": { 
+        "name": "Los Angeles FC", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Los_Angeles_Football_Club.svg/500px-Los_Angeles_Football_Club.svg.png",
+        "scorers": [] 
+      },
+      "t2": { 
+        "name": "Espérance de Tunis", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/f/fb/Esp%C3%A9rance_Sportive_de_Tunis_logo.png",
+        "scorers": ["Belaïli 70'"] 
+      },
+      "s1": 0, "s2": 1
+    },
+    {
+      "date": "24 JUNE 2025",
+      "time": "9:00 PM EDT",
+      "stadium": "Camping World Stadium, Orlando",
+      "t1": { 
+        "name": "Los Angeles FC", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Los_Angeles_Football_Club.svg/500px-Los_Angeles_Football_Club.svg.png",
+        "scorers": ["Bouanga 84'"] 
+      },
+      "t2": { 
+        "name": "Flamengo", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/500px-Clube_de_Regatas_do_Flamengo_logo.svg.png",
+        "scorers": ["Wallace Yan 86'"] 
+      },
+      "s1": 1, "s2": 1
+    },
+    {
+      "date": "24 JUNE 2025",
+      "time": "9:00 PM EDT",
+      "stadium": "Lincoln Financial Field, Philadelphia",
+      "t1": { 
+        "name": "Espérance de Tunis", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/f/fb/Esp%C3%A9rance_Sportive_de_Tunis_logo.png",
+        "scorers": [] 
+      },
+      "t2": { 
+        "name": "Chelsea", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/500px-Chelsea_FC.svg.png",
+        "scorers": ["Adarabioyo 45+3'", "Delap 45+5'", "George 90+7'"] 
+      },
+      "s1": 0, "s2": 3
+    }
+  ]
+},
+      "E": {
+  "standings": [
+    {
+      "name": "Inter Milan",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/500px-FC_Internazionale_Milano_2021.svg.png",
+      "p": 3, "w": 2, "d": 1, "l": 0, "gf": 5, "ga": 2, "gd": 3, "pts": 7
+    },
+    {
+      "name": "Monterrey",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Club_de_F%C3%BAtbol_Monterrey_logo.svg/500px-Club_de_F%C3%BAtbol_Monterrey_logo.svg.png",
+      "p": 3, "w": 1, "d": 2, "l": 0, "gf": 5, "ga": 1, "gd": 4, "pts": 5
+    },
+    {
+      "name": "River Plate",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Club_Atl%C3%A9tico_River_Plate_logo.svg/500px-Club_Atl%C3%A9tico_River_Plate_logo.svg.png",
+      "p": 3, "w": 1, "d": 1, "l": 1, "gf": 3, "ga": 3, "gd": 0, "pts": 4
+    },
+    {
+      "name": "Urawa Red Diamonds",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Urawa_Red_Diamonds_logo.svg/500px-Urawa_Red_Diamonds_logo.svg.png",
+      "p": 3, "w": 0, "d": 0, "l": 3, "gf": 2, "ga": 9, "gd": -7, "pts": 0
+    }
+  ],
+  "matches": [
+    {
+      "date": "17 JUNE 2025",
+      "time": "12:00 PM PDT",
+      "stadium": "Lumen Field, Seattle",
+      "t1": { 
+        "name": "River Plate", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Club_Atl%C3%A9tico_River_Plate_logo.svg/500px-Club_Atl%C3%A9tico_River_Plate_logo.svg.png",
+        "scorers": ["Colidio 12'", "Driussi 48'", "Meza 73'"] 
+      },
+      "t2": { 
+        "name": "Urawa Red Diamonds", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Urawa_Red_Diamonds_logo.svg/500px-Urawa_Red_Diamonds_logo.svg.png",
+        "scorers": ["Matsuo 58' (pen.)"] 
+      },
+      "s1": 3, "s2": 1
+    },
+    {
+      "date": "17 JUNE 2025",
+      "time": "6:00 PM PDT",
+      "stadium": "Rose Bowl, Pasadena",
+      "t1": { 
+        "name": "Monterrey", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Club_de_F%C3%BAtbol_Monterrey_logo.svg/500px-Club_de_F%C3%BAtbol_Monterrey_logo.svg.png",
+        "scorers": ["Ramos 25'"] 
+      },
+      "t2": { 
+        "name": "Inter Milan", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/500px-FC_Internazionale_Milano_2021.svg.png",
+        "scorers": ["L. Martínez 42'"] 
+      },
+      "s1": 1, "s2": 1
+    },
+    {
+      "date": "21 JUNE 2025",
+      "time": "12:00 PM PDT",
+      "stadium": "Lumen Field, Seattle",
+      "t1": { 
+        "name": "Inter Milan", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/500px-FC_Internazionale_Milano_2021.svg.png",
+        "scorers": ["L. Martínez 78'", "Carboni 90+2'"] 
+      },
+      "t2": { 
+        "name": "Urawa Red Diamonds", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Urawa_Red_Diamonds_logo.svg/500px-Urawa_Red_Diamonds_logo.svg.png",
+        "scorers": ["Watanabe 11'"] 
+      },
+      "s1": 2, "s2": 1
+    },
+    {
+      "date": "21 JUNE 2025",
+      "time": "6:00 PM PDT",
+      "stadium": "Rose Bowl, Pasadena",
+      "t1": { 
+        "name": "River Plate", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Club_Atl%C3%A9tico_River_Plate_logo.svg/500px-Club_Atl%C3%A9tico_River_Plate_logo.svg.png",
+        "scorers": [] 
+      },
+      "t2": { 
+        "name": "Monterrey", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Club_de_F%C3%BAtbol_Monterrey_logo.svg/500px-Club_de_F%C3%BAtbol_Monterrey_logo.svg.png",
+        "scorers": [] 
+      },
+      "s1": 0, "s2": 0
+    },
+    {
+      "date": "25 JUNE 2025",
+      "time": "6:00 PM PDT",
+      "stadium": "Lumen Field, Seattle",
+      "t1": { 
+        "name": "Inter Milan", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/500px-FC_Internazionale_Milano_2021.svg.png",
+        "scorers": ["P. Esposito 72'", "Bastoni 90+3'"] 
+      },
+      "t2": { 
+        "name": "River Plate", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Club_Atl%C3%A9tico_River_Plate_logo.svg/500px-Club_Atl%C3%A9tico_River_Plate_logo.svg.png",
+        "scorers": [] 
+      },
+      "s1": 2, "s2": 0
+    },
+    {
+      "date": "25 JUNE 2025",
+      "time": "6:00 PM PDT",
+      "stadium": "Rose Bowl, Pasadena",
+      "t1": { 
+        "name": "Urawa Red Diamonds", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Urawa_Red_Diamonds_logo.svg/500px-Urawa_Red_Diamonds_logo.svg.png",
+        "scorers": [] 
+      },
+      "t2": { 
+        "name": "Monterrey", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Club_de_F%C3%BAtbol_Monterrey_logo.svg/500px-Club_de_F%C3%BAtbol_Monterrey_logo.svg.png",
+        "scorers": ["Deossa 30'", "Berterame 34'", "Corona 39'", "Berterame 90+7'"] 
+      },
+      "s1": 0, "s2": 4
+    }
+  ]
+},
+      "F": {
+  "standings": [
+    {
+      "name": "Borussia Dortmund",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/500px-Borussia_Dortmund_logo.svg.png",
+      "p": 3, "w": 2, "d": 1, "l": 0, "gf": 5, "ga": 3, "gd": 2, "pts": 7
+    },
+    {
+      "name": "Fluminense",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fluminense_Football_Club.svg/500px-Fluminense_Football_Club.svg.png",
+      "p": 3, "w": 1, "d": 2, "l": 0, "gf": 4, "ga": 2, "gd": 2, "pts": 5
+    },
+    {
+      "name": "Mamelodi Sundowns",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Mamelodi_Sundowns_F.C.svg/500px-Mamelodi_Sundowns_F.C.svg.png",
+      "p": 3, "w": 1, "d": 1, "l": 1, "gf": 4, "ga": 4, "gd": 0, "pts": 4
+    },
+    {
+      "name": "Ulsan HD",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Ulsan_Hyundai_FC.svg/330px-Ulsan_Hyundai_FC.svg.png",
+      "p": 3, "w": 0, "d": 0, "l": 3, "gf": 2, "ga": 6, "gd": -4, "pts": 0
+    }
+  ],
+  "matches": [
+    {
+      "date": "17 JUNE 2025",
+      "time": "12:00 PM EDT",
+      "stadium": "MetLife Stadium, East Rutherford",
+      "t1": { 
+        "name": "Fluminense", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fluminense_Football_Club.svg/500px-Fluminense_Football_Club.svg.png",
+        "scorers": [] 
+      },
+      "t2": { 
+        "name": "Borussia Dortmund", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/500px-Borussia_Dortmund_logo.svg.png",
+        "scorers": [] 
+      },
+      "s1": 0, "s2": 0
+    },
+    {
+      "date": "17 JUNE 2025",
+      "time": "7:05 PM EDT",
+      "stadium": "Inter&Co Stadium, Orlando",
+      "t1": { 
+        "name": "Ulsan HD", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Ulsan_Hyundai_FC.svg/330px-Ulsan_Hyundai_FC.svg.png",
+        "scorers": [] 
+      },
+      "t2": { 
+        "name": "Mamelodi Sundowns", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Mamelodi_Sundowns_F.C.svg/500px-Mamelodi_Sundowns_F.C.svg.png",
+        "scorers": ["Rayners 36'"] 
+      },
+      "s1": 0, "s2": 1
+    },
+    {
+      "date": "21 JUNE 2025",
+      "time": "12:00 PM EDT",
+      "stadium": "TQL Stadium, Cincinnati",
+      "t1": { 
+        "name": "Mamelodi Sundowns", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Mamelodi_Sundowns_F.C.svg/500px-Mamelodi_Sundowns_F.C.svg.png",
+        "scorers": ["Ribeiro 11'", "Rayners 62'", "Mothiba 90'"] 
+      },
+      "t2": { 
+        "name": "Borussia Dortmund", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/500px-Borussia_Dortmund_logo.svg.png",
+        "scorers": ["Nmecha 16'", "Guirassy 34'", "Bellingham 45'", "Mudau 59' (o.g.)"] 
+      },
+      "s1": 3, "s2": 4
+    },
+    {
+      "date": "21 JUNE 2025",
+      "time": "6:00 PM EDT",
+      "stadium": "MetLife Stadium, East Rutherford",
+      "t1": { 
+        "name": "Fluminense", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fluminense_Football_Club.svg/500px-Fluminense_Football_Club.svg.png",
+        "scorers": ["Arias 27'", "Nonato 66'", "Freytes 83'", "Keno 90+2'"] 
+      },
+      "t2": { 
+        "name": "Ulsan HD", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Ulsan_Hyundai_FC.svg/330px-Ulsan_Hyundai_FC.svg.png",
+        "scorers": ["Lee Jin-hyun 37'", "Um Won-sang 45+3'"] 
+      },
+      "s1": 4, "s2": 2
+    },
+    {
+      "date": "25 JUNE 2025",
+      "time": "3:00 PM EDT",
+      "stadium": "TQL Stadium, Cincinnati",
+      "t1": { 
+        "name": "Borussia Dortmund", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/500px-Borussia_Dortmund_logo.svg.png",
+        "scorers": ["Svensson 36'"] 
+      },
+      "t2": { 
+        "name": "Ulsan HD", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Ulsan_Hyundai_FC.svg/330px-Ulsan_Hyundai_FC.svg.png",
+        "scorers": [] 
+      },
+      "s1": 1, "s2": 0
+    },
+    {
+      "date": "25 JUNE 2025",
+      "time": "3:00 PM EDT",
+      "stadium": "Hard Rock Stadium, Miami Gardens",
+      "t1": { 
+        "name": "Mamelodi Sundowns", 
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Mamelodi_Sundowns_F.C.svg/500px-Mamelodi_Sundowns_F.C.svg.png",
+        "scorers": [] 
+      },
+      "t2": { 
+        "name": "Fluminense", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fluminense_Football_Club.svg/500px-Fluminense_Football_Club.svg.png",
+        "scorers": [] 
+      },
+      "s1": 0, "s2": 0
+    }
+  ]
+},
+      "G": {
+        "standings": [
+          {
+            "name": "Manchester City",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/500px-Manchester_City_FC_badge.svg.png",
+            "p": 3, "w": 3, "d": 0, "l": 0, "gf": 13, "ga": 2, "gd": 11, "pts": 9
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Juventus_FC_2017_logo_%28white_on_black%29.svg/960px-Juventus_FC_2017_logo_%28white_on_black%29.svg.png",
+            "p": 3, "w": 2, "d": 0, "l": 1, "gf": 11, "ga": 6, "gd": 5, "pts": 6
+          },
+          {
+            "name": "Al Ain",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/6/62/Al_Ain_FC_logo_2024.png",
+            "p": 3, "w": 1, "d": 0, "l": 2, "gf": 2, "ga": 12, "gd": -10, "pts": 3
+          },
+          {
+            "name": "Wydad AC",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Wydad_AC_crest_%282022%29.svg/500px-Wydad_AC_crest_%282022%29.svg.png",
+            "p": 3, "w": 0, "d": 0, "l": 3, "gf": 2, "ga": 8, "gd": -6, "pts": 0
+          }
+        ],
+        "matches": [
+          {
+            "date": "18 JUNE 2025",
+            "time": "12:00 PM EDT",
+            "stadium": "Lincoln Financial Field, Philadelphia",
+            "t1": { "name": "Manchester City", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/500px-Manchester_City_FC_badge.svg.png", "scorers": ["Foden 2'", "Doku 42'"] },
+            "t2": { "name": "Wydad AC", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Wydad_AC_crest_%282022%29.svg/500px-Wydad_AC_crest_%282022%29.svg.png", "scorers": [] },
+            "s1": 2, "s2": 0
+          },
+          {
+            "date": "18 JUNE 2025",
+            "time": "9:00 PM EDT",
+            "stadium": "Audi Field, Washington, D.C.",
+            "t1": { "name": "Al Ain", "logo": "https://upload.wikimedia.org/wikipedia/en/6/62/Al_Ain_FC_logo_2024.png", "scorers": [] },
+            "t2": { "name": "Juventus", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Juventus_FC_2017_logo_%28white_on_black%29.svg/960px-Juventus_FC_2017_logo_%28white_on_black%29.svg.png", "scorers": ["Kolo Muani 11'", "Conceição 21'", "Yıldız 31'", "Kolo Muani 45+4'", "Conceição 58'"] },
+            "s1": 0, "s2": 5
+          },
+          {
+            "date": "22 JUNE 2025",
+            "time": "12:00 PM EDT",
+            "stadium": "Lincoln Financial Field, Philadelphia",
+            "t1": { "name": "Juventus", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Juventus_FC_2017_logo_%28white_on_black%29.svg/960px-Juventus_FC_2017_logo_%28white_on_black%29.svg.png", "scorers": ["Boutouil 6' (o.g.)", "Yıldız 16'", "Yıldız 69'", "Vlahović 90+4' (pen.)"] },
+            "t2": { "name": "Wydad AC", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Wydad_AC_crest_%282022%29.svg/500px-Wydad_AC_crest_%282022%29.svg.png", "scorers": ["Lorch 25'"] },
+            "s1": 4, "s2": 1
+          },
+          {
+            "date": "22 JUNE 2025",
+            "time": "9:00 PM EDT",
+            "stadium": "Mercedes-Benz Stadium, Atlanta",
+            "t1": { "name": "Manchester City", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/500px-Manchester_City_FC_badge.svg.png", "scorers": ["Gündoğan 8'", "Echeverri 27'", "Haaland 45+5' (pen.)", "Gündoğan 73'", "Bobb 84'", "Cherki 89'"] },
+            "t2": { "name": "Al Ain", "logo": "https://upload.wikimedia.org/wikipedia/en/6/62/Al_Ain_FC_logo_2024.png", "scorers": [] },
+            "s1": 6, "s2": 0
+          },
+          {
+            "date": "26 JUNE 2025",
+            "time": "3:00 PM EDT",
+            "stadium": "Camping World Stadium, Orlando",
+            "t1": { "name": "Juventus", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Juventus_FC_2017_logo_%28white_on_black%29.svg/960px-Juventus_FC_2017_logo_%28white_on_black%29.svg.png", "scorers": ["Koopmeiners 11'", "Vlahović 84'"] },
+            "t2": { "name": "Manchester City", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/500px-Manchester_City_FC_badge.svg.png", "scorers": ["Doku 9'", "Kalulu 26' (o.g.)", "Haaland 52'", "Foden 69'", "Savinho 75'"] },
+            "s1": 2, "s2": 5
+          },
+          {
+            "date": "26 JUNE 2025",
+            "time": "3:00 PM EDT",
+            "stadium": "Audi Field, Washington, D.C.",
+            "t1": { "name": "Wydad AC", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Wydad_AC_crest_%282022%29.svg/500px-Wydad_AC_crest_%282022%29.svg.png", "scorers": ["Mailula 4'"] },
+            "t2": { "name": "Al Ain", "logo": "https://upload.wikimedia.org/wikipedia/en/6/62/Al_Ain_FC_logo_2024.png", "scorers": ["Laba 45+1' (pen.)", "Kaku 50'"] },
+            "s1": 1, "s2": 2
+          }
+        ]
+      },
+      "H": {
+        "standings": [
+          {
+            "name": "Real Madrid",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/500px-Real_Madrid_CF.svg.png",
+            "p": 3, "w": 2, "d": 1, "l": 0, "gf": 7, "ga": 2, "gd": 5, "pts": 7
+          },
+          {
+            "name": "Al-Hilal",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/500px-Al_Hilal_SFC_Logo.svg.png",
+            "p": 3, "w": 1, "d": 2, "l": 0, "gf": 3, "ga": 1, "gd": 2, "pts": 5
+          },
+          {
+            "name": "Red Bull Salzburg",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/FC_Red_Bull_Salzburg_logo.svg/500px-FC_Red_Bull_Salzburg_logo.svg.png",
+            "p": 3, "w": 1, "d": 1, "l": 1, "gf": 2, "ga": 4, "gd": -2, "pts": 4
+          },
+          {
+            "name": "Pachuca",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Pachuca_Tuzos_logo.svg/330px-Pachuca_Tuzos_logo.svg.png",
+            "p": 3, "w": 0, "d": 0, "l": 3, "gf": 2, "ga": 7, "gd": -5, "pts": 0
+          }
+        ],
+        "matches": [
+          {
+            "date": "18 JUNE 2025",
+            "time": "3:00 PM EDT",
+            "stadium": "Hard Rock Stadium, Miami Gardens",
+            "t1": { "name": "Real Madrid", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/500px-Real_Madrid_CF.svg.png", "scorers": ["G. García 34'"] },
+            "t2": { "name": "Al-Hilal", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/500px-Al_Hilal_SFC_Logo.svg.png", "scorers": ["Neves 41' (pen.)"] },
+            "s1": 1, "s2": 1
+          },
+          {
+            "date": "18 JUNE 2025",
+            "time": "6:00 PM EDT",
+            "stadium": "TQL Stadium, Cincinnati",
+            "t1": { "name": "Pachuca", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Pachuca_Tuzos_logo.svg/330px-Pachuca_Tuzos_logo.svg.png", "scorers": ["González 56'"] },
+            "t2": { "name": "Red Bull Salzburg", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/FC_Red_Bull_Salzburg_logo.svg/500px-FC_Red_Bull_Salzburg_logo.svg.png", "scorers": ["Gloukh 42'", "Onisiwo 76'"] },
+            "s1": 1, "s2": 2
+          },
+          {
+            "date": "22 JUNE 2025",
+            "time": "3:00 PM EDT",
+            "stadium": "Bank of America Stadium, Charlotte",
+            "t1": { "name": "Real Madrid", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/500px-Real_Madrid_CF.svg.png", "scorers": ["Bellingham 35'", "Güler 43'", "Valverde 70'"] },
+            "t2": { "name": "Pachuca", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Pachuca_Tuzos_logo.svg/330px-Pachuca_Tuzos_logo.svg.png", "scorers": ["Montiel 80'"] },
+            "s1": 3, "s2": 1
+          },
+          {
+            "date": "22 JUNE 2025",
+            "time": "6:00 PM EDT",
+            "stadium": "Audi Field, Washington, D.C.",
+            "t1": { "name": "Red Bull Salzburg", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/FC_Red_Bull_Salzburg_logo.svg/500px-FC_Red_Bull_Salzburg_logo.svg.png", "scorers": [] },
+            "t2": { "name": "Al-Hilal", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/500px-Al_Hilal_SFC_Logo.svg.png", "scorers": [] },
+            "s1": 0, "s2": 0
+          },
+          {
+            "date": "26 JUNE 2025",
+            "time": "8:00 PM CDT",
+            "stadium": "Geodis Park, Nashville",
+            "t1": { "name": "Al-Hilal", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/500px-Al_Hilal_SFC_Logo.svg.png", "scorers": ["S. Al-Dawsari 22'", "Marcos Leonardo 90+5'"] },
+            "t2": { "name": "Pachuca", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Pachuca_Tuzos_logo.svg/330px-Pachuca_Tuzos_logo.svg.png", "scorers": [] },
+            "s1": 2, "s2": 0
+          },
+          {
+            "date": "26 JUNE 2025",
+            "time": "9:00 PM EDT",
+            "stadium": "Lincoln Financial Field, Philadelphia",
+            "t1": { "name": "Red Bull Salzburg", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/FC_Red_Bull_Salzburg_logo.svg/500px-FC_Red_Bull_Salzburg_logo.svg.png", "scorers": [] },
+            "t2": { "name": "Real Madrid", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/500px-Real_Madrid_CF.svg.png", "scorers": ["Vinícius 40'", "Valverde 45+3'", "G. García 84'"] },
+            "s1": 0, "s2": 3
+          }
+        ]
+      }
+    }
+  },
+  "Round of 16": {
+    "matches": [
+      {
+        "date": "28 JUNE 2025",
+        "time": "12:00 PM EDT",
+        "stadium": "Lincoln Financial Field, Philadelphia",
+        "status": "(a.e.t.)",
+        "t1": { "name": "Palmeiras", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/SE_Palmeiras_2025_crest.png/500px-SE_Palmeiras_2025_crest.png", "scorers": ["Paulinho 100'"] },
+        "t2": { "name": "Botafogo", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/500px-Botafogo_de_Futebol_e_Regatas_logo.svg.png", "scorers": [] },
+        "s1": 1, "s2": 0
+      },
+      {
+        "date": "28 JUNE 2025",
+        "time": "4:00 PM EDT",
+        "stadium": "Bank of America Stadium, Charlotte",
+        "status": "(a.e.t.)",
+        "t1": { "name": "Benfica", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/500px-SL_Benfica_logo.svg.png", "scorers": ["Di María 90+5' (pen.)"] },
+        "t2": { "name": "Chelsea", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/500px-Chelsea_FC.svg.png", "scorers": ["James 64'", "Nkunku 108'", "Neto 114'", "Dewsbury-Hall 117'"] },
+        "s1": 1, "s2": 4
+      },
+      {
+        "date": "29 JUNE 2025",
+        "time": "12:00 PM EDT",
+        "stadium": "Mercedes-Benz Stadium, Atlanta",
+        "t1": { "name": "Paris Saint-Germain", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/500px-Paris_Saint-Germain_F.C..svg.png", "scorers": ["Neves 6'", "Neves 39'", "Avilés 44' (o.g.)", "Hakimi 45+3'"] },
+        "t2": { "name": "Inter Miami CF", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Inter_Miami_CF_logo.svg/1920px-Inter_Miami_CF_logo.svg.png", "scorers": [] },
+        "s1": 4, "s2": 0
+      },
+      {
+        "date": "29 JUNE 2025",
+        "time": "4:00 PM EDT",
+        "stadium": "Hard Rock Stadium, Miami Gardens",
+        "t1": { "name": "Flamengo", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/500px-Clube_de_Regatas_do_Flamengo_logo.svg.png", "scorers": ["Gerson 33'", "Jorginho 55' (pen.)"] },
+        "t2": { "name": "Bayern Munich", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/500px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png", "scorers": ["Pulgar 6' (o.g.)", "Kane 9'", "Goretzka 41'", "Kane 73'"] },
+        "s1": 2, "s2": 4
+      },
+      {
+        "date": "30 JUNE 2025",
+        "time": "3:00 PM EDT",
+        "stadium": "Bank of America Stadium, Charlotte",
+        "t1": { "name": "Inter Milan", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/500px-FC_Internazionale_Milano_2021.svg.png", "scorers": [] },
+        "t2": { "name": "Fluminense", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fluminense_Football_Club.svg/500px-Fluminense_Football_Club.svg.png", "scorers": ["Cano 3'", "Hércules 90+3'"] },
+        "s1": 0, "s2": 2
+      },
+      {
+        "date": "30 JUNE 2025",
+        "time": "9:00 PM EDT",
+        "stadium": "Camping World Stadium, Orlando",
+        "status": "(a.e.t.)",
+        "t1": { "name": "Manchester City", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/500px-Manchester_City_FC_badge.svg.png", "scorers": ["Silva 9'", "Haaland 55'", "Foden 104'"] },
+        "t2": { "name": "Al-Hilal", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/500px-Al_Hilal_SFC_Logo.svg.png", "scorers": ["Marcos Leonardo 46'", "Malcom 52'", "Koulibaly 94'", "Marcos Leonardo 112'"] },
+        "s1": 3, "s2": 4
+      },
+      {
+        "date": "1 JULY 2025",
+        "time": "3:00 PM EDT",
+        "stadium": "Hard Rock Stadium, Miami Gardens",
+        "t1": { "name": "Real Madrid", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/500px-Real_Madrid_CF.svg.png", "scorers": ["G. García 54'"] },
+        "t2": { "name": "Juventus", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Juventus_FC_2017_logo_%28white_on_black%29.svg/960px-Juventus_FC_2017_logo_%28white_on_black%29.svg.png", "scorers": [] },
+        "s1": 1, "s2": 0
+      },
+      {
+        "date": "1 JULY 2025",
+        "time": "9:00 PM EDT",
+        "stadium": "Mercedes-Benz Stadium, Atlanta",
+        "t1": { "name": "Borussia Dortmund", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/500px-Borussia_Dortmund_logo.svg.png", "scorers": ["Guirassy 14'", "Guirassy 24'"] },
+        "t2": { "name": "Monterrey", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Club_de_F%C3%BAtbol_Monterrey_logo.svg/500px-Club_de_F%C3%BAtbol_Monterrey_logo.svg.png", "scorers": ["Berterame 48'"] },
+        "s1": 2, "s2": 1
+      }
+    ]
+  },
+  "Quarter-Finals": {
+    "matches": [
+      {
+        "date": "4 JULY 2025",
+        "time": "3:00 PM EDT",
+        "stadium": "Camping World Stadium, Orlando",
+        "t1": { "name": "Fluminense", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fluminense_Football_Club.svg/500px-Fluminense_Football_Club.svg.png", "scorers": ["Martinelli 40'", "Hércules 70'"] },
+        "t2": { "name": "Al-Hilal", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/500px-Al_Hilal_SFC_Logo.svg.png", "scorers": ["Marcos Leonardo 51'"] },
+        "s1": 2, "s2": 1
+      },
+      {
+        "date": "4 JULY 2025",
+        "time": "9:00 PM EDT",
+        "stadium": "Lincoln Financial Field, Philadelphia",
+        "t1": { "name": "Palmeiras", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/SE_Palmeiras_2025_crest.png/500px-SE_Palmeiras_2025_crest.png", "scorers": ["Estêvão 53'"] },
+        "t2": { "name": "Chelsea", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/500px-Chelsea_FC.svg.png", "scorers": ["Palmer 16'", "Weverton 83' (o.g.)"] },
+        "s1": 1, "s2": 2
+      },
+      {
+        "date": "5 JULY 2025",
+        "time": "12:00 PM EDT",
+        "stadium": "Mercedes-Benz Stadium, Atlanta",
+        "t1": { "name": "Paris Saint-Germain", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/500px-Paris_Saint-Germain_F.C..svg.png", "scorers": ["Doué 78'", "Dembélé 90+6'"] },
+        "t2": { "name": "Bayern Munich", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/500px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png", "scorers": [] },
+        "s1": 2, "s2": 0
+      },
+      {
+        "date": "5 JULY 2025",
+        "time": "4:00 PM EDT",
+        "stadium": "MetLife Stadium, East Rutherford",
+        "t1": { "name": "Real Madrid", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/500px-Real_Madrid_CF.svg.png", "scorers": ["G. García 10'", "F. García 20'", "Mbappé 90+4'"] },
+        "t2": { "name": "Borussia Dortmund", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/500px-Borussia_Dortmund_logo.svg.png", "scorers": ["Beier 90+3'", "Guirassy 90+8' (pen.)"] },
+        "s1": 3, "s2": 2
+      }
+    ]
+  },
+
+  "Semi-Finals": {
+    "matches": [
+      {
+        "date": "8 JULY 2025",
+        "time": "3:00 PM EDT",
+        "stadium": "MetLife Stadium, East Rutherford",
+        "t1": { 
+          "name": "Fluminense", 
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fluminense_Football_Club.svg/500px-Fluminense_Football_Club.svg.png", 
+          "scorers": [] 
+        },
+        "t2": { 
+          "name": "Chelsea", 
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/500px-Chelsea_FC.svg.png", 
+          "scorers": ["João Pedro 18'", "João Pedro 56'"] 
+        },
+        "s1": 0, "s2": 2
+      },
+      {
+        "date": "9 JULY 2025",
+        "time": "3:10 PM EDT",
+        "stadium": "MetLife Stadium, East Rutherford",
+        "t1": { 
+          "name": "Paris Saint-Germain", 
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/500px-Paris_Saint-Germain_F.C..svg.png", 
+          "scorers": ["Fabián 6'", "Dembélé 9'", "Fabián 24'", "Ramos 87'"] 
+        },
+        "t2": { 
+          "name": "Real Madrid", 
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/500px-Real_Madrid_CF.svg.png", 
+          "scorers": [] 
+        },
+        "s1": 4, "s2": 0
+      }
+    ]
+  },
+  "Final": {
+  "matches": [
+    {
+      "date": "13 July 2025",
+      "time": "3:00 PM EDT",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford",
+      "attendance": "81,118",
+      "referee": "Alireza Faghani (Australia)",
+      "motm": "Cole Palmer (Chelsea)",
+      "team1": {
+        "name": "Chelsea",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/500px-Chelsea_FC.svg.png",
+        "score": "3",
+        "manager": "Enzo Maresca",
+        "lineup": [
+          {"number": "1", "name": "Robert Sánchez", "pos": "GK", "status": "starter"},
+          {"number": "27", "name": "Malo Gusto", "pos": "RB", "status": "starter", "events": [{"type": "yellow", "min": "40"}]},
+          {"number": "23", "name": "Trevoh Chalobah", "pos": "CB", "status": "starter"},
+          {"number": "6", "name": "Levi Colwill", "pos": "CB", "status": "starter", "events": [{"type": "yellow", "min": "81"}]},
+          {"number": "3", "name": "Marc Cucurella", "pos": "LB", "status": "starter"},
+          {"number": "24", "name": "Reece James", "pos": "CM", "status": "starter", "events": [{"type": "out", "min": "77"}]},
+          {"number": "25", "name": "Moisés Caicedo", "pos": "CM", "status": "starter", "events": [{"type": "yellow", "min": "36"}]},
+          {"number": "10", "name": "Cole Palmer", "pos": "RW", "status": "starter", "events": [{"type": "goal", "min": "22"}, {"type": "goal", "min": "30"}]},
+          {"number": "8", "name": "Enzo Fernández", "pos": "AM", "status": "starter", "events": [{"type": "out", "min": "61"}]},
+          {"number": "7", "name": "Pedro Neto", "pos": "LW", "status": "starter", "events": [{"type": "yellow", "min": "34"}, {"type": "out", "min": "77"}]},
+          {"number": "20", "name": "João Pedro", "pos": "CF", "status": "starter", "events": [{"type": "goal", "min": "43"}, {"type": "out", "min": "67"}]},
+          {"number": "12", "name": "Filip Jörgensen", "pos": "GK", "status": "bench"},
+          {"number": "39", "name": "Mike Penders", "pos": "GK", "status": "bench"},
+          {"number": "44", "name": "Gabriel Slonina", "pos": "GK", "status": "bench"},
+          {"number": "4", "name": "Tosin Adarabioyo", "pos": "DF", "status": "bench"},
+          {"number": "19", "name": "Mamadou Sarr", "pos": "DF", "status": "bench"},
+          {"number": "30", "name": "Aarón Anselmino", "pos": "DF", "status": "bench"},
+          {"number": "34", "name": "Josh Acheampong", "pos": "DF", "status": "bench"},
+          {"number": "17", "name": "Andrey Santos", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "61"}]},
+          {"number": "22", "name": "K. Dewsbury-Hall", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "77"}]},
+          {"number": "45", "name": "Roméo Lavia", "pos": "MF", "status": "bench"},
+          {"number": "9", "name": "Liam Delap", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "67"}]},
+          {"number": "15", "name": "Nicolas Jackson", "pos": "FW", "status": "bench"},
+          {"number": "18", "name": "Christopher Nkunku", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "77"}]},
+          {"number": "32", "name": "Tyrique George", "pos": "FW", "status": "bench"},
+          {"number": "38", "name": "Marc Guiu", "pos": "FW", "status": "bench"}
+        ]
+      },
+      "team2": {
+        "name": "Paris Saint-Germain",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/500px-Paris_Saint-Germain_F.C..svg.png",
+        "score": "0",
+        "manager": "Luis Enrique",
+        "lineup": [
+          {"number": "1", "name": "Gianluigi Donnarumma", "pos": "GK", "status": "starter"},
+          {"number": "2", "name": "Achraf Hakimi", "pos": "RB", "status": "starter", "events": [{"type": "out", "min": "73"}]},
+          {"number": "5", "name": "Marquinhos", "pos": "CB", "status": "starter"},
+          {"number": "4", "name": "Lucas Beraldo", "pos": "CB", "status": "starter"},
+          {"number": "25", "name": "Nuno Mendes", "pos": "LB", "status": "starter", "events": [{"type": "yellow", "min": "90+4"}]},
+          {"number": "17", "name": "Vitinha", "pos": "DM", "status": "starter"},
+          {"number": "87", "name": "João Neves", "pos": "CM", "status": "starter", "events": [{"type": "out", "min": "85"}]},
+          {"number": "8", "name": "Fabián Ruiz", "pos": "CM", "status": "starter", "events": [{"type": "out", "min": "73"}]},
+          {"number": "14", "name": "Désiré Doué", "pos": "RF", "status": "starter", "events": [{"type": "out", "min": "73"}]},
+          {"number": "10", "name": "Ousmane Dembélé", "pos": "CF", "status": "starter", "events": [{"type": "out", "min": "87"}]},
+          {"number": "7", "name": "K. Kvaratskhelia", "pos": "LF", "status": "starter", "events": [{"type": "out", "min": "58"}]},
+          {"number": "39", "name": "Matvey Safonov", "pos": "GK", "status": "bench"},
+          {"number": "80", "name": "Arnau Tenas", "pos": "GK", "status": "bench"},
+          {"number": "3", "name": "Presnel Kimpembe", "pos": "DF", "status": "bench"},
+          {"number": "43", "name": "Noham Kamara", "pos": "DF", "status": "bench"},
+          {"number": "19", "name": "Lee Kang-in", "pos": "MF", "status": "bench"},
+          {"number": "20", "name": "Gabriel Moscardo", "pos": "MF", "status": "bench"},
+          {"number": "24", "name": "Senny Mayulu", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "73"}]},
+          {"number": "33", "name": "W. Zaïre-Emery", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "73"}]},
+          {"number": "9", "name": "Gonçalo Ramos", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "73"}]},
+          {"number": "29", "name": "Bradley Barcola", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "58"}]},
+          {"number": "49", "name": "Ibrahim Mbaye", "pos": "FW", "status": "bench"}
+        ]
+      },
+      "stats": {
+
+        "possession": {"label": "Ball Possession", "t1": "34%", "t2": "66%"},
+
+        "shots": {"label": "Total Shots", "t1": "9", "t2": "9"},
+
+        "shotsOnTarget": {"label": "Shots on Target", "t1": "5", "t2": "6"},
+
+        "corners": {"label": "Corner Kicks", "t1": "3", "t2": "5"},
+
+        "fouls": {"label": "Fouls Committed", "t1": "15", "t2": "12"},
+
+        "offsides": {"label": "Offsides", "t1": "3", "t2": "2"},
+
+        "yellow": {"label": "Yellow Cards", "t1": "4", "t2": "2"},
+
+        "red": {"label": "Red Cards", "t1": "0", "t2": "1"}
+
+      }
+
+    }
+
+  ]
+
+}
+
+}

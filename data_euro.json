@@ -1,0 +1,647 @@
+{
+  "SCHEDULE": [
+    {
+      "phase": "Group Stage",
+      "group": "Group A",
+      "standings": [
+        { "rank": 1, "team": "Germany", "code": "de", "p": 3, "w": 2, "d": 1, "l": 0, "gf": 8, "ga": 2, "gd": 6, "pts": 7 },
+        { "rank": 2, "team": "Switzerland", "code": "ch", "p": 3, "w": 1, "d": 2, "l": 0, "gf": 5, "ga": 3, "gd": 2, "pts": 5 },
+        { "rank": 3, "team": "Hungary", "code": "hu", "p": 3, "w": 1, "d": 0, "l": 2, "gf": 2, "ga": 5, "gd": -3, "pts": 3 },
+        { "rank": 4, "team": "Scotland", "code": "gb-sct", "p": 3, "w": 0, "d": 1, "l": 2, "gf": 2, "ga": 7, "gd": -5, "pts": 1 }
+      ],
+      "matches": [
+        {
+          "date": "14 JUN 2024",
+          "stadium": "Allianz Arena, Munich",
+          "team1": { "name": "Germany", "code": "de", "score": "5", "scorers": ["F. Wirtz 10'", "J. Musiala 19'", "K. Havertz 45+1' (P)", "N. Füllkrug 68'", "E. Can 90+3'"] },
+          "team2": { "name": "Scotland", "code": "gb-sct", "score": "1", "scorers": ["A. Rüdiger (OG) 87'"] }
+        },
+        {
+          "date": "15 JUN 2024",
+          "stadium": "RheinEnergieStadion, Cologne",
+          "team1": { "name": "Hungary", "code": "hu", "score": "1", "scorers": ["B. Varga 66'"] },
+          "team2": { "name": "Switzerland", "code": "ch", "score": "3", "scorers": ["K. Duah 12'", "M. Aebischer 45'", "B. Embolo 90+3'"] }
+        },
+        {
+          "date": "19 JUN 2024",
+          "stadium": "MHPArena, Stuttgart",
+          "team1": { "name": "Germany", "code": "de", "score": "2", "scorers": ["J. Musiala 22'", "I. Gündoğan 67'"] },
+          "team2": { "name": "Hungary", "code": "hu", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "19 JUN 2024",
+          "stadium": "RheinEnergieStadion, Cologne",
+          "team1": { "name": "Scotland", "code": "gb-sct", "score": "1", "scorers": ["S. McTominay 13'"] },
+          "team2": { "name": "Switzerland", "code": "ch", "score": "1", "scorers": ["X. Shaqiri 26'"] }
+        },
+        {
+          "date": "23 JUN 2024",
+          "stadium": "Waldstadion, Frankfurt",
+          "team1": { "name": "Switzerland", "code": "ch", "score": "1", "scorers": ["D. Ndoye 28'"] },
+          "team2": { "name": "Germany", "code": "de", "score": "1", "scorers": ["N. Füllkrug 90+2'"] }
+        },
+        {
+          "date": "23 JUN 2024",
+          "stadium": "MHPArena, Stuttgart",
+          "team1": { "name": "Scotland", "code": "gb-sct", "score": "0", "scorers": [] },
+          "team2": { "name": "Hungary", "code": "hu", "score": "1", "scorers": ["K. Csoboth 90+10'"] }
+        }
+      ]
+    },
+    {
+      "phase": "Group Stage",
+      "group": "Group B",
+      "standings": [
+        { "rank": 1, "team": "Spain", "code": "es", "p": 3, "w": 3, "d": 0, "l": 0, "gf": 5, "ga": 0, "gd": 5, "pts": 9 },
+        { "rank": 2, "team": "Italy", "code": "it", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 3, "ga": 3, "gd": 0, "pts": 4 },
+        { "rank": 3, "team": "Croatia", "code": "hr", "p": 3, "w": 0, "d": 2, "l": 1, "gf": 3, "ga": 6, "gd": -3, "pts": 2 },
+        { "rank": 4, "team": "Albania", "code": "al", "p": 3, "w": 0, "d": 1, "l": 2, "gf": 3, "ga": 5, "gd": -2, "pts": 1 }
+      ],
+      "matches": [
+        {
+          "date": "15 JUN 2024",
+          "stadium": "Olympiastadion, Berlin",
+          "team1": { "name": "Spain", "code": "es", "score": "3", "scorers": ["Á. Morata 29'", "Fabián Ruiz 32'", "Dani Carvajal 45+2'"] },
+          "team2": { "name": "Croatia", "code": "hr", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "15 JUN 2024",
+          "stadium": "Westfalenstadion, Dortmund",
+          "team1": { "name": "Italy", "code": "it", "score": "2", "scorers": ["A. Bastoni 11'", "N. Barella 16'"] },
+          "team2": { "name": "Albania", "code": "al", "score": "1", "scorers": ["N. Bajrami 1'"] }
+        },
+        {
+          "date": "19 JUN 2024",
+          "stadium": "Volksparkstadion, Hamburg",
+          "team1": { "name": "Croatia", "code": "hr", "score": "2", "scorers": ["A. Kramarić 74'", "K. Gjasula (OG) 76' "] },
+          "team2": { "name": "Albania", "code": "al", "score": "2", "scorers": ["Q. Laçi 11'", "K. Gjasula 90+5'"] }
+        },
+        {
+          "date": "20 JUN 2024",
+          "stadium": "Arena AufSchalke, Gelsenkirchen",
+          "team1": { "name": "Spain", "code": "es", "score": "1", "scorers": ["R. Calafiori (OG) 55' "] },
+          "team2": { "name": "Italy", "code": "it", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "24 JUN 2024",
+          "stadium": "Merkur Spiel-Arena, Düsseldorf",
+          "team1": { "name": "Albania", "code": "al", "score": "0", "scorers": [] },
+          "team2": { "name": "Spain", "code": "es", "score": "1", "scorers": ["Ferran Torres 13'"] }
+        },
+        {
+          "date": "24 JUN 2024",
+          "stadium": "Red Bull Arena, Leipzig",
+          "team1": { "name": "Croatia", "code": "hr", "score": "1", "scorers": ["Luka Modrić 55'"] },
+          "team2": { "name": "Italy", "code": "it", "score": "1", "scorers": ["M. Zaccagni 90+8'"] }
+        }
+      ]
+    },
+    {
+      "phase": "Group Stage",
+      "group": "Group C",
+      "standings": [
+        { "rank": 1, "team": "England", "code": "gb-eng", "p": 3, "w": 1, "d": 2, "l": 0, "gf": 2, "ga": 1, "gd": 1, "pts": 5 },
+        { "rank": 2, "team": "Denmark", "code": "dk", "p": 3, "w": 0, "d": 3, "l": 0, "gf": 2, "ga": 2, "gd": 0, "pts": 3 },
+        { "rank": 3, "team": "Slovenia", "code": "si", "p": 3, "w": 0, "d": 3, "l": 0, "gf": 2, "ga": 2, "gd": 0, "pts": 3 },
+        { "rank": 4, "team": "Serbia", "code": "rs", "p": 3, "w": 0, "d": 2, "l": 1, "gf": 1, "ga": 2, "gd": -1, "pts": 2 }
+      ],
+      "matches": [
+        {
+          "date": "16 JUN 2024",
+          "stadium": "MHPArena, Stuttgart",
+          "team1": { "name": "Slovenia", "code": "si", "score": "1", "scorers": ["Erik Janža 77'"] },
+          "team2": { "name": "Denmark", "code": "dk", "score": "1", "scorers": ["C. Eriksen 17'"] }
+        },
+        {
+          "date": "16 JUN 2024",
+          "stadium": "Arena AufSchalke, Gelsenkirchen",
+          "team1": { "name": "Serbia", "code": "rs", "score": "0", "scorers": [] },
+          "team2": { "name": "England", "code": "gb-eng", "score": "1", "scorers": ["J. Bellingham 13'"] }
+        },
+        {
+          "date": "20 JUN 2024",
+          "stadium": "Allianz Arena, Munich",
+          "team1": { "name": "Slovenia", "code": "si", "score": "1", "scorers": ["Žan Karničnik 69'"] },
+          "team2": { "name": "Serbia", "code": "rs", "score": "1", "scorers": ["Luka Jović 90+5'"] }
+        },
+        {
+          "date": "20 JUN 2024",
+          "stadium": "Waldstadion, Frankfurt",
+          "team1": { "name": "Denmark", "code": "dk", "score": "1", "scorers": ["M. Hjulmand 34'"] },
+          "team2": { "name": "England", "code": "gb-eng", "score": "1", "scorers": ["Harry Kane 18'"] }
+        },
+        {
+          "date": "25 JUN 2024",
+          "stadium": "RheinEnergieStadion, Cologne",
+          "team1": { "name": "England", "code": "gb-eng", "score": "0", "scorers": [] },
+          "team2": { "name": "Slovenia", "code": "si", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "25 JUN 2024",
+          "stadium": "Allianz Arena, Munich",
+          "team1": { "name": "Denmark", "code": "dk", "score": "0", "scorers": [] },
+          "team2": { "name": "Serbia", "code": "rs", "score": "0", "scorers": [] }
+        }
+      ]
+    },
+    {
+      "phase": "Group Stage",
+      "group": "Group D",
+      "standings": [
+        { "rank": 1, "team": "Austria", "code": "at", "p": 3, "w": 2, "d": 0, "l": 1, "gf": 6, "ga": 4, "gd": 2, "pts": 6 },
+        { "rank": 2, "team": "France", "code": "fr", "p": 3, "w": 1, "d": 2, "l": 0, "gf": 2, "ga": 1, "gd": 1, "pts": 5 },
+        { "rank": 3, "team": "Netherlands", "code": "nl", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 4, "ga": 4, "gd": 0, "pts": 4 },
+        { "rank": 4, "team": "Poland", "code": "pl", "p": 3, "w": 0, "d": 1, "l": 2, "gf": 3, "ga": 6, "gd": -3, "pts": 1 }
+      ],
+      "matches": [
+        {
+          "date": "16 JUN 2024",
+          "stadium": "Volksparkstadion, Hamburg",
+          "team1": { "name": "Poland", "code": "pl", "score": "1", "scorers": ["A. Buksa 16'"] },
+          "team2": { "name": "Netherlands", "code": "nl", "score": "2", "scorers": ["C. Gakpo 29'", "W. Weghorst 83'"] }
+        },
+        {
+          "date": "17 JUN 2024",
+          "stadium": "Merkur Spiel-Arena, Düsseldorf",
+          "team1": { "name": "Austria", "code": "at", "score": "0", "scorers": [] },
+          "team2": { "name": "France", "code": "fr", "score": "1", "scorers": ["M. Wöber (OG) 38' "] }
+        },
+        {
+          "date": "21 JUN 2024",
+          "stadium": "Olympiastadion, Berlin",
+          "team1": { "name": "Poland", "code": "pl", "score": "1", "scorers": ["K. Piątek 30'"] },
+          "team2": { "name": "Austria", "code": "at", "score": "3", "scorers": ["G. Trauner 9'", "C. Baumgartner 66'", "M. Arnautović 78' (P)"] }
+        },
+        {
+          "date": "21 JUN 2024",
+          "stadium": "Red Bull Arena, Leipzig",
+          "team1": { "name": "Netherlands", "code": "nl", "score": "0", "scorers": [] },
+          "team2": { "name": "France", "code": "fr", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "25 JUN 2024",
+          "stadium": "Olympiastadion, Berlin",
+          "team1": { "name": "Netherlands", "code": "nl", "score": "2", "scorers": ["C. Gakpo 47'", "M. Depay 75'"] },
+          "team2": { "name": "Austria", "code": "at", "score": "3", "scorers": ["D. Malen (OG) 6' ", "R. Schmid 59'", "M. Sabitzer 80'"] }
+        },
+        {
+          "date": "25 JUN 2024",
+          "stadium": "Westfalenstadion, Dortmund",
+          "team1": { "name": "France", "code": "fr", "score": "1", "scorers": ["K. Mbappé 56' (P)"] },
+          "team2": { "name": "Poland", "code": "pl", "score": "1", "scorers": ["R. Lewandowski 79' (P)"] }
+        }
+      ]
+    },
+    {
+      "phase": "Group Stage",
+      "group": "Group E",
+      "standings": [
+        { "rank": 1, "team": "Romania", "code": "ro", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 4, "ga": 3, "gd": 1, "pts": 4 },
+        { "rank": 2, "team": "Belgium", "code": "be", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 2, "ga": 1, "gd": 1, "pts": 4 },
+        { "rank": 3, "team": "Slovakia", "code": "sk", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 3, "ga": 3, "gd": 0, "pts": 4 },
+        { "rank": 4, "team": "Ukraine", "code": "ua", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 2, "ga": 4, "gd": -2, "pts": 4 }
+      ],
+      "matches": [
+        {
+          "date": "17 JUN 2024",
+          "stadium": "Allianz Arena, Munich",
+          "team1": { "name": "Romania", "code": "ro", "score": "3", "scorers": ["N. Stanciu 29'", "R. Marin 53'", "D. Drăguș 57'"] },
+          "team2": { "name": "Ukraine", "code": "ua", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "17 JUN 2024",
+          "stadium": "Waldstadion, Frankfurt",
+          "team1": { "name": "Belgium", "code": "be", "score": "0", "scorers": [] },
+          "team2": { "name": "Slovakia", "code": "sk", "score": "1", "scorers": ["I. Schranz 7'"] }
+        },
+        {
+          "date": "21 JUN 2024",
+          "stadium": "Merkur Spiel-Arena, Düsseldorf",
+          "team1": { "name": "Slovakia", "code": "sk", "score": "1", "scorers": ["I. Schranz 17'"] },
+          "team2": { "name": "Ukraine", "code": "ua", "score": "2", "scorers": ["M. Shaparenko 54'", "R. Yaremchuk 80'"] }
+        },
+        {
+          "date": "22 JUN 2024",
+          "stadium": "RheinEnergieStadion, Cologne",
+          "team1": { "name": "Belgium", "code": "be", "score": "2", "scorers": ["Y. Tielemans 2'", "K. De Bruyne 80'"] },
+          "team2": { "name": "Romania", "code": "ro", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "26 JUN 2024",
+          "stadium": "Waldstadion, Frankfurt",
+          "team1": { "name": "Slovakia", "code": "sk", "score": "1", "scorers": ["O. Duda 24'"] },
+          "team2": { "name": "Romania", "code": "ro", "score": "1", "scorers": ["R. Marin 37' (P)"] }
+        },
+        {
+          "date": "26 JUN 2024",
+          "stadium": "MHPArena, Stuttgart",
+          "team1": { "name": "Ukraine", "code": "ua", "score": "0", "scorers": [] },
+          "team2": { "name": "Belgium", "code": "be", "score": "0", "scorers": [] }
+        }
+      ]
+    },
+    {
+      "phase": "Group Stage",
+      "group": "Group F",
+      "standings": [
+        { "rank": 1, "team": "Portugal", "code": "pt", "p": 3, "w": 2, "d": 0, "l": 1, "gf": 5, "ga": 3, "gd": 2, "pts": 6 },
+        { "rank": 2, "team": "Turkey", "code": "tr", "p": 3, "w": 2, "d": 0, "l": 1, "gf": 5, "ga": 5, "gd": 0, "pts": 6 },
+        { "rank": 3, "team": "Georgia", "code": "ge", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 4, "ga": 4, "gd": 0, "pts": 4 },
+        { "rank": 4, "team": "Czech Republic", "code": "cz", "p": 3, "w": 0, "d": 1, "l": 2, "gf": 3, "ga": 5, "gd": -2, "pts": 1 }
+      ],
+      "matches": [
+        {
+          "date": "18 JUN 2024",
+          "stadium": "Westfalenstadion, Dortmund",
+          "team1": { "name": "Turkey", "code": "tr", "score": "3", "scorers": ["M. Müldür 25'", "Arda Güler 65'", "K. Aktürkoğlu 90+7'"] },
+          "team2": { "name": "Georgia", "code": "ge", "score": "1", "scorers": ["G. Mikautadze 32'"] }
+        },
+        {
+          "date": "18 JUN 2024",
+          "stadium": "Red Bull Arena, Leipzig",
+          "team1": { "name": "Portugal", "code": "pt", "score": "2", "scorers": ["R. Hranáč 69' (OG)", "F. Conceição 90+2'"] },
+          "team2": { "name": "Czech Republic", "code": "cz", "score": "1", "scorers": ["L. Provod 62'"] }
+        },
+        {
+          "date": "22 JUN 2024",
+          "stadium": "Volksparkstadion, Hamburg",
+          "team1": { "name": "Georgia", "code": "ge", "score": "1", "scorers": ["G. Mikautadze 45+4' (P)"] },
+          "team2": { "name": "Czech Republic", "code": "cz", "score": "1", "scorers": ["P. Schick 59'"] }
+        },
+        {
+          "date": "22 JUN 2024",
+          "stadium": "Westfalenstadion, Dortmund",
+          "team1": { "name": "Turkey", "code": "tr", "score": "0", "scorers": [] },
+          "team2": { "name": "Portugal", "code": "pt", "score": "3", "scorers": ["B. Silva 21'", "S. Akaydin 28' (OG)", "B. Fernandes 56'"] }
+        },
+        {
+          "date": "26 JUN 2024",
+          "stadium": "Arena AufSchalke, Gelsenkirchen",
+          "team1": { "name": "Georgia", "code": "ge", "score": "2", "scorers": ["K. Kvaratskhelia 2'", "G. Mikautadze 57' (P)"] },
+          "team2": { "name": "Portugal", "code": "pt", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "26 JUN 2024",
+          "stadium": "Volksparkstadion, Hamburg",
+          "team1": { "name": "Czech Republic", "code": "cz", "score": "1", "scorers": ["T. Souček 66'"] },
+          "team2": { "name": "Turkey", "code": "tr", "score": "2", "scorers": ["H. Çalhanoğlu 51'", "C. Tosun 90+4'"] }
+        }
+      ]
+    },
+    {
+      "phase": "Round of 16",
+      "matches": [
+        {
+          "date": "29 JUN 2024",
+          "stadium": "Olympiastadion, Berlin",
+          "team1": { "name": "Switzerland", "code": "ch", "score": "2", "scorers": ["R. Freuler 37'", "R. Vargas 46'"] },
+          "team2": { "name": "Italy", "code": "it", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "29 JUN 2024",
+          "stadium": "Westfalenstadion, Dortmund",
+          "team1": { "name": "Germany", "code": "de", "score": "2", "scorers": ["K. Havertz 53' (P)", "J. Musiala 68'"] },
+          "team2": { "name": "Denmark", "code": "dk", "score": "0", "scorers": [] }
+        },
+        {
+          "date": "30 JUN 2024",
+          "stadium": "Arena AufSchalke, Gelsenkirchen",
+          "team1": { "name": "England", "code": "gb-eng", "score": "2", "scorers": ["J. Bellingham 90+5'", "Harry Kane 91'"] },
+          "team2": { "name": "Slovakia", "code": "sk", "score": "1", "scorers": ["I. Schranz 25'"] }
+        },
+        {
+          "date": "30 JUN 2024",
+          "stadium": "RheinEnergieStadion, Cologne",
+          "team1": { "name": "Spain", "code": "es", "score": "4", "scorers": ["Rodri 39'", "Fabián Ruiz 51'", "Nico Williams 75'", "Dani Olmo 83'"] },
+          "team2": { "name": "Georgia", "code": "ge", "score": "1", "scorers": ["R. Le Normand 18' (OG)"] }
+        },
+        {
+          "date": "01 JUL 2024",
+          "stadium": "Merkur Spiel-Arena, Düsseldorf",
+          "team1": { "name": "France", "code": "fr", "score": "1", "scorers": ["Jan Vertonghen 85' (OG)"] },
+          "team2": { "name": "Belgium", "code": "be", "score": "0", "scorers": [] }
+        },
+        {
+  "date": "01 JUL 2024",
+  "stadium": "Waldstadion, Frankfurt",
+  "team1": { "name": "Portugal", "code": "pt", "score": "0 (3)", "scorers": [] },
+  "team2": { "name": "Slovenia", "code": "si", "score": "0 (0)", "scorers": [] },
+  "shootout": {
+    "rounds": [
+      { 
+        "t1": { "player": "C. Ronaldo", "result": "goal" }, 
+        "t2": { "player": "J. Iličić", "result": "miss" } 
+      },
+      { 
+        "t1": { "player": "B. Fernandes", "result": "goal" }, 
+        "t2": { "player": "J. Balkovec", "result": "miss" } 
+      },
+      { 
+        "t1": { "player": "B. Silva", "result": "goal" }, 
+        "t2": { "player": "B. Verbič", "result": "miss" } 
+      }
+    ]
+  }
+},
+        {
+          "date": "02 JUL 2024",
+          "stadium": "Allianz Arena, Munich",
+          "team1": { "name": "Romania", "code": "ro", "score": "0", "scorers": [] },
+          "team2": { "name": "Netherlands", "code": "nl", "score": "3", "scorers": ["C. Gakpo 20'", "Donyell Malen 83', 90+3'"] }
+        },
+        {
+          "date": "02 JUL 2024",
+          "stadium": "Red Bull Arena, Leipzig",
+          "team1": { "name": "Austria", "code": "at", "score": "1", "scorers": ["M. Gregoritsch 66'"] },
+          "team2": { "name": "Turkey", "code": "tr", "score": "2", "scorers": ["Merih Demiral 1', 59'"] }
+        }
+      ]
+    },
+    {
+      "phase": "Quarter-finals",
+      "matches": [
+        {
+          "date": "05 JUL 2024",
+          "stadium": "MHPArena, Stuttgart",
+          "team1": { "name": "Spain", "code": "es", "score": "2", "scorers": ["Dani Olmo 51'", "Mikel Merino 119'"] },
+          "team2": { "name": "Germany", "code": "de", "score": "1", "scorers": ["Florian Wirtz 89'"] }
+        },
+        {
+          "date": "05 JUL 2024",
+          "stadium": "Volksparkstadion, Hamburg",
+          "team1": { "name": "Portugal", "code": "pt", "score": "0 (3)", "scorers": [] },
+          "team2": { "name": "France", "code": "fr", "score": "0 (5)", "scorers": [] },
+          "shootout": {
+            "rounds": [
+              { "t1": { "player": "C. Ronaldo", "result": "goal" }, "t2": { "player": "O. Dembélé", "result": "goal" } },
+              { "t1": { "player": "B. Silva", "result": "goal" }, "t2": { "player": "Y. Fofana", "result": "goal" } },
+              { "t1": { "player": "João Félix", "result": "miss" }, "t2": { "player": "J. Koundé", "result": "goal" } },
+              { "t1": { "player": "Nuno Mendes", "result": "goal" }, "t2": { "player": "B. Barcola", "result": "goal" } },
+              { "t1": { "player": "", "result": "" }, "t2": { "player": "T. Hernandez", "result": "goal" } }
+            ]
+          }
+        },
+        {
+          "date": "06 JUL 2024",
+          "stadium": "Merkur Spiel-Arena, Düsseldorf",
+          "team1": { "name": "England", "code": "gb-eng", "score": "1 (5)", "scorers": ["B. Saka 80'"] },
+          "team2": { "name": "Switzerland", "code": "ch", "score": "1 (3)", "scorers": ["B. Embolo 75'"] },
+          "shootout": {
+            "rounds": [
+              { "t1": { "player": "C. Palmer", "result": "goal" }, "t2": { "player": "M. Akanji", "result": "miss" } },
+              { "t1": { "player": "J. Bellingham", "result": "goal" }, "t2": { "player": "F. Schär", "result": "goal" } },
+              { "t1": { "player": "B. Saka", "result": "goal" }, "t2": { "player": "X. Shaqiri", "result": "goal" } },
+              { "t1": { "player": "I. Toney", "result": "goal" }, "t2": { "player": "Z. Amdouni", "result": "goal" } },
+              { "t1": { "player": "T. Alexander-Arnold", "result": "goal" }, "t2": { "player": "", "result": "" } }
+            ]
+          }
+        },
+        {
+          "date": "06 JUL 2024",
+          "stadium": "Olympiastadion, Berlin",
+          "team1": { "name": "Netherlands", "code": "nl", "score": "2", "scorers": ["S. de Vrij 70'", "M. Müldür 76' (OG)"] },
+          "team2": { "name": "Turkey", "code": "tr", "score": "1", "scorers": ["S. Akaydin 35'"] }
+        }
+      ]
+    },
+    {
+      "phase": "Semi-finals",
+      "matches": [
+        {
+          "date": "09 JUL 2024",
+          "stadium": "Allianz Arena, Munich",
+          "referee": "Slavko Vinčić (Slovenia)",
+          "team1": {
+            "name": "Spain", "code": "es", "score": "2", "manager": "Luis de la Fuente",
+            "lineup": [
+              { "number": 23, "name": "Unai Simón", "pos": "GK", "status": "starter" },
+              { "number": 22, "name": "Jesús Navas", "pos": "RB", "status": "starter", "events": [{"type": "yellow", "min": "14'"}, {"type": "out", "min": "58'"}] },
+              { "number": 4, "name": "Nacho", "pos": "CB", "status": "starter" },
+              { "number": 14, "name": "Aymeric Laporte", "pos": "CB", "status": "starter" },
+              { "number": 24, "name": "Marc Cucurella", "pos": "LB", "status": "starter" },
+              { "number": 16, "name": "Rodri", "pos": "CM", "status": "starter" },
+              { "number": 8, "name": "Fabián Ruiz", "pos": "CM", "status": "starter" },
+              { "number": 19, "name": "Lamine Yamal", "pos": "RW", "status": "starter", "events": [{"type": "goal", "min": "21'"}, {"type": "yellow", "min": "90+1'"}, {"type": "out", "min": "90+4'"}] },
+              { "number": 10, "name": "Dani Olmo", "pos": "AM", "status": "starter", "events": [{"type": "goal", "min": "25'"}, {"type": "out", "min": "76'"}] },
+              { "number": 17, "name": "Nico Williams", "pos": "LW", "status": "starter", "events": [{"type": "out", "min": "90+3'"}] },
+              { "number": 7, "name": "Álvaro Morata", "pos": "CF", "status": "starter", "events": [{"type": "out", "min": "76'"}] },
+              { "number": 5, "name": "Daniel Vivian", "pos": "DF", "status": "bench", "events": [{"type": "in", "min": "58'"}] },
+              { "number": 21, "name": "Mikel Oyarzabal", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "76'"}] },
+              { "number": 6, "name": "Mikel Merino", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "76'"}] },
+              { "number": 18, "name": "Martín Zubimendi", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "90+3'"}] },
+              { "number": 11, "name": "Ferran Torres", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "90+4'"}] },
+              { "number": 1, "name": "David Raya", "pos": "GK", "status": "bench" },
+              { "number": 13, "name": "Alex Remiro", "pos": "GK", "status": "bench" },
+              { "number": 12, "name": "Alex Grimaldo", "pos": "DF", "status": "bench" },
+              { "number": 15, "name": "Alex Baena", "pos": "MF", "status": "bench" },
+              { "number": 25, "name": "Fermín López", "pos": "MF", "status": "bench" },
+              { "number": 9, "name": "Joselu", "pos": "FW", "status": "bench" }
+            ]
+          },
+          "team2": {
+            "name": "France", "code": "fr", "score": "1", "manager": "Didier Deschamps",
+            "lineup": [
+              { "number": 16, "name": "Mike Maignan", "pos": "GK", "status": "starter" },
+              { "number": 5, "name": "Jules Koundé", "pos": "RB", "status": "starter" },
+              { "number": 4, "name": "Dayot Upamecano", "pos": "CB", "status": "starter" },
+              { "number": 17, "name": "William Saliba", "pos": "CB", "status": "starter" },
+              { "number": 22, "name": "Théo Hernandez", "pos": "LB", "status": "starter" },
+              { "number": 13, "name": "N'Golo Kanté", "pos": "CM", "status": "starter", "events": [{"type": "out", "min": "62'"}] },
+              { "number": 8, "name": "Aurélien Tchouaméni", "pos": "CM", "status": "starter", "events": [{"type": "yellow", "min": "60'"}] },
+              { "number": 14, "name": "Adrien Rabiot", "pos": "CM", "status": "starter", "events": [{"type": "out", "min": "62'"}] },
+              { "number": 11, "name": "Ousmane Dembélé", "pos": "RW", "status": "starter", "events": [{"type": "out", "min": "79'"}] },
+              { "number": 12, "name": "Randal Kolo Muani", "pos": "CF", "status": "starter", "events": [{"type": "goal", "min": "9'"}, {"type": "out", "min": "62'"}] },
+              { "number": 10, "name": "Kylian Mbappé", "pos": "LW", "status": "starter" },
+              { "number": 6, "name": "Eduardo Camavinga", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "62'"}, {"type": "yellow", "min": "89'"}] },
+              { "number": 7, "name": "Antoine Griezmann", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "62'"}] },
+              { "number": 25, "name": "Bradley Barcola", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "62'"}] },
+              { "number": 9, "name": "Olivier Giroud", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "79'"}] },
+              { "number": 1, "name": "Brice Samba", "pos": "GK", "status": "bench" },
+              { "number": 23, "name": "Alphonse Areola", "pos": "GK", "status": "bench" },
+              { "number": 2, "name": "Benjamin Pavard", "pos": "DF", "status": "bench" },
+              { "number": 24, "name": "Ibrahima Konaté", "pos": "DF", "status": "bench" },
+              { "number": 19, "name": "Youssouf Fofana", "pos": "MF", "status": "bench" },
+              { "number": 18, "name": "Warren Zaïre-Emery", "pos": "MF", "status": "bench" },
+              { "number": 20, "name": "Kingsley Coman", "pos": "FW", "status": "bench" }
+            ]
+          },
+          "events": [
+            { "side": "right", "player": "R. Kolo Muani", "minute": "9", "type": "goal" },
+            { "side": "left", "player": "Lamine Yamal", "minute": "21", "type": "goal" },
+            { "side": "left", "player": "Dani Olmo", "minute": "25", "type": "goal" }
+          ],
+          "stats": {
+  "possession": { "t1": "58", "t2": "42", "label": "Possession %" },
+  "shots": { "t1": "6", "t2": "9", "label": "Total Shots" },
+  "sot": { "t1": "2", "t2": "3", "label": "Shots on Target" },
+  "xg": { "t1": "0.75", "t2": "1.10", "label": "Expected Goals (xG)" },
+  "corners": { "t1": "4", "t2": "6", "label": "Corners" },
+  "offside": { "t1": "0", "t2": "0", "label": "Offsides" },
+  "yellow": { "t1": "2", "t2": "2", "label": "Yellow Cards" },
+  "red": { "t1": "0", "t2": "0", "label": "Red Cards" },
+  "fouls": { "t1": "9", "t2": "14", "label": "Fouls Committed" }
+}
+        },
+        {
+          "date": "10 JUL 2024",
+          "stadium": "Westfalenstadion, Dortmund",
+          "referee": "Felix Zwayer (Germany)",
+          "team1": {
+            "name": "Netherlands", "code": "nl", "score": "1", "manager": "Ronald Koeman",
+            "lineup": [
+              { "number": 1, "name": "Bart Verbruggen", "pos": "GK", "status": "starter" },
+              { "number": 22, "name": "Denzel Dumfries", "pos": "RB", "status": "starter", "events": [{"type": "yellow", "min": "17'"}, {"type": "out", "min": "90+3'"}] },
+              { "number": 6, "name": "Stefan de Vrij", "pos": "CB", "status": "starter" },
+              { "number": 4, "name": "Virgil van Dijk", "pos": "CB", "status": "starter", "events": [{"type": "yellow", "min": "87'"}] },
+              { "number": 5, "name": "Nathan Aké", "pos": "LB", "status": "starter" },
+              { "number": 24, "name": "Jerdy Schouten", "pos": "CM", "status": "starter" },
+              { "number": 7, "name": "Xavi Simons", "pos": "AM", "status": "starter", "events": [{"type": "goal", "min": "7'"}, {"type": "yellow", "min": "90+1'"}, {"type": "out", "min": "90+3'"}] },
+              { "number": 14, "name": "Tijjani Reijnders", "pos": "CM", "status": "starter" },
+              { "number": 18, "name": "Donyell Malen", "pos": "RW", "status": "starter", "events": [{"type": "out", "min": "46'"}] },
+              { "number": 10, "name": "Memphis Depay", "pos": "CF", "status": "starter", "events": [{"type": "out", "min": "35'"}] },
+              { "number": 11, "name": "Cody Gakpo", "pos": "LW", "status": "starter" },
+              { "number": 16, "name": "Joey Veerman", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "35'"}] },
+              { "number": 9, "name": "Wout Weghorst", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "46'"}] },
+              { "number": 19, "name": "Brian Brobbey", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "90+3'"}] },
+              { "number": 21, "name": "Joshua Zirkzee", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "90+3'"}] },
+              { "number": 13, "name": "Justin Bijlow", "pos": "GK", "status": "bench" },
+              { "number": 15, "name": "Micky van de Ven", "pos": "DF", "status": "bench" },
+              { "number": 17, "name": "Daley Blind", "pos": "DF", "status": "bench" },
+              { "number": 3, "name": "Matthijs de Ligt", "pos": "DF", "status": "bench" },
+              { "number": 8, "name": "Georginio Wijnaldum", "pos": "MF", "status": "bench" },
+              { "number": 26, "name": "Ryan Gravenberch", "pos": "MF", "status": "bench" }
+            ]
+          },
+          "team2": {
+            "name": "England", "code": "gb-eng", "score": "2", "manager": "Gareth Southgate",
+            "lineup": [
+              { "number": 1, "name": "Jordan Pickford", "pos": "GK", "status": "starter" },
+              { "number": 2, "name": "Kyle Walker", "pos": "CB", "status": "starter" },
+              { "number": 5, "name": "John Stones", "pos": "CB", "status": "starter" },
+              { "number": 6, "name": "Marc Guéhi", "pos": "CB", "status": "starter" },
+              { "number": 7, "name": "Bukayo Saka", "pos": "RM", "status": "starter", "events": [{"type": "yellow", "min": "86'"}, {"type": "out", "min": "90+3'"}] },
+              { "number": 26, "name": "Kobbie Mainoo", "pos": "CM", "status": "starter", "events": [{"type": "out", "min": "90+3'"}] },
+              { "number": 4, "name": "Declan Rice", "pos": "CM", "status": "starter" },
+              { "number": 12, "name": "Kieran Trippier", "pos": "LM", "status": "starter", "events": [{"type": "yellow", "min": "90+4'"}, {"type": "out", "min": "46'"}] },
+              { "number": 11, "name": "Phil Foden", "pos": "AM", "status": "starter", "events": [{"type": "out", "min": "81'"}] },
+              { "number": 10, "name": "Jude Bellingham", "pos": "AM", "status": "starter", "events": [{"type": "yellow", "min": "72'"}] },
+              { "number": 9, "name": "Harry Kane", "pos": "CF", "status": "starter", "events": [{"type": "goal", "min": "18' (P)"}, {"type": "out", "min": "81'"}] },
+              { "number": 3, "name": "Luke Shaw", "pos": "DF", "status": "bench", "events": [{"type": "in", "min": "46'"}] },
+              { "number": 24, "name": "Cole Palmer", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "81'"}] },
+              { "number": 19, "name": "Ollie Watkins", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "81'"}, {"type": "goal", "min": "90'"}, {"type": "yellow", "min": "90+1'"}] },
+              { "number": 14, "name": "Ezri Konsa", "pos": "DF", "status": "bench", "events": [{"type": "in", "min": "90+3'"}] },
+              { "number": 16, "name": "Conor Gallagher", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "90+3'"}] },
+              { "number": 13, "name": "Aaron Ramsdale", "pos": "GK", "status": "bench" },
+              { "number": 15, "name": "Lewis Dunk", "pos": "DF", "status": "bench" },
+              { "number": 22, "name": "Joe Gomez", "pos": "DF", "status": "bench" },
+              { "number": 17, "name": "Ivan Toney", "pos": "FW", "status": "bench" },
+              { "number": 20, "name": "Jarrod Bowen", "pos": "FW", "status": "bench" }
+            ]
+          },
+          "events": [
+            { "side": "left", "player": "Xavi Simons", "minute": "7", "type": "goal" },
+            { "side": "right", "player": "Harry Kane", "minute": "18", "type": "penalty" },
+            { "side": "right", "player": "Ollie Watkins", "minute": "90", "type": "goal" }
+          ],
+          "stats": {
+  "possession": { "t1": "40", "t2": "60", "label": "Possession %" },
+  "shots": { "t1": "7", "t2": "9", "label": "Total Shots" },
+  "sot": { "t1": "3", "t2": "4", "label": "Shots on Target" },
+  "xg": { "t1": "0.94", "t2": "1.32", "label": "Expected Goals (xG)" },
+  "corners": { "t1": "3", "t2": "0", "label": "Corners" },
+  "offside": { "t1": "1", "t2": "4", "label": "Offsides" },
+  "yellow": { "t1": "3", "t2": "3", "label": "Yellow Cards" },
+  "red": { "t1": "0", "t2": "0", "label": "Red Cards" },
+  "fouls": { "t1": "10", "t2": "6", "label": "Fouls Committed" }
+}
+        }
+      ]
+    },
+    {
+      "phase": "Final",
+      "matches": [
+        {
+          "date": "14 JUL 2024",
+          "stadium": "Olympiastadion, Berlin",
+          "referee": "François Letexier (France)",
+          "team1": {
+            "name": "Spain", "code": "es", "score": "2", "manager": "Luis de la Fuente",
+            "lineup": [
+              { "number": 23, "name": "Unai Simón", "pos": "GK", "status": "starter" },
+              { "number": 2, "name": "Dani Carvajal", "pos": "RB", "status": "starter" },
+              { "number": 3, "name": "Robin Le Normand", "pos": "CB", "status": "starter", "events": [{"type": "out", "min": "83'"}] },
+              { "number": 14, "name": "Aymeric Laporte", "pos": "CB", "status": "starter" },
+              { "number": 24, "name": "Marc Cucurella", "pos": "LB", "status": "starter" },
+              { "number": 16, "name": "Rodri", "pos": "CM", "status": "starter", "events": [{"type": "out", "min": "46'"}] },
+              { "number": 8, "name": "Fabián Ruiz", "pos": "CM", "status": "starter" },
+              { "number": 19, "name": "Lamine Yamal", "pos": "RW", "status": "starter", "events": [{"type": "out", "min": "89'"}] },
+              { "number": 10, "name": "Dani Olmo", "pos": "AM", "status": "starter", "events": [{"type": "yellow", "min": "31'"}] },
+              { "number": 17, "name": "Nico Williams", "pos": "LW", "status": "starter", "events": [{"type": "goal", "min": "47'"}] },
+              { "number": 7, "name": "Álvaro Morata", "pos": "CF", "status": "starter", "events": [{"type": "out", "min": "68'"}] },
+              { "number": 18, "name": "Martín Zubimendi", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "46'"}] },
+              { "number": 21, "name": "Mikel Oyarzabal", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "68'"}, {"type": "goal", "min": "86'"}] },
+              { "number": 4, "name": "Nacho", "pos": "DF", "status": "bench", "events": [{"type": "in", "min": "83'"}] },
+              { "number": 6, "name": "Mikel Merino", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "89'"}] },
+              { "number": 1, "name": "David Raya", "pos": "GK", "status": "bench" },
+              { "number": 13, "name": "Alex Remiro", "pos": "GK", "status": "bench" },
+              { "number": 5, "name": "Daniel Vivian", "pos": "DF", "status": "bench" },
+              { "number": 12, "name": "Alex Grimaldo", "pos": "DF", "status": "bench" },
+              { "number": 22, "name": "Jesús Navas", "pos": "DF", "status": "bench" },
+              { "number": 15, "name": "Alex Baena", "pos": "MF", "status": "bench" },
+              { "number": 25, "name": "Fermín López", "pos": "MF", "status": "bench" },
+              { "number": 9, "name": "Joselu", "pos": "FW", "status": "bench" },
+              { "number": 11, "name": "Ferran Torres", "pos": "FW", "status": "bench" }
+            ]
+          },
+          "team2": {
+            "name": "England", "code": "gb-eng", "score": "1", "manager": "Gareth Southgate",
+            "lineup": [
+              { "number": 1, "name": "Jordan Pickford", "pos": "GK", "status": "starter" },
+              { "number": 2, "name": "Kyle Walker", "pos": "RB", "status": "starter" },
+              { "number": 5, "name": "John Stones", "pos": "CB", "status": "starter", "events": [{"type": "yellow", "min": "53'"}] },
+              { "number": 6, "name": "Marc Guéhi", "pos": "CB", "status": "starter" },
+              { "number": 3, "name": "Luke Shaw", "pos": "LB", "status": "starter" },
+              { "number": 26, "name": "Kobbie Mainoo", "pos": "CM", "status": "starter", "events": [{"type": "out", "min": "70'"}] },
+              { "number": 4, "name": "Declan Rice", "pos": "CM", "status": "starter" },
+              { "number": 7, "name": "Bukayo Saka", "pos": "RW", "status": "starter" },
+              { "number": 11, "name": "Phil Foden", "pos": "AM", "status": "starter", "events": [{"type": "out", "min": "89'"}] },
+              { "number": 10, "name": "Jude Bellingham", "pos": "LW", "status": "starter" },
+              { "number": 9, "name": "Harry Kane", "pos": "CF", "status": "starter", "events": [{"type": "yellow", "min": "25'"}, {"type": "out", "min": "61'"}] },
+              { "number": 19, "name": "Ollie Watkins", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "61'"}, {"type": "yellow", "min": "90+1'"}] },
+              { "number": 24, "name": "Cole Palmer", "pos": "MF", "status": "bench", "events": [{"type": "in", "min": "70'"}, {"type": "goal", "min": "73'"}] },
+              { "number": 17, "name": "Ivan Toney", "pos": "FW", "status": "bench", "events": [{"type": "in", "min": "89'"}] },
+              { "number": 13, "name": "Aaron Ramsdale", "pos": "GK", "status": "bench" },
+              { "number": 23, "name": "Dean Henderson", "pos": "GK", "status": "bench" },
+              { "number": 8, "name": "Trent Alexander-Arnold", "pos": "DF", "status": "bench" },
+              { "number": 12, "name": "Kieran Trippier", "pos": "DF", "status": "bench" },
+              { "number": 14, "name": "Ezri Konsa", "pos": "DF", "status": "bench" },
+              { "number": 15, "name": "Lewis Dunk", "pos": "DF", "status": "bench" },
+              { "number": 22, "name": "Joe Gomez", "pos": "DF", "status": "bench" },
+              { "number": 16, "name": "Conor Gallagher", "pos": "MF", "status": "bench" },
+              { "number": 25, "name": "Adam Wharton", "pos": "MF", "status": "bench" },
+              { "number": 18, "name": "Anthony Gordon", "pos": "FW", "status": "bench" },
+              { "number": 20, "name": "Jarrod Bowen", "pos": "FW", "status": "bench" },
+              { "number": 21, "name": "Eberechi Eze", "pos": "FW", "status": "bench" }
+            ]
+          },
+          "events": [
+            { "side": "left", "player": "Nico Williams", "minute": "47", "type": "goal" },
+            { "side": "right", "player": "Cole Palmer", "minute": "73", "type": "goal" },
+            { "side": "left", "player": "Mikel Oyarzabal", "minute": "86", "type": "goal" }
+          ],
+          "stats": {
+            "possession": { "t1": "65", "t2": "35", "label": "Possession %" },
+            "shots": { "t1": "16", "t2": "9", "label": "Total Shots" },
+            "sot": { "t1": "6", "t2": "4", "label": "Shots on Target" },
+            "xg": { "t1": "1.95", "t2": "0.53", "label": "Expected Goals (xG)" },
+            "corners": { "t1": "10", "t2": "2", "label": "Corners" },
+            "offside": { "t1": "1", "t2": "0", "label": "Offsides" },
+            "yellow": { "t1": "1", "t2": "3", "label": "Yellow Cards" },
+            "red": { "t1": "0", "t2": "0", "label": "Red Cards" },
+            "fouls": { "t1": "11", "t2": "5", "label": "Fouls Committed" }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1344 @@
+{
+  "SCHEDULE": [
+    {
+      "phase": "Group Stage",
+      "group": "Group A",
+      "matches": [
+        {
+          "id": "m1",
+          "date": "11 Jun",
+          "time": "22:00",
+          "stadium": "Estadio Azteca",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "team1": { "name": "Mexico", "code": "mx", "score": 0 },
+          "team2": { "name": "South Africa", "code": "za", "score": 0 },
+          "status": "Scheduled"
+        },
+        {
+          "id": "m2",
+          "date": "12 Jun",
+          "time": "05:00",
+          "stadium": "Estadio Akron",
+          "city": "Guadalajara",
+          "country": "Mexico",
+          "team1": { "name": "South Korea", "code": "kr", "score": 0 },
+          "team2": { "name": "Czech Republic", "code": "cz", "score": 0 },
+          "status": "Scheduled"
+        },
+        {
+          "id": "m3",
+          "date": "18 Jun",
+          "time": "19:00",
+          "stadium": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "country": "USA",
+          "team1": { "name": "Czech Republic", "code": "cz", "score": 0 },
+          "team2": { "name": "South Africa", "code": "za", "score": 0 },
+          "status": "Scheduled"
+        },
+        {
+          "id": "m4",
+          "date": "19 Jun",
+          "time": "04:00",
+          "stadium": "Estadio Akron",
+          "city": "Guadalajara",
+          "country": "Mexico",
+          "team1": { "name": "Mexico", "code": "mx", "score": 0 },
+          "team2": { "name": "South Korea", "code": "kr", "score": 0 },
+          "status": "Scheduled"
+        },
+        {
+          "id": "m5",
+          "date": "25 Jun",
+          "time": "04:00",
+          "stadium": "Estadio Azteca",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "team1": { "name": "Czech Republic", "code": "cz", "score": 0 },
+          "team2": { "name": "Mexico", "code": "mx", "score": 0 },
+          "status": "Scheduled"
+        },
+        {
+          "id": "m6",
+          "date": "25 Jun",
+          "time": "04:00",
+          "stadium": "Estadio BBVA",
+          "city": "Monterrey",
+          "country": "Mexico",
+          "team1": { "name": "South Africa", "code": "za", "score": 0 },
+          "team2": { "name": "South Korea", "code": "kr", "score": 0 },
+          "status": "Scheduled"
+        }
+      ],
+      "standings": [
+        { "team": "Mexico", "code": "mx", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "team": "South Africa", "code": "za", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "team": "South Korea", "code": "kr", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "team": "Czech Republic", "code": "cz", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+      ]
+    },
+    {
+  "phase": "Group Stage",
+  "group": "Group B",
+  "matches": [
+    {
+      "id": "m7",
+      "date": "12 Jun",
+      "time": "22:00",
+      "stadium": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "team1": { "name": "Canada", "code": "ca", "score": 0 },
+      "team2": { "name": "Bosnia and Herzegovina", "code": "ba", "score": 0 },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m8",
+      "date": "13 Jun",
+      "time": "22:00",
+      "stadium": "Levi's Stadium",
+      "city": "Santa Clara",
+      "country": "USA",
+      "team1": { "name": "Qatar", "code": "qa", "score": 0 },
+      "team2": { "name": "Switzerland", "code": "ch", "score": 0 },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m9",
+      "date": "18 Jun",
+      "time": "22:00",
+      "stadium": "SoFi Stadium",
+      "city": "Inglewood",
+      "country": "USA",
+      "team1": { "name": "Switzerland", "code": "ch", "score": 0 },
+      "team2": { "name": "Bosnia and Herzegovina", "code": "ba", "score": 0 },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m10",
+      "date": "19 Jun",
+      "time": "01:00",
+      "stadium": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "team1": { "name": "Canada", "code": "ca", "score": 0 },
+      "team2": { "name": "Qatar", "code": "qa", "score": 0 },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m11",
+      "date": "24 Jun",
+      "time": "22:00",
+      "stadium": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "team1": { "name": "Switzerland", "code": "ch", "score": 0 },
+      "team2": { "name": "Canada", "code": "ca", "score": 0 },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m12",
+      "date": "24 Jun",
+      "time": "22:00",
+      "stadium": "Lumen Field",
+      "city": "Seattle",
+      "country": "USA",
+      "team1": { "name": "Bosnia and Herzegovina", "code": "ba", "score": 0 },
+      "team2": { "name": "Qatar", "code": "qa", "score": 0 },
+      "status": "Scheduled"
+    }
+  ],
+  "standings": [
+    { "team": "Canada", "code": "ca", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Switzerland", "code": "ch", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Bosnia and Herzegovina", "code": "ba", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Qatar", "code": "qa", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+  ]
+},
+{
+  "phase": "Group Stage",
+  "group": "Group C",
+  "matches": [
+    {
+      "id": "m13",
+      "date": "14 Jun",
+      "time": "01:00",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford",
+      "country": "USA",
+      "team1": { "name": "Brazil", "code": "br", "score": 0 },
+      "team2": { "name": "Morocco", "code": "ma", "score": 0 },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m14",
+      "date": "14 Jun",
+      "time": "04:00",
+      "stadium": "Gillette Stadium",
+      "city": "Foxborough",
+      "country": "USA",
+      "team1": { "name": "Haiti", "code": "ht", "score": 0 },
+      "team2": { "name": "Scotland", "code": "gb-sct", "score": 0 },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m15",
+      "date": "20 Jun",
+      "time": "01:00",
+      "stadium": "Gillette Stadium",
+      "city": "Foxborough",
+      "country": "USA",
+      "team1": { "name": "Scotland", "code": "gb-sct", "score": 0 },
+      "team2": { "name": "Morocco", "code": "ma", "score": 0 },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m16",
+      "date": "20 Jun",
+      "time": "03:30",
+      "stadium": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": "USA",
+      "team1": { "name": "Brazil", "code": "br", "score": 0 },
+      "team2": { "name": "Haiti", "code": "ht", "score": 0 },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m17",
+      "date": "25 Jun",
+      "time": "01:00",
+      "stadium": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "country": "USA",
+      "team1": { "name": "Scotland", "code": "gb-sct", "score": 0 },
+      "team2": { "name": "Brazil", "code": "br", "score": 0 },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m18",
+      "date": "25 Jun",
+      "time": "01:00",
+      "stadium": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "team1": { "name": "Morocco", "code": "ma", "score": 0 },
+      "team2": { "name": "Haiti", "code": "ht", "score": 0 },
+      "status": "Scheduled"
+    }
+  ],
+  "standings": [
+    { "team": "Brazil", "code": "br", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Morocco", "code": "ma", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Scotland", "code": "gb-sct", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Haiti", "code": "ht", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+  ]
+},
+{
+  "phase": "Group Stage",
+  "group": "Group D",
+  "matches": [
+    {
+      "id": "m19",
+      "date": "13 Jun",
+      "time": "04:00",
+      "stadium": "SoFi Stadium",
+      "city": "Inglewood",
+      "country": "USA",
+      "team1": { "name": "United States", "code": "us", "score": 0, "scorers": "" },
+      "team2": { "name": "Paraguay", "code": "py", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m20",
+      "date": "14 Jun",
+      "time": "07:00",
+      "stadium": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "team1": { "name": "Australia", "code": "au", "score": 0, "scorers": "" },
+      "team2": { "name": "Turkey", "code": "tr", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m21",
+      "date": "19 Jun",
+      "time": "22:00",
+      "stadium": "Lumen Field",
+      "city": "Seattle",
+      "country": "USA",
+      "team1": { "name": "United States", "code": "us", "score": 0, "scorers": "" },
+      "team2": { "name": "Australia", "code": "au", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m22",
+      "date": "20 Jun",
+      "time": "06:00",
+      "stadium": "Levi's Stadium",
+      "city": "Santa Clara",
+      "country": "USA",
+      "team1": { "name": "Turkey", "code": "tr", "score": 0, "scorers": "" },
+      "team2": { "name": "Paraguay", "code": "py", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m23",
+      "date": "26 Jun",
+      "time": "05:00",
+      "stadium": "SoFi Stadium",
+      "city": "Inglewood",
+      "country": "USA",
+      "team1": { "name": "Turkey", "code": "tr", "score": 0, "scorers": "" },
+      "team2": { "name": "United States", "code": "us", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m24",
+      "date": "26 Jun",
+      "time": "05:00",
+      "stadium": "Levi's Stadium",
+      "city": "Santa Clara",
+      "country": "USA",
+      "team1": { "name": "Paraguay", "code": "py", "score": 0, "scorers": "" },
+      "team2": { "name": "Australia", "code": "au", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    }
+  ],
+  "standings": [
+    { "team": "United States", "code": "us", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Turkey", "code": "tr", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Australia", "code": "au", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Paraguay", "code": "py", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+  ]
+},
+{
+  "phase": "Group Stage",
+  "group": "Group E",
+  "matches": [
+    {
+      "id": "m25",
+      "date": "14 Jun",
+      "time": "20:00",
+      "stadium": "NRG Stadium",
+      "city": "Houston",
+      "country": "USA",
+      "team1": { "name": "Germany", "code": "de", "score": 0, "scorers": "" },
+      "team2": { "name": "Curaçao", "code": "cw", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m26",
+      "date": "15 Jun",
+      "time": "02:00",
+      "stadium": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": "USA",
+      "team1": { "name": "Ivory Coast", "code": "ci", "score": 0, "scorers": "" },
+      "team2": { "name": "Ecuador", "code": "ec", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m27",
+      "date": "20 Jun",
+      "time": "23:00",
+      "stadium": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "team1": { "name": "Germany", "code": "de", "score": 0, "scorers": "" },
+      "team2": { "name": "Ivory Coast", "code": "ci", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m28",
+      "date": "21 Jun",
+      "time": "03:00",
+      "stadium": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "USA",
+      "team1": { "name": "Ecuador", "code": "ec", "score": 0, "scorers": "" },
+      "team2": { "name": "Curaçao", "code": "cw", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m29",
+      "date": "25 Jun",
+      "time": "23:00",
+      "stadium": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": "USA",
+      "team1": { "name": "Curaçao", "code": "cw", "score": 0, "scorers": "" },
+      "team2": { "name": "Ivory Coast", "code": "ci", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m30",
+      "date": "25 Jun",
+      "time": "23:00",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford",
+      "country": "USA",
+      "team1": { "name": "Ecuador", "code": "ec", "score": 0, "scorers": "" },
+      "team2": { "name": "Germany", "code": "de", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    }
+  ],
+  "standings": [
+    { "team": "Germany", "code": "de", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Ecuador", "code": "ec", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Ivory Coast", "code": "ci", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Curaçao", "code": "cw", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+  ]
+},
+{
+  "phase": "Group Stage",
+  "group": "Group F",
+  "matches": [
+    {
+      "id": "m31",
+      "date": "14 Jun",
+      "time": "23:00",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington",
+      "country": "USA",
+      "team1": { "name": "Netherlands", "code": "nl", "score": 0, "scorers": "" },
+      "team2": { "name": "Japan", "code": "jp", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m32",
+      "date": "15 Jun",
+      "time": "05:00",
+      "stadium": "Estadio BBVA",
+      "city": "Monterrey",
+      "country": "Mexico",
+      "team1": { "name": "Sweden", "code": "se", "score": 0, "scorers": "" },
+      "team2": { "name": "Tunisia", "code": "tn", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m33",
+      "date": "20 Jun",
+      "time": "20:00",
+      "stadium": "NRG Stadium",
+      "city": "Houston",
+      "country": "USA",
+      "team1": { "name": "Netherlands", "code": "nl", "score": 0, "scorers": "" },
+      "team2": { "name": "Sweden", "code": "se", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m34",
+      "date": "21 Jun",
+      "time": "00:00",
+      "stadium": "Estadio BBVA",
+      "city": "Monterrey",
+      "country": "Mexico",
+      "team1": { "name": "Tunisia", "code": "tn", "score": 0, "scorers": "" },
+      "team2": { "name": "Japan", "code": "jp", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m35",
+      "date": "26 Jun",
+      "time": "02:00",
+      "stadium": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "USA",
+      "team1": { "name": "Tunisia", "code": "tn", "score": 0, "scorers": "" },
+      "team2": { "name": "Netherlands", "code": "nl", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m36",
+      "date": "26 Jun",
+      "time": "02:00",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington",
+      "country": "USA",
+      "team1": { "name": "Japan", "code": "jp", "score": 0, "scorers": "" },
+      "team2": { "name": "Sweden", "code": "se", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    }
+  ],
+  "standings": [
+    { "team": "Netherlands", "code": "nl", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Japan", "code": "jp", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Sweden", "code": "se", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Tunisia", "code": "tn", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+  ]
+},
+{
+  "phase": "Group Stage",
+  "group": "Group G",
+  "matches": [
+    {
+      "id": "m37",
+      "date": "15 Jun",
+      "time": "22:00",
+      "stadium": "Lumen Field",
+      "city": "Seattle",
+      "country": "USA",
+      "team1": { "name": "Belgium", "code": "be", "score": 0, "scorers": "" },
+      "team2": { "name": "Egypt", "code": "eg", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m38",
+      "date": "16 Jun",
+      "time": "04:00",
+      "stadium": "SoFi Stadium",
+      "city": "Inglewood",
+      "country": "USA",
+      "team1": { "name": "Iran", "code": "ir", "score": 0, "scorers": "" },
+      "team2": { "name": "New Zealand", "code": "nz", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m39",
+      "date": "21 Jun",
+      "time": "22:00",
+      "stadium": "SoFi Stadium",
+      "city": "Inglewood",
+      "country": "USA",
+      "team1": { "name": "Belgium", "code": "be", "score": 0, "scorers": "" },
+      "team2": { "name": "Iran", "code": "ir", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m40",
+      "date": "22 Jun",
+      "time": "04:00",
+      "stadium": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "team1": { "name": "New Zealand", "code": "nz", "score": 0, "scorers": "" },
+      "team2": { "name": "Egypt", "code": "eg", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m41",
+      "date": "27 Jun",
+      "time": "06:00",
+      "stadium": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "team1": { "name": "New Zealand", "code": "nz", "score": 0, "scorers": "" },
+      "team2": { "name": "Belgium", "code": "be", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m42",
+      "date": "27 Jun",
+      "time": "06:00",
+      "stadium": "Lumen Field",
+      "city": "Seattle",
+      "country": "USA",
+      "team1": { "name": "Egypt", "code": "eg", "score": 0, "scorers": "" },
+      "team2": { "name": "Iran", "code": "ir", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    }
+  ],
+  "standings": [
+    { "team": "Belgium", "code": "be", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Iran", "code": "ir", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Egypt", "code": "eg", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "New Zealand", "code": "nz", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+  ]
+},
+{
+  "phase": "Group Stage",
+  "group": "Group H",
+  "matches": [
+    {
+      "id": "m43",
+      "date": "15 Jun",
+      "time": "19:00",
+      "stadium": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "team1": { "name": "Spain", "code": "es", "score": 0, "scorers": "" },
+      "team2": { "name": "Cape Verde", "code": "cv", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m44",
+      "date": "16 Jun",
+      "time": "01:00",
+      "stadium": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "country": "USA",
+      "team1": { "name": "Saudi Arabia", "code": "sa", "score": 0, "scorers": "" },
+      "team2": { "name": "Uruguay", "code": "uy", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m45",
+      "date": "21 Jun",
+      "time": "19:00",
+      "stadium": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "team1": { "name": "Spain", "code": "es", "score": 0, "scorers": "" },
+      "team2": { "name": "Saudi Arabia", "code": "sa", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m46",
+      "date": "22 Jun",
+      "time": "01:00",
+      "stadium": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "country": "USA",
+      "team1": { "name": "Uruguay", "code": "uy", "score": 0, "scorers": "" },
+      "team2": { "name": "Cape Verde", "code": "cv", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m47",
+      "date": "27 Jun",
+      "time": "04:00",
+      "stadium": "NRG Stadium",
+      "city": "Houston",
+      "country": "USA",
+      "team1": { "name": "Spain", "code": "es", "score": 0, "scorers": "" },
+      "team2": { "name": "Uruguay", "code": "uy", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m48",
+      "date": "27 Jun",
+      "time": "04:00",
+      "stadium": "Estadio Akron",
+      "city": "Zapopan",
+      "country": "Mexico",
+      "team1": { "name": "Cape Verde", "code": "cv", "score": 0, "scorers": "" },
+      "team2": { "name": "Saudi Arabia", "code": "sa", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    }
+  ],
+  "standings": [
+    { "team": "Spain", "code": "es", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Uruguay", "code": "uy", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Saudi Arabia", "code": "sa", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Cape Verde", "code": "cv", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+  ]
+},
+{
+  "phase": "Group Stage",
+  "group": "Group I",
+  "matches": [
+    {
+      "id": "m17",
+      "date": "16 Jun",
+      "time": "22:00",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford",
+      "country": "USA",
+      "team1": { "name": "France", "code": "fr", "score": 0, "scorers": "" },
+      "team2": { "name": "Senegal", "code": "sn", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m18",
+      "date": "17 Jun",
+      "time": "01:00",
+      "stadium": "Gillette Stadium",
+      "city": "Foxborough",
+      "country": "USA",
+      "team1": { "name": "Iraq", "code": "iq", "score": 0, "scorers": "" },
+      "team2": { "name": "Norway", "code": "no", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m41",
+      "date": "23 Jun",
+      "time": "03:00",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford",
+      "country": "USA",
+      "team1": { "name": "Norway", "code": "no", "score": 0, "scorers": "" },
+      "team2": { "name": "Senegal", "code": "sn", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m42",
+      "date": "23 Jun",
+      "time": "00:00",
+      "stadium": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": "USA",
+      "team1": { "name": "France", "code": "fr", "score": 0, "scorers": "" },
+      "team2": { "name": "Iraq", "code": "iq", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m61",
+      "date": "26 Jun",
+      "time": "22:00",
+      "stadium": "Gillette Stadium",
+      "city": "Foxborough",
+      "country": "USA",
+      "team1": { "name": "Norway", "code": "no", "score": 0, "scorers": "" },
+      "team2": { "name": "France", "code": "fr", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m62",
+      "date": "26 Jun",
+      "time": "22:00",
+      "stadium": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "team1": { "name": "Senegal", "code": "sn", "score": 0, "scorers": "" },
+      "team2": { "name": "Iraq", "code": "iq", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    }
+  ],
+  "standings": [
+    { "team": "France", "code": "fr", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Senegal", "code": "sn", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Norway", "code": "no", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Iraq", "code": "iq", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+  ]
+},
+{
+  "phase": "Group Stage",
+  "group": "Group J",
+  "matches": [
+    {
+      "id": "m19",
+      "date": "17 Jun",
+      "time": "04:00",
+      "stadium": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "USA",
+      "team1": { "name": "Argentina", "code": "ar", "score": 0, "scorers": "" },
+      "team2": { "name": "Algeria", "code": "dz", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m20",
+      "date": "17 Jun",
+      "time": "07:00",
+      "stadium": "Levi's Stadium",
+      "city": "Santa Clara",
+      "country": "USA",
+      "team1": { "name": "Austria", "code": "at", "score": 0, "scorers": "" },
+      "team2": { "name": "Jordan", "code": "jo", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m43",
+      "date": "22 Jun",
+      "time": "20:00",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington",
+      "country": "USA",
+      "team1": { "name": "Argentina", "code": "ar", "score": 0, "scorers": "" },
+      "team2": { "name": "Austria", "code": "at", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m44",
+      "date": "23 Jun",
+      "time": "06:00",
+      "stadium": "Levi's Stadium",
+      "city": "Santa Clara",
+      "country": "USA",
+      "team1": { "name": "Jordan", "code": "jo", "score": 0, "scorers": "" },
+      "team2": { "name": "Algeria", "code": "dz", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m69",
+      "date": "28 Jun",
+      "time": "05:00",
+      "stadium": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "USA",
+      "team1": { "name": "Algeria", "code": "dz", "score": 0, "scorers": "" },
+      "team2": { "name": "Austria", "code": "at", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m70",
+      "date": "28 Jun",
+      "time": "05:00",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington",
+      "country": "USA",
+      "team1": { "name": "Jordan", "code": "jo", "score": 0, "scorers": "" },
+      "team2": { "name": "Argentina", "code": "ar", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    }
+  ],
+  "standings": [
+    { "team": "Argentina", "code": "ar", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Austria", "code": "at", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Algeria", "code": "dz", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Jordan", "code": "jo", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+  ]
+},
+{
+  "phase": "Group Stage",
+  "group": "Group K",
+  "matches": [
+    {
+      "id": "m61",
+      "date": "17 Jun",
+      "time": "20:00",
+      "stadium": "NRG Stadium",
+      "city": "Houston",
+      "country": "USA",
+      "team1": { "name": "Portugal", "code": "pt", "score": 0, "scorers": "" },
+      "team2": { "name": "DR Congo", "code": "cd", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m62",
+      "date": "18 Jun",
+      "time": "05:00",
+      "stadium": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "team1": { "name": "Uzbekistan", "code": "uz", "score": 0, "scorers": "" },
+      "team2": { "name": "Colombia", "code": "co", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m85",
+      "date": "23 Jun",
+      "time": "20:00",
+      "stadium": "NRG Stadium",
+      "city": "Houston",
+      "country": "USA",
+      "team1": { "name": "Portugal", "code": "pt", "score": 0, "scorers": "" },
+      "team2": { "name": "Uzbekistan", "code": "uz", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m86",
+      "date": "24 Jun",
+      "time": "05:00",
+      "stadium": "Estadio Akron",
+      "city": "Zapopan",
+      "country": "Mexico",
+      "team1": { "name": "Colombia", "code": "co", "score": 0, "scorers": "" },
+      "team2": { "name": "DR Congo", "code": "cd", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m97",
+      "date": "28 Jun",
+      "time": "02:30",
+      "stadium": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "country": "USA",
+      "team1": { "name": "Colombia", "code": "co", "score": 0, "scorers": "" },
+      "team2": { "name": "Portugal", "code": "pt", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m98",
+      "date": "28 Jun",
+      "time": "02:30",
+      "stadium": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "team1": { "name": "DR Congo", "code": "cd", "score": 0, "scorers": "" },
+      "team2": { "name": "Uzbekistan", "code": "uz", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    }
+  ],
+  "standings": [
+    { "team": "Portugal", "code": "pt", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Colombia", "code": "co", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Uzbekistan", "code": "uz", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "DR Congo", "code": "cd", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+  ]
+},
+{
+  "phase": "Group Stage",
+  "group": "Group L",
+  "matches": [
+    {
+      "id": "m63",
+      "date": "17 Jun",
+      "time": "23:00",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington",
+      "country": "USA",
+      "team1": { "name": "England", "code": "gb-eng", "score": 0, "scorers": "" },
+      "team2": { "name": "Croatia", "code": "hr", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m64",
+      "date": "18 Jun",
+      "time": "02:00",
+      "stadium": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "team1": { "name": "Ghana", "code": "gh", "score": 0, "scorers": "" },
+      "team2": { "name": "Panama", "code": "pa", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m87",
+      "date": "23 Jun",
+      "time": "23:00",
+      "stadium": "Gillette Stadium",
+      "city": "Foxborough",
+      "country": "USA",
+      "team1": { "name": "England", "code": "gb-eng", "score": 0, "scorers": "" },
+      "team2": { "name": "Ghana", "code": "gh", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m88",
+      "date": "24 Jun",
+      "time": "02:00",
+      "stadium": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "team1": { "name": "Panama", "code": "pa", "score": 0, "scorers": "" },
+      "team2": { "name": "Croatia", "code": "hr", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m103",
+      "date": "28 Jun",
+      "time": "00:00",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford",
+      "country": "USA",
+      "team1": { "name": "Panama", "code": "pa", "score": 0, "scorers": "" },
+      "team2": { "name": "England", "code": "gb-eng", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    },
+    {
+      "id": "m104",
+      "date": "28 Jun",
+      "time": "00:00",
+      "stadium": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": "USA",
+      "team1": { "name": "Croatia", "code": "hr", "score": 0, "scorers": "" },
+      "team2": { "name": "Ghana", "code": "gh", "score": 0, "scorers": "" },
+      "status": "Scheduled"
+    }
+  ],
+  "standings": [
+    { "team": "England", "code": "gb-eng", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Croatia", "code": "hr", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Ghana", "code": "gh", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+    { "team": "Panama", "code": "pa", "m": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+  ]
+},
+{
+  "phase": "Round of 32",
+  "matches": [
+    {
+      "id": "73",
+      "date": "29 Jun",
+      "time": "05:00",
+      "stadium": "SoFi Stadium",
+      "city": "Inglewood",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "2A", "name": "Runner-up Group A", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "2B", "name": "Runner-up Group B", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "74",
+      "date": "29 Jun",
+      "time": "23:30",
+      "stadium": "Gillette Stadium",
+      "city": "Foxborough",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "1E", "name": "Winner Group E", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "3rd A/B/C/D/F", "name": "3rd Group A/B/C/D/F", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "75",
+      "date": "30 Jun",
+      "time": "04:00",
+      "stadium": "Estadio BBVA",
+      "city": "Guadalupe",
+      "country": "Mexico",
+      "status": "Scheduled",
+      "team1": { "placeholder": "1F", "name": "Winner Group F", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "2C", "name": "Runner-up Group C", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "76",
+      "date": "29 Jun",
+      "time": "20:00",
+      "stadium": "NRG Stadium",
+      "city": "Houston",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "1C", "name": "Winner Group C", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "2F", "name": "Runner-up Group F", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "77",
+      "date": "01 Jul",
+      "time": "00:00",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "1I", "name": "Winner Group I", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "3rd C/D/F/G/H", "name": "3rd Group C/D/F/G/H", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "78",
+      "date": "30 Jun",
+      "time": "20:00",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "2E", "name": "Runner-up Group E", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "2I", "name": "Runner-up Group I", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "79",
+      "date": "01 Jul",
+      "time": "04:00",
+      "stadium": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "status": "Scheduled",
+      "team1": { "placeholder": "1A", "name": "Winner Group A", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "3rd C/E/F/H/I", "name": "3rd Group C/E/F/H/I", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "80",
+      "date": "01 Jul",
+      "time": "19:00",
+      "stadium": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "1L", "name": "Winner Group L", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "3rd E/H/I/J/K", "name": "3rd Group E/H/I/J/K", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "81",
+      "date": "02 Jul",
+      "time": "03:00",
+      "stadium": "Levi's Stadium",
+      "city": "Santa Clara",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "1D", "name": "Winner Group D", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "3rd B/E/F/I/J", "name": "3rd Group B/E/F/I/J", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "82",
+      "date": "01 Jul",
+      "time": "23:00",
+      "stadium": "Lumen Field",
+      "city": "Seattle",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "1G", "name": "Winner Group G", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "3rd A/E/H/I/J", "name": "3rd Group A/E/H/I/J", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "83",
+      "date": "03 Jul",
+      "time": "02:00",
+      "stadium": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "status": "Scheduled",
+      "team1": { "placeholder": "2K", "name": "Runner-up Group K", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "2L", "name": "Runner-up Group L", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "84",
+      "date": "02 Jul",
+      "time": "22:00",
+      "stadium": "SoFi Stadium",
+      "city": "Inglewood",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "1H", "name": "Winner Group H", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "2J", "name": "Runner-up Group J", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "85",
+      "date": "03 Jul",
+      "time": "06:00",
+      "stadium": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "status": "Scheduled",
+      "team1": { "placeholder": "1B", "name": "Winner Group B", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "3rd E/F/G/I/J", "name": "3rd Group E/F/G/I/J", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "86",
+      "date": "04 Jul",
+      "time": "01:00",
+      "stadium": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "1J", "name": "Winner Group J", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "2H", "name": "Runner-up Group H", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "87",
+      "date": "04 Jul",
+      "time": "04:30",
+      "stadium": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "1K", "name": "Winner Group K", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "3rd D/E/I/J/L", "name": "3rd Group D/E/I/J/L", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "88",
+      "date": "03 Jul",
+      "time": "21:00",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "2D", "name": "Runner-up Group D", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "2G", "name": "Runner-up Group G", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    }
+  ]
+},
+{
+  "phase": "Round of 16",
+  "matches": [
+    {
+      "id": "89",
+      "date": "05 Jul",
+      "time": "00:00",
+      "stadium": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 74", "name": "Winner Match 74", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "Winner Match 77", "name": "Winner Match 77", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "90",
+      "date": "04 Jul",
+      "time": "20:00",
+      "stadium": "NRG Stadium",
+      "city": "Houston",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 73", "name": "Winner Match 73", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "Winner Match 75", "name": "Winner Match 75", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "91",
+      "date": "05 Jul",
+      "time": "23:00",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 76", "name": "Winner Match 76", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "Winner Match 78", "name": "Winner Match 78", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "92",
+      "date": "06 Jul",
+      "time": "03:00",
+      "stadium": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 79", "name": "Winner Match 79", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "Winner Match 80", "name": "Winner Match 80", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "93",
+      "date": "06 Jul",
+      "time": "22:00",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 83", "name": "Winner Match 83", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "Winner Match 84", "name": "Winner Match 84", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "94",
+      "date": "07 Jul",
+      "time": "03:00",
+      "stadium": "Lumen Field",
+      "city": "Seattle",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 81", "name": "Winner Match 81", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "Winner Match 82", "name": "Winner Match 82", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "95",
+      "date": "07 Jul",
+      "time": "19:00",
+      "stadium": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 86", "name": "Winner Match 86", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "Winner Match 88", "name": "Winner Match 88", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "96",
+      "date": "07 Jul",
+      "time": "23:00",
+      "stadium": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 85", "name": "Winner Match 85", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "Winner Match 87", "name": "Winner Match 87", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    }
+  ]
+},
+{
+  "phase": "Quarter-finals",
+  "matches": [
+    {
+      "id": "97",
+      "date": "09 Jul",
+      "time": "23:00",
+      "stadium": "Gillette Stadium",
+      "city": "Foxborough",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 89", "name": "Winner Match 89", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "Winner Match 90", "name": "Winner Match 90", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "98",
+      "date": "10 Jul",
+      "time": "22:00",
+      "stadium": "SoFi Stadium",
+      "city": "Inglewood",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 93", "name": "Winner Match 93", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "Winner Match 94", "name": "Winner Match 94", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "99",
+      "date": "12 Jul",
+      "time": "00:00",
+      "stadium": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 91", "name": "Winner Match 91", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "Winner Match 92", "name": "Winner Match 92", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    },
+    {
+      "id": "100",
+      "date": "12 Jul",
+      "time": "04:00",
+      "stadium": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "USA",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 95", "name": "Winner Match 95", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" },
+      "team2": { "placeholder": "Winner Match 96", "name": "Winner Match 96", "score": 0, "penalties": 0, "scorers120": "", "shootout": "" }
+    }
+  ]
+},
+{
+  "phase": "Semi-finals",
+  "matches": [
+    {
+      "id": "101",
+      "date": "15 Jul",
+      "time": "03:00",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington",
+      "country": "USA",
+      "referee": "To be appointed",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 97", "name": "Winner Match 97", "score": 0, "penalties": 0, "scorers120": "", "shootout": "", "lineup": [] },
+      "team2": { "placeholder": "Winner Match 98", "name": "Winner Match 98", "score": 0, "penalties": 0, "scorers120": "", "shootout": "", "lineup": [] }
+    },
+    {
+      "id": "102",
+      "date": "16 Jul",
+      "time": "03:00",
+      "stadium": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "referee": "To be appointed",
+      "status": "Scheduled",
+      "team1": { "placeholder": "Winner Match 99", "name": "Winner Match 99", "score": 0, "penalties": 0, "scorers120": "", "shootout": "", "lineup": [] },
+      "team2": { "placeholder": "Winner Match 100", "name": "Winner Match 100", "score": 0, "penalties": 0, "scorers120": "", "shootout": "", "lineup": [] }
+    }
+  ]
+},
+{
+  "phase": "3rd Place Playoff",
+  "matches": [
+    {
+      "id": "103",
+      "date": "18 Jul",
+      "time": "23:00",
+      "stadium": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "referee": "TO BE APPOINTED",
+      "status": "Scheduled",
+      "team1": { 
+        "placeholder": "Loser Match 101", 
+        "name": "Loser Match 101", 
+        "score": 0, "penalties": 0, "scorers120": "", "penalty_shootout": "",
+        "lineup_start": [], "lineup_bench": [], "coach": "" 
+      },
+      "team2": { 
+        "placeholder": "Loser Match 102", 
+        "name": "Loser Match 102", 
+        "score": 0, "penalties": 0, "scorers120": "", "penalty_shootout": "",
+        "lineup_start": [], "lineup_bench": [], "coach": "" 
+      }
+    }
+  ]
+},
+{
+  "phase": "Final",
+  "matches": [
+    {
+      "id": "104",
+      "date": "19 Jul",
+      "time": "23:00",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford",
+      "referee": "TO BE APPOINTED",
+      "status": "Scheduled",
+      "team1": { 
+        "placeholder": "Winner Match 101", 
+        "name": "Winner Match 101", 
+        "score": 0, "penalties": 0, "scorers120": "", "penalty_shootout": "",
+        "lineup_start": [], "lineup_bench": [], "coach": "" 
+      },
+      "team2": { 
+        "placeholder": "Winner Match 102", 
+        "name": "Winner Match 102", 
+        "score": 0, "penalties": 0, "scorers120": "", "penalty_shootout": "",
+        "lineup_start": [], "lineup_bench": [], "coach": "" 
+      }
+    }
+  ]
+}
+  ]
+}

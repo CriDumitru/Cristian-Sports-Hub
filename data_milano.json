@@ -1,0 +1,2772 @@
+{
+  "MEDALS": [
+    { "rank": 1, "country": "Norway", "code": "no", "gold": 18, "silver": 12, "bronze": 11, "total": 41, "athletes": 84 },
+    { "rank": 2, "country": "United States", "code": "us", "gold": 12, "silver": 12, "bronze": 9, "total": 33, "athletes": 224 },
+    { "rank": 3, "country": "Netherlands", "code": "nl", "gold": 10, "silver": 7, "bronze": 3, "total": 20, "athletes": 41 },
+    { "rank": 4, "country": "Italy", "code": "it", "gold": 10, "silver": 6, "bronze": 14, "total": 30, "athletes": 118 },
+    { "rank": 5, "country": "Germany", "code": "de", "gold": 8, "silver": 10, "bronze": 8, "total": 26, "athletes": 149 },
+    { "rank": 6, "country": "France", "code": "fr", "gold": 8, "silver": 9, "bronze": 6, "total": 23, "athletes": 86 },
+    { "rank": 7, "country": "Sweden", "code": "se", "gold": 8, "silver": 6, "bronze": 4, "total": 18, "athletes": 116 },
+    { "rank": 8, "country": "Switzerland", "code": "ch", "gold": 6, "silver": 9, "bronze": 8, "total": 23, "athletes": 167 },
+    { "rank": 9, "country": "Austria", "code": "at", "gold": 5, "silver": 8, "bronze": 5, "total": 18, "athletes": 106 },
+    { "rank": 10, "country": "Japan", "code": "jp", "gold": 5, "silver": 7, "bronze": 12, "total": 24, "athletes": 124 },
+    { "rank": 11, "country": "Canada", "code": "ca", "gold": 5, "silver": 7, "bronze": 9, "total": 21, "athletes": 215 },
+    { "rank": 12, "country": "China", "code": "cn", "gold": 5, "silver": 4, "bronze": 6, "total": 15, "athletes": 174 },
+    { "rank": 13, "country": "South Korea", "code": "kr", "gold": 3, "silver": 4, "bronze": 3, "total": 10, "athletes": 64 },
+    { "rank": 14, "country": "Australia", "code": "au", "gold": 3, "silver": 2, "bronze": 1, "total": 6, "athletes": 43 },
+    { "rank": 15, "country": "Great Britain", "code": "gb", "gold": 3, "silver": 1, "bronze": 1, "total": 5, "athletes": 50 },
+    { "rank": 16, "country": "Czech Republic", "code": "cz", "gold": 2, "silver": 2, "bronze": 1, "total": 5, "athletes": 114 },
+    { "rank": 17, "country": "Slovenia", "code": "si", "gold": 2, "silver": 1, "bronze": 1, "total": 4, "athletes": 42 },
+    { "rank": 18, "country": "Spain", "code": "es", "gold": 1, "silver": 0, "bronze": 2, "total": 3, "athletes": 14 },
+    { "rank": 19, "country": "Brazil", "code": "br", "gold": 1, "silver": 0, "bronze": 0, "total": 1, "athletes": 10 },
+    { "rank": 20, "country": "Kazakhstan", "code": "kz", "gold": 1, "silver": 0, "bronze": 0, "total": 1, "athletes": 34 },
+    { "rank": 21, "country": "Poland", "code": "pl", "gold": 0, "silver": 3, "bronze": 1, "total": 4, "athletes": 57 },
+    { "rank": 22, "country": "New Zealand", "code": "nz", "gold": 0, "silver": 2, "bronze": 1, "total": 3, "athletes": 15 },
+    { "rank": 23, "country": "Finland", "code": "fi", "gold": 0, "silver": 1, "bronze": 5, "total": 6, "athletes": 95 },
+    { "rank": 24, "country": "Latvia", "code": "lv", "gold": 0, "silver": 1, "bronze": 1, "total": 2, "athletes": 60 },
+    { "rank": 25, "country": "Denmark", "code": "dk", "gold": 0, "silver": 1, "bronze": 0, "total": 1, "athletes": 62 },
+    { "rank": 26, "country": "Estonia", "code": "ee", "gold": 0, "silver": 1, "bronze": 0, "total": 1, "athletes": 26 },
+    { "rank": 27, "country": "Georgia", "code": "ge", "gold": 0, "silver": 1, "bronze": 0, "total": 1, "athletes": 10 },
+    { "rank": 28, "country": "Individual Neutral Athletes", "code": "", "gold": 0, "silver": 1, "bronze": 0, "total": 1, "athletes": 10 },
+    { "rank": 29, "country": "Bulgaria", "code": "bg", "gold": 0, "silver": 0, "bronze": 2, "total": 2, "athletes": 16 },
+    { "rank": 30, "country": "Belgium", "code": "be", "gold": 0, "silver": 0, "bronze": 1, "total": 1, "athletes": 19 }
+  ],
+  "ROMANIA": [{
+      "sport": "Alpine Skiing",
+      "name": "Sofia Maria Moldovan",
+      "event": "Women's Giant Slalom",
+      "rank": 46,
+      "journey": [
+        { "round": "Run 1", "opponent": "-", "score": "1:12.46 (Rank 55)", "status": "neutral" },
+        { "round": "Run 2", "opponent": "-", "score": "1:17.41 (Rank 45)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "2:29.87 (Rank 46)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Alpine Skiing",
+      "name": "Sofia Maria Moldovan",
+      "event": "Women's Slalom",
+      "rank": "DNF",
+      "journey": [
+        { "round": "Run 1", "opponent": "-", "score": "53.21 (Rank 51)", "status": "neutral" },
+        { "round": "Run 2", "opponent": "-", "score": "Did Not Finish (DNF)", "status": "loss" }
+      ]
+    },
+    {
+      "sport": "Alpine Skiing",
+      "name": "Alexandru Ștefan Ștefănescu",
+      "event": "Men's Giant Slalom",
+      "rank": 43,
+      "journey": [
+        { "round": "Run 1", "opponent": "-", "score": "1:25.17 (Rank 51)", "status": "neutral" },
+        { "round": "Run 2", "opponent": "-", "score": "1:17.53 (Rank 42)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "2:42.70 (Rank 43)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Alpine Skiing",
+      "name": "Alexandru Ștefan Ștefănescu",
+      "event": "Men's Slalom",
+      "rank": 30,
+      "journey": [
+        { "round": "Run 1", "opponent": "-", "score": "1:05.58 (Rank 32)", "status": "neutral" },
+        { "round": "Run 2", "opponent": "-", "score": "1:03.52 (Rank 31)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "2:09.10 (Rank 30)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Biathlon",
+      "name": "George Buta",
+      "event": "Men's 20km Individual",
+      "rank": 39,
+      "journey": [
+        { "round": "Shooting", "opponent": "-", "score": "1 penalty (P:1 S:0 P:0 S:0)", "status": "neutral" },
+        { "round": "Final", "opponent": "-", "score": "57:46.8 (Rank 39)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Biathlon",
+      "name": "George Buta",
+      "event": "Men's 10km Sprint",
+      "rank": 68,
+      "journey": [
+        { "round": "Shooting", "opponent": "-", "score": "1 penalty (Prone: 1, Standing: 0)", "status": "neutral" },
+        { "round": "Final", "opponent": "-", "score": "26:15.2 (Rank 68)", "status": "eliminated" }
+      ]
+    },
+    {
+      "sport": "Biathlon",
+      "name": "George Colțea",
+      "event": "Men's 20km Individual",
+      "rank": 54,
+      "journey": [
+        { "round": "Shooting", "opponent": "-", "score": "3 penalties (P:1 S:1 P:0 S:1)", "status": "neutral" },
+        { "round": "Final", "opponent": "-", "score": "58:50.7 (Rank 54)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Biathlon",
+      "name": "George Colțea",
+      "event": "Men's 10km Sprint",
+      "rank": 67,
+      "journey": [
+        { "round": "Shooting", "opponent": "-", "score": "2 penalties (Prone: 0, Standing: 2)", "status": "neutral" },
+        { "round": "Final", "opponent": "-", "score": "26:14.9 (Rank 67)", "status": "eliminated" }
+      ]
+    },
+    {
+      "sport": "Biathlon",
+      "name": "Dmitrii Shamaev",
+      "event": "Men's 10km Sprint",
+      "rank": 54,
+      "journey": [
+        { "round": "Shooting", "opponent": "-", "score": "1 penalty (Prone: 1, Standing: 0)", "status": "neutral" },
+        { "round": "Final", "opponent": "-", "score": "25:43.3 (Rank 54)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Biathlon",
+      "name": "Dmitrii Shamaev",
+      "event": "Men's 12.5km Pursuit",
+      "rank": 38,
+      "journey": [
+        { "round": "Shooting", "opponent": "-", "score": "1 penalty (P:1 S:0 P:0 S:0)", "status": "neutral" },
+        { "round": "Final", "opponent": "-", "score": "35:37.4 (Rank 38)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Biathlon",
+      "name": "Raul Flore",
+      "event": "Men's 20km Individual",
+      "rank": 89,
+      "journey": [
+        { "round": "Shooting", "opponent": "-", "score": "4 penalties (P:1 S:1 P:0 S:2)", "status": "neutral" },
+        { "round": "Final", "opponent": "-", "score": "1:06:25.1 (Rank 89)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Biathlon",
+      "name": "Dmitrii Shamaev, Raul Flore, George Colțea, George Buta",
+      "event": "Men's 4 x 7.5km Relay",
+      "rank": 20,
+      "journey": [
+        { "round": "Final", "opponent": "-", "score": "Lapped / LAP (Rank 20)", "status": "eliminated" }
+      ]
+    },
+    {
+      "sport": "Biathlon",
+      "name": "Anastasia Tolmacheva",
+      "event": "Women's 15km Individual",
+      "rank": 74,
+      "journey": [
+        { "round": "Shooting", "opponent": "-", "score": "2 penalties (P:0 S:1 P:1 S:0)", "status": "neutral" },
+        { "round": "Final", "opponent": "-", "score": "48:30.0 (Rank 74)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Biathlon",
+      "name": "Anastasia Tolmacheva",
+      "event": "Women's 7.5km Sprint",
+      "rank": 59,
+      "journey": [
+        { "round": "Shooting", "opponent": "-", "score": "1 penalty (Prone: 0, Standing: 1)", "status": "neutral" },
+        { "round": "Final", "opponent": "-", "score": "23:18.9 (Rank 59)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Biathlon",
+      "name": "Anastasia Tolmacheva",
+      "event": "Women's 10km Pursuit",
+      "rank": 56,
+      "journey": [
+        { "round": "Shooting", "opponent": "-", "score": "3 penalties (P:2 S:0 P:1 S:0)", "status": "neutral" },
+        { "round": "Final", "opponent": "-", "score": "36:13.4 (Rank 56)", "status": "neutral" }
+      ]
+    },
+{
+      "sport": "Figure Skating",
+      "name": "Julia Sauter",
+      "event": "Women's Single Skating",
+      "rank": 17,
+      "journey": [
+        { "round": "Short Program", "opponent": "-", "score": "63.13 points (Rank 16)", "status": "neutral" },
+        { "round": "Free Skating", "opponent": "-", "score": "127.80 points (Rank 17)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "190.93 points (Rank 17)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Bobsleigh",
+      "name": "Mihai Tentea, George Iordache",
+      "event": "Two-man",
+      "rank": 5,
+      "journey": [
+        { "round": "Run 1", "opponent": "-", "score": "55.73 (Rank 10)", "status": "neutral" },
+        { "round": "Run 2", "opponent": "-", "score": "55.65 (Rank 3)", "status": "neutral" },
+        { "round": "Run 3", "opponent": "-", "score": "55.46 (Rank 6)", "status": "neutral" },
+        { "round": "Run 4", "opponent": "-", "score": "55.53 (Rank 5)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "3:42.37 (Rank 5)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Bobsleigh",
+      "name": "Mihai Tentea, Constantin Dinescu, George Iordache, Andrei Nica, Mihai Păcioianu",
+      "event": "Four-man",
+      "rank": 17,
+      "journey": [
+        { "round": "Run 1", "opponent": "-", "score": "55.05 (Rank 16)", "status": "neutral" },
+        { "round": "Run 2", "opponent": "-", "score": "55.12 (Rank 13)", "status": "neutral" },
+        { "round": "Run 3", "opponent": "-", "score": "55.05 (Rank 14)", "status": "neutral" },
+        { "round": "Run 4", "opponent": "-", "score": "55.21 (Rank 16)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "3:40.43 (Rank 17)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Cross-Country Skiing",
+      "name": "Gabriel Cojocaru",
+      "event": "Men's 10 km freestyle",
+      "rank": 65,
+      "journey": [
+        { "round": "Final", "opponent": "-", "score": "23:43.3 (Rank 65)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Cross-Country Skiing",
+      "name": "Gabriel Cojocaru",
+      "event": "Men's 20 km skiathlon",
+      "rank": 54,
+      "journey": [
+        { "round": "Classical", "opponent": "-", "score": "26:48.0 (Rank 60)", "status": "neutral" },
+        { "round": "Freestyle", "opponent": "-", "score": "25:39.3 (Rank 51)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "53:00.2 (Rank 54)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Cross-Country Skiing",
+      "name": "Gabriel Cojocaru",
+      "event": "Men's 50 km classical",
+      "rank": 49,
+      "journey": [
+        { "round": "Final", "opponent": "-", "score": "LAP (Rank 49)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Cross-Country Skiing",
+      "name": "Gabriel Cojocaru",
+      "event": "Men's sprint",
+      "rank": 63,
+      "journey": [
+        { "round": "Qualification", "opponent": "-", "score": "3:32.17 (Rank 63)", "status": "eliminated" }
+      ]
+    },
+    {
+      "sport": "Cross-Country Skiing",
+      "name": "Paul Pepene",
+      "event": "Men's 10 km freestyle",
+      "rank": 52,
+      "journey": [
+        { "round": "Final", "opponent": "-", "score": "23:04.9 (Rank 52)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Cross-Country Skiing",
+      "name": "Paul Pepene",
+      "event": "Men's 20 km skiathlon",
+      "rank": 50,
+      "journey": [
+        { "round": "Classical", "opponent": "-", "score": "26:07.9 (Rank 52)", "status": "neutral" },
+        { "round": "Freestyle", "opponent": "-", "score": "24:38.2 (Rank 47)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "51:18.2 (Rank 50)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Cross-Country Skiing",
+      "name": "Paul Pepene",
+      "event": "Men's 50 km classical",
+      "rank": 47,
+      "journey": [
+        { "round": "Final", "opponent": "-", "score": "LAP (Rank 47)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Cross-Country Skiing",
+      "name": "Paul Pepene",
+      "event": "Men's sprint",
+      "rank": 72,
+      "journey": [
+        { "round": "Qualification", "opponent": "-", "score": "3:37.60 (Rank 72)", "status": "eliminated" }
+      ]
+    },
+    {
+      "sport": "Cross-Country Skiing",
+      "name": "Gabriel Cojocaru, Paul Pepene",
+      "event": "Men's team sprint",
+      "rank": 24,
+      "journey": [
+        { "round": "Semifinal", "opponent": "-", "score": "6:20.24 (Rank 24)", "status": "eliminated" }
+      ]
+    },
+    {
+      "sport": "Cross-Country Skiing",
+      "name": "Delia Reit",
+      "event": "Women's 10 km freestyle",
+      "rank": 96,
+      "journey": [
+        { "round": "Final", "opponent": "-", "score": "30:18.3 (Rank 96)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Cross-Country Skiing",
+      "name": "Delia Reit",
+      "event": "Women's sprint",
+      "rank": 85,
+      "journey": [
+        { "round": "Qualification", "opponent": "-", "score": "4:31.50 (Rank 85)", "status": "eliminated" }
+      ]
+    },
+{
+      "sport": "Luge",
+      "name": "Valentin Crețu",
+      "event": "Men's singles",
+      "rank": 15,
+      "journey": [
+        { "round": "Run 1", "opponent": "-", "score": "53.702 (Rank 12)", "status": "neutral" },
+        { "round": "Run 2", "opponent": "-", "score": "53.780 (Rank 13)", "status": "neutral" },
+        { "round": "Run 3", "opponent": "-", "score": "53.526 (Rank 11)", "status": "neutral" },
+        { "round": "Run 4", "opponent": "-", "score": "53.978 (Rank 19)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "3:34.986 (Rank 15)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Luge",
+      "name": "Eduard Mihai Crăciun",
+      "event": "Men's singles",
+      "rank": 23,
+      "journey": [
+        { "round": "Run 1", "opponent": "-", "score": "54.784 (Rank 25)", "status": "neutral" },
+        { "round": "Run 2", "opponent": "-", "score": "54.809 (Rank 24)", "status": "neutral" },
+        { "round": "Run 3", "opponent": "-", "score": "54.177 (Rank 23)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "Did not advance (Rank 23)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Luge",
+      "name": "Marian Gîtlan, Darius Șerban",
+      "event": "Men's doubles",
+      "rank": 17,
+      "journey": [
+        { "round": "Run 1", "opponent": "-", "score": "54.144 (Rank 16)", "status": "neutral" },
+        { "round": "Run 2", "opponent": "-", "score": "54.046 (Rank 17)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "1:48.190 (Rank 17)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Luge",
+      "name": "Ioana Buzatoiu",
+      "event": "Women's singles",
+      "rank": 25,
+      "journey": [
+        { "round": "Run 1", "opponent": "-", "score": "54.062 (Rank 21)", "status": "neutral" },
+        { "round": "Run 2", "opponent": "-", "score": "55.786 (Rank 25)", "status": "neutral" },
+        { "round": "Run 3", "opponent": "-", "score": "54.418 (Rank 25)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "2:44.266 (Rank 25)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Luge",
+      "name": "Mihaela-Carmen Manolescu, Raluca Strămăturaru",
+      "event": "Women's doubles",
+      "rank": 9,
+      "journey": [
+        { "round": "Run 1", "opponent": "-", "score": "54.339 (Rank 9)", "status": "neutral" },
+        { "round": "Run 2", "opponent": "-", "score": "54.405 (Rank 10)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "1:48.744 (Rank 9)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Luge",
+      "name": "Ioana Buzatoiu, Darius Șerban, Marian Gîtlan, Valentin Crețu, Mihaela-Carmen Manolescu, Raluca Strămăturaru",
+      "event": "Team relay",
+      "rank": 9,
+      "journey": [
+        { "round": "Women's singles", "opponent": "-", "score": "56.794 (Rank 8)", "status": "neutral" },
+        { "round": "Men's doubles", "opponent": "-", "score": "59.710 (Rank 9)", "status": "neutral" },
+        { "round": "Men's singles", "opponent": "-", "score": "55.591 (Rank 7)", "status": "neutral" },
+        { "round": "Women's doubles", "opponent": "-", "score": "57.836 (Rank 9)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "3:49.931 (Rank 9)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Ski Jumping",
+      "name": "Daniela Toth",
+      "event": "Women's Normal hill",
+      "rank": 30,
+      "journey": [
+        { "round": "First round", "opponent": "-", "score": "109.2 (Rank 29)", "status": "neutral" },
+        { "round": "Final round", "opponent": "-", "score": "98.2 (Rank 30)", "status": "neutral" },
+        { "round": "Total", "opponent": "-", "score": "207.4 (Rank 30)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Ski Jumping",
+      "name": "Daniela Toth",
+      "event": "Women's Large hill",
+      "rank": 34,
+      "journey": [
+        { "round": "First round", "opponent": "-", "score": "93.3 (Rank 34)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Ski Jumping",
+      "name": "Daniel Cacina",
+      "event": "Men's Normal hill",
+      "rank": 46,
+      "journey": [
+        { "round": "First round", "opponent": "-", "score": "109.6 (Rank 46)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Ski Jumping",
+      "name": "Daniel Cacina",
+      "event": "Men's Large hill",
+      "rank": 46,
+      "journey": [
+        { "round": "First round", "opponent": "-", "score": "95.4 (Rank 46)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Ski Jumping",
+      "name": "Daniel Cacina, Mihnea Spulber",
+      "event": "Men's Super team large hill",
+      "rank": 17,
+      "journey": [
+        { "round": "Final", "opponent": "-", "score": "182.1 (Rank 17)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Ski Jumping",
+      "name": "Daniel Cacina, Delia Folea, Mihnea Spulber, Daniela Toth",
+      "event": "Mixed team",
+      "rank": 12,
+      "journey": [
+        { "round": "Final", "opponent": "-", "score": "393.1 (Rank 12)", "status": "neutral" }
+      ]
+    },
+    {
+      "sport": "Snowboarding",
+      "name": "Kata Mandel",
+      "event": "Women's snowboard cross",
+      "rank": 27,
+      "journey": [
+        { "round": "Seeding", "opponent": "-", "score": "1:17.13 (Rank 27)", "status": "neutral" },
+        { "round": "1/8 final", "opponent": "-", "score": "Position 3", "status": "eliminated" }
+      ]
+    },
+    {
+      "sport": "Snowboarding",
+      "name": "Henrietta Bartalis",
+      "event": "Women's snowboard cross",
+      "rank": 31,
+      "journey": [
+        { "round": "Seeding", "opponent": "-", "score": "1:19.56 (Rank 31)", "status": "neutral" },
+        { "round": "1/8 final", "opponent": "-", "score": "Position 4", "status": "eliminated" }
+      ]
+    }],
+  "SCHEDULE": [{
+      "sport": "Alpine Skiing",
+      "events": [
+        {
+          "event": "Men's downhill",
+          "athletes": [
+            { "medal": "G", "name": "Franjo von Allmen", "country": "Switzerland", "result": "1:51.61" },
+            { "medal": "S", "name": "Giovanni Franzoni", "country": "Italy", "result": "1:51.81" },
+            { "medal": "B", "name": "Dominik Paris", "country": "Italy", "result": "1:52.11" }
+          ]
+        },
+        {
+          "event": "Men's super-G",
+          "athletes": [
+            { "medal": "G", "name": "Franjo von Allmen", "country": "Switzerland", "result": "1:25.32" },
+            { "medal": "S", "name": "Ryan Cochran-Siegle", "country": "United States", "result": "1:25.45" },
+            { "medal": "B", "name": "Marco Odermatt", "country": "Switzerland", "result": "1:25.60" }
+          ]
+        },
+        {
+          "event": "Men's giant slalom",
+          "athletes": [
+            { "medal": "G", "name": "Lucas Pinheiro Braathen", "country": "Brazil", "result": "2:25.00" },
+            { "medal": "S", "name": "Marco Odermatt", "country": "Switzerland", "result": "2:25.58" },
+            { "medal": "B", "name": "Loïc Meillard", "country": "Switzerland", "result": "2:26.17" }
+          ]
+        },
+        {
+          "event": "Men's slalom",
+          "athletes": [
+            { "medal": "G", "name": "Loïc Meillard", "country": "Switzerland", "result": "1:53.61" },
+            { "medal": "S", "name": "Fabio Gstrein", "country": "Austria", "result": "1:53.96" },
+            { "medal": "B", "name": "Henrik Kristoffersen", "country": "Norway", "result": "1:54.74" }
+          ]
+        },
+        {
+          "event": "Men's team combined",
+          "athletes": [
+            { "medal": "G", "name": "Franjo von Allmen, Tanguy Nef", "country": "Switzerland", "result": "2:44.04" },
+            { "medal": "S", "name": "Vincent Kriechmayr, Manuel Feller", "country": "Austria", "result": "2:45.03" },
+            { "medal": "S", "name": "Marco Odermatt, Loïc Meillard", "country": "Switzerland", "result": "2:45.03" }
+          ]
+        },
+        {
+          "event": "Women's downhill",
+          "athletes": [
+            { "medal": "G", "name": "Breezy Johnson", "country": "United States", "result": "1:36.10" },
+            { "medal": "S", "name": "Emma Aicher", "country": "Germany", "result": "1:36.14" },
+            { "medal": "B", "name": "Sofia Goggia", "country": "Italy", "result": "1:36.69" }
+          ]
+        },
+        {
+          "event": "Women's super-G",
+          "athletes": [
+            { "medal": "G", "name": "Federica Brignone", "country": "Italy", "result": "1:23.41" },
+            { "medal": "S", "name": "Romane Miradoli", "country": "France", "result": "1:23.82" },
+            { "medal": "B", "name": "Cornelia Hütter", "country": "Austria", "result": "1:23.93" }
+          ]
+        },
+        {
+          "event": "Women's giant slalom",
+          "athletes": [
+            { "medal": "G", "name": "Federica Brignone", "country": "Italy", "result": "2:13.50" },
+            { "medal": "S", "name": "Sara Hector", "country": "Sweden", "result": "2:14.12" },
+            { "medal": "S", "name": "Thea Louise Stjernesund", "country": "Norway", "result": "2:14.12" }
+          ]
+        },
+        {
+          "event": "Women's slalom",
+          "athletes": [
+            { "medal": "G", "name": "Mikaela Shiffrin", "country": "United States", "result": "1:39.10" },
+            { "medal": "S", "name": "Camille Rast", "country": "Switzerland", "result": "1:40.60" },
+            { "medal": "B", "name": "Anna Swenn-Larsson", "country": "Sweden", "result": "1:40.81" }
+          ]
+        },
+        {
+          "event": "Women's team combined",
+          "athletes": [
+            { "medal": "G", "name": "Ariane Rädler, Katharina Huber", "country": "Austria", "result": "2:21.66" },
+            { "medal": "S", "name": "Kira Weidle-Winkelmann, Emma Aicher", "country": "Germany", "result": "2:21.71" },
+            { "medal": "B", "name": "Jacqueline Wiles, Paula Moltzan", "country": "United States", "result": "2:21.91" }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "sport": "Biathlon",
+      "events": [
+        {
+          "event": "Men's 20 km individual",
+          "athletes": [
+            { "medal": "G", "name": "Johan-Olav Botn", "country": "Norway", "result": "51:31.5" },
+            { "medal": "S", "name": "Éric Perrot", "country": "France", "result": "51:46.3" },
+            { "medal": "B", "name": "Sturla Holm Lægreid", "country": "Norway", "result": "52:19.8" }
+          ]
+        },
+        {
+          "event": "Men's 10 km sprint",
+          "athletes": [
+            { "medal": "G", "name": "Quentin Fillon Maillet", "country": "France", "result": "22:53.1" },
+            { "medal": "S", "name": "Vetle Sjåstad Christiansen", "country": "Norway", "result": "23:06.8" },
+            { "medal": "B", "name": "Sturla Holm Lægreid", "country": "Norway", "result": "23:09.0" }
+          ]
+        },
+        {
+          "event": "Men's 12.5 km pursuit",
+          "athletes": [
+            { "medal": "G", "name": "Martin Ponsiluoma", "country": "Sweden", "result": "31:11.9" },
+            { "medal": "S", "name": "Sturla Holm Lægreid", "country": "Norway", "result": "31:32.5" },
+            { "medal": "B", "name": "Émilien Jacquelin", "country": "France", "result": "31:41.6" }
+          ]
+        },
+        {
+          "event": "Men's 15 km mass start",
+          "athletes": [
+            { "medal": "G", "name": "Johannes Dale-Skjevdal", "country": "Norway", "result": "39:17.1" },
+            { "medal": "S", "name": "Sturla Holm Lægreid", "country": "Norway", "result": "39:27.6" },
+            { "medal": "B", "name": "Quentin Fillon Maillet", "country": "France", "result": "39:42.7" }
+          ]
+        },
+        {
+          "event": "Men's 4 × 7.5 km relay",
+          "athletes": [
+            { "medal": "G", "name": "Fabien Claude, Émilien Jacquelin, Quentin Fillon Maillet, Éric Perrot", "country": "France", "result": "1:19:55.2" },
+            { "medal": "S", "name": "Martin Uldal, Johan-Olav Botn, Sturla Holm Lægreid, Vetle Sjåstad Christiansen", "country": "Norway", "result": "1:20:05.0" },
+            { "medal": "B", "name": "Viktor Brandt, Jesper Nelin, Martin Ponsiluoma, Sebastian Samuelsson", "country": "Sweden", "result": "1:20:52.7" }
+          ]
+        },
+        {
+          "event": "Women's 15 km individual",
+          "athletes": [
+            { "medal": "G", "name": "Julia Simon", "country": "France", "result": "41:15.6" },
+            { "medal": "S", "name": "Lou Jeanmonnot", "country": "France", "result": "42:08.7" },
+            { "medal": "B", "name": "Lora Hristova", "country": "Bulgaria", "result": "42:20.1" }
+          ]
+        },
+        {
+          "event": "Women's 7.5 km sprint",
+          "athletes": [
+            { "medal": "G", "name": "Maren Kirkeeide", "country": "Norway", "result": "20:40.8" },
+            { "medal": "S", "name": "Océane Michelon", "country": "France", "result": "20:44.6" },
+            { "medal": "B", "name": "Lou Jeanmonnot", "country": "France", "result": "21:04.5" }
+          ]
+        },
+        {
+          "event": "Women's 10 km pursuit",
+          "athletes": [
+            { "medal": "G", "name": "Lisa Vittozzi", "country": "Italy", "result": "30:11.8" },
+            { "medal": "S", "name": "Maren Kirkeeide", "country": "Norway", "result": "30:40.6" },
+            { "medal": "B", "name": "Suvi Minkkinen", "country": "Finland", "result": "30:46.1" }
+          ]
+        },
+        {
+          "event": "Women's 12.5 km mass start",
+          "athletes": [
+            { "medal": "G", "name": "Océane Michelon", "country": "France", "result": "37:18.1" },
+            { "medal": "S", "name": "Julia Simon", "country": "France", "result": "37:24.7" },
+            { "medal": "B", "name": "Tereza Voborníková", "country": "Czech Republic", "result": "37:25.5" }
+          ]
+        },
+        {
+          "event": "Women's 4 × 6 km relay",
+          "athletes": [
+            { "medal": "G", "name": "Camille Bened, Lou Jeanmonnot, Océane Michelon, Julia Simon", "country": "France", "result": "1:10:22.7" },
+            { "medal": "S", "name": "Linn Gestblom, Anna Magnusson, Elvira Öberg, Hanna Öberg", "country": "Sweden", "result": "1:11:14.0" },
+            { "medal": "B", "name": "Marthe Johansen, Juni Arnekleiv, Karoline Knotten, Maren Kirkeeide", "country": "Norway", "result": "1:11:30.3" }
+          ]
+        },
+        {
+          "event": "Mixed 4 × 6 km relay",
+          "athletes": [
+            { "medal": "G", "name": "Éric Perrot, Quentin Fillon Maillet, Lou Jeanmonnot, Julia Simon", "country": "France", "result": "1:04:15.5" },
+            { "medal": "S", "name": "Tommaso Giacomel, Lukas Hofer, Dorothea Wierer, Lisa Vittozzi", "country": "Italy", "result": "1:04:41.3" },
+            { "medal": "B", "name": "Justus Strelow, Philipp Nawrath, Vanessa Voigt, Franziska Preuß", "country": "Germany", "result": "1:05:20.8" }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Bobsleigh",
+      "events": [
+        {
+          "event": "Two-man",
+          "athletes": [
+            { "medal": "G", "name": "Johannes Lochner, Georg Fleischhauer", "country": "Germany", "result": "3:39.70" },
+            { "medal": "S", "name": "Francesco Friedrich, Alexander Schüller", "country": "Germany", "result": "3:41.04" },
+            { "medal": "B", "name": "Adam Ammour, Alexander Schaller", "country": "Germany", "result": "3:41.52" }
+          ]
+        },
+        {
+          "event": "Four-man",
+          "athletes": [
+            { "medal": "G", "name": "Johannes Lochner, Thorsten Margis, Jörn Wenzel, Georg Fleischhauer", "country": "Germany", "result": "3:37.57" },
+            { "medal": "S", "name": "Francesco Friedrich, Matthias Sommer, Alexander Schüller, Felix Straub", "country": "Germany", "result": "3:38.14" },
+            { "medal": "B", "name": "Michael Vogt, Andreas Haas, Amadou Ndiaye, Mario Aeberhard", "country": "Switzerland", "result": "3:38.64" }
+          ]
+        },
+        {
+          "event": "Women's monobob",
+          "athletes": [
+            { "medal": "G", "name": "Elana Meyers Taylor", "country": "United States", "result": "3:57.93" },
+            { "medal": "S", "name": "Laura Nolte", "country": "Germany", "result": "3:57.97" },
+            { "medal": "B", "name": "Kaillie Humphries", "country": "United States", "result": "3:58.05" }
+          ]
+        },
+        {
+          "event": "Two-woman",
+          "athletes": [
+            { "medal": "G", "name": "Laura Nolte, Deborah Levi", "country": "Germany", "result": "3:48.46" },
+            { "medal": "S", "name": "Lisa Buckwitz, Neele Schuten", "country": "Germany", "result": "3:48.99" },
+            { "medal": "B", "name": "Kaillie Humphries, Jasmine Jones", "country": "United States", "result": "3:49.21" }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Cross-Country Skiing",
+      "events": [
+        {
+          "event": "Men's 10 km freestyle",
+          "athletes": [
+            { "medal": "G", "name": "Johannes Høsflot Klæbo", "country": "Norway", "result": "20:36.2" },
+            { "medal": "S", "name": "Mathis Desloges", "country": "France", "result": "20:41.1" },
+            { "medal": "B", "name": "Einar Hedegart", "country": "Norway", "result": "20:50.2" }
+          ]
+        },
+        {
+          "event": "Men's 20 km skiathlon",
+          "athletes": [
+            { "medal": "G", "name": "Johannes Høsflot Klæbo", "country": "Norway", "result": "46:11.0" },
+            { "medal": "S", "name": "Mathis Desloges", "country": "France", "result": "46:13.0" },
+            { "medal": "B", "name": "Martin Løwstrøm Nyenget", "country": "Norway", "result": "46:13.1" }
+          ]
+        },
+        {
+          "event": "Men's 50 km classical",
+          "athletes": [
+            { "medal": "G", "name": "Johannes Høsflot Klæbo", "country": "Norway", "result": "2:06:44.8" },
+            { "medal": "S", "name": "Martin Løwstrøm Nyenget", "country": "Norway", "result": "2:06:53.7" },
+            { "medal": "B", "name": "Emil Iversen", "country": "Norway", "result": "2:07:15.5" }
+          ]
+        },
+        {
+          "event": "Men's 4 × 7.5 km relay",
+          "athletes": [
+            { "medal": "G", "name": "Emil Iversen, Martin Løwstrøm Nyenget, Einar Hedegart, Johannes Høsflot Klæbo", "country": "Norway", "result": "1:04:24.5" },
+            { "medal": "S", "name": "Théo Schely, Hugo Lapalus, Mathis Desloges, Victor Lovera", "country": "France", "result": "1:04:46.7" },
+            { "medal": "B", "name": "Davide Graz, Elia Barp, Martino Carollo, Federico Pellegrino", "country": "Italy", "result": "1:05:12.4" }
+          ]
+        },
+        {
+          "event": "Men's sprint classical",
+          "athletes": [
+            { "medal": "G", "name": "Johannes Høsflot Klæbo", "country": "Norway", "result": "3:39.74" },
+            { "medal": "S", "name": "Ben Ogden", "country": "United States", "result": "3:40.61" },
+            { "medal": "B", "name": "Oskar Opstad Vike", "country": "Norway", "result": "3:46.55" }
+          ]
+        },
+        {
+          "event": "Men's team sprint freestyle",
+          "athletes": [
+            { "medal": "G", "name": "Einar Hedegart, Johannes Høsflot Klæbo", "country": "Norway", "result": "18:28.9" },
+            { "medal": "S", "name": "Ben Ogden, Gus Schumacher", "country": "United States", "result": "18:30.3" },
+            { "medal": "B", "name": "Elia Barp, Federico Pellegrino", "country": "Italy", "result": "18:32.2" }
+          ]
+        },
+        {
+          "event": "Women's 10 km freestyle",
+          "athletes": [
+            { "medal": "G", "name": "Frida Karlsson", "country": "Sweden", "result": "22:49.2" },
+            { "medal": "S", "name": "Ebba Andersson", "country": "Sweden", "result": "23:35.8" },
+            { "medal": "B", "name": "Jessie Diggins", "country": "United States", "result": "23:38.9" }
+          ]
+        },
+        {
+          "event": "Women's 20 km skiathlon",
+          "athletes": [
+            { "medal": "G", "name": "Frida Karlsson", "country": "Sweden", "result": "53:45.2" },
+            { "medal": "S", "name": "Ebba Andersson", "country": "Sweden", "result": "54:36.2" },
+            { "medal": "B", "name": "Heidi Weng", "country": "Norway", "result": "55:11.9" }
+          ]
+        },
+        {
+          "event": "Women's 50 km classical",
+          "athletes": [
+            { "medal": "G", "name": "Ebba Andersson", "country": "Sweden", "result": "2:16:28.2" },
+            { "medal": "S", "name": "Heidi Weng", "country": "Norway", "result": "2:18:43.5" },
+            { "medal": "B", "name": "Nadja Kälin", "country": "Switzerland", "result": "2:23:09.7" }
+          ]
+        },
+        {
+          "event": "Women's 4 × 7.5 km relay",
+          "athletes": [
+            { "medal": "G", "name": "Kristin Fosnæs, Astrid Slind, Karoline Simpson-Larsen, Heidi Weng", "country": "Norway", "result": "1:15:44.8" },
+            { "medal": "S", "name": "Linn Svahn, Ebba Andersson, Frida Karlsson, Jonna Sundling", "country": "Sweden", "result": "1:16:35.7" },
+            { "medal": "B", "name": "Johanna Matintalo, Kerttu Niskanen, Vilma Ryytty, Jasmi Joensuu", "country": "Finland", "result": "1:16:59.5" }
+          ]
+        },
+        {
+          "event": "Women's sprint classical",
+          "athletes": [
+            { "medal": "G", "name": "Linn Svahn", "country": "Sweden", "result": "4:03.05" },
+            { "medal": "S", "name": "Jonna Sundling", "country": "Sweden", "result": "4:04.64" },
+            { "medal": "B", "name": "Maja Dahlqvist", "country": "Sweden", "result": "4:07.88" }
+          ]
+        },
+        {
+          "event": "Women's team sprint freestyle",
+          "athletes": [
+            { "medal": "G", "name": "Jonna Sundling, Maja Dahlqvist", "country": "Sweden", "result": "20:29.99" },
+            { "medal": "S", "name": "Nadja Kälin, Nadine Fähndrich", "country": "Switzerland", "result": "20:31.39" },
+            { "medal": "B", "name": "Laura Gimmler, Coletta Rydzek", "country": "Germany", "result": "20:35.86" }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Curling",
+      "events": [
+        {
+          "event": "Men's Tournament",
+          "athletes": [
+            {
+              "medal": "G",
+              "name": "Bruce Mouat, Grant Hardie, Bobby Lammie, Hammy McMillan Jr., James Craik",
+              "country": "Great Britain",
+              "result": "5–4 vs Canada"
+            },
+            {
+              "medal": "S",
+              "name": "Brad Gushue, Mark Nichols, E.J. Harnden, Geoff Walker, Marc Kennedy",
+              "country": "Canada",
+              "result": "4–5 vs Great Britain"
+            },
+            {
+              "medal": "B",
+              "name": "Niklas Edin, Oskar Eriksson, Rasmus Wranå, Christoffer Sundgren, Daniel Magnusson",
+              "country": "Sweden",
+              "result": "11–3 vs United States"
+            }
+          ]
+        },
+        {
+          "event": "Women's Tournament",
+          "athletes": [
+            {
+              "medal": "G",
+              "name": "Rachel Homan, Tracy Fleury, Emma Miskew, Sarah Wilkes, Rachel Brown",
+              "country": "Canada",
+              "result": "7–5 vs Switzerland"
+            },
+            {
+              "medal": "S",
+              "name": "Alina Pätz, Silvana Tirinzoni, Selina Witschonke, Carole Howald, Stefanie Berset",
+              "country": "Switzerland",
+              "result": "5–7 vs Canada"
+            },
+            {
+              "medal": "B",
+              "name": "Anna Hasselborg, Sara McManus, Agnes Knochenhauer, Sofia Mabergs, Johanna Heldin",
+              "country": "Sweden",
+              "result": "6–4 vs South Korea"
+            }
+          ]
+        },
+        {
+          "event": "Mixed Doubles",
+          "athletes": [
+            {
+              "medal": "G",
+              "name": "Stefania Constantini, Amos Mosaner",
+              "country": "Italy",
+              "result": "8–5 vs Norway"
+            },
+            {
+              "medal": "S",
+              "name": "Kristin Skaslien, Magnus Nedregotten",
+              "country": "Norway",
+              "result": "5–8 vs Italy"
+            },
+            {
+              "medal": "B",
+              "name": "Almida de Val, Oskar Eriksson",
+              "country": "Sweden",
+              "result": "9–3 vs Great Britain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Figure Skating",
+      "events": [
+        {
+          "event": "Men's singles",
+          "athletes": [
+            { "medal": "G", "name": "Mikhail Shaidorov", "country": "Kazakhstan", "result": "291.58 pts (SP: 92.94, FS: 198.64)" },
+            { "medal": "S", "name": "Yuma Kagiyama", "country": "Japan", "result": "280.06 pts (SP: 103.07, FS: 176.99)" },
+            { "medal": "B", "name": "Shun Sato", "country": "Japan", "result": "274.90 pts (SP: 88.70, FS: 186.20)" }
+          ]
+        },
+        {
+          "event": "Women's singles",
+          "athletes": [
+            { "medal": "G", "name": "Alysa Liu", "country": "United States", "result": "226.79 pts (SP: 76.59, FS: 150.20)" },
+            { "medal": "S", "name": "Kaori Sakamoto", "country": "Japan", "result": "224.90 pts (SP: 77.23, FS: 147.67)" },
+            { "medal": "B", "name": "Ami Nakai", "country": "Japan", "result": "219.16 pts (SP: 78.71, FS: 140.45)" }
+          ]
+        },
+        {
+          "event": "Pairs",
+          "athletes": [
+            { "medal": "G", "name": "Riku Miura, Ryuichi Kihara", "country": "Japan", "result": "231.24 pts (SP: 73.11, FS: 158.13)" },
+            { "medal": "S", "name": "Anastasiia Metelkina, Luka Berulava", "country": "Georgia", "result": "221.75 pts (SP: 75.46, FS: 146.29)" },
+            { "medal": "B", "name": "Minerva Fabienne Hase, Nikita Volodin", "country": "Germany", "result": "219.09 pts (SP: 80.01, FS: 139.08)" }
+          ]
+        },
+        {
+          "event": "Ice dance",
+          "athletes": [
+            { "medal": "G", "name": "Laurence Fournier Beaudry, Guillaume Cizeron", "country": "France", "result": "225.82 pts (RD: 90.18, FD: 135.64)" },
+            { "medal": "S", "name": "Madison Chock, Evan Bates", "country": "United States", "result": "224.39 pts (RD: 89.72, FD: 134.67)" },
+            { "medal": "B", "name": "Piper Gilles, Paul Poirier", "country": "Canada", "result": "217.74 pts (RD: 86.18, FD: 131.56)" }
+          ]
+        },
+        {
+          "event": "Team event",
+          "athletes": [
+            { "medal": "G", "name": "Team USA (Malinin, Liu, Glenn, Chock, Bates)", "country": "United States", "result": "69 pts" },
+            { "medal": "S", "name": "Team Japan (Kagiyama, Sato, Sakamoto, Miura, Kihara)", "country": "Japan", "result": "68 pts" },
+            { "medal": "B", "name": "Team Italy (Grassl, Rizzo, Gutmann, Guignard, Fabbri)", "country": "Italy", "result": "60 pts" }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Freestyle Skiing",
+      "events": [
+        {
+          "event": "Men's aerials",
+          "athletes": [
+            { "medal": "G", "name": "Wang Xindi", "country": "China", "result": "132.60 pts" },
+            { "medal": "S", "name": "Noé Roth", "country": "Switzerland", "result": "131.58 pts" },
+            { "medal": "B", "name": "Li Tianma", "country": "China", "result": "123.93 pts" }
+          ]
+        },
+        {
+          "event": "Men's big air",
+          "athletes": [
+            { "medal": "G", "name": "Tormod Frostad", "country": "Norway", "result": "195.50 pts" },
+            { "medal": "S", "name": "Mac Forehand", "country": "United States", "result": "193.25 pts" },
+            { "medal": "B", "name": "Matěj Švancer", "country": "Austria", "result": "191.25 pts" }
+          ]
+        },
+        {
+          "event": "Men's halfpipe",
+          "athletes": [
+            { "medal": "G", "name": "Alex Ferreira", "country": "United States", "result": "93.75 pts" },
+            { "medal": "S", "name": "Henry Sildaru", "country": "Estonia", "result": "93.00 pts" },
+            { "medal": "B", "name": "Brendan Mackay", "country": "Canada", "result": "91.00 pts" }
+          ]
+        },
+        {
+          "event": "Men's slopestyle",
+          "athletes": [
+            { "medal": "G", "name": "Birk Ruud", "country": "Norway", "result": "86.28 pts" },
+            { "medal": "S", "name": "Alex Hall", "country": "United States", "result": "85.75 pts" },
+            { "medal": "B", "name": "Luca Harrington", "country": "New Zealand", "result": "85.15 pts" }
+          ]
+        },
+        {
+          "event": "Men's moguls",
+          "athletes": [
+            { "medal": "G", "name": "Cooper Woods-Topalovic", "country": "Australia", "result": "83.71 pts" },
+            { "medal": "S", "name": "Mikaël Kingsbury", "country": "Canada", "result": "83.71 pts" },
+            { "medal": "B", "name": "Ikuma Horishima", "country": "Japan", "result": "83.44 pts" }
+          ]
+        },
+        {
+          "event": "Men's dual moguls",
+          "athletes": [
+            { "medal": "G", "name": "Mikaël Kingsbury", "country": "Canada", "result": "1st - Gold Medal" },
+            { "medal": "S", "name": "Ikuma Horishima", "country": "Japan", "result": "2nd - Silver Medal" },
+            { "medal": "B", "name": "Matt Graham", "country": "Australia", "result": "3rd - Bronze Medal" }
+          ]
+        },
+        {
+          "event": "Men's ski cross",
+          "athletes": [
+            { "medal": "G", "name": "Simone Deromedis", "country": "Italy", "result": "1st - Gold Medal" },
+            { "medal": "S", "name": "Federico Tomasoni", "country": "Italy", "result": "2nd - Silver Medal" },
+            { "medal": "B", "name": "Alex Fiva", "country": "Switzerland", "result": "3rd - Bronze Medal" }
+          ]
+        },
+        {
+          "event": "Women's aerials",
+          "athletes": [
+            { "medal": "G", "name": "Xu Mengtao", "country": "China", "result": "112.90 pts" },
+            { "medal": "S", "name": "Danielle Scott", "country": "Australia", "result": "102.17 pts" },
+            { "medal": "B", "name": "Shao Qi", "country": "China", "result": "101.90 pts" }
+          ]
+        },
+        {
+          "event": "Women's big air",
+          "athletes": [
+            { "medal": "G", "name": "Megan Oldham", "country": "Canada", "result": "180.75 pts" },
+            { "medal": "S", "name": "Eileen Gu", "country": "China", "result": "179.00 pts" },
+            { "medal": "B", "name": "Flora Tabanelli", "country": "Italy", "result": "178.25 pts" }
+          ]
+        },
+        {
+          "event": "Women's halfpipe",
+          "athletes": [
+            { "medal": "G", "name": "Eileen Gu", "country": "China", "result": "94.75 pts" },
+            { "medal": "S", "name": "Li Fanghui", "country": "China", "result": "93.00 pts" },
+            { "medal": "B", "name": "Zoe Atkin", "country": "Great Britain", "result": "92.50 pts" }
+          ]
+        },
+        {
+          "event": "Women's slopestyle",
+          "athletes": [
+            { "medal": "G", "name": "Mathilde Gremaud", "country": "Switzerland", "result": "86.96 pts" },
+            { "medal": "S", "name": "Eileen Gu", "country": "China", "result": "86.58 pts" },
+            { "medal": "B", "name": "Megan Oldham", "country": "Canada", "result": "76.46 pts" }
+          ]
+        },
+        {
+          "event": "Women's moguls",
+          "athletes": [
+            { "medal": "G", "name": "Elizabeth Lemley", "country": "United States", "result": "82.30 pts" },
+            { "medal": "S", "name": "Jaelin Kauf", "country": "United States", "result": "80.77 pts" },
+            { "medal": "B", "name": "Perrine Laffont", "country": "France", "result": "78.00 pts" }
+          ]
+        },
+        {
+          "event": "Women's dual moguls",
+          "athletes": [
+            { "medal": "G", "name": "Jakara Anthony", "country": "Australia", "result": "1st - Gold Medal" },
+            { "medal": "S", "name": "Jaelin Kauf", "country": "United States", "result": "2nd - Silver Medal" },
+            { "medal": "B", "name": "Elizabeth Lemley", "country": "United States", "result": "3rd - Bronze Medal" }
+          ]
+        },
+        {
+          "event": "Women's ski cross",
+          "athletes": [
+            { "medal": "G", "name": "Daniela Maier", "country": "Germany", "result": "1st - Gold Medal" },
+            { "medal": "S", "name": "Fanny Smith", "country": "Switzerland", "result": "2nd - Silver Medal" },
+            { "medal": "B", "name": "Sandra Näslund", "country": "Sweden", "result": "3rd - Bronze Medal" }
+          ]
+        },
+        {
+          "event": "Mixed team aerials",
+          "athletes": [
+            { "medal": "G", "name": "Kaila Kuhn, Connor Curran, Christopher Lillis", "country": "United States", "result": "325.35 pts" },
+            { "medal": "S", "name": "Lina Kozomara, Pirmin Werner, Noé Roth", "country": "Switzerland", "result": "296.91 pts" },
+            { "medal": "B", "name": "Xu Mengtao, Wang Xindi, Li Tianma", "country": "China", "result": "279.68 pts" }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Ice Hockey",
+      "events": [
+        {
+          "event": "Men's Tournament",
+          "athletes": [
+            {
+              "medal": "G",
+              "name": "Matt Boldy, Jack Eichel, Auston Matthews, Matthew Tkachuk, Connor Hellebuyck",
+              "country": "United States",
+              "result": "3–2 vs Canada (OT)"
+            },
+            {
+              "medal": "S",
+              "name": "Sidney Crosby, Connor McDavid, Nathan MacKinnon, Cale Makar, Jordan Binnington",
+              "country": "Canada",
+              "result": "2–3 vs USA (OT)"
+            },
+            {
+              "medal": "B",
+              "name": "Sebastian Aho, Roope Hintz, Mikko Rantanen, Miro Heiskanen, Juuse Saros",
+              "country": "Finland",
+              "result": "4–1 vs Sweden"
+            }
+          ]
+        },
+        {
+          "event": "Women's Tournament",
+          "athletes": [
+            {
+              "medal": "G",
+              "name": "Hilary Knight, Taylor Heise, Kendall Coyne Schofield, Aerin Frankel",
+              "country": "United States",
+              "result": "4–3 vs Canada (OT)"
+            },
+            {
+              "medal": "S",
+              "name": "Marie-Philip Poulin, Natalie Spooner, Sarah Nurse, Ann-Renée Desbiens",
+              "country": "Canada",
+              "result": "3–4 vs USA (OT)"
+            },
+            {
+              "medal": "B",
+              "name": "Alina Müller, Lara Stalder, Andrea Brändli, Sinja Leemann",
+              "country": "Switzerland",
+              "result": "3–2 vs Finland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Luge",
+      "events": [
+        {
+          "event": "Men's singles",
+          "athletes": [
+            { "medal": "G", "name": "Max Langenhan", "country": "Germany", "result": "3:31.191" },
+            { "medal": "S", "name": "Jonas Müller", "country": "Austria", "result": "3:31.787" },
+            { "medal": "B", "name": "Dominik Fischnaller", "country": "Italy", "result": "3:32.125" }
+          ]
+        },
+        {
+          "event": "Women's singles",
+          "athletes": [
+            { "medal": "G", "name": "Julia Taubitz", "country": "Germany", "result": "3:30.625" },
+            { "medal": "S", "name": "Elīna Ieva Bota", "country": "Latvia", "result": "3:31.543" },
+            { "medal": "B", "name": "Ashley Farquharson", "country": "United States", "result": "3:31.582" }
+          ]
+        },
+        {
+          "event": "Men's doubles",
+          "athletes": [
+            { "medal": "G", "name": "Emanuel Rieder, Simon Kainzwaldner", "country": "Italy", "result": "1:45.086" },
+            { "medal": "S", "name": "Thomas Steu, Wolfgang Kindl", "country": "Austria", "result": "1:45.154" },
+            { "medal": "B", "name": "Tobias Wendl, Tobias Arlt", "country": "Germany", "result": "1:45.176" }
+          ]
+        },
+        {
+          "event": "Women's doubles",
+          "athletes": [
+            { "medal": "G", "name": "Andrea Vötter, Marion Oberhofer", "country": "Italy", "result": "1:46.284" },
+            { "medal": "S", "name": "Dajana Eitberger, Magdalena Matschina", "country": "Germany", "result": "1:46.404" },
+            { "medal": "B", "name": "Selina Egle, Lara Kipp", "country": "Austria", "result": "1:46.543" }
+          ]
+        },
+        {
+          "event": "Team relay",
+          "athletes": [
+            { "medal": "G", "name": "Taubitz, Wendl, Arlt, Langenhan, Eitberger, Matschina", "country": "Germany", "result": "3:41.672" },
+            { "medal": "S", "name": "Schulte, Steu, Kindl, Müller, Egle, Kipp", "country": "Austria", "result": "3:42.214" },
+            { "medal": "B", "name": "Hofer, Rieder, Kainzwaldner, Fischnaller, Vötter, Oberhofer", "country": "Italy", "result": "3:42.521" }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Nordic Combined",
+      "events": [
+        {
+          "event": "Individual normal hill/10 km",
+          "athletes": [
+            { "medal": "G", "name": "Jens Lurås Oftebro", "country": "Norway", "result": "29:59.4" },
+            { "medal": "S", "name": "Johannes Lamparter", "country": "Austria", "result": "30:00.4" },
+            { "medal": "B", "name": "Eero Hirvonen", "country": "Finland", "result": "30:01.9" }
+          ]
+        },
+        {
+          "event": "Individual large hill/10 km",
+          "athletes": [
+            { "medal": "G", "name": "Jens Lurås Oftebro", "country": "Norway", "result": "24:45.0" },
+            { "medal": "S", "name": "Johannes Lamparter", "country": "Austria", "result": "24:50.9" },
+            { "medal": "B", "name": "Ilkka Herola", "country": "Finland", "result": "24:59.8" }
+          ]
+        },
+        {
+          "event": "Team large hill/2 x 7.5 km",
+          "athletes": [
+            { "medal": "G", "name": "Andreas Skoglund, Jens Lurås Oftebro", "country": "Norway", "result": "41:18.0" },
+            { "medal": "S", "name": "Ilkka Herola, Eero Hirvonen", "country": "Finland", "result": "41:18.5" },
+            { "medal": "B", "name": "Stefan Rettenegger, Johannes Lamparter", "country": "Austria", "result": "41:40.3" }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Short Track Speed Skating",
+      "events": [
+        {
+          "event": "Men's 500 metres",
+          "athletes": [
+            { "medal": "G", "name": "Steven Dubois", "country": "Canada", "result": "40.835" },
+            { "medal": "S", "name": "Melle van 't Wout", "country": "Netherlands", "result": "40.912" },
+            { "medal": "B", "name": "Jens van 't Wout", "country": "Netherlands", "result": "41.908" }
+          ]
+        },
+        {
+          "event": "Men's 1000 metres",
+          "athletes": [
+            { "medal": "G", "name": "Jens van 't Wout", "country": "Netherlands", "result": "1:24.537" },
+            { "medal": "S", "name": "Sun Long", "country": "China", "result": "1:24.565" },
+            { "medal": "B", "name": "Rim Jong-un", "country": "South Korea", "result": "1:24.611" }
+          ]
+        },
+        {
+          "event": "Men's 1500 metres",
+          "athletes": [
+            { "medal": "G", "name": "Jens van 't Wout", "country": "Netherlands", "result": "2:12.219" },
+            { "medal": "S", "name": "Hwang Dae-heon", "country": "South Korea", "result": "2:12.304" },
+            { "medal": "B", "name": "Roberts Krūzbergs", "country": "Latvia", "result": "2:12.376" }
+          ]
+        },
+        {
+          "event": "Men's 5000 metre relay",
+          "athletes": [
+            { "medal": "G", "name": "T. Boer, F. Emons, J. van 't Wout, M. van 't Wout, I. de Laat", "country": "Netherlands", "result": "6:51.847" },
+            { "medal": "S", "name": "Hwang D.H., Lee J.M., Lee J.S., Rim J.U., Shin D.M.", "country": "South Korea", "result": "6:52.239" },
+            { "medal": "B", "name": "P. Sighel, T. Nadalini, L. Spechenhauser, A. Cassinelli", "country": "Italy", "result": "6:52.335" }
+          ]
+        },
+        {
+          "event": "Women's 500 metres",
+          "athletes": [
+            { "medal": "G", "name": "Xandra Velzeboer", "country": "Netherlands", "result": "41.609" },
+            { "medal": "S", "name": "Arianna Fontana", "country": "Italy", "result": "42.294" },
+            { "medal": "B", "name": "Courtney Sarault", "country": "Canada", "result": "42.427" }
+          ]
+        },
+        {
+          "event": "Women's 1000 metres",
+          "athletes": [
+            { "medal": "G", "name": "Xandra Velzeboer", "country": "Netherlands", "result": "1:28.437" },
+            { "medal": "S", "name": "Courtney Sarault", "country": "Canada", "result": "1:28.523" },
+            { "medal": "B", "name": "Kim Gil-li", "country": "South Korea", "result": "1:28.614" }
+          ]
+        },
+        {
+          "event": "Women's 1500 metres",
+          "athletes": [
+            { "medal": "G", "name": "Kim Gil-li", "country": "South Korea", "result": "2:32.076" },
+            { "medal": "S", "name": "Choi Min-jeong", "country": "South Korea", "result": "2:32.450" },
+            { "medal": "B", "name": "Corinne Stoddard", "country": "United States", "result": "2:32.578" }
+          ]
+        },
+        {
+          "event": "Women's 3000 metre relay",
+          "athletes": [
+            { "medal": "G", "name": "Choi M.J., Kim G.L., Shim S.H., Noh D.H., Lee S.Y.", "country": "South Korea", "result": "4:04.014" },
+            { "medal": "S", "name": "E. Confortola, A. Fontana, C. Betti, A. Sighel", "country": "Italy", "result": "4:04.107" },
+            { "medal": "B", "name": "D. Blais, F. Brunelle, K. Boutin, C. Sarault", "country": "Canada", "result": "4:04.314" }
+          ]
+        },
+        {
+          "event": "Mixed 2000 metre relay",
+          "athletes": [
+            { "medal": "G", "name": "E. Confortola, A. Fontana, T. Nadalini, P. Sighel, C. Betti, L. Spechenhauser", "country": "Italy", "result": "2:39.019" },
+            { "medal": "S", "name": "K. Boutin, W. Dandjinou, F. Roussel, C. Sarault, F. Brunelle, S. Dubois", "country": "Canada", "result": "2:39.258" },
+            { "medal": "B", "name": "H. Desmet, S. Desmet, T. den Dulk, W. Pétré", "country": "Belgium", "result": "2:39.353" }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Skeleton",
+      "events": [
+        {
+          "event": "Men's singles",
+          "athletes": [
+            { "medal": "G", "name": "Matt Weston", "country": "Great Britain", "result": "3:43.33" },
+            { "medal": "S", "name": "Axel Jungk", "country": "Germany", "result": "3:44.21" },
+            { "medal": "B", "name": "Christopher Grotheer", "country": "Germany", "result": "3:44.40" }
+          ]
+        },
+        {
+          "event": "Women's singles",
+          "athletes": [
+            { "medal": "G", "name": "Janine Flock", "country": "Austria", "result": "3:49.02" },
+            { "medal": "S", "name": "Susanne Kreher", "country": "Germany", "result": "3:49.32" },
+            { "medal": "B", "name": "Jacqueline Pfeifer", "country": "Germany", "result": "3:49.46" }
+          ]
+        },
+        {
+          "event": "Mixed team",
+          "athletes": [
+            { "medal": "G", "name": "Tabitha Stoecker, Matt Weston", "country": "Great Britain", "result": "1:59.36" },
+            { "medal": "S", "name": "Susanne Kreher, Axel Jungk", "country": "Germany", "result": "1:59.53" },
+            { "medal": "B", "name": "Jacqueline Pfeifer, Christopher Grotheer", "country": "Germany", "result": "1:59.54" }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Ski Jumping",
+      "events": [
+        {
+          "event": "Men's normal hill individual",
+          "athletes": [
+            { "medal": "G", "name": "Philipp Raimund", "country": "Germany", "result": "274.1" },
+            { "medal": "S", "name": "Kacper Tomasiak", "country": "Poland", "result": "270.7" },
+            { "medal": "B", "name": "Ren Nikaidō", "country": "Japan", "result": "266.0" },
+            { "medal": "B", "name": "Gregor Deschwanden", "country": "Switzerland", "result": "266.0" }
+          ]
+        },
+        {
+          "event": "Men's large hill individual",
+          "athletes": [
+            { "medal": "G", "name": "Domen Prevc", "country": "Slovenia", "result": "301.8" },
+            { "medal": "S", "name": "Ren Nikaidō", "country": "Japan", "result": "295.0" },
+            { "medal": "B", "name": "Kacper Tomasiak", "country": "Poland", "result": "291.2" }
+          ]
+        },
+        {
+          "event": "Men's large hill super team",
+          "athletes": [
+            { "medal": "G", "name": "Jan Hörl, Stephan Embacher", "country": "Austria", "result": "568.7" },
+            { "medal": "S", "name": "Paweł Wąsek, Kacper Tomasiak", "country": "Poland", "result": "547.3" },
+            { "medal": "B", "name": "Johann André Forfang, Kristoffer Eriksen Sundal", "country": "Norway", "result": "538.0" }
+          ]
+        },
+        {
+          "event": "Women's normal hill individual",
+          "athletes": [
+            { "medal": "G", "name": "Anna Odine Strøm", "country": "Norway", "result": "267.3" },
+            { "medal": "S", "name": "Nika Prevc", "country": "Slovenia", "result": "266.2" },
+            { "medal": "B", "name": "Nozomi Maruyama", "country": "Japan", "result": "261.8" }
+          ]
+        },
+        {
+          "event": "Women's large hill individual",
+          "athletes": [
+            { "medal": "G", "name": "Anna Odine Strøm", "country": "Norway", "result": "284.8" },
+            { "medal": "S", "name": "Eirin Maria Kvandal", "country": "Norway", "result": "282.7" },
+            { "medal": "B", "name": "Nika Prevc", "country": "Slovenia", "result": "271.5" }
+          ]
+        },
+        {
+          "event": "Mixed normal hill team",
+          "athletes": [
+            { "medal": "G", "name": "N. Vodan, A. Lanišek, N. Prevc, D. Prevc", "country": "Slovenia", "result": "1069.2" },
+            { "medal": "S", "name": "A.O. Strøm, K.E. Sundal, E.M. Kvandal, M. Lindvik", "country": "Norway", "result": "1038.3" },
+            { "medal": "B", "name": "N. Maruyama, R. Kobayashi, S. Takanashi, R. Nikaidō", "country": "Japan", "result": "1034.0" }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Ski Mountaineering",
+      "events": [
+        {
+          "event": "Men's sprint",
+          "athletes": [
+            { "medal": "G", "name": "Oriol Cardona", "country": "Spain", "result": "2:34.03" },
+            { "medal": "S", "name": "Nikita Filippov", "country": "Individual Neutral Athletes", "result": "2:35.55" },
+            { "medal": "B", "name": "Thibault Anselmet", "country": "France", "result": "2:36.34" }
+          ]
+        },
+        {
+          "event": "Women's sprint",
+          "athletes": [
+            { "medal": "G", "name": "Marianne Fatton", "country": "Switzerland", "result": "2:59.77" },
+            { "medal": "S", "name": "Emily Harrop", "country": "France", "result": "3:02.15" },
+            { "medal": "B", "name": "Ana Alonso", "country": "Spain", "result": "3:10.22" }
+          ]
+        },
+        {
+          "event": "Mixed relay",
+          "athletes": [
+            { "medal": "G", "name": "Emily Harrop, Thibault Anselmet", "country": "France", "result": "26:57.44" },
+            { "medal": "S", "name": "Marianne Fatton, Jon Kistler", "country": "Switzerland", "result": "27:09.30" },
+            { "medal": "B", "name": "Ana Alonso, Oriol Cardona", "country": "Spain", "result": "27:23.94" }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Snowboarding",
+      "events": [
+        {
+          "event": "Men's big air",
+          "athletes": [
+            { "medal": "G", "name": "Kira Kimura", "country": "Japan", "result": "179.50 pts" },
+            { "medal": "S", "name": "Ryoma Kimata", "country": "Japan", "result": "171.50 pts" },
+            { "medal": "B", "name": "Su Yiming", "country": "China", "result": "168.50 pts" }
+          ]
+        },
+        {
+          "event": "Men's halfpipe",
+          "athletes": [
+            { "medal": "G", "name": "Yūto Totsuka", "country": "Japan", "result": "95.00 pts" },
+            { "medal": "S", "name": "Scotty James", "country": "Australia", "result": "93.50 pts" },
+            { "medal": "B", "name": "Ryusei Yamada", "country": "Japan", "result": "92.00 pts" }
+          ]
+        },
+        {
+          "event": "Men's slopestyle",
+          "athletes": [
+            { "medal": "G", "name": "Su Yiming", "country": "China", "result": "82.41 pts" },
+            { "medal": "S", "name": "Taiga Hasegawa", "country": "Japan", "result": "82.13 pts" },
+            { "medal": "B", "name": "Jake Canter", "country": "United States", "result": "79.36 pts" }
+          ]
+        },
+        {
+          "event": "Men's parallel giant slalom",
+          "athletes": [
+            { "medal": "G", "name": "Benjamin Karl", "country": "Austria", "result": "1st - Gold Medal" },
+            { "medal": "S", "name": "Kim Sang-kyum", "country": "South Korea", "result": "2nd - Silver Medal" },
+            { "medal": "B", "name": "Tervel Zamfirov", "country": "Bulgaria", "result": "3rd - Bronze Medal" }
+          ]
+        },
+        {
+          "event": "Men's snowboard cross",
+          "athletes": [
+            { "medal": "G", "name": "Alessandro Hämmerle", "country": "Austria", "result": "1st - Gold Medal" },
+            { "medal": "S", "name": "Éliot Grondin", "country": "Canada", "result": "2nd - Silver Medal" },
+            { "medal": "B", "name": "Jakob Dusek", "country": "Austria", "result": "3rd - Bronze Medal" }
+          ]
+        },
+        {
+          "event": "Women's big air",
+          "athletes": [
+            { "medal": "G", "name": "Kokomo Murase", "country": "Japan", "result": "179.00 pts" },
+            { "medal": "S", "name": "Zoi Sadowski-Synnott", "country": "New Zealand", "result": "172.25 pts" },
+            { "medal": "B", "name": "Yu Seung-eun", "country": "South Korea", "result": "171.00 pts" }
+          ]
+        },
+        {
+          "event": "Women's halfpipe",
+          "athletes": [
+            { "medal": "G", "name": "Choi Ga-on", "country": "South Korea", "result": "90.25 pts" },
+            { "medal": "S", "name": "Chloe Kim", "country": "United States", "result": "88.00 pts" },
+            { "medal": "B", "name": "Mitsuki Ono", "country": "Japan", "result": "85.00 pts" }
+          ]
+        },
+        {
+          "event": "Women's slopestyle",
+          "athletes": [
+            { "medal": "G", "name": "Mari Fukada", "country": "Japan", "result": "87.83 pts" },
+            { "medal": "S", "name": "Zoi Sadowski-Synnott", "country": "New Zealand", "result": "87.48 pts" },
+            { "medal": "B", "name": "Kokomo Murase", "country": "Japan", "result": "85.80 pts" }
+          ]
+        },
+        {
+          "event": "Women's parallel giant slalom",
+          "athletes": [
+            { "medal": "G", "name": "Zuzana Maděrová", "country": "Czech Republic", "result": "1st - Gold Medal" },
+            { "medal": "S", "name": "Sabine Payer", "country": "Austria", "result": "2nd - Silver Medal" },
+            { "medal": "B", "name": "Lucia Dalmasso", "country": "Italy", "result": "3rd - Bronze Medal" }
+          ]
+        },
+        {
+          "event": "Women's snowboard cross",
+          "athletes": [
+            { "medal": "G", "name": "Josie Baff", "country": "Australia", "result": "1st - Gold Medal" },
+            { "medal": "S", "name": "Eva Adamczyková", "country": "Czech Republic", "result": "2nd - Silver Medal" },
+            { "medal": "B", "name": "Michela Moioli", "country": "Italy", "result": "3rd - Bronze Medal" }
+          ]
+        },
+        {
+          "event": "Mixed team snowboard cross",
+          "athletes": [
+            { "medal": "G", "name": "Huw Nightingale, Charlotte Bankes", "country": "Great Britain", "result": "1st - Gold Medal" },
+            { "medal": "S", "name": "Lorenzo Sommariva, Michela Moioli", "country": "Italy", "result": "2nd - Silver Medal" },
+            { "medal": "B", "name": "Loan Bozzolo, Léa Casta", "country": "France", "result": "3rd - Bronze Medal" }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Speed Skating",
+      "events": [
+        {
+          "event": "Men's 500 metres",
+          "athletes": [
+            { "medal": "G", "name": "Jordan Stolz", "country": "United States", "result": "33.77 (OR)" },
+            { "medal": "S", "name": "Jenning de Boo", "country": "Netherlands", "result": "33.88" },
+            { "medal": "B", "name": "Laurent Dubreuil", "country": "Canada", "result": "34.26" }
+          ]
+        },
+        {
+          "event": "Men's 1000 metres",
+          "athletes": [
+            { "medal": "G", "name": "Jordan Stolz", "country": "United States", "result": "1:06.28 (OR)" },
+            { "medal": "S", "name": "Jenning de Boo", "country": "Netherlands", "result": "1:06.78" },
+            { "medal": "B", "name": "Ning Zhongyan", "country": "China", "result": "1:07.34" }
+          ]
+        },
+        {
+          "event": "Men's 1500 metres",
+          "athletes": [
+            { "medal": "G", "name": "Ning Zhongyan", "country": "China", "result": "1:41.98 (OR)" },
+            { "medal": "S", "name": "Jordan Stolz", "country": "United States", "result": "1:42.75" },
+            { "medal": "B", "name": "Kjeld Nuis", "country": "Netherlands", "result": "1:42.82" }
+          ]
+        },
+        {
+          "event": "Men's 5000 metres",
+          "athletes": [
+            { "medal": "G", "name": "Sander Eitrem", "country": "Norway", "result": "6:03.95 (OR)" },
+            { "medal": "S", "name": "Metoděj Jílek", "country": "Czech Republic", "result": "6:06.48" },
+            { "medal": "B", "name": "Riccardo Lorello", "country": "Italy", "result": "6:09.22" }
+          ]
+        },
+        {
+          "event": "Men's 10,000 metres",
+          "athletes": [
+            { "medal": "G", "name": "Metoděj Jílek", "country": "Czech Republic", "result": "12:33.43" },
+            { "medal": "S", "name": "Vladimir Semirunniy", "country": "Poland", "result": "12:39.08" },
+            { "medal": "B", "name": "Jorrit Bergsma", "country": "Netherlands", "result": "12:40.48" }
+          ]
+        },
+        {
+          "event": "Men's mass start",
+          "athletes": [
+            { "medal": "G", "name": "Jorrit Bergsma", "country": "Netherlands", "result": "68 pts" },
+            { "medal": "S", "name": "Viktor Hald Thorup", "country": "Denmark", "result": "47 pts" },
+            { "medal": "B", "name": "Andrea Giovannini", "country": "Italy", "result": "21 pts" }
+          ]
+        },
+        {
+          "event": "Men's team pursuit",
+          "athletes": [
+            { "medal": "G", "name": "D. Ghiotto, A. Giovannini, M. Malfatti", "country": "Italy", "result": "3:39.20" },
+            { "medal": "S", "name": "E. Cepuran, C. Dawson, E. Lehman", "country": "United States", "result": "3:43.71" },
+            { "medal": "B", "name": "Li W., Liu H., Wu Y., Ning Z.", "country": "China", "result": "3:41.38" }
+          ]
+        },
+        {
+          "event": "Women's 500 metres",
+          "athletes": [
+            { "medal": "G", "name": "Femke Kok", "country": "Netherlands", "result": "36.49 (OR)" },
+            { "medal": "S", "name": "Jutta Leerdam", "country": "Netherlands", "result": "37.15" },
+            { "medal": "B", "name": "Miho Takagi", "country": "Japan", "result": "37.27" }
+          ]
+        },
+        {
+          "event": "Women's 1000 metres",
+          "athletes": [
+            { "medal": "G", "name": "Jutta Leerdam", "country": "Netherlands", "result": "1:12.31 (OR)" },
+            { "medal": "S", "name": "Femke Kok", "country": "Netherlands", "result": "1:12.59" },
+            { "medal": "B", "name": "Miho Takagi", "country": "Japan", "result": "1:13.95" }
+          ]
+        },
+        {
+          "event": "Women's 1500 metres",
+          "athletes": [
+            { "medal": "G", "name": "Antoinette Rijpma-de Jong", "country": "Netherlands", "result": "1:54.09" },
+            { "medal": "S", "name": "Ragne Wiklund", "country": "Norway", "result": "1:54.15" },
+            { "medal": "B", "name": "Valérie Maltais", "country": "Canada", "result": "1:54.40" }
+          ]
+        },
+        {
+          "event": "Women's 3000 metres",
+          "athletes": [
+            { "medal": "G", "name": "Francesca Lollobrigida", "country": "Italy", "result": "3:54.28 (OR)" },
+            { "medal": "S", "name": "Ragne Wiklund", "country": "Norway", "result": "3:56.54" },
+            { "medal": "B", "name": "Valérie Maltais", "country": "Canada", "result": "3:56.93" }
+          ]
+        },
+        {
+          "event": "Women's 5000 metres",
+          "athletes": [
+            { "medal": "G", "name": "Francesca Lollobrigida", "country": "Italy", "result": "6:46.17" },
+            { "medal": "S", "name": "Merel Conijn", "country": "Netherlands", "result": "6:46.27" },
+            { "medal": "B", "name": "Ragne Wiklund", "country": "Norway", "result": "6:46.34" }
+          ]
+        },
+        {
+          "event": "Women's mass start",
+          "athletes": [
+            { "medal": "G", "name": "Marijke Groenewoud", "country": "Netherlands", "result": "60 pts" },
+            { "medal": "S", "name": "Ivanie Blondin", "country": "Canada", "result": "40 pts" },
+            { "medal": "B", "name": "Mia Kilburg", "country": "United States", "result": "20 pts" }
+          ]
+        },
+        {
+          "event": "Women's team pursuit",
+          "athletes": [
+            { "medal": "G", "name": "I. Blondin, V. Maltais, I. Weidemann", "country": "Canada", "result": "2:55.81" },
+            { "medal": "S", "name": "J. Beune, M. Groenewoud, A. Rijpma-de Jong", "country": "Netherlands", "result": "2:56.77" },
+            { "medal": "B", "name": "H. Noake, A. Sato, M. Takagi, M. Horikawa", "country": "Japan", "result": "2:58.50" }
+          ]
+        }
+      ]
+    }
+  ],
+  "ATHLETES_COUNT": {
+    "Norway": 80,
+    "United States": 232,
+    "Netherlands": 38,
+    "Italy": 196,
+    "Germany": 185,
+    "France": 160,
+    "Sweden": 110,
+    "Switzerland": 175,
+    "Austria": 115,
+    "Japan": 121,
+    "Canada": 205,
+    "China": 125,
+    "South Korea": 71,
+    "Australia": 51,
+    "Great Britain": 53,
+    "Czech Republic": 115,
+    "Slovenia": 37,
+    "Spain": 20,
+    "Brazil": 14,
+    "Kazakhstan": 36,
+    "Poland": 59,
+    "New Zealand": 17,
+    "Finland": 103,
+    "Latvia": 67,
+    "Denmark": 39,
+    "Estonia": 31,
+    "Georgia": 8,
+    "Bulgaria": 20,
+    "Belgium": 30,
+    "Individual Neutral Athletes": 20
+  },
+  "ALL_MEDALS": {
+    "Belgium": {
+      "bronze": [
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Mixed 2000m relay",
+          "athletes": "Hanne Desmet, Stijn Desmet, Tineke den Dulk, Ward Pétré"
+        }
+      ]
+    },
+    "Bulgaria": {
+      "bronze": [
+        {
+          "sport": "Biathlon",
+          "event": "Women's 15km individual",
+          "athletes": "Lora Hristova"
+        },
+        {
+          "sport": "Snowboard",
+          "event": "Men's parallel giant slalom",
+          "athletes": "Tervel Zamfirov"
+        }
+      ]
+    },
+    "Individual Neutral Athletes": {
+      "silver": [
+        {
+          "sport": "Ski Mountaineering",
+          "event": "Men's sprint",
+          "athletes": "Nikita Filippov"
+        }
+      ]
+    },
+    "Georgia": {
+      "silver": [
+        {
+          "sport": "Figure Skating",
+          "event": "Pair skating",
+          "athletes": "Anastasiia Metelkina, Luka Berulava"
+        }
+      ]
+    },
+    "Estonia": {
+      "silver": [
+        {
+          "sport": "Freestyle Skiing",
+          "event": "Men's halfpipe",
+          "athletes": "Henry Sildaru"
+        }
+      ]
+    },
+    "Denmark": {
+      "silver": [
+        {
+          "sport": "Speed Skating",
+          "event": "Men's mass start",
+          "athletes": "Viktor Hald Thorup"
+        }
+      ]
+    },
+    "Latvia": {
+      "silver": [
+        {
+          "sport": "Luge",
+          "event": "Women's singles",
+          "athletes": "Elīna Ieva Vītola"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Men's 1500m",
+          "athletes": "Roberts Krūzbergs"
+        }
+      ]
+    },
+    "Finland": {
+      "silver": [
+        {
+          "sport": "Nordic Combined",
+          "event": "Team sprint",
+          "athletes": "Ilkka Herola, Eero Hirvonen"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Biathlon",
+          "event": "Women's 10km pursuit",
+          "athletes": "Suvi Minkkinen"
+        },
+        {
+          "sport": "Cross-Country Skiing",
+          "event": "Women's 4 × 7.5km relay",
+          "athletes": "Anne Kyllönen, Johanna Matintalo, Kerttu Niskanen, Krista Pärmäkoshi"
+        },
+        {
+          "sport": "Nordic Combined",
+          "event": "Individual Gundersen NH/10km",
+          "athletes": "Eero Hirvonen"
+        },
+        {
+          "sport": "Nordic Combined",
+          "event": "Individual Gundersen LH/10km",
+          "athletes": "Ilkka Herola"
+        },
+        {
+          "sport": "Ice Hockey",
+          "event": "Men's tournament",
+          "athletes": "Team Finland"
+        }
+      ]
+    },
+    "New Zealand": {
+      "silver": [
+        {
+          "sport": "Snowboard",
+          "event": "Women's slopestyle",
+          "athletes": "Zoi Sadowski-Synnott"
+        },
+        {
+          "sport": "Snowboard",
+          "event": "Women's big air",
+          "athletes": "Zoi Sadowski-Synnott"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Freestyle Skiing",
+          "event": "Men's slopestyle",
+          "athletes": "Luca Harrington"
+        }
+      ]
+    },
+    "Poland": {
+      "silver": [
+        {
+          "sport": "Ski Jumping",
+          "event": "Men's normal hill individual",
+          "athletes": "Kacper Tomasiak"
+        },
+        {
+          "sport": "Ski Jumping",
+          "event": "Men's super team",
+          "athletes": "Dawid Kubacki, Kacper Tomasiak"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Men's 10000m",
+          "athletes": "Vladimir Semirunniy"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Women's 500m",
+          "athletes": "Natalia Maliszewska"
+        }
+      ]
+    },
+    "Kazakhstan": {
+      "gold": [
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Men's 500m",
+          "athletes": "Abzal Azhgaliyev"
+        }
+      ]
+    },
+    "Brazil": {
+      "gold": [
+        {
+          "sport": "Alpine Skiing",
+          "event": "Men's giant slalom",
+          "athletes": "Lucas Pinheiro Braathen"
+        }
+      ]
+    },
+    "Spain": {
+      "gold": [
+        {
+          "sport": "Snowboard",
+          "event": "Men's snowboard cross",
+          "athletes": "Lucas Eguibar"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Figure Skating",
+          "event": "Ice dance",
+          "athletes": "Olivia Smart, Tim Dieck"
+        },
+        {
+          "sport": "Freestyle Skiing",
+          "event": "Men's moguls",
+          "athletes": "Javi Lliso"
+        }
+      ]
+    },
+    "Slovenia": {
+      "gold": [
+        {
+          "sport": "Ski Jumping",
+          "event": "Women's normal hill individual",
+          "athletes": "Nika Prevc"
+        },
+        {
+          "sport": "Ski Jumping",
+          "event": "Women's large hill individual",
+          "athletes": "Nika Kriznar"
+        }
+      ],
+      "silver": [
+        {
+          "sport": "Alpine Skiing",
+          "event": "Women's giant slalom",
+          "athletes": "Zan Kranjec"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Ski Jumping",
+          "event": "Mixed team",
+          "athletes": "Nika Prevc, Nika Kriznar, Timi Zajc, Anze Lanisek"
+        }
+      ]
+    },
+    "Czech Republic": {
+      "gold": [
+        {
+          "sport": "Snowboard",
+          "event": "Women's parallel giant slalom",
+          "athletes": "Ester Ledecká"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Women's 3000m",
+          "athletes": "Martina Sáblíková"
+        }
+      ],
+      "silver": [
+        {
+          "sport": "Biathlon",
+          "event": "Women's 15km individual",
+          "athletes": "Markéta Davidová"
+        },
+        {
+          "sport": "Ice Hockey",
+          "event": "Women's tournament",
+          "athletes": "Team Czechia"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Alpine Skiing",
+          "event": "Women's combined",
+          "athletes": "Ester Ledecká"
+        }
+      ]
+    },
+    "Great Britain": {
+      "gold": [
+        {
+          "sport": "Curling",
+          "event": "Men's tournament",
+          "athletes": "Bruce Mouat, Grant Hardie, Bobby Lammie, Hammy McMillan Jr., James Craik"
+        },
+        {
+          "sport": "Freestyle Skiing",
+          "event": "Women's moguls",
+          "athletes": "Makayla Gerken Schofield"
+        },
+        {
+          "sport": "Skeleton",
+          "event": "Men's individual",
+          "athletes": "Matt Weston"
+        }
+      ],
+      "silver": [
+        {
+          "sport": "Curling",
+          "event": "Women's tournament",
+          "athletes": "Rebecca Morrison, Jennifer Dodds, Sophie Sinclair, Sophie Jackson, Gina Aitken"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Figure Skating",
+          "event": "Ice dance",
+          "athletes": "Lilah Fear, Lewis Gibson"
+        }
+      ]
+    },
+    "Australia": {
+      "gold": [
+        { "sport": "Freestyle Skiing", "event": "Men's Moguls", "athletes": "Cooper Woods" },
+        { "sport": "Freestyle Skiing", "event": "Women's Dual Moguls", "athletes": "Jakara Anthony" },
+        { "sport": "Snowboard", "event": "Women's Snowboard Cross", "athletes": "Josie Baff" }
+      ],
+      "silver": [
+        { "sport": "Freestyle Skiing", "event": "Women's Aerials", "athletes": "Danielle Scott" },
+        { "sport": "Snowboard", "event": "Men's Snowboard Halfpipe", "athletes": "Scotty James" }
+      ],
+      "bronze": [
+        { "sport": "Freestyle Skiing", "event": "Men's Dual Moguls", "athletes": "Matt Graham" }
+      ]
+    },
+    "South Korea": {
+      "gold": [
+        { "sport": "Short Track Speed Skating", "event": "Women's 3000m Relay", "athletes": "Team Korea" },
+        { "sport": "Snowboard", "event": "Women's Snowboard Halfpipe", "athletes": "Choi Gaon" },
+        { "sport": "Short Track Speed Skating", "event": "Women's 1500m", "athletes": "Kim Gilli" }
+      ],
+      "silver": [
+        { "sport": "Short Track Speed Skating", "event": "Men's 1500m", "athletes": "Hwang Daeheon" },
+        { "sport": "Snowboard", "event": "Men's Parallel Giant Slalom", "athletes": "Kim Sangkyum" },
+        { "sport": "Short Track Speed Skating", "event": "Men's 5000m Relay", "athletes": "Team Korea" },
+        { "sport": "Short Track Speed Skating", "event": "Women's 1500m", "athletes": "Choi Minjeong" }
+      ],
+      "bronze": [
+        { "sport": "Short Track Speed Skating", "event": "Women's 1000m", "athletes": "Kim Gilli" },
+        { "sport": "Short Track Speed Skating", "event": "Men's 1000m", "athletes": "Rim Jongun" },
+        { "sport": "Snowboard", "event": "Women's Snowboard Big Air", "athletes": "Yu Seungeun" }
+      ]
+    },
+    "China": {
+      "gold": [
+        { "sport": "Freestyle Skiing", "event": "Women's Aerials", "athletes": "Xu Mengtao" },
+        { "sport": "Snowboard", "event": "Men's Snowboard Slopestyle", "athletes": "Su Yiming" },
+        { "sport": "Speed Skating", "event": "Men's 1500m", "athletes": "Ning Zhongyan" },
+        { "sport": "Freestyle Skiing", "event": "Men's Aerials", "athletes": "Wang Xindi" },
+        { "sport": "Freestyle Skiing", "event": "Women's Freeski Halfpipe", "athletes": "Eileen Gu" }
+      ],
+      "silver": [
+        { "sport": "Freestyle Skiing", "event": "Women's Freeski Slopestyle", "athletes": "Eileen Gu" },
+        { "sport": "Freestyle Skiing", "event": "Women's Freeski Big Air", "athletes": "Eileen Gu" },
+        { "sport": "Short Track Speed Skating", "event": "Men's 1000m", "athletes": "Sun Long" },
+        { "sport": "Freestyle Skiing", "event": "Women's Freeski Halfpipe", "athletes": "Li Fanghui" }
+      ],
+      "bronze": [
+        { "sport": "Freestyle Skiing", "event": "Women's Aerials", "athletes": "Shao Qi" },
+        { "sport": "Snowboard", "event": "Men's Snowboard Big Air", "athletes": "Su Yiming" },
+        { "sport": "Speed Skating", "event": "Men's 1000m", "athletes": "Ning Zhongyan" },
+        { "sport": "Speed Skating", "event": "Men's Team Pursuit", "athletes": "Team China" },
+        { "sport": "Freestyle Skiing", "event": "Men's Aerials", "athletes": "Li Tianma" },
+        { "sport": "Freestyle Skiing", "event": "Mixed Team Aerials", "athletes": "Team China" }
+      ]
+    },
+    "Canada": {
+      "gold": [
+        { "sport": "Freestyle Skiing", "event": "Men's Dual Moguls", "athletes": "Mikael Kingsbury" },
+        { "sport": "Freestyle Skiing", "event": "Women's Freeski Big Air", "athletes": "Megan Oldham" },
+        { "sport": "Short Track Speed Skating", "event": "Men's 500m", "athletes": "Steven Dubois" },
+        { "sport": "Speed Skating", "event": "Women's Team Pursuit", "athletes": "Team Canada" },
+        { "sport": "Curling", "event": "Men's Tournament", "athletes": "Team Canada" }
+      ],
+      "silver": [
+        { "sport": "Freestyle Skiing", "event": "Men's Moguls", "athletes": "Mikael Kingsbury" },
+        { "sport": "Short Track Speed Skating", "event": "Women's 1000m", "athletes": "Courtney Sarault" },
+        { "sport": "Short Track Speed Skating", "event": "Mixed Team Relay", "athletes": "Team Canada" },
+        { "sport": "Snowboard", "event": "Men's Snowboard Cross", "athletes": "Eliot Grondin" },
+        { "sport": "Ice Hockey", "event": "Women's Tournament", "athletes": "Team Canada" },
+        { "sport": "Speed Skating", "event": "Women's Mass Start", "athletes": "Ivanie Blondin" }
+      ],
+      "bronze": [
+        { "sport": "Figure Skating", "event": "Ice Dance", "athletes": "Team Canada" },
+        { "sport": "Freestyle Skiing", "event": "Women's Freeski Slopestyle", "athletes": "Megan Oldham" },
+        { "sport": "Short Track Speed Skating", "event": "Women's 500m", "athletes": "Courtney Sarault" },
+        { "sport": "Short Track Speed Skating", "event": "Women's 3000m Relay", "athletes": "Team Canada" },
+        { "sport": "Speed Skating", "event": "Women's 3000m", "athletes": "Valerie Maltais" },
+        { "sport": "Speed Skating", "event": "Men's 500m", "athletes": "Laurent Dubreuil" },
+        { "sport": "Speed Skating", "event": "Women's 1500m", "athletes": "Valerie Maltais" },
+        { "sport": "Freestyle Skiing", "event": "Men's Freeski Halfpipe", "athletes": "Brendan MacKay" },
+        { "sport": "Curling", "event": "Women's Tournament", "athletes": "Team Canada" }
+      ]
+    },
+    "Japan": {
+      "gold": [
+        { "sport": "Figure Skating", "event": "Pair Skating", "athletes": "Team Japan" },
+        { "sport": "Snowboard", "event": "Men's Snowboard Halfpipe", "athletes": "Yuto Totsuka" },
+        { "sport": "Snowboard", "event": "Women's Snowboard Slopestyle", "athletes": "Mari Fukada" },
+        { "sport": "Snowboard", "event": "Women's Snowboard Big Air", "athletes": "Kokomo Murase" },
+        { "sport": "Snowboard", "event": "Men's Snowboard Big Air", "athletes": "Kira Kimura" }
+      ],
+      "silver": [
+        { "sport": "Figure Skating", "event": "Men's Single Skating", "athletes": "Yuma Kagiyama" },
+        { "sport": "Figure Skating", "event": "Team Event", "athletes": "Team Japan" },
+        { "sport": "Freestyle Skiing", "event": "Men's Dual Moguls", "athletes": "Ikuma Horishima" },
+        { "sport": "Ski Jumping", "event": "Men's Large Hill Individual", "athletes": "Ren Nikaido" },
+        { "sport": "Snowboard", "event": "Men's Snowboard Slopestyle", "athletes": "Taiga Hasegawa" },
+        { "sport": "Snowboard", "event": "Men's Snowboard Big Air", "athletes": "Ryoma Kimata" },
+        { "sport": "Figure Skating", "event": "Women's Single Skating", "athletes": "Kaori Sakamoto" }
+      ],
+      "bronze": [
+        { "sport": "Figure Skating", "event": "Men's Single Skating", "athletes": "Shun Sato" },
+        { "sport": "Freestyle Skiing", "event": "Men's Moguls", "athletes": "Ikuma Horishima" },
+        { "sport": "Ski Jumping", "event": "Women's Normal Hill Individual", "athletes": "Nozomi Maruyama" },
+        { "sport": "Ski Jumping", "event": "Men's Normal Hill Individual", "athletes": "Ren Nikaido" },
+        { "sport": "Ski Jumping", "event": "Mixed Team", "athletes": "Team Japan" },
+        { "sport": "Snowboard", "event": "Women's Snowboard Halfpipe", "athletes": "Mitsuki Ono" },
+        { "sport": "Snowboard", "event": "Men's Snowboard Halfpipe", "athletes": "Ryusei Yamada" },
+        { "sport": "Snowboard", "event": "Women's Snowboard Slopestyle", "athletes": "Kokomo Murase" },
+        { "sport": "Speed Skating", "event": "Women's 500m", "athletes": "Miho Takagi" },
+        { "sport": "Speed Skating", "event": "Women's 1000m", "athletes": "Miho Takagi" },
+        { "sport": "Speed Skating", "event": "Women's Team Pursuit", "athletes": "Team Japan" },
+        { "sport": "Figure Skating", "event": "Women's Single Skating", "athletes": "Ami Nakai" }
+      ]
+    },
+    "Austria": {
+      "gold": [
+        { "sport": "Alpine Skiing", "event": "Women's Team Combined", "athletes": "Team Austria" },
+        { "sport": "Skeleton", "event": "Women's Individual", "athletes": "Janine Flock" },
+        { "sport": "Ski Jumping", "event": "Men's Super Team", "athletes": "Team Austria" },
+        { "sport": "Snowboard", "event": "Men's Parallel Giant Slalom", "athletes": "Benjamin Karl" },
+        { "sport": "Snowboard", "event": "Men's Snowboard Cross", "athletes": "Alessandro Haemmerle" }
+      ],
+      "silver": [
+        { "sport": "Alpine Skiing", "event": "Men's Slalom", "athletes": "Fabio Gstrein" },
+        { "sport": "Alpine Skiing", "event": "Men's Team Combined", "athletes": "Team Austria" },
+        { "sport": "Luge", "event": "Men's Singles", "athletes": "Jonas Mueller" },
+        { "sport": "Luge", "event": "Men's Doubles", "athletes": "Team Austria" },
+        { "sport": "Luge", "event": "Team Relay", "athletes": "Team Austria" },
+        { "sport": "Nordic Combined", "event": "Individual Gundersen NH/10km", "athletes": "Johannes Lamparter" },
+        { "sport": "Nordic Combined", "event": "Individual Gundersen LH/10km", "athletes": "Johannes Lamparter" },
+        { "sport": "Snowboard", "event": "Women's Parallel Giant Slalom", "athletes": "Sabine Schoeffmann" }
+      ],
+      "bronze": [
+        { "sport": "Alpine Skiing", "event": "Women's Super-G", "athletes": "Cornelia Huetter" },
+        { "sport": "Freestyle Skiing", "event": "Men's Freeski Big Air", "athletes": "Matej Svancer" },
+        { "sport": "Luge", "event": "Women's Doubles", "athletes": "Team Austria" },
+        { "sport": "Snowboard", "event": "Men's Snowboard Cross", "athletes": "Jakob Dusek" },
+        { "sport": "Nordic Combined", "event": "Team Sprint", "athletes": "Team Austria" }
+      ]
+    },
+    "Switzerland": {
+      "gold": [
+        { "sport": "Alpine Skiing", "event": "Men's Downhill", "athletes": "Franjo von Allmen" },
+        { "sport": "Alpine Skiing", "event": "Men's Slalom", "athletes": "Loic Meillard" },
+        { "sport": "Alpine Skiing", "event": "Men's Super-G", "athletes": "Franjo von Allmen" },
+        { "sport": "Alpine Skiing", "event": "Men's Team Combined", "athletes": "Team Switzerland" },
+        { "sport": "Freestyle Skiing", "event": "Women's Freeski Slopestyle", "athletes": "Mathilde Gremaud" },
+        { "sport": "Ski Mountaineering", "event": "Women's Sprint", "athletes": "Marianne Fatton" }
+      ],
+      "silver": [
+        { "sport": "Alpine Skiing", "event": "Women's Slalom", "athletes": "Camille Rast" },
+        { "sport": "Alpine Skiing", "event": "Men's Giant Slalom", "athletes": "Marco Odermatt" },
+        { "sport": "Alpine Skiing", "event": "Men's Team Combined", "athletes": "Team Switzerland" },
+        { "sport": "Cross-Country Skiing", "event": "Women's Team Sprint Free", "athletes": "Team Switzerland" },
+        { "sport": "Freestyle Skiing", "event": "Women's Ski Cross", "athletes": "Fanny Smith" },
+        { "sport": "Freestyle Skiing", "event": "Men's Aerials", "athletes": "Noe Roth" },
+        { "sport": "Freestyle Skiing", "event": "Mixed Team Aerials", "athletes": "Team Switzerland" },
+        { "sport": "Ski Mountaineering", "event": "Mixed Team", "athletes": "Team Switzerland" },
+        { "sport": "Curling", "event": "Women's Tournament", "athletes": "Team Switzerland" }
+      ],
+      "bronze": [
+        { "sport": "Alpine Skiing", "event": "Men's Giant Slalom", "athletes": "Loic Meillard" },
+        { "sport": "Alpine Skiing", "event": "Men's Super-G", "athletes": "Marco Odermatt" },
+        { "sport": "Ski Jumping", "event": "Men's NH Individual", "athletes": "Gregor Deschwanden" },
+        { "sport": "Ice Hockey", "event": "Women's Tournament", "athletes": "Team Switzerland" },
+        { "sport": "Curling", "event": "Men's Tournament", "athletes": "Team Switzerland" },
+        { "sport": "Freestyle Skiing", "event": "Men's Ski Cross", "athletes": "Alex Fiva" },
+        { "sport": "Cross-Country Skiing", "event": "Women's 50km Mass Start", "athletes": "Nadja Kaelin" },
+        { "sport": "Bobsleigh", "event": "4-man", "athletes": "Team Switzerland" }
+      ]
+    },
+    "Sweden": {
+      "gold": [
+        {
+          "sport": "Speed Skating",
+          "event": "Men's 5000m",
+          "athletes": "Nils van der Poel"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Men's 10000m",
+          "athletes": "Nils van der Poel"
+        },
+        {
+          "sport": "Cross-Country Skiing",
+          "event": "Women's sprint free",
+          "athletes": "Jonna Sundling"
+        },
+        {
+          "sport": "Alpine Skiing",
+          "event": "Women's giant slalom",
+          "athletes": "Sara Hector"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Women's 4 × 6km relay",
+          "athletes": "Linn Persson, Mona Brorsson, Hanna Öberg, Elvira Öberg"
+        },
+        {
+          "sport": "Freestyle Skiing",
+          "event": "Women's ski cross",
+          "athletes": "Sandra Näslund"
+        },
+        {
+          "sport": "Curling",
+          "event": "Men's tournament",
+          "athletes": "Niklas Edin, Oskar Eriksson, Rasmus Wranå, Christoffer Sundgren, Daniel Magnusson"
+        },
+        {
+          "sport": "Freestyle Skiing",
+          "event": "Men's freeski slopestyle",
+          "athletes": "Jesper Tjäder"
+        }
+      ],
+      "silver": [
+        {
+          "sport": "Biathlon",
+          "event": "Women's 7.5km sprint",
+          "athletes": "Elvira Öberg"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Women's 10km pursuit",
+          "athletes": "Elvira Öberg"
+        },
+        {
+          "sport": "Cross-Country Skiing",
+          "event": "Women's sprint free",
+          "athletes": "Maja Dahlqvist"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Men's 12.5km pursuit",
+          "athletes": "Martin Ponsiluoma"
+        },
+        {
+          "sport": "Cross-Country Skiing",
+          "event": "Women's team sprint classic",
+          "athletes": "Maja Dahlqvist, Jonna Sundling"
+        },
+        {
+          "sport": "Curling",
+          "event": "Mixed doubles",
+          "athletes": "Almida de Val, Oskar Eriksson"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Curling",
+          "event": "Women's tournament",
+          "athletes": "Anna Hasselborg, Sara McManus, Agnes Knochenhauer, Sofia Mabergs, Johanna Heldin"
+        },
+        {
+          "sport": "Cross-Country Skiing",
+          "event": "Women's 4 × 5km relay",
+          "athletes": "Maja Dahlqvist, Ebba Andersson, Frida Karlsson, Jonna Sundling"
+        },
+        {
+          "sport": "Freestyle Skiing",
+          "event": "Men's moguls",
+          "athletes": "Walter Wallberg"
+        },
+        {
+          "sport": "Snowboard",
+          "event": "Women's slopestyle",
+          "athletes": "Svenja Thues"
+        }
+      ]
+    },
+    "France": {
+      "gold": [
+        {
+          "sport": "Biathlon",
+          "event": "Men's 20km individual",
+          "athletes": "Quentin Fillon Maillet"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Men's 12.5km pursuit",
+          "athletes": "Quentin Fillon Maillet"
+        },
+        {
+          "sport": "Alpine Skiing",
+          "event": "Men's slalom",
+          "athletes": "Clément Noël"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Women's 12.5km mass start",
+          "athletes": "Justine Braisaz-Bouchet"
+        },
+        {
+          "sport": "Figure Skating",
+          "event": "Ice dance",
+          "athletes": "Gabriella Papadakis, Guillaume Cizeron"
+        },
+        {
+          "sport": "Freestyle Skiing",
+          "event": "Men's ski cross",
+          "athletes": "Bastien Midol"
+        },
+        {
+          "sport": "Snowboard",
+          "event": "Women's snowboard cross",
+          "athletes": "Chloé Trespeuch"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Mixed relay",
+          "athletes": "Anaïs Chevalier-Bouchet, Julia Simon, Émilien Jacquelin, Quentin Fillon Maillet"
+        }
+      ],
+      "silver": [
+        {
+          "sport": "Biathlon",
+          "event": "Men's 10km sprint",
+          "athletes": "Quentin Fillon Maillet"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Women's 15km individual",
+          "athletes": "Anaïs Chevalier-Bouchet"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Men's 4 × 7.5km relay",
+          "athletes": "Fabien Claude, Émilien Jacquelin, Simon Desthieux, Quentin Fillon Maillet"
+        },
+        {
+          "sport": "Alpine Skiing",
+          "event": "Men's downhill",
+          "athletes": "Johan Clarey"
+        },
+        {
+          "sport": "Alpine Skiing",
+          "event": "Men's giant slalom",
+          "athletes": "Mathieu Faivre"
+        },
+        {
+          "sport": "Freestyle Skiing",
+          "event": "Women's big air",
+          "athletes": "Tess Ledeux"
+        },
+        {
+          "sport": "Freestyle Skiing",
+          "event": "Men's halfpipe",
+          "athletes": "Kevin Rolland"
+        },
+        {
+          "sport": "Snowboard",
+          "event": "Men's snowboard cross",
+          "athletes": "Éliot Grondin"
+        },
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Men's 1500m",
+          "athletes": "Sébastien Lepape"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Biathlon",
+          "event": "Men's 4 × 7.5km relay",
+          "athletes": "Team France"
+        },
+        {
+          "sport": "Cross-Country Skiing",
+          "event": "Men's 4 × 10km relay",
+          "athletes": "Richard Jouve, Hugo Lapalus, Clément Parisse, Maurice Manificat"
+        },
+        {
+          "sport": "Alpine Skiing",
+          "event": "Men's super-G",
+          "athletes": "Alexis Pinturault"
+        },
+        {
+          "sport": "Freestyle Skiing",
+          "event": "Men's ski cross",
+          "athletes": "François Place"
+        },
+        {
+          "sport": "Snowboard",
+          "event": "Men's snowboard cross",
+          "athletes": "Merlin Surget"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Women's 4 × 6km relay",
+          "athletes": "Anaïs Bescond, Anaïs Chevalier-Bouchet, Justine Braisaz-Bouchet, Julia Simon"
+        }
+      ]
+    },
+    "Germany": {
+      "gold": [
+        {
+          "sport": "Luge",
+          "event": "Men's singles",
+          "athletes": "Johannes Ludwig"
+        },
+        {
+          "sport": "Luge",
+          "event": "Women's singles",
+          "athletes": "Natalie Geisenberger"
+        },
+        {
+          "sport": "Luge",
+          "event": "Doubles",
+          "athletes": "Tobias Wendl, Tobias Arlt"
+        },
+        {
+          "sport": "Luge",
+          "event": "Team relay",
+          "athletes": "Natalie Geisenberger, Johannes Ludwig, Tobias Wendl, Tobias Arlt"
+        },
+        {
+          "sport": "Bobsleigh",
+          "event": "Two-man",
+          "athletes": "Francesco Friedrich, Thorsten Margis"
+        },
+        {
+          "sport": "Bobsleigh",
+          "event": "Four-man",
+          "athletes": "Francesco Friedrich, Thorsten Margis, Candy Bauer, Alexander Schüller"
+        },
+        {
+          "sport": "Bobsleigh",
+          "event": "Two-woman",
+          "athletes": "Laura Nolte, Deborah Levi"
+        },
+        {
+          "sport": "Skeleton",
+          "event": "Men's",
+          "athletes": "Christopher Grotheer"
+        }
+      ],
+      "silver": [
+        {
+          "sport": "Luge",
+          "event": "Women's singles",
+          "athletes": "Anna Berreiter"
+        },
+        {
+          "sport": "Luge",
+          "event": "Doubles",
+          "athletes": "Toni Eggert, Sascha Benecken"
+        },
+        {
+          "sport": "Bobsleigh",
+          "event": "Two-man",
+          "athletes": "Johannes Lochner, Florian Bauer"
+        },
+        {
+          "sport": "Bobsleigh",
+          "event": "Four-man",
+          "athletes": "Johannes Lochner, Florian Bauer, Christopher Weber, Christian Rasp"
+        },
+        {
+          "sport": "Bobsleigh",
+          "event": "Two-woman",
+          "athletes": "Mariama Jamanka, Alexandra Burghardt"
+        },
+        {
+          "sport": "Skeleton",
+          "event": "Men's",
+          "athletes": "Axel Jungk"
+        },
+        {
+          "sport": "Skeleton",
+          "event": "Women's",
+          "athletes": "Jacqueline Lölling"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Women's 15km individual",
+          "athletes": "Denise Herrmann"
+        },
+        {
+          "sport": "Nordic Combined",
+          "event": "Team large hill/4 × 5km",
+          "athletes": "Manuel Faißt, Eric Frenzel, Vinzenz Geiger, Julian Schmid"
+        },
+        {
+          "sport": "Ski Jumping",
+          "event": "Women's normal hill individual",
+          "athletes": "Katharina Althaus"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Bobsleigh",
+          "event": "Two-man",
+          "athletes": "Christoph Hafer, Matthias Sommer"
+        },
+        {
+          "sport": "Skeleton",
+          "event": "Women's",
+          "athletes": "Tina Hermann"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Women's 4 × 6km relay",
+          "athletes": "Vanessa Voigt, Vanessa Hinz, Franziska Preuß, Denise Herrmann"
+        },
+        {
+          "sport": "Cross-Country Skiing",
+          "event": "Women's team sprint classic",
+          "athletes": "Katharina Hennig, Victoria Carl"
+        },
+        {
+          "sport": "Ski Jumping",
+          "event": "Men's large hill individual",
+          "athletes": "Karl Geiger"
+        },
+        {
+          "sport": "Ski Jumping",
+          "event": "Men's team large hill",
+          "athletes": "Constantin Schmid, Stephan Leyhe, Markus Eisenbichler, Karl Geiger"
+        },
+        {
+          "sport": "Nordic Combined",
+          "event": "Individual normal hill/10km",
+          "athletes": "Vinzenz Geiger"
+        },
+        {
+          "sport": "Freestyle Skiing",
+          "event": "Women's ski cross",
+          "athletes": "Daniela Maier"
+        }
+      ]
+    },
+    "Italy": {
+      "gold": [
+        {
+          "sport": "Alpine Skiing",
+          "event": "Women's downhill",
+          "athletes": "Sofia Goggia"
+        },
+        {
+          "sport": "Alpine Skiing",
+          "event": "Women's super-G",
+          "athletes": "Federica Brignone"
+        },
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Women's 500m",
+          "athletes": "Arianna Fontana"
+        },
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Men's 1500m",
+          "athletes": "Pietro Sighel"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Men's 10000m",
+          "athletes": "Davide Ghiotto"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Women's 15km individual",
+          "athletes": "Lisa Vittozzi"
+        },
+        {
+          "sport": "Snowboard",
+          "event": "Women's snowboard cross",
+          "athletes": "Michela Moioli"
+        },
+        {
+          "sport": "Luge",
+          "event": "Men's singles",
+          "athletes": "Dominik Fischnaller"
+        },
+        {
+          "sport": "Cross-Country Skiing",
+          "event": "Men's sprint free",
+          "athletes": "Federico Pellegrino"
+        },
+        {
+          "sport": "Curling",
+          "event": "Mixed doubles",
+          "athletes": "Stefania Constantini, Amos Mosaner"
+        }
+      ],
+      "silver": [
+        {
+          "sport": "Alpine Skiing",
+          "event": "Men's downhill",
+          "athletes": "Dominik Paris"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Men's 12.5km pursuit",
+          "athletes": "Tommaso Giacomel"
+        },
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Mixed team relay",
+          "athletes": "Team Italy"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Women's 3000m",
+          "athletes": "Francesca Lollobrigida"
+        },
+        {
+          "sport": "Luge",
+          "event": "Team relay",
+          "athletes": "Team Italy"
+        },
+        {
+          "sport": "Skeleton",
+          "event": "Men's individual",
+          "athletes": "Amedeo Bagnis"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Alpine Skiing",
+          "event": "Women's giant slalom",
+          "athletes": "Marta Bassino"
+        },
+        {
+          "sport": "Alpine Skiing",
+          "event": "Men's super-G",
+          "athletes": "Mattia Casse"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Women's 7.5km sprint",
+          "athletes": "Lisa Vittozzi"
+        },
+        {
+          "sport": "Biathlon",
+          "event": "Mixed relay",
+          "athletes": "Team Italy"
+        },
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Men's 500m",
+          "athletes": "Pietro Sighel"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Men's 5000m",
+          "athletes": "Davide Ghiotto"
+        },
+        {
+          "sport": "Snowboard",
+          "event": "Men's parallel giant slalom",
+          "athletes": "Roland Fischnaller"
+        },
+        {
+          "sport": "Snowboard",
+          "event": "Mixed team snowboard cross",
+          "athletes": "Team Italy"
+        },
+        {
+          "sport": "Figure Skating",
+          "event": "Ice dance",
+          "athletes": "Charlène Guignard, Marco Fabbri"
+        },
+        {
+          "sport": "Figure Skating",
+          "event": "Men's single skating",
+          "athletes": "Matteo Rizzo"
+        },
+        {
+          "sport": "Luge",
+          "event": "Men's doubles",
+          "athletes": "Emanuel Rieder, Simon Kainzwaldner"
+        },
+        {
+          "sport": "Bobsleigh",
+          "event": "Two-man",
+          "athletes": "Patrick Baumgartner, Eric Fantazzini"
+        },
+        {
+          "sport": "Ski Mountaineering",
+          "event": "Men's sprint",
+          "athletes": "Robert Antonioli"
+        },
+        {
+          "sport": "Ski Mountaineering",
+          "event": "Women's sprint",
+          "athletes": "Alba De Silvestro"
+        }
+      ]
+    },
+    "Netherlands": {
+      "gold": [
+        {
+          "sport": "Speed Skating",
+          "event": "Women's 3000m",
+          "athletes": "Irene Schouten"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Women's 5000m",
+          "athletes": "Irene Schouten"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Women's mass start",
+          "athletes": "Marijke Groenewoud"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Men's 1500m",
+          "athletes": "Kjeld Nuis"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Men's 1000m",
+          "athletes": "Thomas Krol"
+        },
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Women's 1000m",
+          "athletes": "Suzanne Schulting"
+        },
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Women's 3000m relay",
+          "athletes": "Team Netherlands"
+        },
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Men's 500m",
+          "athletes": "Jens van 't Wout"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Women's 1000m",
+          "athletes": "Jutta Leerdam"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Women's 500m",
+          "athletes": "Femke Kok"
+        }
+      ],
+      "silver": [
+        {
+          "sport": "Speed Skating",
+          "event": "Men's 5000m",
+          "athletes": "Patrick Roest"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Men's 10000m",
+          "athletes": "Patrick Roest"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Women's 1500m",
+          "athletes": "Antoinette Rijpma-de Jong"
+        },
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Women's 500m",
+          "athletes": "Xandra Velzeboer"
+        },
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Men's 1000m",
+          "athletes": "Itzhak de Laat"
+        },
+        {
+          "sport": "Skeleton",
+          "event": "Women's individual",
+          "athletes": "Kimberley Bos"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Men's team pursuit",
+          "athletes": "Team Netherlands"
+        }
+      ],
+      "bronze": [
+        {
+          "sport": "Speed Skating",
+          "event": "Women's team pursuit",
+          "athletes": "Team Netherlands"
+        },
+        {
+          "sport": "Short Track Speed Skating",
+          "event": "Mixed team relay",
+          "athletes": "Team Netherlands"
+        },
+        {
+          "sport": "Speed Skating",
+          "event": "Men's mass start",
+          "athletes": "Bart Hoolwerf"
+        }
+      ]
+    },
+    "Norway": {
+      "gold": [
+        { "sport": "Biathlon", "event": "Men's 20km Individual", "athletes": "Johan-Olav Botn" },
+        { "sport": "Biathlon", "event": "Women's 7.5km Sprint", "athletes": "Maren Kirkeeide" },
+        { "sport": "Cross-Country Skiing", "event": "Men's 10km Interval Start Free", "athletes": "Johannes Hoesflot Klaebo" },
+        { "sport": "Cross-Country Skiing", "event": "Men's 10km + 10km Skiathlon", "athletes": "Johannes Hoesflot Klaebo" },
+        { "sport": "Cross-Country Skiing", "event": "Men's Sprint Classic", "athletes": "Johannes Hoesflot Klaebo" },
+        { "sport": "Cross-Country Skiing", "event": "Men's 50km Mass Start Classic", "athletes": "Johannes Hoesflot Klaebo" },
+        { "sport": "Cross-Country Skiing", "event": "Women's 4 x 7.5km Relay", "athletes": "Team Norway" },
+        { "sport": "Cross-Country Skiing", "event": "Men's 4 x 7.5km Relay", "athletes": "Team Norway" },
+        { "sport": "Cross-Country Skiing", "event": "Men's Team Sprint Free", "athletes": "Team Norway" },
+        { "sport": "Freestyle Skiing", "event": "Men's Freeski Slopestyle", "athletes": "Birk Ruud" },
+        { "sport": "Freestyle Skiing", "event": "Men's Freeski Big Air", "athletes": "Tormod Frostad" },
+        { "sport": "Nordic Combined", "event": "Individual Gundersen NH/10km", "athletes": "Jens Luraas Oftebro" },
+        { "sport": "Nordic Combined", "event": "Individual Gundersen LH/10km", "athletes": "Jens Luraas Oftebro" },
+        { "sport": "Ski Jumping", "event": "Women's NH Individual", "athletes": "Anna Odine Stroem" },
+        { "sport": "Ski Jumping", "event": "Women's LH Individual", "athletes": "Anna Odine Stroem" },
+        { "sport": "Speed Skating", "event": "Men's 5000m", "athletes": "Sander Eitrem" },
+        { "sport": "Nordic Combined", "event": "Team Sprint", "athletes": "Team Norway" },
+        { "sport": "Biathlon", "event": "Men's 15km Mass Start", "athletes": "Johannes Dale-Skjevdal" }
+      ],
+      "silver": [
+        { "sport": "Alpine Skiing", "event": "Women's Giant Slalom", "athletes": "Thea Louise Stjernesund" },
+        { "sport": "Biathlon", "event": "Men's 10km Sprint", "athletes": "Vetle Sjaastad Christiansen" },
+        { "sport": "Biathlon", "event": "Men's 12.5km Pursuit", "athletes": "Sturla Holm Laegreid" },
+        { "sport": "Biathlon", "event": "Women's 10km Pursuit", "athletes": "Maren Kirkeeide" },
+        { "sport": "Biathlon", "event": "Men's 4 x 7.5km Relay", "athletes": "Team Norway" },
+        { "sport": "Ski Jumping", "event": "Women's LH Individual", "athletes": "Eirin Maria Kvandal" },
+        { "sport": "Ski Jumping", "event": "Mixed Team", "athletes": "Team Norway" },
+        { "sport": "Speed Skating", "event": "Women's 3000m", "athletes": "Ragne Wiklund" },
+        { "sport": "Biathlon", "event": "Men's 15km Mass Start", "athletes": "Sturla Holm Laegreid" },
+        { "sport": "Speed Skating", "event": "Women's 1500m", "athletes": "Ragne Wiklund" },
+        { "sport": "Cross-Country Skiing", "event": "Men's 50km Mass Start Classic", "athletes": "Martin Loewstroem Nyenget" },
+        { "sport": "Cross-Country Skiing", "event": "Women's 50km Mass Start", "athletes": "Heidi Weng" }
+      ],
+      "bronze": [
+        { "sport": "Alpine Skiing", "event": "Men's Slalom", "athletes": "Henrik Kristoffersen" },
+        { "sport": "Biathlon", "event": "Men's 20km Individual", "athletes": "Sturla Holm Laegreid" },
+        { "sport": "Biathlon", "event": "Men's 10km Sprint", "athletes": "Sturla Holm Laegreid" },
+        { "sport": "Biathlon", "event": "Women's 4 x 6km Relay", "athletes": "Team Norway" },
+        { "sport": "Cross-Country Skiing", "event": "Men's 10km Interval Start Free", "athletes": "Einar Hedegart" },
+        { "sport": "Cross-Country Skiing", "event": "Women's 10km + 10km Skiathlon", "athletes": "Heidi Weng" },
+        { "sport": "Cross-Country Skiing", "event": "Men's 10km + 10km Skiathlon", "athletes": "Martin Loewstroem Nyenget" },
+        { "sport": "Cross-Country Skiing", "event": "Men's Sprint Classic", "athletes": "Oskar Opstad Vike" },
+        { "sport": "Cross-Country Skiing", "event": "Men's 50km Mass Start Classic", "athletes": "Emil Iversen" },
+        { "sport": "Ski Jumping", "event": "Men's Super Team", "athletes": "Team Norway" },
+        { "sport": "Speed Skating", "event": "Women's 5000m", "athletes": "Ragne Wiklund" }
+      ]
+    }
+    },
+    "USA_MEDALS": {
+    "gold": [
+      { "sport": "Snowboard", "event": "Women's halfpipe", "athletes": "Chloe Kim" },
+      { "sport": "Freestyle Skiing", "event": "Men's freeski slopestyle", "athletes": "Alex Hall" },
+      { "sport": "Snowboard", "event": "Mixed team snowboard cross", "athletes": "Nick Baumgartner, Lindsey Jacobellis" },
+      { "sport": "Speed Skating", "event": "Women's 1000m", "athletes": "Brittany Bowe" },
+      { "sport": "Bobsleigh", "event": "Women's monobob", "athletes": "Kaillie Humphries" },
+      { "sport": "Ice Hockey", "event": "Women's tournament", "athletes": "Team USA" },
+      { "sport": "Figure Skating", "event": "Men's single skating", "athletes": "Ilia Malinin" },
+      { "sport": "Figure Skating", "event": "Ice dance", "athletes": "Madison Chock, Evan Bates" },
+      { "sport": "Freestyle Skiing", "event": "Men's freeski halfpipe", "athletes": "David Wise" },
+      { "sport": "Snowboard", "event": "Women's snowboard cross", "athletes": "Lindsey Jacobellis" },
+      { "sport": "Freestyle Skiing", "event": "Mixed team aerials", "athletes": "Ashley Caldwell, Christopher Lillis, Justin Schoenefeld" },
+      { "sport": "Alpine Skiing", "event": "Women's slalom", "athletes": "Mikaela Shiffrin" }
+    ],
+    "silver": [
+      { "sport": "Figure Skating", "event": "Team event", "athletes": "Team USA" },
+      { "sport": "Freestyle Skiing", "event": "Women's moguls", "athletes": "Jaelin Kauf" },
+      { "sport": "Snowboard", "event": "Women's slopestyle", "athletes": "Julia Marino" },
+      { "sport": "Alpine Skiing", "event": "Men's super-G", "athletes": "Ryan Cochran-Siegle" },
+      { "sport": "Freestyle Skiing", "event": "Men's freeski slopestyle", "athletes": "Nick Goepper" },
+      { "sport": "Bobsleigh", "event": "Women's monobob", "athletes": "Elana Meyers Taylor" },
+      { "sport": "Ice Hockey", "event": "Men's tournament", "athletes": "Team USA" },
+      { "sport": "Speed Skating", "event": "Men's 500m", "athletes": "Jordan Stolz" },
+      { "sport": "Speed Skating", "event": "Men's 1000m", "athletes": "Jordan Stolz" },
+      { "sport": "Freestyle Skiing", "event": "Men's freeski halfpipe", "athletes": "Alex Ferreira" },
+      { "sport": "Cross-Country Skiing", "event": "Women's 50km mass start free", "athletes": "Jessie Diggins" },
+      { "sport": "Alpine Skiing", "event": "Women's giant slalom", "athletes": "Mikaela Shiffrin" }
+    ],
+    "bronze": [
+      { "sport": "Cross-Country Skiing", "event": "Women's sprint free", "athletes": "Jessie Diggins" },
+      { "sport": "Speed Skating", "event": "Women's 500m", "athletes": "Erin Jackson" },
+      { "sport": "Snowboard", "event": "Men's slopestyle", "athletes": "Red Gerard" },
+      { "sport": "Figure Skating", "event": "Ice dance", "athletes": "Madison Hubbell, Zachary Donohue" },
+      { "sport": "Bobsleigh", "event": "Two-woman", "athletes": "Elana Meyers Taylor, Sylvia Hoffman" },
+      { "sport": "Freestyle Skiing", "event": "Men's aerials", "athletes": "Christopher Lillis" },
+      { "sport": "Speed Skating", "event": "Women's team pursuit", "athletes": "Team USA" },
+      { "sport": "Curling", "event": "Men's tournament", "athletes": "John Shuster, Chris Plys, Matt Hamilton, John Landsteiner, Colin Hufman" },
+      { "sport": "Freestyle Skiing", "event": "Men's freeski big air", "athletes": "Birk Irving" }
+    ]
+  }
+}
