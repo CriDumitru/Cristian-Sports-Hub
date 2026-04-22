@@ -253,7 +253,9 @@
     <div class="filters-container" id="filters-bar">
       <button class="filter-pill active" onclick="filterBySport('all', this)">All Sports</button>
     </div>
-
+<div class="filters-container" id="channels-bar">
+    <button class="filter-pill active" onclick="filterByChannel('all', this)">All Channels</button>
+    </div>
     <div class="schedule-container" id="schedule-list">
       </div>
   </main>
@@ -267,8 +269,10 @@
             const response = await fetch('schedule.json');
             rawData = await response.json();
             
-            generateFilterButtons();
-            renderSchedule('all');
+           generateFilterButtons(); // cele de sport (din JSON)
+    generateChannelButtons(); // cele de TV (lista fixă)
+    renderSchedule();
+}
         } catch (e) {
             console.error("Eroare la încărcarea datelor:", e);
         }
@@ -321,18 +325,72 @@ let activeFilters = new Set(['all']);
     }
     renderSchedule(); // Nu mai trimitem parametru
 }
+let activeChannels = new Set(['all']);
 
-    function renderSchedule() {
-        const container = document.getElementById('schedule-list');
-        container.innerHTML = '';
+// Lista ta fixă de posturi (pentru "reminder")
+const staticChannels = [
+    "Digi Sport", "Prima Sport", "TVR Sport", "Voyo", 
+    "Antena Play", "Max", "Netflix", "Disney+", 
+    "Prime Video", "FRF TV", "DAZN", "FIFA+"
+];
 
-        // 1. Sortare după dată (respectând ordinea blocurilor din JSON)
-        rawData.forEach(day => {
-            let programs = day.programs.filter(p => {
-        return activeFilters.has('all') || activeFilters.has(p.sport);
+function generateChannelButtons() {
+    const bar = document.getElementById('channels-bar');
+    staticChannels.forEach(ch => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-pill';
+        btn.innerText = ch;
+        btn.onclick = () => filterByChannel(ch, btn);
+        bar.appendChild(btn);
     });
+}
 
-            if (programs.length === 0) return;
+function filterByChannel(channel, clickedBtn) {
+    const allBtn = document.querySelector('#channels-bar .filter-pill:first-child');
+
+    if (channel === 'all') {
+        activeChannels.clear();
+        activeChannels.add('all');
+        document.querySelectorAll('#channels-bar .filter-pill').forEach(btn => btn.classList.remove('active'));
+        clickedBtn.classList.add('active');
+    } else {
+        if (activeChannels.has('all')) {
+            activeChannels.delete('all');
+            allBtn.classList.remove('active');
+        }
+
+        if (activeChannels.has(channel)) {
+            activeChannels.delete(channel);
+            clickedBtn.classList.remove('active');
+        } else {
+            activeChannels.add(channel);
+            clickedBtn.classList.add('active');
+        }
+
+        if (activeChannels.size === 0) {
+            activeChannels.add('all');
+            allBtn.classList.add('active');
+        }
+    }
+    renderSchedule();
+}
+   function renderSchedule() {
+    const container = document.getElementById('schedule-list');
+    container.innerHTML = '';
+
+    rawData.forEach(day => {
+        let programs = day.programs.filter(p => {
+            // Filtrul 1: Sport
+            const sportMatch = activeFilters.has('all') || activeFilters.has(p.sport);
+            
+            // Filtrul 2: Canal (verificăm dacă numele canalului conține vreunul din filtrele selectate)
+            const channelMatch = activeChannels.has('all') || 
+                Array.from(activeChannels).some(activeCh => p.channel.toLowerCase().includes(activeCh.toLowerCase()));
+
+            return sportMatch && channelMatch;
+        });
+
+        if (programs.length === 0) return;
 
             // 2. Grupare canale pentru evenimente identice
             const grouped = [];
