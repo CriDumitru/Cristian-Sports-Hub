@@ -1,204 +1,201 @@
 [
-  
   {
     "date": "Wednesday, April 22, 2026",
     "programs": [
-  {
-  "time": "22:30",
-  "channel": "Digi Sport 1",
-  "event": "Barcelona vs Celta Vigo",
-  "competition": "La Liga · Matchday 33",
-  "sport": "football",
-  "status": "upcoming"
-},
-{
-  "time": "18:00",
-  "channel": "Digi Sport 2",
-  "event": "WTA Madrid Open",
-  "competition": "WTA Madrid Open",
-  "sport": "tennis",
-  "status": "upcoming"
-},
-{
-  "time": "20:00",
-  "channel": "Digi Sport 2",
-  "event": "WTA Madrid Open",
-  "competition": "WTA Madrid Open",
-  "sport": "tennis",
-  "status": "upcoming"
-},
-{
-  "time": "21:45",
-  "channel": "Digi Sport 2",
-  "event": "Bayer Leverkusen vs Bayern Munich",
-  "competition": "DFB-Pokal · Semi-finals",
-  "sport": "football",
-  "status": "upcoming"
-},
-{
-  "time": "20:00",
-  "channel": "Digi Sport 3",
-  "event": "Elche vs Atletico Madrid",
-  "competition": "La Liga · Matchday 33",
-  "sport": "football",
-  "status": "upcoming"
-},
-{
-  "time": "18:00",
-  "channel": "Digi Sport 4",
-  "event": "WTA Madrid Open",
-  "competition": "Tennis · Early Rounds",
-  "sport": "tennis",
-  "status": "upcoming"
-},
-{
-  "time": "20:00",
-  "channel": "Digi Sport 4",
-  "event": "WTA Madrid Open",
-  "competition": "Tennis · Early Rounds",
-  "sport": "tennis",
-  "status": "upcoming"
-},
-{
-  "time": "17:25",
-  "channel": "TVR Sport",
-  "event": "National Swimming Championships",
-  "competition": "Seniors, Youth & Juniors · Otopeni",
-  "sport": "swimming",
-  "status": "live"
-},
-
-{
-  "time": "20:00",
-  "channel": "Prima Sport 1",
-  "event": "Elche vs Atletico Madrid",
-  "competition": "La Liga · Matchday 33",
-  "sport": "football",
-  "status": "upcoming"
-},
-{
-  "time": "20:00",
-  "channel": "Prima Sport 4",
-  "event": "Besiktas vs Bourg en Bresse",
-  "competition": "EuroCup · Final",
-  "sport": "basketball",
-  "status": "upcoming"
-},
-{
-  "time": "21:00",
-  "channel": "Prima Sport 2",
-  "event": "Real Sociedad vs Getafe",
-  "competition": "La Liga · Matchday 33",
-  "sport": "football",
-  "status": "upcoming"
-},
-{
-  "time": "22:00",
-  "channel": "PPV 1",
-  "event": "Strasbourg vs Nice",
-  "competition": "Ligue 1 · Matchday 33",
-  "sport": "football",
-  "status": "upcoming"
-},
-{
-  "time": "22:30",
-  "channel": "Prima Sport 1",
-  "event": "Barcelona vs Celta Vigo",
-  "competition": "La Liga · Matchday 33",
-  "sport": "football",
-  "status": "upcoming"
-},
-{
-  "time": "19:00",
-  "channel": "Antena Play",
-  "event": "Al Nassr vs Al Ahli",
-  "competition": "AFC Champions League Two",
-  "sport": "football",
-  "status": "upcoming"
-},
-
-{
-  "time": "18:00",
-  "channel": "Disney+",
-  "event": "Duke vs North Carolina",
-  "competition": "NCAA Women's Lacrosse · Quarterfinal",
-  "sport": "lacrosse",
-  "status": "upcoming"
-},
-{
-  "time": "21:00",
-  "channel": "Disney+",
-  "event": "Virginia vs Syracuse",
-  "competition": "NCAA Women's Lacrosse · Quarterfinal",
-  "sport": "lacrosse",
-  "status": "upcoming"
-},
-{
-  "time": "17:45",
-  "channel": "Max",
-  "event": "Fleche Wallonne (Women)",
-  "competition": "Cycling · Huy - Mur de Huy",
-  "sport": "cycling",
-  "status": "live"
-},
-{
-  "time": "20:30",
-  "channel": "Max",
-  "event": "Mark Selby vs Jak Jones",
-  "competition": "World Snooker Championship · Round 1",
-  "sport": "snooker",
-  "status": "upcoming"
-},
-{
-  "time": "21:00",
-  "channel": "Max",
-  "event": "Neil Robertson vs Pang Junxu",
-  "competition": "World Snooker Championship · Round 1",
-  "sport": "snooker",
-  "status": "upcoming"
-},
       {
-  "time": "20:00",
-  "channel": "Voyo",
-  "event": "PSG - Nantes",
-  "competition": "Ligue 1 · Matchday 26 ",
-  "sport": "football",
-  "status": "upcoming"
-},
-{
-  "time": "17:25",
-  "channel": "Voyo",
-  "event": "ACS HC Buzău 2012 vs CS Minaur Baia Mare",
-  "competition": "Handball",
-  "sport": "handball",
-  "status": "live"
-},
-{
-  "time": "21:47",
-  "channel": "Voyo",
-  "event": "Bournemouth vs Leeds",
-  "competition": "Premier League",
-  "sport": "football",
-  "status": "upcoming"
-},
-{
-  "time": "21:47",
-  "channel": "Voyo",
-  "event": "Burnley vs Manchester City",
-  "competition": "Premier League",
-  "sport": "football",
-  "status": "upcoming"
-},
-{
-  "time": "21:55",
-  "channel": "Voyo",
-  "event": "Atalanta vs Lazio",
-  "competition": "Coppa Italia",
-  "sport": "football",
-  "status": "upcoming"
-}    
-]
-},
+        "time": "17:25",
+        "channel": "TVR Sport",
+        "event": "National Swimming Championships",
+        "competition": "Seniors, Youth & Juniors · Otopeni",
+        "sport": "swimming",
+        "status": "live"
+      },
+      {
+        "time": "17:25",
+        "channel": "Voyo",
+        "event": "ACS HC Buzău 2012 vs CS Minaur Baia Mare",
+        "competition": "Handball",
+        "sport": "handball",
+        "status": "live"
+      },
+      {
+        "time": "17:45",
+        "channel": "Max",
+        "event": "Fleche Wallonne (Women)",
+        "competition": "Cycling · Huy - Mur de Huy",
+        "sport": "cycling",
+        "status": "live"
+      },
+      {
+        "time": "18:00",
+        "channel": "Digi Sport 2",
+        "event": "WTA Madrid Open",
+        "competition": "WTA Madrid Open",
+        "sport": "tennis",
+        "status": "upcoming"
+      },
+      {
+        "time": "18:00",
+        "channel": "Digi Sport 4",
+        "event": "WTA Madrid Open",
+        "competition": "Tennis · Early Rounds",
+        "sport": "tennis",
+        "status": "upcoming"
+      },
+      {
+        "time": "18:00",
+        "channel": "Disney+",
+        "event": "Duke vs North Carolina",
+        "competition": "NCAA Women's Lacrosse · Quarterfinal",
+        "sport": "lacrosse",
+        "status": "upcoming"
+      },
+      {
+        "time": "19:00",
+        "channel": "Antena Play",
+        "event": "Al Nassr vs Al Ahli",
+        "competition": "AFC Champions League Two",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "20:00",
+        "channel": "Digi Sport 2",
+        "event": "WTA Madrid Open",
+        "competition": "WTA Madrid Open",
+        "sport": "tennis",
+        "status": "upcoming"
+      },
+      {
+        "time": "20:00",
+        "channel": "Digi Sport 3",
+        "event": "Elche vs Atletico Madrid",
+        "competition": "La Liga · Matchday 33",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "20:00",
+        "channel": "Digi Sport 4",
+        "event": "WTA Madrid Open",
+        "competition": "Tennis · Early Rounds",
+        "sport": "tennis",
+        "status": "upcoming"
+      },
+      {
+        "time": "20:00",
+        "channel": "Prima Sport 1",
+        "event": "Elche vs Atletico Madrid",
+        "competition": "La Liga · Matchday 33",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "20:00",
+        "channel": "Prima Sport 4",
+        "event": "Besiktas vs Bourg en Bresse",
+        "competition": "EuroCup · Final",
+        "sport": "basketball",
+        "status": "upcoming"
+      },
+      {
+        "time": "20:00",
+        "channel": "Voyo",
+        "event": "PSG - Nantes",
+        "competition": "Ligue 1 · Matchday 26 ",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "20:30",
+        "channel": "Max",
+        "event": "Mark Selby vs Jak Jones",
+        "competition": "World Snooker Championship · Round 1",
+        "sport": "snooker",
+        "status": "upcoming"
+      },
+      {
+        "time": "21:00",
+        "channel": "Prima Sport 2",
+        "event": "Real Sociedad vs Getafe",
+        "competition": "La Liga · Matchday 33",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "21:00",
+        "channel": "Disney+",
+        "event": "Virginia vs Syracuse",
+        "competition": "NCAA Women's Lacrosse · Quarterfinal",
+        "sport": "lacrosse",
+        "status": "upcoming"
+      },
+      {
+        "time": "21:00",
+        "channel": "Max",
+        "event": "Neil Robertson vs Pang Junxu",
+        "competition": "World Snooker Championship · Round 1",
+        "sport": "snooker",
+        "status": "upcoming"
+      },
+      {
+        "time": "21:45",
+        "channel": "Digi Sport 2",
+        "event": "Bayer Leverkusen vs Bayern Munich",
+        "competition": "DFB-Pokal · Semi-finals",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "21:47",
+        "channel": "Voyo",
+        "event": "Bournemouth vs Leeds",
+        "competition": "Premier League",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "21:47",
+        "channel": "Voyo",
+        "event": "Burnley vs Manchester City",
+        "competition": "Premier League",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "21:55",
+        "channel": "Voyo",
+        "event": "Atalanta vs Lazio",
+        "competition": "Coppa Italia",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "22:00",
+        "channel": "PPV 1",
+        "event": "Strasbourg vs Nice",
+        "competition": "Ligue 1 · Matchday 33",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "22:30",
+        "channel": "Digi Sport 1",
+        "event": "Barcelona vs Celta Vigo",
+        "competition": "La Liga · Matchday 33",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "22:30",
+        "channel": "Prima Sport 1",
+        "event": "Barcelona vs Celta Vigo",
+        "competition": "La Liga · Matchday 33",
+        "sport": "football",
+        "status": "upcoming"
+      }
+    ]
+  },
   {
   "date": "Thursday, April 23, 2026",
   "programs": [
