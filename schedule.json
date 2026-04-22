@@ -1019,6 +1019,70 @@
   "competition": "Golf · Night Session | PGA Tour",
   "sport": "golf",
   "status": "upcoming"
+},
+    {
+  "time": "03:00",
+  "channel": "Netflix",
+  "event": "WWE: Smack Down",
+  "competition": "WWE",
+  "sport": "wrestling",
+  "status": "upcoming"
+},
+  {
+  "time": "01:30",
+  "channel": "Prime Video",
+  "event": "Knicks vs Hawks",
+  "competition": "NBA Playoffs",
+  "sport": "basketball",
+  "status": "upcoming"
+},
+{
+  "time": "03:00",
+  "channel": "Prime Video",
+  "event": "Cavaliers vs Raptors",
+  "competition": "NBA Playoffs",
+  "sport": "basketball",
+  "status": "upcoming"
+},
+{
+  "time": "04:30",
+  "channel": "Prime Video",
+  "event": "Nuggets vs Timberwolves",
+  "competition": "NBA Playoffs",
+  "sport": "basketball",
+  "status": "upcoming"
+},
+{
+  "time": "10:00",
+  "channel": "Prime Video",
+  "event": "PTT Arnhem",
+  "competition": "UTR Pro Tennis Tour",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "17:00",
+  "channel": "Prime Video",
+  "event": "PTT Clemson Men",
+  "competition": "UTR Pro Tennis Tour",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "20:30",
+  "channel": "Prime Video",
+  "event": "Court 18 - PTT Newport Beach",
+  "competition": "UTR Pro Tennis Tour",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "20:30",
+  "channel": "Prime Video",
+  "event": "PTT Newport Beach",
+  "competition": "UTR Pro Tennis Tour",
+  "sport": "tennis",
+  "status": "upcoming"
 }  
   ]
 }  
