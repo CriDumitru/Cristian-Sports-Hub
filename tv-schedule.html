@@ -222,6 +222,24 @@
     let rawData = []; 
     let activeFilters = new Set(['all']); 
     let activeChannels = new Set(['all']);
+    // Determină statusul în funcție de oră (durată medie 2h)
+function getStatus(dateStr, timeStr) {
+    const now = new Date();
+    const start = new Date(`${dateStr} ${timeStr}`);
+    const end = new Date(start.getTime() + 120 * 60000); // +2 ore
+
+    if (now < start) return 'UPCOMING';
+    if (now >= start && now <= end) return 'LIVE';
+    return 'FINISHED';
+}
+
+// Verifică dacă au trecut mai mult de 45 min de la final (total 2h 45m de la start)
+function isExpired(dateStr, timeStr) {
+    const now = new Date();
+    const start = new Date(`${dateStr} ${timeStr}`);
+    const expiryTime = new Date(start.getTime() + (120 + 45) * 60000); // 2h meci + 45m grație
+    return now > expiryTime;
+}
 
     const staticChannels = [
         "Digi Sport", "Prima Sport", "TVR Sport", "Voyo", 
@@ -324,11 +342,15 @@
 
         rawData.forEach(day => {
             let programs = day.programs.filter(p => {
-                const sportMatch = activeFilters.has('all') || activeFilters.has(p.sport);
-                const channelMatch = activeChannels.has('all') || 
-                    Array.from(activeChannels).some(activeCh => p.channel.toLowerCase().includes(activeCh.toLowerCase()));
-                return sportMatch && channelMatch;
-            });
+    const sportMatch = activeFilters.has('all') || activeFilters.has(p.sport);
+    const channelMatch = activeChannels.has('all') || 
+        Array.from(activeChannels).some(activeCh => p.channel.toLowerCase().includes(activeCh.toLowerCase()));
+    
+    // NOU: Nu afișăm dacă au trecut mai mult de 45 de minute de la final
+    const expired = isExpired(day.date, p.time);
+
+    return sportMatch && channelMatch && !expired;
+});
 
             if (programs.length === 0) return;
 
@@ -353,8 +375,8 @@
                 const scheduleItem = document.createElement('div');
                 scheduleItem.className = 'schedule-item';
                 
-                const statusClass = item.status === 'live' ? 'status-tag live' : 
-                                    item.status === 'finished' ? 'status-tag finished' : 'status-tag upcoming';
+                const currentStatus = getStatus(day.date, item.time); 
+const statusClass = `status-tag ${currentStatus.toLowerCase()}`;
 
                 const channelsHtml = item.channels.map(ch => `<span class="channel-tag">${ch}</span>`).join('');
 
@@ -365,8 +387,8 @@
                         <span class="event-name">${item.event}</span>
                         <span class="competition">${item.competition}</span>
                     </div>
-                    <div class="${statusClass}">${item.status.toUpperCase()}</div>
-                `;
+                    <div class="${statusClass}">${currentStatus}</div>
+`;
                 container.appendChild(scheduleItem);
             });
         });
