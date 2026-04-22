@@ -290,22 +290,47 @@
             filterBar.appendChild(btn);
         });
     }
+    
+let activeFilters = new Set(['all']);
+  function filterBySport(sport, clickedBtn) {
+    const allBtn = document.querySelector('.filter-pill'); // Primul buton (All)
 
-    function filterBySport(sport, clickedBtn) {
+    if (sport === 'all') {
+        activeFilters.clear();
+        activeFilters.add('all');
         document.querySelectorAll('.filter-pill').forEach(btn => btn.classList.remove('active'));
         clickedBtn.classList.add('active');
-        renderSchedule(sport);
-    }
+    } else {
+        if (activeFilters.has('all')) {
+            activeFilters.delete('all');
+            allBtn.classList.remove('active');
+        }
 
-    function renderSchedule(filter) {
+        if (activeFilters.has(sport)) {
+            activeFilters.delete(sport);
+            clickedBtn.classList.remove('active');
+        } else {
+            activeFilters.add(sport);
+            clickedBtn.classList.add('active');
+        }
+
+        if (activeFilters.size === 0) {
+            activeFilters.add('all');
+            allBtn.classList.add('active');
+        }
+    }
+    renderSchedule(); // Nu mai trimitem parametru
+}
+
+    function renderSchedule() {
         const container = document.getElementById('schedule-list');
         container.innerHTML = '';
 
         // 1. Sortare după dată (respectând ordinea blocurilor din JSON)
         rawData.forEach(day => {
-            let programs = filter === 'all' 
-                ? day.programs 
-                : day.programs.filter(p => p.sport === filter);
+            let programs = day.programs.filter(p => {
+        return activeFilters.has('all') || activeFilters.has(p.sport);
+    });
 
             if (programs.length === 0) return;
 
