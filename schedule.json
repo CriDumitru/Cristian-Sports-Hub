@@ -274,7 +274,348 @@
   "competition": "World Snooker Championship · Round 1",
   "sport": "snooker",
   "status": "upcoming"
-}
+},
+  {
+  "time": "14:40",
+  "channel": "Voyo",
+  "event": "EWF Batumi - Ziua 4",
+  "competition": "European Weightlifting Championships",
+  "sport": "weightlifting",
+  "status": "upcoming"
+},
+{
+  "time": "17:25",
+  "channel": "Voyo",
+  "event": "ACS HC Buzău 2012 vs CS Minaur Baia Mare",
+  "competition": "Handball",
+  "sport": "handball",
+  "status": "upcoming"
+},
+{
+  "time": "21:47",
+  "channel": "Voyo",
+  "event": "Bournemouth vs Leeds",
+  "competition": "Premier League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "21:47",
+  "channel": "Voyo",
+  "event": "Burnley vs Manchester City",
+  "competition": "Premier League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "21:55",
+  "channel": "Voyo",
+  "event": "Atalanta vs Lazio",
+  "competition": "Coppa Italia",
+  "sport": "football",
+  "status": "upcoming"
+}    
 ]
+},
+  {
+  "date": "Thursday, April 23, 2026",
+  "programs": [
+    {
+      "time": "17:15",
+      "channel": "Digi Sport 1",
+      "event": "Bihor Oradea vs Sepsi Sf. Gheorghe",
+      "competition": "Romanian Liga 2 · Play-off",
+      "sport": "football",
+      "status": "upcoming"
+    },
+    {
+      "time": "20:30",
+      "channel": "Digi Sport 1",
+      "event": "Dinamo vs Universitatea Craiova",
+      "competition": "Romanian Cup · Semi-finals",
+      "sport": "football",
+      "status": "upcoming"
+    },
+    {
+  "time": "12:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis Live",
+  "competition": "WTA Madrid Open",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "14:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis Live",
+  "competition": "WTA Madrid Open",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "16:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis Live",
+  "competition": "WTA Madrid Open",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "18:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis Live",
+  "competition": "WTA Madrid Open",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis Live",
+  "competition": "WTA Madrid Open",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "21:45",
+  "channel": "Digi Sport 2",
+  "event": "Stuttgart vs Freiburg",
+  "competition": "DFB-Pokal · Semi-finals",
+  "sport": "football",
+  "status": "upcoming"
+},
+    {
+  "time": "20:00",
+  "channel": "Digi Sport 3",
+  "event": "Levante vs Sevilla",
+  "competition": "La Liga · Matchday 33",
+  "sport": "football",
+  "status": "upcoming"
+},
+    {
+  "time": "12:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis Live",
+  "competition": "WTA Madrid Open",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "14:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis Live",
+  "competition": "WTA Madrid Open",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "16:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis Live",
+  "competition": "WTA Madrid Open",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "18:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis Live",
+  "competition": "WTA Madrid Open",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis Live",
+  "competition": "WTA Madrid Open",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Digi Sport 4",
+  "event": "Rayo Vallecano vs Espanyol",
+  "competition": "La Liga · Matchday 33",
+  "sport": "football",
+  "status": "upcoming"
+},
+    {
+  "time": "08:55",
+  "channel": "TVR Sport",
+  "event": "National Swimming Championships",
+  "competition": "Seniors, Youth & Juniors · Otopeni",
+  "sport": "swimming",
+  "status": "upcoming"
+},
+{
+  "time": "17:25",
+  "channel": "TVR Sport",
+  "event": "National Swimming Championships",
+  "competition": "Seniors, Youth & Juniors · Otopeni",
+  "sport": "swimming",
+  "status": "upcoming"
+},
+    {
+  "time": "12:00",
+  "channel": "Prima Sport 3",
+  "event": "ATP Madrid Open",
+  "competition": "Tennis · Early Rounds",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "17:15",
+  "channel": "Prima Sport 1",
+  "event": "Bihor Oradea vs Sepsi Sf. Gheorghe",
+  "competition": "Romanian Liga 2 · Play-off",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "Prima Sport 2",
+  "event": "Levante vs Sevilla",
+  "competition": "La Liga · Matchday 33",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "20:30",
+  "channel": "Prima Sport 1",
+  "event": "Dinamo vs Universitatea Craiova",
+  "competition": "Romanian Cup · Semi-finals",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "Prima Sport 3",
+  "event": "Rayo Vallecano vs Espanyol",
+  "competition": "La Liga · Matchday 33",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Prima Sport 4",
+  "event": "PSV Eindhoven vs Zwolle",
+  "competition": "Eredivisie · Matchday 33",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "22:30",
+  "channel": "Prima Sport 2",
+  "event": "Oviedo vs Villarreal",
+  "competition": "Spanish Football",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "00:00",
+  "channel": "Disney+",
+  "event": "Boston College vs Stanford",
+  "competition": "NCAA Women's Lacrosse · Quarterfinal",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "01:00",
+  "channel": "Disney+",
+  "event": "Florida vs Florida State",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+},
+{
+  "time": "03:00",
+  "channel": "Disney+",
+  "event": "Oklahoma State vs Texas",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+},
+{
+  "time": "03:00",
+  "channel": "Disney+",
+  "event": "Notre Dame vs Clemson",
+  "competition": "NCAA Women's Lacrosse · Quarterfinal",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+  {
+  "time": "14:35",
+  "channel": "Max",
+  "event": "Tour of the Alps: Stage 4",
+  "competition": "Cycling · Arco - Trento",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "15:00",
+  "channel": "Max",
+  "event": "Snooker World Championship: Round 2",
+  "competition": "Snooker · Session 1",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "15:00",
+  "channel": "Max",
+  "event": "Snooker World Championship: Round 1",
+  "competition": "Snooker · Session 1",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "15:00",
+  "channel": "Max",
+  "event": "Zurich Classic of New Orleans: Day 1",
+  "competition": "Golf · Main Feed | PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "15:30",
+  "channel": "Max",
+  "event": "Zurich Classic of New Orleans: Day 1",
+  "competition": "Golf · Featured Groups/Holes",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "15:45",
+  "channel": "Max",
+  "event": "Zurich Classic of New Orleans: Day 1",
+  "competition": "Golf · Marquee Group",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "20:30",
+  "channel": "Max",
+  "event": "Snooker World Championship: Round 1",
+  "competition": "Snooker · Session 2",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "Max",
+  "event": "Snooker World Championship: Round 2",
+  "competition": "Snooker · Session 2",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Max",
+  "event": "Zurich Classic of New Orleans: Day 1",
+  "competition": "Golf · Night Session | PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+}  
+  ]
 }
 ]
