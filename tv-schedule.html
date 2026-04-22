@@ -265,18 +265,17 @@
     let rawData = []; 
 
     async function init() {
-        try {
-            const response = await fetch('schedule.json');
-            rawData = await response.json();
-            
-           generateFilterButtons(); // cele de sport (din JSON)
-    generateChannelButtons(); // cele de TV (lista fixă)
-    renderSchedule();
-}
-        } catch (e) {
-            console.error("Eroare la încărcarea datelor:", e);
-        }
+    try {
+        const response = await fetch('schedule.json');
+        rawData = await response.json();
+        
+        generateFilterButtons();   // Generează butoanele de Sport
+        generateChannelButtons();  // Generează butoanele de TV (cele fixe)
+        renderSchedule();          // Prima afișare
+    } catch (e) {
+        console.error("Eroare la încărcarea datelor:", e);
     }
+}
 
     function generateFilterButtons() {
         const filterBar = document.getElementById('filters-bar');
@@ -295,35 +294,77 @@
         });
     }
     
-let activeFilters = new Set(['all']);
-  function filterBySport(sport, clickedBtn) {
-    const allBtn = document.querySelector('.filter-pill'); // Primul buton (All)
+// Liste de filtre active
+let activeFilters = new Set(['all']); 
+let activeChannels = new Set(['all']);
 
+// Lista ta fixă de posturi pentru "reminder"
+const staticChannels = [
+    "Digi Sport", "Prima Sport", "TVR Sport", "Voyo", 
+    "Antena Play", "Max", "Netflix", "Disney+", 
+    "Prime Video", "FRF TV", "DAZN", "FIFA+"
+];
+
+function generateChannelButtons() {
+    const bar = document.getElementById('channels-bar');
+    if(!bar) return; // Siguranță în caz că elementul nu există în HTML
+    
+    staticChannels.forEach(ch => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-pill';
+        btn.innerText = ch;
+        btn.onclick = () => filterByChannel(ch, btn);
+        bar.appendChild(btn);
+    });
+}
+
+function filterBySport(sport, clickedBtn) {
+    const allBtn = document.querySelector('#filters-bar .filter-pill:first-child');
+    
     if (sport === 'all') {
         activeFilters.clear();
         activeFilters.add('all');
-        document.querySelectorAll('.filter-pill').forEach(btn => btn.classList.remove('active'));
+        document.querySelectorAll('#filters-bar .filter-pill').forEach(btn => btn.classList.remove('active'));
         clickedBtn.classList.add('active');
     } else {
         if (activeFilters.has('all')) {
             activeFilters.delete('all');
             allBtn.classList.remove('active');
         }
-
-        if (activeFilters.has(sport)) {
-            activeFilters.delete(sport);
-            clickedBtn.classList.remove('active');
-        } else {
-            activeFilters.add(sport);
-            clickedBtn.classList.add('active');
-        }
-
+        activeFilters.has(sport) ? activeFilters.delete(sport) : activeFilters.add(sport);
+        clickedBtn.classList.toggle('active');
+        
         if (activeFilters.size === 0) {
             activeFilters.add('all');
             allBtn.classList.add('active');
         }
     }
-    renderSchedule(); // Nu mai trimitem parametru
+    renderSchedule();
+}
+
+function filterByChannel(channel, clickedBtn) {
+    const allBtn = document.querySelector('#channels-bar .filter-pill:first-child');
+
+    if (channel === 'all') {
+        activeChannels.clear();
+        activeChannels.add('all');
+        document.querySelectorAll('#channels-bar .filter-pill').forEach(btn => btn.classList.remove('active'));
+        clickedBtn.classList.add('active');
+    } else {
+        if (activeChannels.has('all')) {
+            activeChannels.delete('all');
+            allBtn.classList.remove('active');
+        }
+        activeChannels.has(channel) ? activeChannels.delete(channel) : activeChannels.add(channel);
+        clickedBtn.classList.toggle('active');
+
+        if (activeChannels.size === 0) {
+            activeChannels.add('all');
+            allBtn.classList.add('active');
+        }
+    }
+    renderSchedule();
+}
 }
 let activeChannels = new Set(['all']);
 
@@ -380,10 +421,10 @@ function filterByChannel(channel, clickedBtn) {
 
     rawData.forEach(day => {
         let programs = day.programs.filter(p => {
-            // Filtrul 1: Sport
+            // Verificăm Sportul
             const sportMatch = activeFilters.has('all') || activeFilters.has(p.sport);
             
-            // Filtrul 2: Canal (verificăm dacă numele canalului conține vreunul din filtrele selectate)
+            // Verificăm Canalul (folosim includes pentru a prinde Digi Sport 1, 2, etc.)
             const channelMatch = activeChannels.has('all') || 
                 Array.from(activeChannels).some(activeCh => p.channel.toLowerCase().includes(activeCh.toLowerCase()));
 
