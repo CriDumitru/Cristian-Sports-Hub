@@ -232,6 +232,14 @@
   "sport": "weightlifting",
   "status": "upcoming"
 },
+      {
+  "time": "20:00",
+  "channel": "Voyo",
+  "event": "PSG - Nantes",
+  "competition": "Ligue 1 · Matchday 26 ",
+  "sport": "football",
+  "status": "upcoming"
+},
 {
   "time": "17:25",
   "channel": "Voyo",
