@@ -154,6 +154,41 @@
         letter-spacing: 1px;
         border-left: 4px solid var(--accent);
         padding-left: 15px;
+        cursor: pointer; /* Face header-ul să pară clicabil */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+        transition: background 0.2s;
+    }
+
+    .date-header:hover {
+        background: rgba(255, 71, 87, 0.05);
+    }
+
+    /* Indicatorul (săgeata) din dreapta */
+    .date-header::after {
+        content: '▼';
+        font-size: 1rem;
+        margin-right: 15px;
+        transition: transform 0.3s ease;
+    }
+
+    /* Rotește săgeata când e închis */
+    .date-header.collapsed::after {
+        transform: rotate(-90deg);
+    }
+
+    /* Containerul care se ascunde */
+    .day-content {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        overflow: hidden;
+    }
+
+    .day-content.hidden {
+        display: none;
     }
 
     .filters-container {
@@ -187,6 +222,103 @@
     }
 
     footer { height: 150px; width: 100%; }
+    /* Buton Scroll to Top */
+    .scroll-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: var(--accent);
+      color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 15px rgba(255, 71, 87, 0.4);
+      z-index: 1001;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .scroll-top.show {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .scroll-top:hover {
+      transform: translateY(-5px);
+      background: #ff5e6c;
+      box-shadow: 0 6px 20px rgba(255, 71, 87, 0.6);
+    }
+    /* --- Responsivitate pentru Mobile --- */
+    @media (max-width: 768px) {
+      header, main, .topbar {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      .header-title {
+        font-size: 45px; /* Micșorăm titlul pe mobile */
+      }
+
+      .schedule-item {
+        grid-template-columns: 1fr auto; /* Trecem la 2 coloane principale */
+        gap: 12px;
+        padding: 16px;
+      }
+
+      /* Ora stânga sus, Status dreapta sus */
+      .time {
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 1.1rem;
+      }
+
+      .status-tag {
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: end;
+        align-self: center;
+      }
+
+      /* Informațiile despre meci ocupă tot rândul de mijloc */
+      .event-info {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+        margin: 5px 0;
+      }
+
+      /* Canalele trec jos, în format orizontal (row) nu vertical */
+      .channels-container {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 8px;
+        padding-top: 12px;
+        border-top: 1px solid var(--border);
+      }
+
+      .channel-tag {
+        border-left: 2px solid var(--accent);
+        padding-left: 8px;
+      }
+      
+      .date-header {
+        font-size: 1.4rem;
+        margin: 30px 0 15px 0;
+      }
+
+      .filter-pill {
+        padding: 6px 15px;
+        font-size: 0.8rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -215,7 +347,9 @@
 
     <div class="schedule-container" id="schedule-list"></div>
   </main>
-  
+  <button class="scroll-top" id="scrollTopBtn" onclick="scrollToTop()">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
   <footer></footer>
 
   <script>
@@ -366,18 +500,28 @@ function isExpired(dateStr, timeStr) {
 
             grouped.sort((a, b) => a.time.localeCompare(b.time));
 
-            const dateHeader = document.createElement('h2');
+           const dateHeader = document.createElement('h2');
             dateHeader.className = "date-header";
             dateHeader.innerText = day.date;
             container.appendChild(dateHeader);
+
+            // Creăm un wrapper pentru meciurile din această zi
+            const dayContent = document.createElement('div');
+            dayContent.className = "day-content";
+            container.appendChild(dayContent);
+
+            // Logica de click: ascunde/arată meciurile
+            dateHeader.onclick = () => {
+                dayContent.classList.toggle('hidden');
+                dateHeader.classList.toggle('collapsed');
+            };
 
             grouped.forEach(item => {
                 const scheduleItem = document.createElement('div');
                 scheduleItem.className = 'schedule-item';
                 
                 const currentStatus = getStatus(day.date, item.time); 
-const statusClass = `status-tag ${currentStatus.toLowerCase()}`;
-
+                const statusClass = `status-tag ${currentStatus.toLowerCase()}`;
                 const channelsHtml = item.channels.map(ch => `<span class="channel-tag">${ch}</span>`).join('');
 
                 scheduleItem.innerHTML = `
@@ -388,10 +532,25 @@ const statusClass = `status-tag ${currentStatus.toLowerCase()}`;
                         <span class="competition">${item.competition}</span>
                     </div>
                     <div class="${statusClass}">${currentStatus}</div>
-`;
-                container.appendChild(scheduleItem);
+                `;
+                // IMPORTANT: Acum adăugăm în dayContent, nu direct în container
+                dayContent.appendChild(scheduleItem); 
             });
         });
+    }
+
+    const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+    window.onscroll = function() {
+        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+            scrollTopBtn.classList.add("show");
+        } else {
+            scrollTopBtn.classList.remove("show");
+        }
+    };
+
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     window.onload = init;
