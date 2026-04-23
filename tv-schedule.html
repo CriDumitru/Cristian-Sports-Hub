@@ -319,6 +319,42 @@
         font-size: 0.8rem;
       }
     }
+    .filters-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 25px;
+      flex-wrap: wrap;
+    }
+
+    .filters-row select {
+      background: var(--bg-card);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 10px 15px;
+      border-radius: 12px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.9rem;
+      outline: none;
+      cursor: pointer;
+      min-width: 160px;
+      transition: 0.3s;
+    }
+
+    .filters-row select:hover {
+      border-color: var(--accent);
+    }
+
+    .filters-row select option {
+      background: var(--bg-card);
+      color: var(--text);
+    }
+
+    @media (max-width: 768px) {
+      .filters-row select {
+        flex: 1; /* Pe mobil se întind egal pe rând */
+        min-width: 120px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -337,12 +373,21 @@
   </header>
 
   <main>
-    <div class="filters-container" id="filters-bar">
-      <button class="filter-pill active" onclick="filterBySport('all', this)">All Sports</button>
-    </div>
-    
-    <div class="filters-container" id="channels-bar">
-      <button class="filter-pill active" onclick="filterByChannel('all', this)">All Channels</button>
+   <div class="filters-row">
+      <select id="sport-filter" onchange="updateFilters()">
+        <option value="all">Toate Sporturile</option>
+      </select>
+      
+      <select id="channel-filter" onchange="updateFilters()">
+        <option value="all">Toate Canalele</option>
+      </select>
+
+      <select id="status-filter" onchange="updateFilters()">
+        <option value="all">Orice Status</option>
+        <option value="LIVE">Live Acum</option>
+        <option value="UPCOMING">Urmează</option>
+        <option value="FINISHED">Încheiate</option>
+      </select>
     </div>
 
     <div class="schedule-container" id="schedule-list"></div>
@@ -385,17 +430,16 @@ function isExpired(dateStr, timeStr) {
         try {
             const response = await fetch('schedule.json');
             rawData = await response.json();
-            
-            generateFilterButtons();   
-            generateChannelButtons();  
-            renderSchedule();          
+           generateFilters();  
+    renderSchedule();      
         } catch (e) {
             console.error("Eroare la încărcarea datelor:", e);
         }
     }
 
-    function generateFilterButtons() {
-        const filterBar = document.getElementById('filters-bar');
+  function generateFilters() {
+        const sportSelect = document.getElementById('sport-filter');
+        const channelSelect = document.getElementById('channel-filter');
         const sportsSet = new Set();
         
         rawData.forEach(day => {
@@ -403,70 +447,21 @@ function isExpired(dateStr, timeStr) {
         });
         
         sportsSet.forEach(sport => {
-            const btn = document.createElement('button');
-            btn.className = 'filter-pill';
-            btn.innerText = sport;
-            btn.onclick = () => filterBySport(sport, btn);
-            filterBar.appendChild(btn);
+            const opt = document.createElement('option');
+            opt.value = sport;
+            opt.innerText = sport;
+            sportSelect.appendChild(opt);
         });
-    }
 
-    function generateChannelButtons() {
-        const bar = document.getElementById('channels-bar');
         staticChannels.forEach(ch => {
-            const btn = document.createElement('button');
-            btn.className = 'filter-pill';
-            btn.innerText = ch;
-            btn.onclick = () => filterByChannel(ch, btn);
-            bar.appendChild(btn);
+            const opt = document.createElement('option');
+            opt.value = ch;
+            opt.innerText = ch;
+            channelSelect.appendChild(opt);
         });
     }
 
-    function filterBySport(sport, clickedBtn) {
-        const allBtn = document.querySelector('#filters-bar .filter-pill:first-child');
-        
-        if (sport === 'all') {
-            activeFilters.clear();
-            activeFilters.add('all');
-            document.querySelectorAll('#filters-bar .filter-pill').forEach(btn => btn.classList.remove('active'));
-            clickedBtn.classList.add('active');
-        } else {
-            if (activeFilters.has('all')) {
-                activeFilters.delete('all');
-                allBtn.classList.remove('active');
-            }
-            activeFilters.has(sport) ? activeFilters.delete(sport) : activeFilters.add(sport);
-            clickedBtn.classList.toggle('active');
-            
-            if (activeFilters.size === 0) {
-                activeFilters.add('all');
-                allBtn.classList.add('active');
-            }
-        }
-        renderSchedule();
-    }
-
-    function filterByChannel(channel, clickedBtn) {
-        const allBtn = document.querySelector('#channels-bar .filter-pill:first-child');
-
-        if (channel === 'all') {
-            activeChannels.clear();
-            activeChannels.add('all');
-            document.querySelectorAll('#channels-bar .filter-pill').forEach(btn => btn.classList.remove('active'));
-            clickedBtn.classList.add('active');
-        } else {
-            if (activeChannels.has('all')) {
-                activeChannels.delete('all');
-                allBtn.classList.remove('active');
-            }
-            activeChannels.has(channel) ? activeChannels.delete(channel) : activeChannels.add(channel);
-            clickedBtn.classList.toggle('active');
-
-            if (activeChannels.size === 0) {
-                activeChannels.add('all');
-                allBtn.classList.add('active');
-            }
-        }
+    function updateFilters() {
         renderSchedule();
     }
 
@@ -474,17 +469,22 @@ function isExpired(dateStr, timeStr) {
         const container = document.getElementById('schedule-list');
         container.innerHTML = '';
 
+        const selSport = document.getElementById('sport-filter').value;
+        const selChannel = document.getElementById('channel-filter').value;
+        const selStatus = document.getElementById('status-filter').value;
+
         rawData.forEach(day => {
             let programs = day.programs.filter(p => {
-    const sportMatch = activeFilters.has('all') || activeFilters.has(p.sport);
-    const channelMatch = activeChannels.has('all') || 
-        Array.from(activeChannels).some(activeCh => p.channel.toLowerCase().includes(activeCh.toLowerCase()));
-    
-    // NOU: Nu afișăm dacă au trecut mai mult de 45 de minute de la final
-    const expired = isExpired(day.date, p.time);
+                const currentStatus = getStatus(day.date, p.time);
+                
+                const sportMatch = selSport === 'all' || p.sport === selSport;
+                const channelMatch = selChannel === 'all' || p.channel.toLowerCase().includes(selChannel.toLowerCase());
+                const statusMatch = selStatus === 'all' || currentStatus === selStatus;
+                
+                const expired = isExpired(day.date, p.time);
 
-    return sportMatch && channelMatch && !expired;
-});
+                return sportMatch && channelMatch && statusMatch && !expired;
+            });
 
             if (programs.length === 0) return;
 
