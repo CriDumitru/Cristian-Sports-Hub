@@ -326,32 +326,88 @@
       flex-wrap: wrap;
     }
 
-    .filters-row select {
+   /* Stil nou pentru rândul de filtre */
+    .filters-row { 
+      display: flex; 
+      gap: 15px; 
+      margin-bottom: 25px; 
+      flex-wrap: wrap; 
+      position: relative; 
+    }
+    
+    /* Containerul principal al fiecărui dropdown */
+    .multiselect { 
+      position: relative; 
+      min-width: 200px; 
+      flex: 1; 
+    }
+
+    /* "Butonul" care deschide lista (înlocuiește vechiul select) */
+    .select-box {
       background: var(--bg-card);
-      color: var(--text);
       border: 1px solid var(--border);
       padding: 10px 15px;
       border-radius: 12px;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.9rem;
-      outline: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       cursor: pointer;
-      min-width: 160px;
+      font-size: 0.9rem;
       transition: 0.3s;
-    }
-
-    .filters-row select:hover {
-      border-color: var(--accent);
-    }
-
-    .filters-row select option {
-      background: var(--bg-card);
       color: var(--text);
     }
 
+    .select-box:hover { 
+      border-color: var(--accent); 
+    }
+
+    /* Lista cu bife care apare la click */
+    .options-container {
+      display: none; /* Ascuns implicit */
+      position: absolute;
+      top: 110%;
+      left: 0;
+      width: 100%;
+      background: #1a1a26;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      z-index: 2000;
+      max-height: 250px;
+      overflow-y: auto;
+      padding: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    .options-container.show { 
+      display: block; 
+    }
+
+    /* Fiecare rând cu bifă din interior */
+    .options-container label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      border-radius: 6px;
+      transition: 0.2s;
+      color: var(--text);
+    }
+
+    .options-container label:hover { 
+      background: rgba(255, 255, 255, 0.05); 
+    }
+    
+    .options-container input[type="checkbox"] {
+      accent-color: var(--accent);
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Media query actualizat pentru noile elemente */
     @media (max-width: 768px) {
-      .filters-row select {
-        flex: 1; /* Pe mobil se întind egal pe rând */
+      .multiselect {
         min-width: 120px;
       }
     }
@@ -373,22 +429,35 @@
   </header>
 
   <main>
-   <div class="filters-row">
-      <select id="sport-filter" onchange="updateFilters()">
-        <option value="all">All Sports</option>
-      </select>
-      
-      <select id="channel-filter" onchange="updateFilters()">
-        <option value="all">All Channels</option>
-      </select>
-
-      <select id="status-filter" onchange="updateFilters()">
-        <option value="all">Status</option>
-        <option value="LIVE">Live</option>
-        <option value="UPCOMING">Upcoming</option>
-        <option value="FINISHED">Finished</option>
-      </select>
+  <div class="filters-row">
+  <div class="multiselect" id="ms-sport">
+    <div class="select-box" onclick="toggleDropdown('sport-options')">
+      <span id="sport-label">All Sports</span>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"></polyline></svg>
     </div>
+    <div id="sport-options" class="options-container"></div>
+  </div>
+
+  <div class="multiselect" id="ms-channel">
+    <div class="select-box" onclick="toggleDropdown('channel-options')">
+      <span id="channel-label">All Channels</span>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"></polyline></svg>
+    </div>
+    <div id="channel-options" class="options-container"></div>
+  </div>
+
+  <div class="multiselect" id="ms-status">
+    <div class="select-box" onclick="toggleDropdown('status-options')">
+      <span id="status-label">Status</span>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"></polyline></svg>
+    </div>
+    <div id="status-options" class="options-container">
+      <label><input type="checkbox" value="LIVE" onchange="updateFilters()"> Live</label>
+      <label><input type="checkbox" value="UPCOMING" onchange="updateFilters()"> Upcoming</label>
+      <label><input type="checkbox" value="FINISHED" onchange="updateFilters()"> Finished</label>
+    </div>
+  </div>
+</div>
 
     <div class="schedule-container" id="schedule-list"></div>
   </main>
@@ -425,21 +494,42 @@ function isExpired(dateStr, timeStr) {
         "Antena Play", "Max", "Netflix", "Disney+", 
         "Prime Video", "FRF TV", "DAZN", "FIFA+"
     ];
+    
+function loadSavedFilters() {
+        const savedSports = JSON.parse(localStorage.getItem('selectedSports') || '[]');
+        const savedChannels = JSON.parse(localStorage.getItem('selectedChannels') || '[]');
+        const savedStatuses = JSON.parse(localStorage.getItem('selectedStatuses') || '[]');
 
+        // Bifăm căsuțele pentru Sporturi
+        document.querySelectorAll('#sport-options input').forEach(input => {
+            if (savedSports.includes(input.value)) input.checked = true;
+        });
+
+        // Bifăm căsuțele pentru Canale
+        document.querySelectorAll('#channel-options input').forEach(input => {
+            if (savedChannels.includes(input.value)) input.checked = true;
+        });
+
+        // Bifăm căsuțele pentru Status
+        document.querySelectorAll('#status-options input').forEach(input => {
+            if (savedStatuses.includes(input.value)) input.checked = true;
+        });
+    }
     async function init() {
         try {
             const response = await fetch('schedule.json');
             rawData = await response.json();
-           generateFilters();  
-    renderSchedule();      
+            
+            generateFilters();   // 1. Generăm bifele în HTML
+            loadSavedFilters();  // 2. Aplicăm ce era salvat în localStorage
+            renderSchedule();    // 3. Afișăm meciurile filtrate
         } catch (e) {
             console.error("Eroare la încărcarea datelor:", e);
         }
     }
-
-  function generateFilters() {
-        const sportSelect = document.getElementById('sport-filter');
-        const channelSelect = document.getElementById('channel-filter');
+ function generateFilters() {
+        const sportOptions = document.getElementById('sport-options');
+        const channelOptions = document.getElementById('channel-options');
         const sportsSet = new Set();
         
         rawData.forEach(day => {
@@ -447,21 +537,43 @@ function isExpired(dateStr, timeStr) {
         });
         
         sportsSet.forEach(sport => {
-            const opt = document.createElement('option');
-            opt.value = sport;
-            opt.innerText = sport;
-            sportSelect.appendChild(opt);
+            const lbl = document.createElement('label');
+            lbl.innerHTML = `<input type="checkbox" value="${sport}" onchange="updateFilters()"> ${sport}`;
+            sportOptions.appendChild(lbl);
         });
 
         staticChannels.forEach(ch => {
-            const opt = document.createElement('option');
-            opt.value = ch;
-            opt.innerText = ch;
-            channelSelect.appendChild(opt);
+            const lbl = document.createElement('label');
+            lbl.innerHTML = `<input type="checkbox" value="${ch}" onchange="updateFilters()"> ${ch}`;
+            channelOptions.appendChild(lbl);
         });
     }
 
+    function toggleDropdown(id) {
+        document.querySelectorAll('.options-container').forEach(el => {
+            if(el.id !== id) el.classList.remove('show');
+        });
+        document.getElementById(id).classList.toggle('show');
+    }
+
+    // Închide dropdown-ul dacă dai click în afară
+    window.onclick = function(event) {
+        if (!event.target.closest('.multiselect')) {
+            document.querySelectorAll('.options-container').forEach(el => el.classList.remove('show'));
+        }
+    }
+
     function updateFilters() {
+        // Colectăm selecțiile actuale
+        const selectedSports = Array.from(document.querySelectorAll('#sport-options input:checked')).map(i => i.value);
+        const selectedChannels = Array.from(document.querySelectorAll('#channel-options input:checked')).map(i => i.value);
+        const selectedStatuses = Array.from(document.querySelectorAll('#status-options input:checked')).map(i => i.value);
+
+        // Le salvăm în memoria browserului sub formă de text (JSON)
+        localStorage.setItem('selectedSports', JSON.stringify(selectedSports));
+        localStorage.setItem('selectedChannels', JSON.stringify(selectedChannels));
+        localStorage.setItem('selectedStatuses', JSON.stringify(selectedStatuses));
+
         renderSchedule();
     }
 
@@ -469,17 +581,24 @@ function isExpired(dateStr, timeStr) {
         const container = document.getElementById('schedule-list');
         container.innerHTML = '';
 
-        const selSport = document.getElementById('sport-filter').value;
-        const selChannel = document.getElementById('channel-filter').value;
-        const selStatus = document.getElementById('status-filter').value;
+        // Colectăm toate valorile bifate
+        const selectedSports = Array.from(document.querySelectorAll('#sport-options input:checked')).map(i => i.value);
+        const selectedChannels = Array.from(document.querySelectorAll('#channel-options input:checked')).map(i => i.value);
+        const selectedStatuses = Array.from(document.querySelectorAll('#status-options input:checked')).map(i => i.value);
+
+        // Actualizăm label-urile (opțional, pentru aspect)
+        document.getElementById('sport-label').innerText = selectedSports.length ? `Sporturi (${selectedSports.length})` : "Toate Sporturile";
+        document.getElementById('channel-label').innerText = selectedChannels.length ? `Canale (${selectedChannels.length})` : "Toate Canalele";
 
         rawData.forEach(day => {
             let programs = day.programs.filter(p => {
                 const currentStatus = getStatus(day.date, p.time);
                 
-                const sportMatch = selSport === 'all' || p.sport === selSport;
-                const channelMatch = selChannel === 'all' || p.channel.toLowerCase().includes(selChannel.toLowerCase());
-                const statusMatch = selStatus === 'all' || currentStatus === selStatus;
+                // Dacă nu e nimic bifat, considerăm "all" (true)
+                const sportMatch = selectedSports.length === 0 || selectedSports.includes(p.sport);
+                const channelMatch = selectedChannels.length === 0 || 
+                                     selectedChannels.some(ch => p.channel.toLowerCase().includes(ch.toLowerCase()));
+                const statusMatch = selectedStatuses.length === 0 || selectedStatuses.includes(currentStatus);
                 
                 const expired = isExpired(day.date, p.time);
 
