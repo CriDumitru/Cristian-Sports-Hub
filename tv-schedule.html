@@ -617,7 +617,7 @@ function loadSavedFilters() {
 
         // Actualizăm label-urile (opțional, pentru aspect)
         document.getElementById('sport-label').innerText = selectedSports.length ? `Sporturi (${selectedSports.length})` : "All Sports";
-        document.getElementById('channel-label').innerText = selectedChannels.length ? `Canale (${selectedChannels.length})` : "Toate Canalele";
+        document.getElementById('channel-label').innerText = selectedChannels.length ? `Canale (${selectedChannels.length})` : "All Channels";
 
         rawData.forEach(day => {
             let programs = day.programs.filter(p => {
