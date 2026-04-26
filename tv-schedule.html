@@ -411,6 +411,11 @@
         min-width: 120px;
       }
     }
+    .select-all-row {
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 5px;
+      padding-bottom: 10px !important;
+    }
   </style>
 </head>
 <body>
@@ -429,7 +434,7 @@
   </header>
 
   <main>
-  <div class="filters-row">
+ <div class="filters-row">
   <div class="multiselect" id="ms-sport">
     <div class="select-box" onclick="toggleDropdown('sport-options')">
       <span id="sport-label">All Sports</span>
@@ -448,11 +453,12 @@
 
   <div class="multiselect" id="ms-status">
     <div class="select-box" onclick="toggleDropdown('status-options')">
-      <span id="status-label">Status</span>
+      <span id="status-label">Any Status</span>
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"></polyline></svg>
     </div>
     <div id="status-options" class="options-container">
-      <label><input type="checkbox" value="LIVE" onchange="updateFilters()"> Live</label>
+      <label class="select-all-row"><input type="checkbox" onchange="toggleSelectAll('status-options', this.checked)"> <strong>Select All</strong></label>
+      <label><input type="checkbox" value="LIVE" onchange="updateFilters()"> Live Now</label>
       <label><input type="checkbox" value="UPCOMING" onchange="updateFilters()"> Upcoming</label>
       <label><input type="checkbox" value="FINISHED" onchange="updateFilters()"> Finished</label>
     </div>
@@ -527,28 +533,46 @@ function loadSavedFilters() {
             console.error("Eroare la încărcarea datelor:", e);
         }
     }
- function generateFilters() {
+ function capitalize(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    }
+
+    function generateFilters() {
         const sportOptions = document.getElementById('sport-options');
         const channelOptions = document.getElementById('channel-options');
-        const sportsSet = new Set();
         
+        // Curățăm containerele
+        sportOptions.innerHTML = `<label class="select-all-row"><input type="checkbox" onchange="toggleSelectAll('sport-options', this.checked)"> <strong>Select All</strong></label>`;
+        channelOptions.innerHTML = `<label class="select-all-row"><input type="checkbox" onchange="toggleSelectAll('channel-options', this.checked)"> <strong>Select All</strong></label>`;
+
+        const sportsSet = new Set();
         rawData.forEach(day => {
             day.programs.forEach(p => sportsSet.add(p.sport));
         });
         
-        sportsSet.forEach(sport => {
+        // Sortăm alfabetic și generăm bifele
+        Array.from(sportsSet).sort().forEach(sport => {
             const lbl = document.createElement('label');
-            lbl.innerHTML = `<input type="checkbox" value="${sport}" onchange="updateFilters()"> ${sport}`;
+            lbl.innerHTML = `<input type="checkbox" value="${sport}" onchange="updateFilters()"> ${capitalize(sport)}`;
             sportOptions.appendChild(lbl);
         });
 
-        staticChannels.forEach(ch => {
+        staticChannels.sort().forEach(ch => {
             const lbl = document.createElement('label');
             lbl.innerHTML = `<input type="checkbox" value="${ch}" onchange="updateFilters()"> ${ch}`;
             channelOptions.appendChild(lbl);
         });
     }
-
+    function toggleSelectAll(containerId, isChecked) {
+        const container = document.getElementById(containerId);
+        const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+        
+        checkboxes.forEach(cb => {
+            cb.checked = isChecked;
+        });
+        
+        updateFilters();
+    }
     function toggleDropdown(id) {
         document.querySelectorAll('.options-container').forEach(el => {
             if(el.id !== id) el.classList.remove('show');
@@ -564,18 +588,23 @@ function loadSavedFilters() {
     }
 
     function updateFilters() {
-        // Colectăm selecțiile actuale
-        const selectedSports = Array.from(document.querySelectorAll('#sport-options input:checked')).map(i => i.value);
-        const selectedChannels = Array.from(document.querySelectorAll('#channel-options input:checked')).map(i => i.value);
-        const selectedStatuses = Array.from(document.querySelectorAll('#status-options input:checked')).map(i => i.value);
+    // 1. Colectăm selecțiile (Rămâne la fel)
+    const selectedSports = Array.from(document.querySelectorAll('#sport-options input:checked')).filter(i => i.value).map(i => i.value);
+    const selectedChannels = Array.from(document.querySelectorAll('#channel-options input:checked')).filter(i => i.value).map(i => i.value);
+    const selectedStatuses = Array.from(document.querySelectorAll('#status-options input:checked')).filter(i => i.value).map(i => i.value);
 
-        // Le salvăm în memoria browserului sub formă de text (JSON)
-        localStorage.setItem('selectedSports', JSON.stringify(selectedSports));
-        localStorage.setItem('selectedChannels', JSON.stringify(selectedChannels));
-        localStorage.setItem('selectedStatuses', JSON.stringify(selectedStatuses));
+    // 2. Salvăm în localStorage (Rămâne la fel)
+    localStorage.setItem('selectedSports', JSON.stringify(selectedSports));
+    localStorage.setItem('selectedChannels', JSON.stringify(selectedChannels));
+    localStorage.setItem('selectedStatuses', JSON.stringify(selectedStatuses));
 
-        renderSchedule();
-    }
+    // 3. NOD NOU: Actualizăm textul butoanelor în Engleză
+    document.getElementById('sport-label').innerText = selectedSports.length ? `Sports (${selectedSports.length})` : "All Sports";
+    document.getElementById('channel-label').innerText = selectedChannels.length ? `Channels (${selectedChannels.length})` : "All Channels";
+    document.getElementById('status-label').innerText = selectedStatuses.length ? `Status (${selectedStatuses.length})` : "Any Status";
+
+    renderSchedule();
+}
 
     function renderSchedule() {
         const container = document.getElementById('schedule-list');
