@@ -1,2949 +1,6 @@
 [
   {
-    "date": "Thursday, April 23, 2026",
-    "programs": [
-      {
-        "time": "00:05",
-        "channel": "Disney+",
-        "event": "Boston College vs. Stanford",
-        "competition": "NCAA Women's Lacrosse · Quarter-final",
-        "sport": "lacrosse",
-        "status": "live"
-      },
-      {
-        "time": "01:00",
-        "channel": "Disney+",
-        "event": "Florida vs. Florida State",
-        "competition": "NCAA Softball",
-        "sport": "softball",
-        "status": "upcoming"
-      },
-      {
-        "time": "02:00",
-        "channel": "FIFA+",
-        "event": "Teachers FC vs. Cheshire Hall FC",
-        "competition": "Provo Premier League 2025/26 · Turks and Caicos Islands",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:00",
-        "channel": "Disney+",
-        "event": "Oklahoma State vs. Texas",
-        "competition": "NCAA Softball",
-        "sport": "softball",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:00",
-        "channel": "Disney+",
-        "event": "Notre Dame vs. Clemson",
-        "competition": "NCAA Women's Lacrosse · Quarter-final",
-        "sport": "lacrosse",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:30",
-        "channel": "FIFA+",
-        "event": "Jong Aruba vs. Unistars",
-        "competition": "Division Honor 2025/26 · Aruba",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "05:00",
-        "channel": "Disney+",
-        "event": "Texas vs. Vanderbilt",
-        "competition": "NCAA Baseball",
-        "sport": "baseball",
-        "status": "upcoming"
-      },
-      {
-        "time": "08:55",
-        "channel": "TVR Sport",
-        "event": "Swimming: National Championships",
-        "competition": "Romanian National Championships · Otopeni",
-        "sport": "swimming",
-        "status": "upcoming"
-      },
-      {
-        "time": "10:00",
-        "channel": "Prime Video",
-        "event": "PTT Arnhem",
-        "competition": "UTR Pro Tennis Tour",
-        "sport": "tennis",
-        "status": "live"
-      },
-      {
-        "time": "12:00",
-        "channel": "Digi Sport 2",
-        "event": "Jaqueline Cristian vs Yuliia Starodubtseva",
-        "competition": "WTA Madrid · Day 2",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "12:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 2",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "12:00",
-        "channel": "Prima Sport 3",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 2",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "Digi Sport 2",
-        "event": "Tennis",
-        "competition": "WTA Madrid · Day 2",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 2",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:35",
-        "channel": "Max",
-        "event": "Stage 4: Arco - Trento (167.8km)",
-        "competition": "Cycling · Tour of the Alps",
-        "sport": "cycling",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:40",
-        "channel": "Voyo",
-        "event": "European Weightlifting Championships",
-        "competition": "European Weightlifting Championships · Day 5",
-        "sport": "weightlifting",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:00",
-        "channel": "Max",
-        "event": "World Championship: Round 2",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:00",
-        "channel": "Max",
-        "event": "World Championship: Round 1",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:00",
-        "channel": "Max",
-        "event": "Day 1: Main Feed",
-        "competition": "Golf · Zurich Classic of New Orleans (PGA Tour)",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:30",
-        "channel": "Max",
-        "event": "Day 1: Featured Groups",
-        "competition": "Golf · Zurich Classic of New Orleans (PGA Tour)",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:30",
-        "channel": "Max",
-        "event": "Day 1: Featured Holes",
-        "competition": "Golf · Zurich Classic of New Orleans (PGA Tour)",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:45",
-        "channel": "Max",
-        "event": "Day 1: Marquee Group",
-        "competition": "Golf · Zurich Classic of New Orleans (PGA Tour)",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "Digi Sport 2",
-        "event": "Tennis",
-        "competition": "WTA Madrid · Day 2",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 2",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:15",
-        "channel": "Digi Sport 1",
-        "event": "Bihor Oradea vs Sepsi Sfântu Gheorghe",
-        "competition": "League 2 · Play-off, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:15",
-        "channel": "Prima Sport 1",
-        "event": "Bihor Oradea vs Sepsi Sfântu Gheorghe",
-        "competition": "League 2 · Play-off, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:25",
-        "channel": "TVR Sport",
-        "event": "Swimming: National Championships",
-        "competition": "Romanian National Championships · Otopeni",
-        "sport": "swimming",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:30",
-        "channel": "FIFA+",
-        "event": "US Beau-Bassin Rose-Hill vs. Pamplemousses SC",
-        "competition": "National Super League 2025/26 · Mauritius",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:30",
-        "channel": "FIFA+",
-        "event": "St Michel SC vs. St Louis FC",
-        "competition": "Seychelles Absa Premier League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "Digi Sport 2",
-        "event": "Tennis",
-        "competition": "WTA Madrid · Day 2",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 2",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "FIFA+",
-        "event": "FC Cuntum vs. CF Os Balantas",
-        "competition": "Campeonato Nacional · Guinea-Bissau",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "FIFA+",
-        "event": "Old Edwardians FC vs. Bo Rangers FC",
-        "competition": "Leone Rock Premier League 2025/26 · Sierra Leone",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "Digi Sport 2",
-        "event": "Tennis",
-        "competition": "WTA Madrid · Day 2",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 2",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "Digi Sport 3",
-        "event": "Levante vs Sevilla",
-        "competition": "La Liga · Round 33",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "Prima Sport 2",
-        "event": "Levante vs Sevilla",
-        "competition": "La Liga · Round 33",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "FIFA+",
-        "event": "KF Vllaznia vs. FC Dinamo City",
-        "competition": "Kupa e Shqipërisë · Semi-finals",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Digi Sport 1",
-        "event": "Dinamo vs Universitatea Craiova",
-        "competition": "Romanian Cup · Semi-finals",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Prima Sport 1",
-        "event": "Dinamo vs Universitatea Craiova",
-        "competition": "Romanian Cup · Semi-finals",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Max",
-        "event": "World Championship: Round 1",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Prime Video",
-        "event": "PTT Newport Beach",
-        "competition": "UTR Pro Tennis Tour",
-        "sport": "tennis",
-        "status": "live"
-      },
-      {
-        "time": "21:00",
-        "channel": "Prima Sport 3",
-        "event": "Rayo Vallecano vs Espanyol",
-        "competition": "La Liga · Round 33",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:00",
-        "channel": "Max",
-        "event": "World Championship: Round 2",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:00",
-        "channel": "Prime Video",
-        "event": "PTT Clemson Men",
-        "competition": "UTR Pro Tennis Tour",
-        "sport": "tennis",
-        "status": "live"
-      },
-      {
-        "time": "21:45",
-        "channel": "Digi Sport 2",
-        "event": "Stuttgart vs Freiburg",
-        "competition": "German Cup · Semi-finals",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Prima Sport 4",
-        "event": "PSV Eindhoven vs Zwolle",
-        "competition": "Eredivisie · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Max",
-        "event": "Day 1: PGA Tour",
-        "competition": "Golf · Zurich Classic of New Orleans",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:30",
-        "channel": "Digi Sport 3",
-        "event": "Oviedo vs Villarreal",
-        "competition": "La Liga · Round 33",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:30",
-        "channel": "Prima Sport 2",
-        "event": "Oviedo vs Villarreal",
-        "competition": "La Liga · Round 33",
-        "sport": "football",
-        "status": "upcoming"
-      }
-    ]
-  },
- {
-    "date": "Friday, April 24, 2026",
-    "programs": [
-      {
-        "time": "00:00",
-        "channel": "FIFA+",
-        "event": "Notch vs. Broki",
-        "competition": "Suriname Major League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "01:00",
-        "channel": "FIFA+",
-        "event": "Inter Wanica vs. Flora",
-        "competition": "Suriname Major League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "01:30",
-        "channel": "Prime Video",
-        "event": "New York Knicks vs. Atlanta Hawks",
-        "competition": "NBA Playoffs",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "02:00",
-        "channel": "Disney+",
-        "event": "Alabama vs. Tennessee",
-        "competition": "NCAA Baseball",
-        "sport": "baseball",
-        "status": "upcoming"
-      },
-      {
-        "time": "02:00",
-        "channel": "Disney+",
-        "event": "North Carolina vs. Duke",
-        "competition": "NCAA Baseball",
-        "sport": "baseball",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:00",
-        "channel": "Prime Video",
-        "event": "Cleveland Cavaliers vs. Toronto Raptors",
-        "competition": "NBA Playoffs",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:00",
-        "channel": "Disney+",
-        "event": "Arkansas vs. Missouri",
-        "competition": "NCAA Baseball",
-        "sport": "baseball",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:00",
-        "channel": "DAZN",
-        "event": "2026 NFL Draft: Day 1",
-        "competition": "NFL Draft",
-        "sport": "american football",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:30",
-        "channel": "FIFA+",
-        "event": "Dakota vs. La Fama",
-        "competition": "Division Honor Oro 2025/26 · Aruba",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "04:00",
-        "channel": "Disney+",
-        "event": "Esports Championships Asia Jinju 2026 · Day 1",
-        "competition": "Esports",
-        "sport": "esports",
-        "status": "upcoming"
-      },
-      {
-        "time": "04:30",
-        "channel": "Prime Video",
-        "event": "Denver Nuggets vs. Minnesota Timberwolves",
-        "competition": "NBA Playoffs",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "08:55",
-        "channel": "TVR Sport",
-        "event": "Swimming: National Championships",
-        "competition": "Romanian National Championships · Otopeni",
-        "sport": "swimming",
-        "status": "upcoming"
-      },
-      {
-        "time": "09:00",
-        "channel": "Digi Sport 2",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "09:00",
-        "channel": "Max",
-        "event": "Monaco Historic Grand Prix Day 1 | Part 1",
-        "competition": "Retro Car Racing · Monaco Historic Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "10:00",
-        "channel": "Prime Video",
-        "event": "PTT Arnhem",
-        "competition": "UTR Pro Tennis Tour",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "10:00",
-        "channel": "Digi Sport 3",
-        "event": "Spanish GP: Moto3 - Practice 1",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "10:00",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: Moto3 - Practice 1",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "10:00",
-        "channel": "FIFA+",
-        "event": "Auckland FC vs. Bay Olympic",
-        "competition": "New Zealand Men's National League 2026",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "10:50",
-        "channel": "Digi Sport 3",
-        "event": "Spanish GP: Moto2 - Practice 1",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "10:50",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: Moto2 - Practice 1",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "11:45",
-        "channel": "Digi Sport 3",
-        "event": "Spanish GP: MotoGP - Practice 1",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "11:45",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: MotoGP - Practice 1",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "11:55",
-        "channel": "DAZN",
-        "event": "Lake Como - Qualifying Sessions and Pole Shootout",
-        "competition": "E1 Series",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "12:00",
-        "channel": "Digi Sport 2",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "12:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "12:00",
-        "channel": "Prima Sport 3",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "12:00",
-        "channel": "Max",
-        "event": "World Championship: Round 2",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "12:00",
-        "channel": "FIFA+",
-        "event": "CS Constantine vs. US Biskra",
-        "competition": "Ligue Nationale du Football Féminin 2025/26 · Algeria",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "13:30",
-        "channel": "FIFA+",
-        "event": "Halaba Ketema vs. Addis Ketema SC",
-        "competition": "Ethiopian Higher League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "Digi Sport 2",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "Max",
-        "event": "UCI Track World Cup: Nilai - Day 1",
-        "competition": "Cycling · UCI Track World Cup",
-        "sport": "cycling",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:15",
-        "channel": "Digi Sport 3",
-        "event": "Spanish GP: Moto3 - Practice 2",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:15",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: Moto3 - Practice 2",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:35",
-        "channel": "Max",
-        "event": "Stage 5: Trento - Bolzano (128.6km)",
-        "competition": "Cycling · Tour of the Alps",
-        "sport": "cycling",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:40",
-        "channel": "Voyo",
-        "event": "European Weightlifting Championships",
-        "competition": "European Weightlifting Championships · Day 6",
-        "sport": "weightlifting",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:55",
-        "channel": "DAZN",
-        "event": "Lake Como - Qualifying Time Trials",
-        "competition": "E1 Series",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:57",
-        "channel": "TVR Sport",
-        "event": "CSA Steaua vs SCM USV Timișoara",
-        "competition": "National Rugby League",
-        "sport": "rugby",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:05",
-        "channel": "Digi Sport 3",
-        "event": "Spanish GP: Moto2 - Practice 2",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:05",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: Moto2 - Practice 2",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:15",
-        "channel": "Max",
-        "event": "Monaco Historic Grand Prix Day 1 | Part 2",
-        "competition": "Retro Car Racing · Monaco Historic Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:45",
-        "channel": "Max",
-        "event": "Day 2: Main Feed",
-        "competition": "Golf · Zurich Classic of New Orleans (PGA Tour)",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "Digi Sport 2",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "Digi Sport 3",
-        "event": "Spanish GP: MotoGP - Practice 2",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: MotoGP - Practice 2",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "Hang Sai vs. Benfica",
-        "competition": "Macau First Division 2026",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:15",
-        "channel": "Max",
-        "event": "World Championship: Round 2",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:15",
-        "channel": "Max",
-        "event": "Day 2: Featured Holes",
-        "competition": "Golf · Zurich Classic of New Orleans (PGA Tour)",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:30",
-        "channel": "Max",
-        "event": "World Championship: Round 2",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:30",
-        "channel": "Max",
-        "event": "Day 2: Featured Groups",
-        "competition": "Golf · Zurich Classic of New Orleans (PGA Tour)",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:45",
-        "channel": "Max",
-        "event": "Day 2: Marquee Group",
-        "competition": "Golf · Zurich Classic of New Orleans (PGA Tour)",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:55",
-        "channel": "FIFA+",
-        "event": "Al Jazira Al Hamra vs. Al Hamriyah",
-        "competition": "UAE First Division League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:55",
-        "channel": "FIFA+",
-        "event": "Dibba Al-Hisn vs. Al Arabi",
-        "competition": "UAE First Division League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:55",
-        "channel": "FIFA+",
-        "event": "Emirates Club vs. Masfout Club",
-        "competition": "UAE First Division League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:55",
-        "channel": "FIFA+",
-        "event": "Fujairah Club vs. Al-Ittihad",
-        "competition": "UAE First Division League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:55",
-        "channel": "FIFA+",
-        "event": "Majd FC vs. Al Dhaid Club",
-        "competition": "UAE First Division League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:00",
-        "channel": "Digi Sport 3",
-        "event": "Dinamo vs Rapid",
-        "competition": "National League · Quarter-finals",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:00",
-        "channel": "Prima Sport 2",
-        "event": "Dinamo vs Rapid",
-        "competition": "National League · Quarter-finals",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:00",
-        "channel": "Prime Video",
-        "event": "PTT Clemson Men",
-        "competition": "UTR Pro Tennis Tour",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:25",
-        "channel": "TVR Sport",
-        "event": "Swimming: National Championships",
-        "competition": "Romanian National Championships · Otopeni",
-        "sport": "swimming",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:30",
-        "channel": "Digi Sport 1",
-        "event": "Hermannstadt vs Csikszereda",
-        "competition": "Superliga · Play-out, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:30",
-        "channel": "Prima Sport 1",
-        "event": "Hermannstadt vs Csikszereda",
-        "competition": "Superliga · Play-out, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:30",
-        "channel": "FIFA+",
-        "event": "Bel Air FC vs. Light Stars FC",
-        "competition": "Seychelles Absa Premier League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:45",
-        "channel": "DAZN",
-        "event": "Freestyle Friday #6",
-        "competition": "Freestyle Friday Championship",
-        "sport": "chess",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:55",
-        "channel": "DAZN",
-        "event": "Chess.com Open 2026 Play-offs Day 2",
-        "competition": "Chess.com Open",
-        "sport": "chess",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "Digi Sport 2",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "Babrungas vs. FK Garliava",
-        "competition": "Pirma Lyga 2026 · Lithuania",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "Disney+",
-        "event": "Sun Belt Beach Volleyball Championship (Matches 1-3)",
-        "competition": "NCAA Women's Beach Volleyball",
-        "sport": "volleyball",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:10",
-        "channel": "FIFA+",
-        "event": "United Club vs. Gulf United",
-        "competition": "UAE First Division League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "Digi Sport 3",
-        "event": "CSM CSU Oradea vs Argeș Pitești",
-        "competition": "National League · Quarter-finals",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "Prima Sport 2",
-        "event": "CSM CSU Oradea vs Argeș Pitești",
-        "competition": "National League · Quarter-finals",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "FIFA+",
-        "event": "Downtown FC vs. Jubilee FC",
-        "competition": "LFA First Division League 2025/26 · Liberia",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "Prima Sport 5",
-        "event": "Dusseldorf vs Dresda",
-        "competition": "2. Bundesliga · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "PPV 1",
-        "event": "Kaiserslautern vs Braunschweig",
-        "competition": "2. Bundesliga · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "FIFA+",
-        "event": "Luawa FC vs. Kamboi Eagles FC",
-        "competition": "Leone Rock Premier League 2025/26 · Sierra Leone",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "FIFA+",
-        "event": "AS Real vs. AS Bakaridjan",
-        "competition": "Ligue 1 Pro Orange 2025/26 · Mali",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:55",
-        "channel": "TVR Sport",
-        "event": "CSA Steaua București vs CS Dinamo",
-        "competition": "National Water Polo Championship · Semi-finals",
-        "sport": "water polo",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "Digi Sport 2",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "Prima Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "PPV 2",
-        "event": "Basaksehir vs Kasimpasa",
-        "competition": "Super Lig · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Digi Sport 1",
-        "event": "FCSB vs Petrolul",
-        "competition": "Superliga · Play-out, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Prima Sport 1",
-        "event": "FCSB vs Petrolul",
-        "competition": "Superliga · Play-out, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Max",
-        "event": "World Championship: Round 2",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Prime Video",
-        "event": "PTT Newport Beach",
-        "competition": "UTR Pro Tennis Tour",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "FIFA+",
-        "event": "Châteauroux vs. FC Fleury 91",
-        "competition": "Championnat National 2025/2026 · France",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "FIFA+",
-        "event": "Le Puy Foot vs. Versailles",
-        "competition": "Championnat National 2025/2026 · France",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "FIFA+",
-        "event": "Orléans vs. Quevilly-Rouen Métropole",
-        "competition": "Championnat National 2025/2026 · France",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "FIFA+",
-        "event": "Rouen vs. SC Aubagne Air Bel",
-        "competition": "Championnat National 2025/2026 · France",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "FIFA+",
-        "event": "SM Caen vs. Villefranche",
-        "competition": "Championnat National 2025/2026 · France",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "FIFA+",
-        "event": "Sochaux vs. Bourg-Péronnas",
-        "competition": "Championnat National 2025/2026 · France",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "FIFA+",
-        "event": "Stade Briochin vs. Concarneau",
-        "competition": "Championnat National 2025/2026 · France",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "FIFA+",
-        "event": "Valenciennes vs. Dijon FCO",
-        "competition": "Championnat National 2025/2026 · France",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:00",
-        "channel": "Max",
-        "event": "World Championship: Round 2",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:30",
-        "channel": "Prima Sport 5",
-        "event": "RB Leipzig vs Union Berlin",
-        "competition": "Bundesliga · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:30",
-        "channel": "PPV 3",
-        "event": "Albacete vs Eibar",
-        "competition": "La Liga 2 · Round 37",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:30",
-        "channel": "DAZN",
-        "event": "Caledonia Gladiators vs. Bristol Flyers",
-        "competition": "Super League Basketball",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:30",
-        "channel": "DAZN",
-        "event": "Newcastle Eagles vs. Leicester Riders",
-        "competition": "Super League Basketball",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:30",
-        "channel": "Disney+",
-        "event": "Drexel vs. Virginia",
-        "competition": "NCAA Men's Lacrosse",
-        "sport": "lacrosse",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:45",
-        "channel": "Digi Sport 3",
-        "event": "Napoli vs Cremonese",
-        "competition": "Serie A · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:45",
-        "channel": "Prima Sport 3",
-        "event": "Napoli vs Cremonese",
-        "competition": "Serie A · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:45",
-        "channel": "Voyo",
-        "event": "Brest vs Lens",
-        "competition": "Ligue 1 · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Digi Sport 2",
-        "event": "Betis vs Real Madrid",
-        "competition": "La Liga · Round 32",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 3",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Prima Sport 2",
-        "event": "Betis vs Real Madrid",
-        "competition": "La Liga · Round 32",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Voyo",
-        "event": "Sunderland vs Nottingham",
-        "competition": "Premier League · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Max",
-        "event": "Day 2: PGA Tour",
-        "competition": "Golf · Zurich Classic of New Orleans",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Disney+",
-        "event": "Long Island University vs. Saint Francis (PA)",
-        "competition": "NCAA Men's Volleyball · Semifinal #1",
-        "sport": "volleyball",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:15",
-        "channel": "Antena Play",
-        "event": "Alverca vs Arouca",
-        "competition": "Liga Portugal · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      }
-    ]
-  },
- {
-    "date": "Saturday, April 25, 2026",
-    "programs": [
-      {
-        "time": "00:00",
-        "channel": "Disney+",
-        "event": "ACC Women's Lacrosse Championship",
-        "competition": "NCAA Women's Lacrosse · Semifinal",
-        "sport": "lacrosse",
-        "status": "upcoming"
-      },
-      {
-        "time": "01:00",
-        "channel": "Disney+",
-        "event": "Texas vs. Kentucky",
-        "competition": "NCAA Softball",
-        "sport": "softball",
-        "status": "upcoming"
-      },
-      {
-        "time": "01:30",
-        "channel": "Prime Video",
-        "event": "Boston Celtics vs. Philadelphia 76ers",
-        "competition": "NBA Playoffs",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "02:00",
-        "channel": "Disney+",
-        "event": "Maryland-Eastern Shore vs. Fairleigh Dickinson",
-        "competition": "NCAA Men's Volleyball · Semifinal #2",
-        "sport": "volleyball",
-        "status": "upcoming"
-      },
-      {
-        "time": "02:00",
-        "channel": "Disney+",
-        "event": "Texas A&M vs. South Carolina",
-        "competition": "NCAA Softball",
-        "sport": "softball",
-        "status": "upcoming"
-      },
-      {
-        "time": "02:00",
-        "channel": "DAZN",
-        "event": "2026 NFL Draft: Day 2",
-        "competition": "NFL Draft",
-        "sport": "american football",
-        "status": "upcoming"
-      },
-      {
-        "time": "02:00",
-        "channel": "FIFA+",
-        "event": "Bombers FC vs. South East FC",
-        "competition": "DFA Premier League 2026 · Dominica",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "02:00",
-        "channel": "FIFA+",
-        "event": "Harlem United SC vs. Mighty Avengers",
-        "competition": "DFA Premier League 2026 · Dominica",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:00",
-        "channel": "Disney+",
-        "event": "Arkansas vs. Missouri",
-        "competition": "NCAA Baseball",
-        "sport": "baseball",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:00",
-        "channel": "Disney+",
-        "event": "UTSA vs. Tulane",
-        "competition": "NCAA Baseball",
-        "sport": "baseball",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:00",
-        "channel": "Disney+",
-        "event": "ACC Women's Lacrosse Championship",
-        "competition": "NCAA Women's Lacrosse · Semifinal",
-        "sport": "lacrosse",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:00",
-        "channel": "Netflix",
-        "event": "WWE SmackDown",
-        "competition": "WWE SmackDown",
-        "sport": "wrestling",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:00",
-        "channel": "Prime Video",
-        "event": "Los Angeles Lakers vs. Houston Rockets",
-        "competition": "NBA Playoffs",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:00",
-        "channel": "FIFA+",
-        "event": "Diamond FC vs. Attackers FC",
-        "competition": "Anguilla Senior Men's League 2026",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:00",
-        "channel": "FIFA+",
-        "event": "C.R.K.S.V. Jong Colombia vs. C.R.K.S.V. Jong Holland",
-        "competition": "Curaçao Promé Divishon 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "03:30",
-        "channel": "FIFA+",
-        "event": "Miramar Rangers vs. Petone",
-        "competition": "New Zealand Men's National League 2026 · Central League",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "04:00",
-        "channel": "Disney+",
-        "event": "Texas Tech vs. Arizona State",
-        "competition": "NCAA Softball",
-        "sport": "softball",
-        "status": "upcoming"
-      },
-      {
-        "time": "04:00",
-        "channel": "Max",
-        "event": "Mitsubishi Electric Classic | Day 1",
-        "competition": "PGA Tour Champions",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "05:00",
-        "channel": "Disney+",
-        "event": "Esports Championships Asia Jinju 2026 · Day 2",
-        "competition": "Esports",
-        "sport": "esports",
-        "status": "upcoming"
-      },
-      {
-        "time": "05:00",
-        "channel": "FIFA+",
-        "event": "Auckland City vs. Fencibles United",
-        "competition": "New Zealand Men's National League 2026 · Northern League",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "05:30",
-        "channel": "Prime Video",
-        "event": "San Antonio Spurs vs. Portland Trail Blazers",
-        "competition": "NBA Playoffs",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "06:00",
-        "channel": "FIFA+",
-        "event": "Birkenhead United vs. Western Springs",
-        "competition": "New Zealand Men's National League 2026 · Northern League",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "06:00",
-        "channel": "FIFA+",
-        "event": "Eastern Suburbs vs. Tauranga City",
-        "competition": "New Zealand Men's National League 2026 · Northern League",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "06:00",
-        "channel": "FIFA+",
-        "event": "Melville United vs. East Coast Bays",
-        "competition": "New Zealand Men's National League 2026 · Northern League",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "06:45",
-        "channel": "FIFA+",
-        "event": "Wellington Olympic vs. Island Bay United",
-        "competition": "New Zealand Men's National League 2026 · Central League",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "06:50",
-        "channel": "DAZN",
-        "event": "Okayama - Trofeo Pirelli Race 1",
-        "competition": "Ferrari Challenge Japan 2026",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "07:00",
-        "channel": "FIFA+",
-        "event": "Auckland United vs. Manurewa United",
-        "competition": "New Zealand Men's National League 2026 · Northern League",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "08:00",
-        "channel": "FIFA+",
-        "event": "Daejeon Korail vs. Changwon FC",
-        "competition": "K3 League 2026 · Korea Republic",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "08:00",
-        "channel": "FIFA+",
-        "event": "Jeonbuk FC vs. Dangjin Citizen FC",
-        "competition": "K3 League 2026 · Korea Republic",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "08:30",
-        "channel": "DAZN",
-        "event": "Okayama - Coppa Shell AM Race 1",
-        "competition": "Ferrari Challenge Japan 2026",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "08:40",
-        "channel": "Max",
-        "event": "Monaco Historic Grand Prix Day 2 | Part 1",
-        "competition": "Retro Car Racing · Monaco Historic Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "08:55",
-        "channel": "TVR Sport",
-        "event": "Swimming: National Championships",
-        "competition": "Romanian National Championships · Otopeni",
-        "sport": "swimming",
-        "status": "upcoming"
-      },
-      {
-        "time": "09:00",
-        "channel": "Max",
-        "event": "T100 Triathlon World Tour | Singapore Men",
-        "competition": "Triathlon · T100 World Tour",
-        "sport": "triathlon",
-        "status": "upcoming"
-      },
-      {
-        "time": "09:30",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: Moto3 - Practice 2",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "09:40",
-        "channel": "Digi Sport 3",
-        "event": "Spanish GP: Moto3 - Practice 2",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "10:00",
-        "channel": "Prime Video",
-        "event": "PTT Arnhem",
-        "competition": "UTR Pro Tennis Tour",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "10:25",
-        "channel": "Digi Sport 3",
-        "event": "Spanish GP: Moto2 - Practice 2",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "10:25",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: Moto2 - Practice 2",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "11:00",
-        "channel": "Digi Sport 1",
-        "event": "Chindia Târgoviște vs Voluntari",
-        "competition": "League 2 · Play-off, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "11:00",
-        "channel": "Prima Sport 1",
-        "event": "Chindia Târgoviște vs Voluntari",
-        "competition": "League 2 · Play-off, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "11:00",
-        "channel": "FRF TV",
-        "event": "Ceahlăul Piatra Neamț vs CS Dinamo București",
-        "competition": "Liga 2 · Play-out, Etapa 5",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "11:10",
-        "channel": "Digi Sport 3",
-        "event": "Spanish GP: MotoGP - Practice 2",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "11:10",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: MotoGP - Practice 2",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "11:45",
-        "channel": "FIFA+",
-        "event": "UM-Damansara United vs. Selangor FC II",
-        "competition": "Liga A1 Semi-Pro 2025/26 · Malaysia",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "11:50",
-        "channel": "Digi Sport 3",
-        "event": "Spanish GP: MotoGP - Qualifying",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "11:50",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: MotoGP - Qualifying",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "12:00",
-        "channel": "Digi Sport 2",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 4",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "12:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 4",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "12:00",
-        "channel": "Prima Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 4",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "12:00",
-        "channel": "Max",
-        "event": "World Championship | Round 2",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "12:50",
-        "channel": "DAZN",
-        "event": "Lake Como - Group Stages",
-        "competition": "E1 Series",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "13:00",
-        "channel": "Digi Sport 1",
-        "event": "Steaua vs Corvinul Hunedoara",
-        "competition": "League 2 · Play-off, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "13:00",
-        "channel": "Prima Sport 1",
-        "event": "Steaua vs Corvinul Hunedoara",
-        "competition": "League 2 · Play-off, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "13:00",
-        "channel": "FRF TV",
-        "event": "Farul Constanța vs Politehnica Timișoara",
-        "competition": "SuperLiga Feminină · Play-off, Etapa 7",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "13:00",
-        "channel": "Max",
-        "event": "UCI Track World Cup: Nilai - Day 2",
-        "competition": "Cycling Track · UCI Track World Cup",
-        "sport": "cycling",
-        "status": "upcoming"
-      },
-      {
-        "time": "13:00",
-        "channel": "FIFA+",
-        "event": "Nefas Silk Lafto SC vs. Bishoftu Ketema",
-        "competition": "Ethiopian Higher League 2025",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "13:45",
-        "channel": "Digi Sport 3",
-        "event": "Spanish GP: Moto3 - Qualifying",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "13:45",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: Moto3 - Qualifying",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "13:45",
-        "channel": "FIFA+",
-        "event": "Anse Reunion FC vs. Cote D'Or FC",
-        "competition": "Seychelles Absa Premier League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "Digi Sport 2",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 4",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 4",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "Prima Sport 3",
-        "event": "Karlsruher vs Hannover",
-        "competition": "2. Bundesliga · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "PPV 2",
-        "event": "Munster vs Bielefeld",
-        "competition": "3. Liga · Round 35",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "Max",
-        "event": "Bysprinten | Sprint Mosjøen",
-        "competition": "Cross-Country Skiing",
-        "sport": "skiing",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "FIFA+",
-        "event": "Dinakhish FC vs. Sumqayit FC",
-        "competition": "Azerbaijan Women's League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "FIFA+",
-        "event": "Shao Jiang vs. Gala",
-        "competition": "Macau First Division 2026",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "FIFA+",
-        "event": "Minija vs. Šiauliai B",
-        "competition": "Pirma Lyga 2026 · Lithuania",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:00",
-        "channel": "FIFA+",
-        "event": "Revengers FC vs. Foresters FC",
-        "competition": "Seychelles Absa Premier League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:30",
-        "channel": "Voyo",
-        "event": "Fulham vs Aston Villa",
-        "competition": "Premier League · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:40",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: Moto2 - Qualifying",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "14:40",
-        "channel": "Voyo",
-        "event": "European Weightlifting Championships",
-        "competition": "European Weightlifting Championships · Day 7",
-        "sport": "weightlifting",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:00",
-        "channel": "Digi Sport 1",
-        "event": "Botoșani vs Oțelul Galați",
-        "competition": "Superliga · Play-out, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:00",
-        "channel": "Prima Sport 1",
-        "event": "Botoșani vs Oțelul Galați",
-        "competition": "Superliga · Play-out, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:00",
-        "channel": "PPV 3",
-        "event": "Alaves vs Mallorca",
-        "competition": "La Liga · Round 32",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:00",
-        "channel": "DAZN",
-        "event": "Leipzig vs. Werder Bremen",
-        "competition": "Frauen Bundesliga",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:00",
-        "channel": "FIFA+",
-        "event": "Gombessa Sport vs. Beressé Club",
-        "competition": "Championnat des Comores Division 1 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:00",
-        "channel": "FIFA+",
-        "event": "PTL Bazar Brothers FC vs. Real Maldive FC",
-        "competition": "Seychelles Absa Premier League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:10",
-        "channel": "DAZN",
-        "event": "RWS April Inferno: Petchmorakot vs. Salimkhan",
-        "competition": "RWS Muay Thai",
-        "sport": "combat sports",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:15",
-        "channel": "Max",
-        "event": "Monaco Historic Grand Prix Day 2 | Part 2",
-        "competition": "Retro Car Racing · Monaco Historic Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:30",
-        "channel": "FIFA+",
-        "event": "Civil Service United vs. FCB Nyasa Big Bullets",
-        "competition": "FDH Bank Premiership · Malawi",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:30",
-        "channel": "FIFA+",
-        "event": "Kamuzu Barracks FC vs. Silver Strikers FC",
-        "competition": "FDH Bank Premiership · Malawi",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:30",
-        "channel": "FIFA+",
-        "event": "Mighty Wanderers vs. Karonga United",
-        "competition": "FDH Bank Premiership · Malawi",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:30",
-        "channel": "FIFA+",
-        "event": "Moyale Barracks vs. Dedza Dynamos FC",
-        "competition": "FDH Bank Premiership · Malawi",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:30",
-        "channel": "FIFA+",
-        "event": "San Marino Academy U22 vs. Cailungo",
-        "competition": "Campionato Sammarinese 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "15:40",
-        "channel": "DAZN",
-        "event": "Lake Como - Race Off",
-        "competition": "E1 Series",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "Digi Sport 3",
-        "event": "Spanish GP: MotoGP - Sprint Race",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 4",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "Prima Sport 2",
-        "event": "Spanish GP: MotoGP - Sprint Race",
-        "competition": "MotoGP · Spanish Grand Prix",
-        "sport": "motorsport",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "Prima Sport 3",
-        "event": "Parma vs Pisa",
-        "competition": "Serie B · Round 35",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "Voyo",
-        "event": "Lyon vs Auxerre",
-        "competition": "Ligue 1 · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "Max",
-        "event": "Day 3: Main Feed",
-        "competition": "Golf · Zurich Classic of New Orleans (PGA Tour)",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "Bi9 FC vs. Geita Gold FC",
-        "competition": "Championship League 2025/26 · Tanzania",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "Besa vs. KS Korabi",
-        "competition": "Kategoria e Parë 2025/26 · Albania",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "Burreli vs. Lushnja",
-        "competition": "Kategoria e Parë 2025/26 · Albania",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "Kastrioti vs. AF Luftëtari",
-        "competition": "Kategoria e Parë 2025/26 · Albania",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "KF Iliria vs. Apolonia Fier",
-        "competition": "Kategoria e Parë 2025/26 · Albania",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "KF Luzi vs. Kukësi",
-        "competition": "Kategoria e Parë 2025/26 · Albania",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "Pogradeci vs. KS Skënderbeu",
-        "competition": "Kategoria e Parë 2025/26 · Albania",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "Artilheiros vs. G. Universe",
-        "competition": "Macau First Division 2026",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "BS Dynamik vs. Garage Express FC",
-        "competition": "Primus Ligue Burundi 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "Musinga FC vs. Kayanza United",
-        "competition": "Primus Ligue Burundi 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "Vital'O FC vs. Messager Ngozi",
-        "competition": "Primus Ligue Burundi 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "Mitrovica vs. Dukagjini",
-        "competition": "Siguria Superliga e Femrave 2026 · Kosovo",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "ASF Menzel Bourguiba vs. AS BH Bank",
-        "competition": "Tunisian Women's Championship 2025/2026",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:00",
-        "channel": "FIFA+",
-        "event": "LP Super Sport vs. FC FDA",
-        "competition": "Women's National Championship 2025/26 · Bulgaria",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:15",
-        "channel": "Max",
-        "event": "World Championship | Round 2",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:30",
-        "channel": "Digi Sport 2",
-        "event": "Mainz vs Bayern Munich",
-        "competition": "Bundesliga · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:30",
-        "channel": "Prima Sport 5",
-        "event": "Mainz vs Bayern Munich",
-        "competition": "Bundesliga · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:30",
-        "channel": "PPV 1",
-        "event": "Koln vs Leverkusen",
-        "competition": "Bundesliga · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:30",
-        "channel": "PPV 4",
-        "event": "Wolfsburg vs Gladbach",
-        "competition": "Bundesliga · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:30",
-        "channel": "PPV 2",
-        "event": "Augsburg vs Frankfurt",
-        "competition": "Bundesliga · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:30",
-        "channel": "Max",
-        "event": "World Championship | Round 2",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:30",
-        "channel": "Max",
-        "event": "Day 3: Featured Holes",
-        "competition": "Golf · Zurich Classic of New Orleans (PGA Tour)",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "16:45",
-        "channel": "Max",
-        "event": "Day 3: Featured Groups",
-        "competition": "Golf · Zurich Classic of New Orleans (PGA Tour)",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:00",
-        "channel": "Digi Sport 3",
-        "event": "Győr vs Odense",
-        "competition": "EHF Champions League (W) · Quarter-finals",
-        "sport": "handball",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:00",
-        "channel": "Prima Sport 2",
-        "event": "Győr vs Odense",
-        "competition": "EHF Champions League (W) · Quarter-finals",
-        "sport": "handball",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:00",
-        "channel": "Voyo",
-        "event": "Liverpool vs Crystal Palace",
-        "competition": "Premier League · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:00",
-        "channel": "Voyo",
-        "event": "West Ham vs Everton",
-        "competition": "Premier League · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:00",
-        "channel": "Voyo",
-        "event": "Wolves vs Tottenham",
-        "competition": "Premier League · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:00",
-        "channel": "Max",
-        "event": "Day 3: Marquee Group",
-        "competition": "Golf · Zurich Classic of New Orleans (PGA Tour)",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:00",
-        "channel": "FIFA+",
-        "event": "BFA vs. Tauras",
-        "competition": "Pirma Lyga 2026 · Lithuania",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:15",
-        "channel": "Digi Sport 1",
-        "event": "Getafe vs Barcelona",
-        "competition": "La Liga · Round 32",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:15",
-        "channel": "Prima Sport 1",
-        "event": "Getafe vs Barcelona",
-        "competition": "La Liga · Round 32",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:25",
-        "channel": "TVR Sport",
-        "event": "Swimming: National Championships",
-        "competition": "Romanian National Championships · Otopeni",
-        "sport": "swimming",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:30",
-        "channel": "Antena Play",
-        "event": "Tondela vs Nacional",
-        "competition": "Liga Portugal · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "17:55",
-        "channel": "DAZN",
-        "event": "Chess.com Open 2026 Play-offs Day 3",
-        "competition": "Chess.com Open",
-        "sport": "chess",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 4",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "Disney+",
-        "event": "Sun Belt Beach Volleyball Championship · Semifinal",
-        "competition": "NCAA Women's Beach Volleyball",
-        "sport": "volleyball",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "Cano Sport Academy vs. The Panthers CF",
-        "competition": "Equatorial Guinea Football League 2025-26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "Bani Gansé FC vs. ASPAC FC",
-        "competition": "Ligue 1 2025 · Benin",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "Sobemap FC vs. Hodio FC",
-        "competition": "Ligue 1 2025 · Benin",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "CR Témouchent vs. RC Arbaâ",
-        "competition": "Ligue 2 2025/26 · Algeria",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "CRB Adrar vs. JSM Tiaret",
-        "competition": "Ligue 2 2025/26 · Algeria",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "JS El Biar vs. WA Tlemcen",
-        "competition": "Ligue 2 2025/26 · Algeria",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "MC Saïda vs. GC Mascara",
-        "competition": "Ligue 2 2025/26 · Algeria",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "RC Kouba vs. JS Texraine",
-        "competition": "Ligue 2 2025/26 · Algeria",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "US Béchar Djedid vs. NA Hussein Dey",
-        "competition": "Ligue 2 2025/26 · Algeria",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "USM El Harrach vs. ESM Koléa",
-        "competition": "Ligue 2 2025/26 · Algeria",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "WA Mostaganem vs. ASM Oran",
-        "competition": "Ligue 2 2025/26 · Algeria",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:00",
-        "channel": "FIFA+",
-        "event": "Williamsville AC vs. OFC Adiaké",
-        "competition": "Côte d'Ivoire Ligue 2 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "18:55",
-        "channel": "Disney+",
-        "event": "Bayern München vs. Barcelona",
-        "competition": "UEFA Women's Champions League · Semi-finals",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "Digi Sport 2",
-        "event": "Bologna vs Roma",
-        "competition": "Serie A · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "Digi Sport 3",
-        "event": "Metz vs FTC",
-        "competition": "EHF Champions League (W) · Quarter-finals",
-        "sport": "handball",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "Prima Sport 5",
-        "event": "Metz vs FTC",
-        "competition": "EHF Champions League (W) · Quarter-finals",
-        "sport": "handball",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "Prima Sport 2",
-        "event": "Bologna vs Roma",
-        "competition": "Serie A · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "Disney+",
-        "event": "Clemson vs. Duke",
-        "competition": "NCAA Softball",
-        "sport": "softball",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "Disney+",
-        "event": "Missouri vs. Arkansas",
-        "competition": "NCAA Softball",
-        "sport": "softball",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "Disney+",
-        "event": "Wake Forest vs. Georgia Tech",
-        "competition": "NCAA Baseball",
-        "sport": "baseball",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "DAZN",
-        "event": "2026 NFL Draft: Day 3",
-        "competition": "NFL Draft",
-        "sport": "american football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "FIFA+",
-        "event": "Ittehad de Tanger vs. Fath de Rabat",
-        "competition": "D1 Women's Championship 2025-26 · Morocco",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "FIFA+",
-        "event": "ASFAR vs. Union Touarga Sport",
-        "competition": "D1 Women's Championship 2025-26 · Morocco",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "FIFA+",
-        "event": "Municipale Laayoune vs. Phoenix Football Academy",
-        "competition": "D1 Women's Championship 2025-26 · Morocco",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "FIFA+",
-        "event": "Raja Ait Iazza vs. Lionnes Assa-Zag",
-        "competition": "D1 Women's Championship 2025-26 · Morocco",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "FIFA+",
-        "event": "Sporting Casablanca vs. RSB Berkane",
-        "competition": "D1 Women's Championship 2025-26 · Morocco",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "FIFA+",
-        "event": "FC Fossell vs. Gardnersville FC",
-        "competition": "LFA First Division League 2025/26 · Liberia",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "FIFA+",
-        "event": "LISCR FC vs. Watanga FC",
-        "competition": "LFA First Division League 2025/26 · Liberia",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:00",
-        "channel": "FIFA+",
-        "event": "LPRC Oilers vs. Borough FC",
-        "competition": "LFA First Division League 2025/26 · Liberia",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:05",
-        "channel": "Disney+",
-        "event": "NEC Men's Volleyball Championship",
-        "competition": "NCAA Men's Volleyball · Championship",
-        "sport": "volleyball",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:15",
-        "channel": "Voyo",
-        "event": "Manchester City vs Southampton",
-        "competition": "FA Cup · Semi-finals",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:15",
-        "channel": "Antena Play",
-        "event": "Al Ahli Saudi FC vs Machida Zelvia",
-        "competition": "AFC Champions League Elite",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "Voyo",
-        "event": "Arsenal vs Newcastle",
-        "competition": "Premier League · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "Prima Sport 3",
-        "event": "Valencia vs Girona",
-        "competition": "La Liga · Round 32",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "PPV 1",
-        "event": "Hamburg vs Hoffenheim",
-        "competition": "Club Friendly",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "FIFA+",
-        "event": "Bai Bureh Warriors FC vs. FC Kallon",
-        "competition": "Leone Rock Premier League 2025-26 · Sierra Leone",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "FIFA+",
-        "event": "SLIFA FC vs. Abacha City FC",
-        "competition": "Leone Rock Premier League 2025-26 · Sierra Leone",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "FIFA+",
-        "event": "Wusum Stars FC vs. Mighty Blackpool FC",
-        "competition": "Leone Rock Premier League 2025-26 · Sierra Leone",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "FIFA+",
-        "event": "Derby Académie vs. Stade Malien",
-        "competition": "Ligue 1 Pro Orange 2025/26 · Mali",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "19:30",
-        "channel": "FIFA+",
-        "event": "Djoliba AC vs. US Bougouni",
-        "competition": "Ligue 1 Pro Orange 2025/26 · Mali",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 4",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "Voyo",
-        "event": "Angers vs PSG",
-        "competition": "Ligue 1 · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "Antena Play",
-        "event": "Benfica vs Moreirense",
-        "competition": "Liga Portugal · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "Max",
-        "event": "Day 3: PGA Tour",
-        "competition": "Golf · Zurich Classic of New Orleans",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "DAZN",
-        "event": "Surrey 89ers vs. London Lions",
-        "competition": "Super League Basketball",
-        "sport": "basketball",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:00",
-        "channel": "FIFA+",
-        "event": "KF Tirana vs. FK Partizani",
-        "competition": "Kategoria Superiore 2025/26 · Albania",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Digi Sport 1",
-        "event": "CFR Cluj vs Universitatea Cluj",
-        "competition": "Superliga · Play-off, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Prima Sport 1",
-        "event": "CFR Cluj vs Universitatea Cluj",
-        "competition": "Superliga · Play-off, Round 6",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Antena Play",
-        "event": "PAOK vs OFI",
-        "competition": "Greek Cup · Final",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Max",
-        "event": "World Championship | Round 2",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "Prime Video",
-        "event": "PTT Newport Beach",
-        "competition": "UTR Pro Tennis Tour",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "20:30",
-        "channel": "FIFA+",
-        "event": "Ranger's vs. Inter Club d'Escaldes",
-        "competition": "Lliga Multissegur Assegurances 2025/2026 · Andorra",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:00",
-        "channel": "Digi Sport 3",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 4",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:00",
-        "channel": "Max",
-        "event": "World Championship | Round 2",
-        "competition": "Snooker · World Championship",
-        "sport": "snooker",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:00",
-        "channel": "Disney+",
-        "event": "Sun Belt Beach Volleyball Championship · Championship",
-        "competition": "NCAA Women's Beach Volleyball",
-        "sport": "volleyball",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:00",
-        "channel": "Disney+",
-        "event": "Georgia vs. Ole Miss",
-        "competition": "NCAA Baseball",
-        "sport": "baseball",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:30",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 4",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:30",
-        "channel": "PPV 2",
-        "event": "Darmstadt vs Elversberg",
-        "competition": "2. Bundesliga · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:30",
-        "channel": "Disney+",
-        "event": "Georgia vs. Oklahoma",
-        "competition": "NCAA Softball",
-        "sport": "softball",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:30",
-        "channel": "FIFA+",
-        "event": "Afrique Football Élite vs. FC Malicounda",
-        "competition": "Ligue 1 Pro Orange 2025/26 · Mali",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "21:45",
-        "channel": "Prima Sport 3",
-        "event": "Verona vs Lecce",
-        "competition": "Serie A · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Digi Sport 2",
-        "event": "Atletico Madrid vs Athletic Bilbao",
-        "competition": "La Liga · Round 32",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Prima Sport 2",
-        "event": "Atletico Madrid vs Athletic Bilbao",
-        "competition": "La Liga · Round 32",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "PPV 1",
-        "event": "Malaga vs Castellon",
-        "competition": "Primera Federación · Round 34",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Prima Sport 5",
-        "event": "NAC Breda vs Ajax",
-        "competition": "Eredivisie · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Max",
-        "event": "Mitsubishi Electric Classic | Day 2",
-        "competition": "PGA Tour Champions",
-        "sport": "golf",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "Disney+",
-        "event": "North Carolina vs. Virginia Tech",
-        "competition": "NCAA Softball",
-        "sport": "softball",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:00",
-        "channel": "FIFA+",
-        "event": "Mineros de Guayana vs. Bolívar SC",
-        "competition": "Liga FUTVE 2 2026 · Venezuela",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:05",
-        "channel": "Voyo",
-        "event": "Toulouse vs Monaco",
-        "competition": "Ligue 1 · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:30",
-        "channel": "Antena Play",
-        "event": "Vitória SC vs Rio Ave",
-        "competition": "Liga Portugal · Round 31",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "22:30",
-        "channel": "FIFA+",
-        "event": "Zamora FC (B) vs. Barquisimeto SC",
-        "competition": "Liga FUTVE 2 2026 · Venezuela",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "23:00",
-        "channel": "Digi Sport 3",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 4",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "23:00",
-        "channel": "Digi Sport 4",
-        "event": "Tennis",
-        "competition": "ATP/WTA Madrid · Day 4",
-        "sport": "tennis",
-        "status": "upcoming"
-      },
-      {
-        "time": "23:00",
-        "channel": "Disney+",
-        "event": "Long Beach State vs. Cal State Fullerton",
-        "competition": "NCAA Softball",
-        "sport": "softball",
-        "status": "upcoming"
-      },
-      {
-        "time": "23:00",
-        "channel": "FIFA+",
-        "event": "Aragua FC vs. Miranda",
-        "competition": "Liga FUTVE 2 2026 · Venezuela",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "23:00",
-        "channel": "FIFA+",
-        "event": "Village Superstars vs. Bath United",
-        "competition": "SKNFA Premier League 2025/26 · St Kitts and Nevis",
-        "sport": "football",
-        "status": "upcoming"
-      },
-      {
-        "time": "23:30",
-        "channel": "FIFA+",
-        "event": "Inter Moengo Tapoe vs. Robinhood",
-        "competition": "Suriname Major League 2025/26",
-        "sport": "football",
-        "status": "upcoming"
-      }
-    ]
-  },
-{
-    "date": "Sunday, April 26, 2026",
+"date": "Sunday, April 26, 2026",
     "programs": [
       {
         "time": "00:00",
@@ -4306,5 +1363,2349 @@
         "status": "upcoming"
       }
     ]
+  },
+  {
+    "date": "Monday, April 27, 2026",
+    "programs": [
+      {
+        "time": "17:30",
+        "channel": "Digi Sport 1",
+        "event": "Metaloglobus vs Unirea Slobozia",
+        "competition": "Superliga · Play-out, Round 6",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "20:30",
+        "channel": "Digi Sport 1",
+        "event": "FC Argeș vs Universitatea Craiova",
+        "competition": "Superliga · Play-off, Round 6",
+        "sport": "football",
+        "status": "upcoming"
+      },{
+    "date": "Monday, April 27, 2026",
+    "programs": [
+      {
+        "time": "12:00",
+        "channel": "Digi Sport 2",
+        "event": "Tennis",
+        "competition": "ATP/WTA Madrid",
+        "sport": "tennis",
+        "status": "upcoming"
+      },
+      {
+        "time": "14:00",
+        "channel": "Digi Sport 2",
+        "event": "Tennis",
+        "competition": "ATP/WTA Madrid",
+        "sport": "tennis",
+        "status": "upcoming"
+      },
+      {
+        "time": "16:00",
+        "channel": "Digi Sport 2",
+        "event": "Tennis",
+        "competition": "ATP/WTA Madrid",
+        "sport": "tennis",
+        "status": "upcoming"
+      },
+      {
+        "time": "17:30",
+        "channel": "Digi Sport 1",
+        "event": "Metaloglobus vs Unirea Slobozia",
+        "competition": "Superliga · Play-out, Round 6",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "18:00",
+        "channel": "Digi Sport 2",
+        "event": "Tennis",
+        "competition": "ATP/WTA Madrid",
+        "sport": "tennis",
+        "status": "upcoming"
+      },
+      {
+        "time": "20:00",
+        "channel": "Digi Sport 2",
+        "event": "Tennis",
+        "competition": "ATP/WTA Madrid",
+        "sport": "tennis",
+        "status": "upcoming"
+      },
+      {
+        "time": "20:30",
+        "channel": "Digi Sport 1",
+        "event": "FC Argeș vs Universitatea Craiova",
+        "competition": "Superliga · Play-off, Round 6",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "22:00",
+        "channel": "Digi Sport 2",
+        "event": "Tennis",
+        "competition": "ATP/WTA Madrid",
+        "sport": "tennis",
+        "status": "upcoming"
+      },
+      {
+  "time": "19:30",
+  "channel": "Digi Sport 3",
+  "event": "Cagliari vs Atalanta",
+  "competition": "Serie A · Round 34",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "21:45",
+  "channel": "Digi Sport 3",
+  "event": "Lazio vs Udinese",
+  "competition": "Serie A · Round 34",
+  "sport": "football",
+  "status": "upcoming"
+},
+ {
+  "time": "12:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis",
+  "competition": "ATP Madrid · Day 6",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "14:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis",
+  "competition": "ATP Madrid · Day 6",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "16:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis",
+  "competition": "ATP Madrid · Day 6",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "18:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis",
+  "competition": "ATP Madrid · Day 6",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis",
+  "competition": "ATP Madrid · Day 6",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis",
+  "competition": "ATP Madrid · Day 6",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+  {
+  "time": "12:00",
+  "channel": "Prima Sport 4",
+  "event": "Tennis M - ATP: Madrid Open",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "17:30",
+  "channel": "Prima Sport 1",
+  "event": "Metaloglobus vs Unirea Slobozia",
+  "competition": "Superliga · Play-out, Round 6",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "19:30",
+  "channel": "Prima Sport 2",
+  "event": "Cagliari vs Atalanta",
+  "competition": "Serie A · Round 34",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "Prima Sport 3",
+  "event": "Konyaspor vs Trabzonspor",
+  "competition": "Super Lig",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "PPV1",
+  "event": "Beșiktaș vs Karagumruk",
+  "competition": "Super Lig",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "20:30",
+  "channel": "Prima Sport 1",
+  "event": "FC Argeș vs Universitatea Craiova",
+  "competition": "Superliga · Play-off, Round 6",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "21:45",
+  "channel": "Prima Sport 2",
+  "event": "Lazio vs Udinese",
+  "competition": "Serie A · Round 34",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Prima Sport 3",
+  "event": "Espanyol vs Levante",
+  "competition": "La Liga 2",
+  "sport": "football",
+  "status": "upcoming"
+},
+ {
+  "time": "17:58",
+  "channel": "TVR Sport",
+  "event": "CSO Voluntari vs Volei Alba Blaj",
+  "competition": "Women's Volleyball · Play-off, Match 3",
+  "sport": "volleyball",
+  "status": "upcoming"
+},
+      {
+  "time": "09:55",
+  "channel": "Voyo",
+  "event": "Futsal: Liga Liceelor",
+  "competition": "High School League",
+  "sport": "futsal",
+  "status": "upcoming"
+},
+{
+  "time": "TBA",
+  "channel": "Voyo",
+  "event": "Manchester United vs Brentford",
+  "competition": "Premier League",
+  "sport": "football",
+  "status": "upcoming"
+},
+ {
+  "time": "02:00",
+  "channel": "Antena Play",
+  "event": "Tampa Bay vs Montreal",
+  "competition": "NHL",
+  "sport": "ice hockey",
+  "status": "upcoming"
+},
+  {
+  "time": "14:30",
+  "channel": "MAX",
+  "event": "Tour of Türkiye: Stage 2 (Men)",
+  "competition": "Cycling",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "15:00",
+  "channel": "MAX",
+  "event": "Mark Selby vs Wu Yize",
+  "competition": "Snooker World Championship · Round 2",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "15:00",
+  "channel": "MAX",
+  "event": "John Higgins vs Ronnie O'Sullivan",
+  "competition": "Snooker World Championship · Round 2",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "20:30",
+  "channel": "MAX",
+  "event": "Hossein Vafaei vs Judd Trump",
+  "competition": "Snooker World Championship · Round 2",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "MAX",
+  "event": "Chris Wakelin vs Neil Robertson",
+  "competition": "Snooker World Championship · Round 2",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "04:00",
+  "channel": "Netflix",
+  "event": "Supernova Strikers: Genesis",
+  "competition": "Combat Sports",
+  "sport": "combat sports",
+  "status": "upcoming"
+},
+ {
+  "time": "00:00",
+  "channel": "Disney+",
+  "event": "Clemson vs Duke",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+},
+{
+  "time": "04:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Water Polo Championship (Final)",
+  "competition": "NCAA Women's Water Polo",
+  "sport": "water polo",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "DAZN",
+  "event": "Hoffenheim vs Köln",
+  "competition": "Frauen-Bundesliga",
+  "sport": "football",
+  "status": "upcoming"
+},
+ {
+  "time": "00:00",
+  "channel": "FIFA+",
+  "event": "Dublanc FC v Pointe Michel FC",
+  "competition": "Dominica · DFA Premier League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "01:00",
+  "channel": "FIFA+",
+  "event": "Brazil Juniors v River Plate Aruba",
+  "competition": "Aruba · Division Honor Plata",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "01:00",
+  "channel": "FIFA+",
+  "event": "East End UFC v Future SC",
+  "competition": "Cayman Islands · Premier League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "01:30",
+  "channel": "FIFA+",
+  "event": "St. Pauls United v Old Road United Jets",
+  "competition": "St Kitts and Nevis · SKNFA Premier League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "01:30",
+  "channel": "FIFA+",
+  "event": "Mahaut Soca Strikers FC v Middleham United FC",
+  "competition": "Dominica · DFA Premier League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "02:00",
+  "channel": "FIFA+",
+  "event": "FC Aston Villa v Green City FC",
+  "competition": "Antigua and Barbuda · Premier League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "02:00",
+  "channel": "FIFA+",
+  "event": "Cavalier FC v Inter Nassau FC",
+  "competition": "Bahamas · BFA Senior League · Quarter-Finals",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "02:00",
+  "channel": "FIFA+",
+  "event": "Coastal Spirit v Wanaka",
+  "competition": "New Zealand · National League · Southern League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "03:00",
+  "channel": "FIFA+",
+  "event": "Doc's United v Eagle Claw FC",
+  "competition": "Anguilla · Senior Men's League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "03:00",
+  "channel": "FIFA+",
+  "event": "Jong Aruba v Estrella",
+  "competition": "Aruba · Division Honor Plata",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "03:00",
+  "channel": "FIFA+",
+  "event": "Christchurch United v Northern AFC",
+  "competition": "New Zealand · National League · Southern League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "05:00",
+  "channel": "FIFA+",
+  "event": "Cashmere Technical v Nelson Suburbs",
+  "competition": "New Zealand · National League · Southern League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "05:00",
+  "channel": "FIFA+",
+  "event": "Selwyn United v Nomads United",
+  "competition": "New Zealand · National League · Southern League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "16:00",
+  "channel": "FIFA+",
+  "event": "Inter Star v Olympic Star",
+  "competition": "Burundi · Primus Ligue",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "18:00",
+  "channel": "FIFA+",
+  "event": "Slovenia U16 v Scotland U16",
+  "competition": "Torneo Delle Nazioni · Group Stage",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "18:30",
+  "channel": "FIFA+",
+  "event": "USGN v ASN Nigelec",
+  "competition": "Niger · Super Ligue",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "FIFA+",
+  "event": "Rahimo FC v RCK",
+  "competition": "Burkina Faso · Ligue 1",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "19:30",
+  "channel": "FIFA+",
+  "event": "FC Cuntum v FC Pelundo",
+  "competition": "Guinea-Bissau · Campeonato Nacional",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "19:30",
+  "channel": "FIFA+",
+  "event": "Star Sports Academy v Bhantal FC",
+  "competition": "Sierra Leone · Leone Rock Premier League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "19:30",
+  "channel": "FIFA+",
+  "event": "FC Diarra v Binga FC",
+  "competition": "Mali · Ligue 1 Pro Orange",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "FIFA+",
+  "event": "AF Elbasani v KF Vllaznia",
+  "competition": "Albania · Kategoria Superiore",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "FIFA+",
+  "event": "Flamurtari v FC Dinamo City",
+  "competition": "Albania · Kategoria Superiore",
+  "sport": "football",
+  "status": "upcoming"
+}     
+    ]
+  },
+  {
+    "date": "Tuesday, April 28, 2026",
+    "programs": [
+      {
+        "time": "22:00",
+        "channel": "Digi Sport 1",
+        "event": "PSG vs Bayern Munchen",
+        "competition": "UEFA Champions League · Semi-finals, 1st Leg",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+  "time": "12:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "14:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "16:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "18:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "00:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+ {
+  "time": "14:00",
+  "channel": "Digi Sport 3",
+  "event": "Tennis WTA: Madrid",
+  "competition": "WTA Madrid · Quarter-finals",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "Digi Sport 3",
+  "event": "Tennis WTA: Madrid",
+  "competition": "WTA Madrid · Quarter-finals",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+ {
+  "time": "17:00",
+  "channel": "Digi Sport 3",
+  "event": "Voluntari vs SCMU Craiova",
+  "competition": "National League · Quarter-finals",
+  "sport": "basketball",
+  "status": "upcoming"
+},
+      {
+  "time": "17:30",
+  "channel": "Digi Sport 4",
+  "event": "ACS Sepsi SIC vs United Galați",
+  "competition": "Futsal National League · Play-off, Round 6",
+  "sport": "futsal",
+  "status": "upcoming"
+},
+{
+  "time": "19:45",
+  "channel": "Digi Sport 4",
+  "event": "Nexe vs Kiel",
+  "competition": "Handball · EHF European League (M), Quarter-finals",
+  "sport": "handball",
+  "status": "upcoming"
+},
+{
+  "time": "21:45",
+  "channel": "Digi Sport 4",
+  "event": "Melsungen vs Porto",
+  "competition": "Handball · EHF European League (M), Quarter-finals",
+  "sport": "handball",
+  "status": "upcoming"
+},
+{
+  "time": "12:00",
+  "channel": "Prima Sport 3",
+  "event": "Tennis",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "17:00",
+  "channel": "Prima Sport 2",
+  "event": "Voluntari vs SCM U Craiova",
+  "competition": "National League",
+  "sport": "basketball",
+  "status": "upcoming"
+},
+{
+  "time": "19:45",
+  "channel": "Prima Sport 2",
+  "event": "Nexe vs Kiel",
+  "competition": "Handball · EHF European League (M), Quarter-finals",
+  "sport": "handball",
+  "status": "upcoming"
+},
+{
+  "time": "20:30",
+  "channel": "Prima Sport 4",
+  "event": "Bourg en Bresse vs Beșiktaș",
+  "competition": "EuroCup · Final",
+  "sport": "basketball",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "Prima Sport 5",
+  "event": "Al Hilal vs Damac",
+  "competition": "Saudi Pro League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "21:45",
+  "channel": "Prima Sport 2",
+  "event": "Melsungen vs Porto",
+  "competition": "Handball · EHF European League (M), Quarter-finals",
+  "sport": "handball",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Prima Sport 1",
+  "event": "PSG vs Bayern Munchen",
+  "competition": "UEFA Champions League · Semi-finals, 1st Leg",
+  "sport": "football",
+  "status": "upcoming"
+},
+      {
+  "time": "20:25",
+  "channel": "TVR Sport",
+  "event": "CSO Voluntari vs Volei Alba Blaj",
+  "competition": "Women's Volleyball · Play-off, Match 4",
+  "sport": "volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "12:00",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "12:00",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "12:00",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "14:30",
+  "channel": "MAX",
+  "event": "Tour of Türkiye: Stage 3 (Men)",
+  "competition": "Cycling",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "16:15",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "16:30",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "16:30",
+  "channel": "MAX",
+  "event": "Tour de Romandie: Prologue (Men)",
+  "competition": "Cycling",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "20:30",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "03:00",
+  "channel": "Netflix",
+  "event": "WWE RAW",
+  "competition": "WWE",
+  "sport": "wrestling",
+  "status": "upcoming"
+},
+{
+  "time": "02:00",
+  "channel": "Disney+",
+  "event": "Alabama vs Tennessee",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+}      
+    ]
+  },
+{
+    "date": "Wednesday, April 29, 2026",
+    "programs": [
+      {
+        "time": "22:00",
+        "channel": "Digi Sport 1",
+        "event": "Atletico Madrid vs Arsenal",
+        "competition": "UEFA Champions League · Semi-finals, 1st Leg",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+  "time": "14:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "WTA Madrid · Quarter-finals",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "17:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid · Quarter-finals",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "WTA Madrid · Quarter-finals",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "23:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid · Quarter-finals",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+  {
+  "time": "19:45",
+  "channel": "Digi Sport 3",
+  "event": "Sporting vs Aalborg",
+  "competition": "Handball · EHF Champions League (M), Quarter-finals",
+  "sport": "handball",
+  "status": "upcoming"
+},
+ {
+  "time": "19:45",
+  "channel": "Digi Sport 4",
+  "event": "Pick Szeged vs Magdeburg",
+  "competition": "Handball · EHF Champions League (M)",
+  "sport": "handball",
+  "status": "upcoming"
+},
+{
+  "time": "21:45",
+  "channel": "Digi Sport 4",
+  "event": "Flensburg vs Hannover",
+  "competition": "Handball · EHF European League",
+  "sport": "handball",
+  "status": "upcoming"
+},
+ {
+  "time": "17:00",
+  "channel": "Prima Sport 2",
+  "event": "Tennis M - ATP: Madrid Open",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "19:10",
+  "channel": "Prima Sport 4",
+  "event": "Al Taawoun vs Al Ittihad",
+  "competition": "Saudi Pro League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "19:45",
+  "channel": "Prima Sport 3",
+  "event": "Pick Szeged vs Magdeburg",
+  "competition": "Handball · EHF Champions League (M)",
+  "sport": "handball",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "Prima Sport 2",
+  "event": "Al Nassr vs Al Ahli",
+  "competition": "Saudi Pro League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "21:45",
+  "channel": "Prima Sport 3",
+  "event": "Sporting vs Aalborg",
+  "competition": "Handball · EHF Champions League (M)",
+  "sport": "handball",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Prima Sport 1",
+  "event": "Atletico Madrid vs Arsenal",
+  "competition": "UEFA Champions League · Semi-finals, 1st Leg",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "22:30",
+  "channel": "Prima Sport 4",
+  "event": "Tennis M - ATP: Madrid Open",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+ {
+  "time": "11:00",
+  "channel": "TVR Sport",
+  "event": "Netherlands vs Romania",
+  "competition": "Ice Hockey World Championship",
+  "sport": "ice hockey",
+  "status": "upcoming"
+},
+{
+  "time": "16:55",
+  "channel": "TVR Sport",
+  "event": "CSA Steaua vs CS Dinamo",
+  "competition": "Men's Volleyball · Play-off",
+  "sport": "volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "19:55",
+  "channel": "TVR Sport",
+  "event": "CS Rapid vs CSM Oradea",
+  "competition": "Water Polo · Semi-finals, 2nd Leg",
+  "sport": "water polo",
+  "status": "upcoming"
+},
+ {
+  "time": "12:00",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "12:00",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "12:00",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "14:30",
+  "channel": "MAX",
+  "event": "Tour of Türkiye: Stage 4 (Men)",
+  "competition": "Cycling",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "16:15",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "16:30",
+  "channel": "MAX",
+  "event": "Tour de Romandie: Stage 1 (Men)",
+  "competition": "Cycling",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "16:30",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "16:30",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "20:30",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Quarter-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "22:30",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 1",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "03:00",
+  "channel": "Netflix",
+  "event": "WWE NXT",
+  "competition": "WWE",
+  "sport": "wrestling",
+  "status": "upcoming"
+},
+  {
+  "time": "02:00",
+  "channel": "Disney+",
+  "event": "Coastal Carolina vs North Carolina",
+  "competition": "NCAA Baseball",
+  "sport": "baseball",
+  "status": "upcoming"
+},
+{
+  "time": "02:00",
+  "channel": "Disney+",
+  "event": "Florida State vs Florida",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+}    
+    ]
+  },
+  {
+    "date": "Thursday, April 30, 2026",
+    "programs": [
+      {
+        "time": "19:00",
+        "channel": "Digi Sport 1",
+        "event": "Voluntari vs Bihor Oradea",
+        "competition": "Liga 2 · Play-off, Round 7",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "22:00",
+        "channel": "Digi Sport 1",
+        "event": "Nottingham Forest vs Aston Villa",
+        "competition": "UEFA Europa League · Semi-finals, 1st Leg",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+  "time": "14:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid · Quarter-finals",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "17:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "WTA Madrid · Semi-finals",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "19:45",
+  "channel": "Digi Sport 2",
+  "event": "Veszprem vs Fuchse Berlin",
+  "competition": "Handball · EHF Champions League (M), Quarter-finals",
+  "sport": "handball",
+  "status": "upcoming"
+},
+{
+  "time": "21:55",
+  "channel": "Digi Sport 2",
+  "event": "Rayo Vallecano vs Strasbourg",
+  "competition": "UEFA Conference League · Semi-finals, 1st Leg",
+  "sport": "football",
+  "status": "upcoming"
+},
+  {
+  "time": "18:00",
+  "channel": "Digi Sport 3",
+  "event": "U-BT Cluj-Napoca vs CSU Sibiu",
+  "competition": "National League · Quarter-finals",
+  "sport": "basketball",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "Digi Sport 3",
+  "event": "Argeș Pitești vs CSM CSU Oradea",
+  "competition": "National League · Quarter-finals",
+  "sport": "basketball",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Digi Sport 3",
+  "event": "Șahtior Donețk vs Crystal Palace",
+  "competition": "UEFA Conference League · Semi-finals, 1st Leg",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis",
+  "competition": "ATP Madrid · Quarter-finals",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "23:00",
+  "channel": "Digi Sport 4",
+  "event": "Tennis",
+  "competition": "WTA Madrid · Semi-finals",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+ {
+  "time": "14:00",
+  "channel": "Prima Sport 2",
+  "event": "Tennis M - ATP: Madrid Open",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "18:00",
+  "channel": "Prima Sport 2",
+  "event": "U Cluj vs CSU Sibiu",
+  "competition": "National League · Quarter-finals",
+  "sport": "basketball",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "Prima Sport 1",
+  "event": "FC Voluntari vs FC Bihor",
+  "competition": "Romanian Competition",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "19:45",
+  "channel": "Prima Sport 3",
+  "event": "Veszprem vs Fuchse",
+  "competition": "Handball · EHF Champions League (M)",
+  "sport": "handball",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "Prima Sport 2",
+  "event": "Argeș Pitești vs CSM CSU Oradea",
+  "competition": "National League · Quarter-finals",
+  "sport": "basketball",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "Prima Sport 5",
+  "event": "Tennis M - ATP: Madrid Open",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Prima Sport 1",
+  "event": "Nottingham Forest vs Aston Villa",
+  "competition": "UEFA Europa League · Semi-finals, 1st Leg",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Prima Sport 2",
+  "event": "Rayo Vallecano vs Strasbourg",
+  "competition": "UEFA European Competition · Semi-finals",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Prima Sport 3",
+  "event": "Sporting Braga vs Freiburg",
+  "competition": "UEFA European Competition · Semi-finals",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Prima Sport 4",
+  "event": "Șahtior Donețk vs Crystal Palace",
+  "competition": "UEFA Conference League · Semi-finals, 1st Leg",
+  "sport": "football",
+  "status": "upcoming"
+},
+      {
+  "time": "14:25",
+  "channel": "TVR Sport",
+  "event": "Romania vs China",
+  "competition": "Ice Hockey World Championship",
+  "sport": "ice hockey",
+  "status": "upcoming"
+},
+{
+  "time": "20:25",
+  "channel": "TVR Sport",
+  "event": "CS Dinamo vs CSA Steaua",
+  "competition": "Water Polo · Semi-finals, 2nd Leg",
+  "sport": "water polo",
+  "status": "upcoming"
+},
+  {
+  "time": "14:30",
+  "channel": "MAX",
+  "event": "Tour of Türkiye: Stage 5 (Men)",
+  "competition": "Cycling",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "14:45",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Semi-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "15:30",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 1 (Main Feed)",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "16:15",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 1 (Featured Groups)",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "16:30",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 1 (Marquee Group)",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "16:30",
+  "channel": "MAX",
+  "event": "Tour de Romandie: Stage 2 (Men)",
+  "competition": "Cycling",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "MAX",
+  "event": "The Tradition: Day 1",
+  "competition": "PGA Tour Champions",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "20:30",
+  "channel": "MAX",
+  "event": "Snooker: World Championship",
+  "competition": "Snooker World Championship · Semi-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 1",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "01:00",
+  "channel": "Disney+",
+  "event": "DePaul vs Notre Dame",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "Disney+",
+  "event": "Fairleigh Dickinson vs Le Moyne (Semifinal #1)",
+  "competition": "NCAA Women's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Disney+",
+  "event": "Stonehill vs Long Island University (Semifinal #2)",
+  "competition": "NCAA Women's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "23:30",
+  "channel": "Disney+",
+  "event": "Big East Men's Lacrosse Championship (Semifinal 1)",
+  "competition": "NCAA Men's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "15:00",
+  "channel": "DAZN",
+  "event": "Walker vs. Eggington: Press Conference",
+  "competition": "Matchroom Boxing",
+  "sport": "boxing",
+  "status": "upcoming"
+}      
+    ]
+  },
+  {
+    "date": "Friday, May 1, 2026",
+    "programs": [
+      {
+        "time": "17:30",
+        "channel": "Digi Sport 1",
+        "event": "Chindia Târgoviște vs Steaua",
+        "competition": "Liga 2 · Play-off, Round 7",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "20:30",
+        "channel": "Digi Sport 1",
+        "event": "Csikszereda vs FCSB",
+        "competition": "Superliga · Play-out, Round 7",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+  "time": "17:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid · Semi-finals",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "Digi Sport 2",
+  "event": "Tennis",
+  "competition": "ATP Madrid · Semi-finals",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+  {
+  "time": "11:20",
+  "channel": "Digi Sport 3",
+  "event": "WorldSBK: Practice (FP1)",
+  "competition": "World Superbike · Hungary",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "15:10",
+  "channel": "Digi Sport 3",
+  "event": "WorldWCR: Superpole",
+  "competition": "World Superbike · Hungary",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "16:00",
+  "channel": "Digi Sport 3",
+  "event": "WorldSBK: Practice (FP2)",
+  "competition": "World Superbike · Hungary",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "17:00",
+  "channel": "Digi Sport 3",
+  "event": "WorldSSP: Superpole",
+  "competition": "World Superbike · Hungary",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Digi Sport 3",
+  "event": "Girona vs Mallorca",
+  "competition": "La Liga · Round 34",
+  "sport": "football",
+  "status": "upcoming"
+},
+ {
+  "time": "21:45",
+  "channel": "Digi Sport 4",
+  "event": "Pisa vs Lecce",
+  "competition": "Serie A · Round 35",
+  "sport": "football",
+  "status": "upcoming"
+},
+ {
+  "time": "19:30",
+  "channel": "Antena Play",
+  "event": "Miami Grand Prix - Practice",
+  "competition": "Formula 1",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "23:30",
+  "channel": "Antena Play",
+  "event": "Miami Grand Prix - Sprint Qualifying",
+  "competition": "Formula 1",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+ {
+  "time": "11:00",
+  "channel": "MAX",
+  "event": "UCI Cross-country Short Track World Cup - Women Elite (Yongpyong)",
+  "competition": "WHOOP UCI Mountain Bike World Series",
+  "sport": "mountain bike",
+  "status": "upcoming"
+},
+{
+  "time": "11:55",
+  "channel": "MAX",
+  "event": "UCI Cross-country Short Track World Cup - Men Elite (Yongpyong)",
+  "competition": "WHOOP UCI Mountain Bike World Series",
+  "sport": "mountain bike",
+  "status": "upcoming"
+},
+{
+  "time": "12:00",
+  "channel": "MAX",
+  "event": "Snooker World Championship",
+  "competition": "Snooker World Championship · Semi-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "12:40",
+  "channel": "MAX",
+  "event": "Eschborn-Frankfurt (Men)",
+  "competition": "Cycling",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "14:30",
+  "channel": "MAX",
+  "event": "Tour of Türkiye: Stage 6 (Men)",
+  "competition": "Cycling",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "15:30",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 2 (Main Feed)",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "16:15",
+  "channel": "MAX",
+  "event": "Snooker World Championship",
+  "competition": "Snooker World Championship · Semi-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "16:15",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 2 (Featured Groups)",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "16:30",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 2 (Marquee Group)",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "16:30",
+  "channel": "MAX",
+  "event": "Tour de Romandie: Stage 3 (Men)",
+  "competition": "Cycling",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "16:55",
+  "channel": "MAX",
+  "event": "Berlin: Free Practice 1 (Round 7)",
+  "competition": "Formula E",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "MAX",
+  "event": "The Tradition: Day 2",
+  "competition": "PGA Tour Champions",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "19:45",
+  "channel": "MAX",
+  "event": "FIM Speedway World Cup - Landshut (Semi-Final 1)",
+  "competition": "Speedway",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "20:30",
+  "channel": "MAX",
+  "event": "Snooker World Championship",
+  "competition": "Snooker World Championship · Semi-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 2",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+ {
+  "time": "00:00",
+  "channel": "Disney+",
+  "event": "VMI vs Robert Morris (Semifinal #1)",
+  "competition": "NCAA Men's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "01:00",
+  "channel": "Disney+",
+  "event": "Big East Women's Lacrosse Championship (Semifinal 1)",
+  "competition": "NCAA Women's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "02:00",
+  "channel": "Disney+",
+  "event": "Louisville vs Wake Forest",
+  "competition": "NCAA Baseball",
+  "sport": "baseball",
+  "status": "upcoming"
+},
+{
+  "time": "02:00",
+  "channel": "Disney+",
+  "event": "Arkansas vs Texas",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+},
+{
+  "time": "02:30",
+  "channel": "Disney+",
+  "event": "Big East Men's Lacrosse Championship (Semifinal 2)",
+  "competition": "NCAA Men's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "03:00",
+  "channel": "Disney+",
+  "event": "Cleveland State vs Long Island University (Semifinal #2)",
+  "competition": "NCAA Men's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "04:00",
+  "channel": "Disney+",
+  "event": "Big East Women's Lacrosse Championship (Semifinal 2)",
+  "competition": "NCAA Women's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "04:00",
+  "channel": "Disney+",
+  "event": "#1 Oklahoma vs #10 Texas A&M",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+},
+{
+  "time": "17:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Dual #1)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "18:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Dual #2)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Dual #3)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "19:05",
+  "channel": "Disney+",
+  "event": "NCAA Men's Volleyball Tournament (Regional Semifinals)",
+  "competition": "NCAA Men's Volleyball",
+  "sport": "volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Dual #4)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Dual #5)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Dual #6)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "23:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Dual #7)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "23:00",
+  "channel": "Disney+",
+  "event": "Ivy League Men's Lacrosse Championship (Semifinal)",
+  "competition": "NCAA Men's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+ {
+  "time": "16:00",
+  "channel": "DAZN",
+  "event": "Hamburg vs. Union Berlin",
+  "competition": "Frauen-Bundesliga",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "17:45",
+  "channel": "DAZN",
+  "event": "Freestyle Friday #7",
+  "competition": "Freestyle Friday Championship",
+  "sport": "chess",
+  "status": "upcoming"
+}     
+    ]
+  },
+  {
+    "date": "Saturday, May 2, 2026",
+    "programs": [
+      {
+        "time": "12:30",
+        "channel": "Digi Sport 1",
+        "event": "Sepsi Sfântu Gheorghe vs Corvinul Hunedoara",
+        "competition": "Liga 2 · Play-off, Round 7",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "15:00",
+        "channel": "Digi Sport 1",
+        "event": "Oțelul Galați vs Metaloglobus",
+        "competition": "Superliga · Play-off, Round 7",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "17:30",
+        "channel": "Digi Sport 1",
+        "event": "Farul Constanța vs Botoșani",
+        "competition": "Superliga · Play-out, Round 7",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+        "time": "20:30",
+        "channel": "Digi Sport 1",
+        "event": "Universitatea Cluj vs FC Argeș",
+        "competition": "Superliga · Play-off, Round 7",
+        "sport": "football",
+        "status": "upcoming"
+      },
+      {
+  "time": "15:00",
+  "channel": "Digi Sport 2",
+  "event": "Villarreal vs Levante",
+  "competition": "La Liga · Round 34",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "17:15",
+  "channel": "Digi Sport 2",
+  "event": "Valencia vs Atletico Madrid",
+  "competition": "La Liga · Round 34",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "19:30",
+  "channel": "Digi Sport 2",
+  "event": "Leverkusen vs Leipzig",
+  "competition": "Bundesliga · Round 32",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Digi Sport 2",
+  "event": "Osasuna vs Barcelona",
+  "competition": "La Liga · Round 34",
+  "sport": "football",
+  "status": "upcoming"
+},
+ {
+  "time": "10:40",
+  "channel": "Digi Sport 3",
+  "event": "WorldSBK: Practice (FP3)",
+  "competition": "World Superbike · Hungary",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "12:15",
+  "channel": "Digi Sport 3",
+  "event": "WorldSBK: Superpole",
+  "competition": "World Superbike · Hungary",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "14:00",
+  "channel": "Digi Sport 3",
+  "event": "WorldWCR: Race 1",
+  "competition": "World Superbike · Hungary",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "15:00",
+  "channel": "Digi Sport 3",
+  "event": "WorldSSP: Race 1",
+  "competition": "World Superbike · Hungary",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "16:15",
+  "channel": "Digi Sport 3",
+  "event": "WorldSBK: Race 1",
+  "competition": "World Superbike · Hungary",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "18:00",
+  "channel": "Digi Sport 3",
+  "event": "Tennis WTA: Madrid - Final",
+  "competition": "WTA Madrid",
+  "sport": "tennis",
+  "status": "upcoming"
+},
+{
+  "time": "21:45",
+  "channel": "Digi Sport 3",
+  "event": "Atalanta vs Genoa",
+  "competition": "Serie A · Round 35",
+  "sport": "football",
+  "status": "upcoming"
+},
+      {
+  "time": "16:30",
+  "channel": "Digi Sport 4",
+  "event": "Bayern Munchen vs Heidenheim",
+  "competition": "Bundesliga · Round 32",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "Digi Sport 4",
+  "event": "Como vs Napoli",
+  "competition": "Serie A · Round 35",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "21:30",
+  "channel": "Digi Sport 4",
+  "event": "Schalke vs Dusseldorf",
+  "competition": "2. Bundesliga · Round 32",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "07:30",
+  "channel": "TVR Sport",
+  "event": "Romania vs Spain",
+  "competition": "Ice Hockey World Championship",
+  "sport": "ice hockey",
+  "status": "upcoming"
+},
+ {
+  "time": "19:00",
+  "channel": "Antena Play",
+  "event": "Miami Grand Prix - Sprint",
+  "competition": "Formula 1",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "23:00",
+  "channel": "Antena Play",
+  "event": "Miami Grand Prix - Qualifying",
+  "competition": "Formula 1",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+  {
+  "time": "05:25",
+  "channel": "MAX",
+  "event": "UCI Downhill World Cup - Women Junior (Yongpyong)",
+  "competition": "WHOOP UCI Mountain Bike World Series",
+  "sport": "mountain bike",
+  "status": "upcoming"
+},
+{
+  "time": "05:30",
+  "channel": "MAX",
+  "event": "Women's Boulder - Semi-Final (Keqiao)",
+  "competition": "World Series Climbing",
+  "sport": "climbing",
+  "status": "upcoming"
+},
+{
+  "time": "06:00",
+  "channel": "MAX",
+  "event": "UCI Downhill World Cup - Men Junior (Yongpyong)",
+  "competition": "WHOOP UCI Mountain Bike World Series",
+  "sport": "mountain bike",
+  "status": "upcoming"
+},
+{
+  "time": "06:30",
+  "channel": "MAX",
+  "event": "UCI Downhill World Cup - Women Elite (Yongpyong)",
+  "competition": "WHOOP UCI Mountain Bike World Series",
+  "sport": "mountain bike",
+  "status": "upcoming"
+},
+{
+  "time": "08:00",
+  "channel": "MAX",
+  "event": "UCI Downhill World Cup - Men Elite (Yongpyong)",
+  "competition": "WHOOP UCI Mountain Bike World Series",
+  "sport": "mountain bike",
+  "status": "upcoming"
+},
+{
+  "time": "10:25",
+  "channel": "MAX",
+  "event": "Berlin: Free Practice 2 (Round 7)",
+  "competition": "Formula E",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "11:30",
+  "channel": "MAX",
+  "event": "Tour of Türkiye: Stage 7 (Men)",
+  "competition": "Cycling",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "12:00",
+  "channel": "MAX",
+  "event": "Snooker World Championship",
+  "competition": "Snooker World Championship · Semi-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "12:30",
+  "channel": "MAX",
+  "event": "Berlin: Qualifying (Round 7)",
+  "competition": "Formula E",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "12:45",
+  "channel": "MAX",
+  "event": "Le Mans Cup - Le Castellet: Qualifying (Round 2)",
+  "competition": "Endurance Car Racing",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "14:00",
+  "channel": "MAX",
+  "event": "Women's Boulder - Final (Keqiao)",
+  "competition": "World Series Climbing",
+  "sport": "climbing",
+  "status": "upcoming"
+},
+{
+  "time": "14:30",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 3 (Main Feed)",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "15:00",
+  "channel": "MAX",
+  "event": "FIM Speedway GP - Landshut: Qualifying (Round 1)",
+  "competition": "Speedway",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "15:00",
+  "channel": "MAX",
+  "event": "Tour de Romandie: Stage 4 (Men)",
+  "competition": "Cycling",
+  "sport": "cycling",
+  "status": "upcoming"
+},
+{
+  "time": "15:15",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 3 (Featured Groups)",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "15:15",
+  "channel": "MAX",
+  "event": "European Le Mans Series - 4 Hours Of Le Castellet: Qualifying (Round 2)",
+  "competition": "Endurance Car Racing",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "15:30",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 3 (Marquee Group)",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "16:15",
+  "channel": "MAX",
+  "event": "Snooker World Championship",
+  "competition": "Snooker World Championship · Semi-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "16:30",
+  "channel": "MAX",
+  "event": "Berlin: Race (Round 7)",
+  "competition": "Formula E",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "17:25",
+  "channel": "MAX",
+  "event": "Le Mans Cup - Le Castellet: Race (Round 2)",
+  "competition": "Endurance Car Racing",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "MAX",
+  "event": "Cadillac Championship: Day 3",
+  "competition": "PGA Tour",
+  "sport": "golf",
+  "status": "upcoming"
+},
+{
+  "time": "19:30",
+  "channel": "MAX",
+  "event": "FIM Speedway GP - Landshut: Heats and Final (Round 1)",
+  "competition": "Speedway",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "20:30",
+  "channel": "MAX",
+  "event": "Snooker World Championship",
+  "competition": "Snooker World Championship · Semi-Final",
+  "sport": "snooker",
+  "status": "upcoming"
+},
+{
+  "time": "21:30",
+  "channel": "MAX",
+  "event": "The Tradition: Day 3",
+  "competition": "PGA Tour Champions",
+  "sport": "golf",
+  "status": "upcoming"
+},
+      {
+  "time": "03:00",
+  "channel": "Netflix",
+  "event": "WWE SmackDown",
+  "competition": "WWE",
+  "sport": "wrestling",
+  "status": "upcoming"
+},
+ {
+  "time": "00:00",
+  "channel": "Disney+",
+  "event": "Allstate ACC Men's Lacrosse Championship (Semifinal)",
+  "competition": "NCAA Men's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "00:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Dual #8)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "01:00",
+  "channel": "Disney+",
+  "event": "#1 Oklahoma vs. #10 Texas A&M",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+},
+{
+  "time": "01:30",
+  "channel": "Disney+",
+  "event": "Ivy League Men's Lacrosse Championship (Semifinal)",
+  "competition": "NCAA Men's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "02:00",
+  "channel": "Disney+",
+  "event": "#11 Auburn vs. #7 Texas A&M",
+  "competition": "NCAA Baseball",
+  "sport": "baseball",
+  "status": "upcoming"
+},
+{
+  "time": "03:00",
+  "channel": "Disney+",
+  "event": "Allstate ACC Men's Lacrosse Championship (Semifinal)",
+  "competition": "NCAA Men's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "15:10",
+  "channel": "Disney+",
+  "event": "OL Lyonnais v Arsenal",
+  "competition": "UEFA Women's Champions League",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "17:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Quarterfinal #1)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "18:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Quarterfinal #2)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "Disney+",
+  "event": "MAAC Men's Lacrosse Championship (Championship)",
+  "competition": "NCAA Men's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "Disney+",
+  "event": "#8 Florida vs. #11 Georgia",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+},
+{
+  "time": "19:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Quarterfinal #3)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "19:05",
+  "channel": "Disney+",
+  "event": "NCAA Men's Volleyball Tournament (Regional Final)",
+  "competition": "NCAA Men's Volleyball",
+  "sport": "volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "19:05",
+  "channel": "Disney+",
+  "event": "NEC Men's Lacrosse Championship (Championship)",
+  "competition": "NCAA Men's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "19:05",
+  "channel": "Disney+",
+  "event": "NEC Women's Lacrosse Championship (Championship)",
+  "competition": "NCAA Women's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "Disney+",
+  "event": "#9 Tennessee vs. Missouri",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+},
+{
+  "time": "20:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Quarterfinal #4)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "Disney+",
+  "event": "Men's College Lacrosse (Championship)",
+  "competition": "NCAA Men's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "21:00",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Semifinal #1)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "21:30",
+  "channel": "Disney+",
+  "event": "A10 Outdoor Track & Field Championship (Day One)",
+  "competition": "NCAA Track & Field",
+  "sport": "track & field",
+  "status": "upcoming"
+},
+{
+  "time": "21:30",
+  "channel": "Disney+",
+  "event": "Baylor vs. #5 Texas Tech",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Disney+",
+  "event": "Big East Women's Lacrosse Championship (Championship)",
+  "competition": "NCAA Women's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+{
+  "time": "22:00",
+  "channel": "Disney+",
+  "event": "#19 Mississippi State vs. Ole Miss",
+  "competition": "NCAA Softball",
+  "sport": "softball",
+  "status": "upcoming"
+},
+{
+  "time": "22:30",
+  "channel": "Disney+",
+  "event": "NCAA Women's Beach Volleyball Championship (Semifinal #2)",
+  "competition": "NCAA Women's Beach Volleyball",
+  "sport": "beach volleyball",
+  "status": "upcoming"
+},
+{
+  "time": "23:00",
+  "channel": "Disney+",
+  "event": "Big 12 Women's College Lacrosse Championship (Championship)",
+  "competition": "NCAA Women's Lacrosse",
+  "sport": "lacrosse",
+  "status": "upcoming"
+},
+ {
+  "time": "13:00",
+  "channel": "FRF TV",
+  "event": "Politehnica Timișoara vs AFK Csikszereda",
+  "competition": "Women's SuperLeague · Play-off, Stage 8",
+  "sport": "football",
+  "status": "upcoming"
+},
+ {
+  "time": "13:45",
+  "channel": "DAZN",
+  "event": "Paul Ricard Race 1",
+  "competition": "Eurocup-3",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "16:00",
+  "channel": "DAZN",
+  "event": "Paul Ricard Race 2",
+  "competition": "Eurocup-3",
+  "sport": "motorsport",
+  "status": "upcoming"
+},
+{
+  "time": "16:00",
+  "channel": "DAZN",
+  "event": "Wolfsburg vs. Leipzig",
+  "competition": "Frauen-Bundesliga",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "19:30",
+  "channel": "DAZN",
+  "event": "Sevilla vs. Real Madrid",
+  "competition": "Liga F",
+  "sport": "football",
+  "status": "upcoming"
+},
+{
+  "time": "20:45",
+  "channel": "DAZN",
+  "event": "Walker vs. Eggington: Prelims",
+  "competition": "Matchroom Boxing",
+  "sport": "boxing",
+  "status": "upcoming"
+}     
+    ]
   }
-]
+    ]
