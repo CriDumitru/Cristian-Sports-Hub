@@ -2079,7 +2079,7 @@
     {
       "t1": { "name": "Paris Saint-Germain", "logo": "https://media.api-sports.io/football/teams/85.png", "country": "FRA" },
       "t2": { "name": "Bayern Munich", "logo": "https://media.api-sports.io/football/teams/157.png", "country": "GER" },
-      "leg1": { "date": "28 APR 2026", "time": "22:00", "status": "live", "stadium": "Parc des Princes, Paris", "s1": "5", "s2": "3", "scorers": {"t1":[{ "name": "Kvaratskhelia", "min": "24", "type": "g" }, { "name": "Neves", "min": "33", "type": "g" }, { "name": "Dembele", "min": "45+5", "type": "p" }, { "name": "Kvaratskhelia", "min": "56", "type": "g" }, { "name": "Dembele", "min": "59", "type": "g" }], "t2":[{ "name": "Kane", "min": "17", "type": "p" }, { "name": "Olise", "min": "41", "type": "g" }, { "name": "Upamenaco", "min": "65", "type": "g" }]} },
+      "leg1": { "date": "28 APR 2026", "time": "22:00", "status": "live", "stadium": "Parc des Princes, Paris", "s1": "5", "s2": "3", "scorers": {"t1":[{ "name": "Kvaratskhelia", "min": "24", "type": "g" }, { "name": "Neves", "min": "33", "type": "g" }, { "name": "Dembele", "min": "45+5", "type": "p" }, { "name": "Kvaratskhelia", "min": "56", "type": "g" }, { "name": "Dembele", "min": "59", "type": "g" }], "t2":[{ "name": "Kane", "min": "17", "type": "p" }, { "name": "Olise", "min": "41", "type": "g" }, { "name": "Upamecano", "min": "65", "type": "g" }]} },
       "leg2": { "date": "06 MAY 2026", "time": "22:00", "status": "upcoming", "stadium": "Allianz Arena, Munich", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} }
     },
     {
