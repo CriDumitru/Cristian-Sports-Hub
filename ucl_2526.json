@@ -2085,7 +2085,7 @@
     {
       "t1": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
       "t2": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
-      "leg1": { "date": "29 APR 2026", "time": "22:00", "status": "live", "stadium": "Metropolitano Stadium, Madrid", "s1": "0", "s2": "1", "scorers": {"t1":[], "t2":[{ "name": "Gyökeres", "min": "44", "type": "p" }]} },
+      "leg1": { "date": "29 APR 2026", "time": "22:00", "status": "live", "stadium": "Metropolitano Stadium, Madrid", "s1": "1", "s2": "1", "scorers": {"t1":[{ "name": "Alvarez", "min": "56", "type": "p" }], "t2":[{ "name": "Gyökeres", "min": "44", "type": "p" }]} },
       "leg2": { "date": "05 MAY 2026", "time": "22:00", "status": "upcoming", "stadium": "Emirates Stadium, London", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} }
     }
   ]
