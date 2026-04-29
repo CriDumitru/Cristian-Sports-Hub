@@ -2085,7 +2085,7 @@
     {
       "t1": { "name": "Atlético Madrid", "logo": "https://media.api-sports.io/football/teams/530.png", "country": "ESP" },
       "t2": { "name": "Arsenal", "logo": "https://media.api-sports.io/football/teams/42.png", "country": "ENG" },
-      "leg1": { "date": "29 APR 2026", "time": "22:00", "status": "upcoming", "stadium": "Metropolitano Stadium, Madrid", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} },
+      "leg1": { "date": "29 APR 2026", "time": "22:00", "status": "starting soon", "stadium": "Metropolitano Stadium, Madrid", "s1": "0", "s2": "0", "scorers": {"t1":[], "t2":[]} },
       "leg2": { "date": "05 MAY 2026", "time": "22:00", "status": "upcoming", "stadium": "Emirates Stadium, London", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} }
     }
   ]
