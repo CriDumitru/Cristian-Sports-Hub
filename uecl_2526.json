@@ -2264,13 +2264,13 @@
     {
       "t1": { "name": "Shakhtar Donetsk", "logo": "https://media.api-sports.io/football/teams/550.png", "country": "UKR"  },
       "t2": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png", "country": "ENG" },
-      "leg1": { "date": "30 APR 2026", "time": "22:00", "status": "upcoming", "stadium": "Henryk Reyman Municipal Stadium, Kraków", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} },
+      "leg1": { "date": "30 APR 2026", "time": "22:00", "status": "finished", "stadium": "Henryk Reyman Municipal Stadium, Kraków", "s1": "1", "s2": "3", "scorers": {"t1":[{ "name": "Ocheretko", "min": "47", "type": "g" }], "t2":[{ "name": "Sarr", "min": "1", "type": "g" },{ "name": "Kamada", "min": "58", "type": "g" },{ "name": "Larsen", "min": "84", "type": "g" }]} },
       "leg2": { "date": "07 MAY 2026", "time": "22:00", "status": "upcoming", "stadium": "Selhurst Park, London", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} }
     },
     {
       "t1": { "name": "Rayo Vallecano", "logo": "https://media.api-sports.io/football/teams/728.png", "country": "ESP" },
       "t2": { "name": "Strasbourg", "logo": "https://media.api-sports.io/football/teams/95.png", "country": "FRA" },
-      "leg1": { "date": "30 APR 2026", "time": "22:00", "status": "upcoming", "stadium": "Campo de Fútbol de Vallecas, Madrid", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} },
+      "leg1": { "date": "30 APR 2026", "time": "22:00", "status": "finished", "stadium": "Campo de Fútbol de Vallecas, Madrid", "s1": "1", "s2": "0", "scorers": {"t1":[{ "name": "Alemao", "min": "54", "type": "g" }], "t2":[]} },
       "leg2": { "date": "07 MAY 2026", "time": "22:00", "status": "upcoming", "stadium": "Stade de la Meinau, Strasbourg", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} }
     }
   ]
