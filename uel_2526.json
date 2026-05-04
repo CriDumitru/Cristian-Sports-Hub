@@ -1831,13 +1831,13 @@
     {
       "t1": { "name": "Braga", "logo": "https://media.api-sports.io/football/teams/217.png", "country": "POR" },
       "t2": { "name": "SC Freiburg", "logo": "https://media.api-sports.io/football/teams/160.png", "country": "GER" },
-      "leg1": { "date": "30 APR 2026", "time": "22:00", "status": "upcoming", "stadium": "Estádio Municipal, Braga", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} },
+      "leg1": { "date": "30 APR 2026", "time": "22:00", "status": "finished", "stadium": "Estádio Municipal, Braga", "s1": "2", "s2": "1", "scorers": {"t1":[{ "name": "Tiknaz", "min": "8", "type": "g" },{ "name": "Dorgeles", "min": "90+2", "type": "g" }], "t2":[{ "name": "Grifo", "min": "16", "type": "g" }]} },
       "leg2": { "date": "07 MAY 2026", "time": "22:00", "status": "upcoming", "stadium": "Europa-Park Stadion, Freiburg im Breisgau", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} }
     },
     {
       "t1": {"name": "Nottingham Forest", "logo": "https://media.api-sports.io/football/teams/65.png", "country": "ENG" },
       "t2": { "name": "Aston Villa", "logo": "https://media.api-sports.io/football/teams/66.png", "country": "ENG" },
-      "leg1": { "date": "30 APR 2026", "time": "22:00", "status": "upcoming", "stadium": "City Ground, West Bridgford", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} },
+      "leg1": { "date": "30 APR 2026", "time": "22:00", "status": "finished", "stadium": "City Ground, West Bridgford", "s1": "1", "s2": "0", "scorers": {"t1":[{ "name": "Wood", "min": "71", "type": "p" }], "t2":[]} },
       "leg2": { "date": "07 MAY 2026", "time": "22:00", "status": "upcoming", "stadium": "Villa Park, Birmingham", "s1": "", "s2": "", "scorers": {"t1":[], "t2":[]} }
     }
   ]
